@@ -1,0 +1,65 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SBELL-20021009123337673PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SVOLLMAN</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Sarah J. Bell</Requestor>
+   <User>SBELL</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Sarah J. Bell</name>
+      <address>400 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7400</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Next Day Air</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Cries and Whispers</Description>
+         <Part Id="37429156322" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Gimme Shelter: The Rolling Stones </Description>
+         <Part Id="37429154526" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>I Know Where I'm Going</Description>
+         <Part Id="37429154427" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Day of Wrath </Description>
+         <Part Id="37429158722" UnitPrice="0.0" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Great Expectations</Description>
+         <Part Id="37429128022" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>How to Get Ahead in Advertising</Description>
+         <Part Id="715515012324" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Summertime</Description>
+         <Part Id="37429130728" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Playtime</Description>
+         <Part Id="37429155820" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Robocop</Description>
+         <Part Id="715515009324" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>The Scarlet Empress</Description>
+         <Part Id="715515011822" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,7 @@
+TIGER2 Mausmatten...Goenn Deiner Maus 'was Besonderes! 
+Product Number: 2056   Preis:  $8  / EUR 16
+Nur 8 EURO! 
+Diese Mausmatte is TUV geprueft. (kein Umlaut in VARCHAR2 Datentyp, wenn du Umlaute sehen willst, schau Dir OE.PRODUCT_DESCRIPTIONS an)
+Sie is nett anzusehen, mausfreundlich, ohne aufdringlich zu sein und dann noch auserordentlich erschwinglich.
++ Das Oracle Logo gibt der Mausmatte einen besonderen Touch, auf Wunsch ohne Logo lieferbar.
++ Lieferbar mit rotem, schwarzem oder weissem Hintergrund. (Vorsicht: Kaffeeflecken)

@@ -1,0 +1,69 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SKING-20021009123336392PDT</Reference>
+   <Actions>
+      <Action>
+         <User/>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Steven A. King</Requestor>
+   <User>SKING</User>
+   <CostCenter>A10</CostCenter>
+   <ShippingInstructions>
+      <name>Steven A. King</name>
+      <address>500 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7500</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>And the Ship Sails on</Description>
+         <Part Id="37429139028" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Fiend without a Face</Description>
+         <Part Id="715515011327" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>The 39 Steps</Description>
+         <Part Id="37429135228" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Spartacus</Description>
+         <Part Id="715515011723" UnitPrice="39.96" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Nights of Cabiria</Description>
+         <Part Id="37429138427" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>The Seventh Seal</Description>
+         <Part Id="37429124529" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Mona Lisa</Description>
+         <Part Id="715515012027" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>The 400 Blows</Description>
+         <Part Id="37429122228" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Getrud</Description>
+         <Part Id="37429158524" UnitPrice="0.0" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Orpheus</Description>
+         <Part Id="37429141427" UnitPrice="0.0" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>The Magic Flute</Description>
+         <Part Id="37429147528" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

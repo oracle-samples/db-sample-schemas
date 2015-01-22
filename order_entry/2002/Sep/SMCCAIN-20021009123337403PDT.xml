@@ -1,0 +1,113 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SMCCAIN-20021009123337403PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SVOLLMAN</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Samuel B. McCain</Requestor>
+   <User>SMCCAIN</User>
+   <CostCenter>A10</CostCenter>
+   <ShippingInstructions>
+      <name>Samuel B. McCain</name>
+      <address>800 Bridge Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7800</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>M. Hulot's Holiday</Description>
+         <Part Id="37429155721" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>In the Mood for Love</Description>
+         <Part Id="715515012928" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Sid &amp; Nancy</Description>
+         <Part Id="715515009232" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Summertime</Description>
+         <Part Id="37429130728" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>The Killer</Description>
+         <Part Id="715515008976" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>General Idi Amin Dada</Description>
+         <Part Id="37429166529" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>The Discreet Charm of Bourgeoisie</Description>
+         <Part Id="37429154625" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Salesman</Description>
+         <Part Id="37429158920" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Traffic</Description>
+         <Part Id="696306038924" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Le Trou</Description>
+         <Part Id="37429156223" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>The Most Dangerous Game</Description>
+         <Part Id="37429137321" UnitPrice="24.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Rushmore</Description>
+         <Part Id="715515010429" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Flesh for Frankenstein</Description>
+         <Part Id="715515009423" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>A Night to Remember</Description>
+         <Part Id="715515009058" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Carl Th. Dreyer - My Metier</Description>
+         <Part Id="37429161425" UnitPrice="0.0" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Tokyo Drifter</Description>
+         <Part Id="37429136126" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Under the Roofs of Paris</Description>
+         <Part Id="37429168929" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>Juliet of the Spirits</Description>
+         <Part Id="37429165829" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>Henry V</Description>
+         <Part Id="37429128527" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>M</Description>
+         <Part Id="37429126523" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="21">
+         <Description>Amarcord</Description>
+         <Part Id="37429121825" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="22">
+         <Description>Sanjuro</Description>
+         <Part Id="37429141526" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

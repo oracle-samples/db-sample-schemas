@@ -1,0 +1,105 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AWALSH-20021009123335911PDT</Reference>
+   <Actions>
+      <Action>
+         <User>KPARTNER</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Alana G. Walsh</Requestor>
+   <User>AWALSH</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Alana G. Walsh</name>
+      <address>1200 East Forty Seventh Avenue 
+New York
+NY
+10024
+USA</address>
+      <telephone>212 555 1212</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Day of Wrath </Description>
+         <Part Id="37429158722" UnitPrice="0.0" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>All That Heaven Allows</Description>
+         <Part Id="715515011426" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Eisenstein: The Sound Years</Description>
+         <Part Id="37429149126" UnitPrice="79.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Peeping Tom</Description>
+         <Part Id="37429142929" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Life of Brian - Monty Python's</Description>
+         <Part Id="715515010320" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Mona Lisa</Description>
+         <Part Id="715515012027" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>The Importance of Being Earnest</Description>
+         <Part Id="37429165621" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Do the Right Thing</Description>
+         <Part Id="715515011228" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Blood for Dracula</Description>
+         <Part Id="715515009522" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Sid &amp; Nancy</Description>
+         <Part Id="715515009232" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Fishing With John 1 -3</Description>
+         <Part Id="37429136621" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Fishing With John 1 -3</Description>
+         <Part Id="37429136621" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Sullivan's Travels</Description>
+         <Part Id="715515012126" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Tokyo Drifter</Description>
+         <Part Id="37429136126" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>The Last Wave</Description>
+         <Part Id="37429161920" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Blood of a Poet</Description>
+         <Part Id="37429147429" UnitPrice="0.0" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Rashomon  </Description>
+         <Part Id="37429161821" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>The Element of Crime</Description>
+         <Part Id="37429149423" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>Le Trou</Description>
+         <Part Id="37429156223" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>Salesman</Description>
+         <Part Id="37429158920" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

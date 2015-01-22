@@ -1,0 +1,113 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>DAUSTIN-20021009123335931PDT</Reference>
+   <Actions>
+      <Action>
+         <User>AHUNOLD</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>David L. Austin</Requestor>
+   <User>DAUSTIN</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>David L. Austin</name>
+      <address>300 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7300</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Next Day Air</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Closely Watched Trains</Description>
+         <Part Id="37429161524" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Seven Samurai</Description>
+         <Part Id="37429121726" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Black Orpheus</Description>
+         <Part Id="37429138328" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Testament of Orpheus</Description>
+         <Part Id="37429143322" UnitPrice="0.0" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Rebecca</Description>
+         <Part Id="715515012522" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>8.5</Description>
+         <Part Id="37429135624" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Flesh for Frankenstein</Description>
+         <Part Id="715515009423" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Mon Oncle</Description>
+         <Part Id="37429155929" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Hamlet</Description>
+         <Part Id="37429128428" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Samurai 1: Musashi Miyamoto</Description>
+         <Part Id="37429125427" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Diabolique</Description>
+         <Part Id="37429135020" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>I Know Where I'm Going</Description>
+         <Part Id="37429154427" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>General Idi Amin Dada</Description>
+         <Part Id="37429166529" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Dreyer Box Set</Description>
+         <Part Id="37429158425" UnitPrice="79.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Carnival of Souls</Description>
+         <Part Id="715515010221" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Le million</Description>
+         <Part Id="37429147627" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>The Cranes Are Flying</Description>
+         <Part Id="37429168028" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>The Element of Crime</Description>
+         <Part Id="37429149423" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>The Most Dangerous Game</Description>
+         <Part Id="37429137321" UnitPrice="24.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>Yojimbo</Description>
+         <Part Id="37429141328" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="21">
+         <Description>Hard Boiled</Description>
+         <Part Id="715515009041" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="22">
+         <Description>Hard Boiled</Description>
+         <Part Id="715515009041" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

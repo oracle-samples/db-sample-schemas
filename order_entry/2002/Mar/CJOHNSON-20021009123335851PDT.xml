@@ -1,0 +1,121 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>CJOHNSON-20021009123335851PDT</Reference>
+   <Actions>
+      <Action>
+         <User>EZLOTKEY</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Charles G. Johnson</Requestor>
+   <User>CJOHNSON</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Charles G. Johnson</name>
+      <address>500 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7500</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Fishing With John 1 -3</Description>
+         <Part Id="37429136621" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Tokyo Drifter</Description>
+         <Part Id="37429136126" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>The Magic Flute</Description>
+         <Part Id="37429147528" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>The Night Porter</Description>
+         <Part Id="37429145227" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Yojimbo</Description>
+         <Part Id="37429141328" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Spartacus</Description>
+         <Part Id="715515011723" UnitPrice="39.96" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Cries and Whispers</Description>
+         <Part Id="37429156322" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>The Rock</Description>
+         <Part Id="786936150421" UnitPrice="49.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Hard Boiled</Description>
+         <Part Id="715515009041" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>A Night to Remember</Description>
+         <Part Id="715515009058" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Peeping Tom</Description>
+         <Part Id="37429142929" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Chasing Amy</Description>
+         <Part Id="717951002372" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>This is Spinal Tap</Description>
+         <Part Id="715515009126" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>The Firemen's Ball</Description>
+         <Part Id="37429165522" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>For All Mankind</Description>
+         <Part Id="37429139523" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>A Nous la Liberte</Description>
+         <Part Id="37429147726" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Pygmalion</Description>
+         <Part Id="37429151822" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>Cries and Whispers</Description>
+         <Part Id="37429156322" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>The 400 Blows</Description>
+         <Part Id="37429122228" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>Samurai 3: Duel at Ganryu Island</Description>
+         <Part Id="37429125625" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="21">
+         <Description>Le million</Description>
+         <Part Id="37429147627" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="22">
+         <Description>A Night to Remember</Description>
+         <Part Id="715515009058" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="23">
+         <Description>The Hidden Fortress</Description>
+         <Part Id="37429135129" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="24">
+         <Description>Wild Strawberries</Description>
+         <Part Id="37429162422" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

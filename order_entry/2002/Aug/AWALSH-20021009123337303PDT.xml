@@ -1,0 +1,121 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AWALSH-20021009123337303PDT</Reference>
+   <Actions>
+      <Action>
+         <User>KPARTNER</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Alana G. Walsh</Requestor>
+   <User>AWALSH</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Alana G. Walsh</name>
+      <address>1200 East Forty Seventh Avenue 
+New York
+NY
+10024
+USA</address>
+      <telephone>212 555 1212</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expedite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Fiend without a Face</Description>
+         <Part Id="715515011327" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>In the Mood for Love</Description>
+         <Part Id="715515012928" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Black Narcissus</Description>
+         <Part Id="37429152126" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Orphic Trilogy </Description>
+         <Part Id="37429148327" UnitPrice="79.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>The Rock</Description>
+         <Part Id="786936150421" UnitPrice="49.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Diabolique</Description>
+         <Part Id="37429135020" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Tokyo Drifter</Description>
+         <Part Id="37429136126" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Insomnia</Description>
+         <Part Id="37429138229" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Charade</Description>
+         <Part Id="37429139424" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Hearts and Minds</Description>
+         <Part Id="37429166321" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>The Firemen's Ball</Description>
+         <Part Id="37429165522" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Ordet</Description>
+         <Part Id="37429158623" UnitPrice="0.0" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Silence of the Lambs</Description>
+         <Part Id="715515009133" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Samurai 1: Musashi Miyamoto</Description>
+         <Part Id="37429125427" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Billy Liar</Description>
+         <Part Id="37429159224" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Fishing With John 1 -3</Description>
+         <Part Id="37429136621" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Big Deal on Madonna Street</Description>
+         <Part Id="37429155424" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>Andrei Rublev</Description>
+         <Part Id="715515009928" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>Samurai 2: Duel at Ichijoji Temple</Description>
+         <Part Id="37429125526" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>Sanjuro</Description>
+         <Part Id="37429141526" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="21">
+         <Description>Lord of the Flies</Description>
+         <Part Id="37429136720" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="22">
+         <Description>The Vanishing</Description>
+         <Part Id="37429161623" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="23">
+         <Description>Tokyo Olympiad</Description>
+         <Part Id="37429166420" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="24">
+         <Description>Closely Watched Trains</Description>
+         <Part Id="37429161524" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

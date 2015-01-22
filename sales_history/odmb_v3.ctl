@@ -1,0 +1,27 @@
+--
+-- Copyright (c) 2003, 2015 Oracle Corporation. All rights reserved.
+--
+-- Permission is hereby granted, free of charge, to any person obtaining
+-- a copy of this software and associated documentation files (the
+-- "Software"), to deal in the Software without restriction, including
+-- without limitation the rights to use, copy, modify, merge, publish,
+-- distribute, sublicense, and/or sell copies of the Software, and to
+-- permit persons to whom the Software is furnished to do so, subject to
+-- the following conditions:
+-- 
+-- The above copyright notice and this permission notice shall be
+-- included in all copies or substantial portions of the Software.
+-- 
+-- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+-- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+-- MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+-- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+-- LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+-- OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+-- WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+--
+
+LOAD APPEND
+INTO TABLE odm_build 
+FIELDS TERMINATED BY '|' OPTIONALLY ENCLOSED BY '"'( 
+AGE,WORKCLASS,ANNUAL_INCOME,EDUCATION,WKS_SINCE_LAST_PURCH,MARITAL_STATUS,OCCUPATION, HOUSEHOLD_SIZE, TOP_REASON_FOR_SHOPPING, GENDER, SHIPPING_ADDRESS_COUNTRY, AFFINITY_CARD, AVERAGE_ITEMS_PURCHASED , NO_DIFFERENT_KIND_ITEMS , BULK_PURCH_AVE_AMT , YRS_RESIDENCE , DISABLE_COOKIES, PROMO_RESPOND, MAILING_LIST, SR_CITIZEN, COLD_FLU, PAIN_FEVER, VITAMINS, BABY, COSMETICS, GIFTS, FOOD_CANDY, PETS,CASE_ID)

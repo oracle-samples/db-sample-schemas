@@ -1,0 +1,121 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>LSMITH-2002100912333722PDT</Reference>
+   <Actions>
+      <Action>
+         <User>KPARTNER</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Lindsey G. Smith</Requestor>
+   <User>LSMITH</User>
+   <CostCenter>R20</CostCenter>
+   <ShippingInstructions>
+      <name>Lindsey G. Smith</name>
+      <address>200 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7200</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Next Day Air</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Samurai 2: Duel at Ichijoji Temple</Description>
+         <Part Id="37429125526" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Walkabout</Description>
+         <Part Id="37429123225" UnitPrice="29.99" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Written on the Wind</Description>
+         <Part Id="715515011525" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Coup De Torchon (Clean Slate)</Description>
+         <Part Id="37429149829" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>L'avventura</Description>
+         <Part Id="37429156025" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>George Washington</Description>
+         <Part Id="37429166123" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Samurai 3: Duel at Ganryu Island</Description>
+         <Part Id="37429125625" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Ballad of a Soldier</Description>
+         <Part Id="37429167922" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Rushmore</Description>
+         <Part Id="715515010429" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Rashomon  </Description>
+         <Part Id="37429161821" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Cries and Whispers</Description>
+         <Part Id="37429156322" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Sullivan's Travels</Description>
+         <Part Id="715515012126" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Samurai 3: Duel at Ganryu Island</Description>
+         <Part Id="37429125625" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>The Most Dangerous Game</Description>
+         <Part Id="37429137321" UnitPrice="24.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Ivan the Terrible - Parts I &amp; II</Description>
+         <Part Id="37429150122" UnitPrice="0.0" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Walkabout</Description>
+         <Part Id="37429123225" UnitPrice="29.99" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>The Night Porter</Description>
+         <Part Id="37429145227" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>Eisenstein: The Sound Years</Description>
+         <Part Id="37429149126" UnitPrice="79.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>Rushmore</Description>
+         <Part Id="715515010429" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>The Harder They Come</Description>
+         <Part Id="715515010825" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="21">
+         <Description>A Night to Remember</Description>
+         <Part Id="715515009058" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="22">
+         <Description>Seven Samurai</Description>
+         <Part Id="37429121726" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="23">
+         <Description>Picnic at Hanging Rock</Description>
+         <Part Id="37429126325" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="24">
+         <Description>Orphic Trilogy </Description>
+         <Part Id="37429148327" UnitPrice="79.95" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,81 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>CJOHNSON-20021009123336482PDT</Reference>
+   <Actions>
+      <Action>
+         <User>EZLOTKEY</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Charles G. Johnson</Requestor>
+   <User>CJOHNSON</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Charles G. Johnson</name>
+      <address>500 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7500</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Next Day Air</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Summertime</Description>
+         <Part Id="37429130728" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>The Last Wave</Description>
+         <Part Id="37429161920" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>I Know Where I'm Going</Description>
+         <Part Id="37429154427" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Dreyer Box Set</Description>
+         <Part Id="37429158425" UnitPrice="79.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Nanook of the North</Description>
+         <Part Id="715515009829" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>The Horse's Mouth</Description>
+         <Part Id="37429168721" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Double Suicide</Description>
+         <Part Id="37429149638" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>The Seventh Seal</Description>
+         <Part Id="37429124529" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Charade</Description>
+         <Part Id="37429139424" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Carnival of Souls</Description>
+         <Part Id="715515010221" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Summertime</Description>
+         <Part Id="37429130728" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Black Narcissus</Description>
+         <Part Id="37429152126" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Andrei Rublev</Description>
+         <Part Id="715515009928" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Double Suicide</Description>
+         <Part Id="37429149638" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

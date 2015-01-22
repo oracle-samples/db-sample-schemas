@@ -1,0 +1,105 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>TFOX-20021009123337563PDT</Reference>
+   <Actions>
+      <Action>
+         <User>GCAMBRAU</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Tayler L. Fox</Requestor>
+   <User>TFOX</User>
+   <CostCenter>R20</CostCenter>
+   <ShippingInstructions>
+      <name>Tayler L. Fox</name>
+      <address>100 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7100</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Sid &amp; Nancy</Description>
+         <Part Id="715515009232" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>The Magic Flute</Description>
+         <Part Id="37429147528" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Samurai 2: Duel at Ichijoji Temple</Description>
+         <Part Id="37429125526" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Diary of a Chambermaid</Description>
+         <Part Id="37429158128" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>The Seventh Seal</Description>
+         <Part Id="37429124529" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Mona Lisa</Description>
+         <Part Id="715515012027" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>High and Low</Description>
+         <Part Id="37429130322" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>The Red Shoes</Description>
+         <Part Id="37429128220" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>The 39 Steps</Description>
+         <Part Id="37429135228" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Nights of Cabiria</Description>
+         <Part Id="37429138427" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Do the Right Thing</Description>
+         <Part Id="715515011228" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Juliet of the Spirits</Description>
+         <Part Id="37429165829" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>For All Mankind</Description>
+         <Part Id="37429139523" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Flesh for Frankenstein</Description>
+         <Part Id="715515009423" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>L'avventura</Description>
+         <Part Id="37429156025" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Wild Strawberries</Description>
+         <Part Id="37429162422" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Sullivan's Travels</Description>
+         <Part Id="715515012126" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>Sid &amp; Nancy</Description>
+         <Part Id="715515009232" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>Time Bandits</Description>
+         <Part Id="715515010122" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>Autumn Sonata</Description>
+         <Part Id="37429126127" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

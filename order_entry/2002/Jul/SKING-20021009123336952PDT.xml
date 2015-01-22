@@ -1,0 +1,73 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SKING-20021009123336952PDT</Reference>
+   <Actions>
+      <Action>
+         <User/>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Steven A. King</Requestor>
+   <User>SKING</User>
+   <CostCenter>A10</CostCenter>
+   <ShippingInstructions>
+      <name>Steven A. King</name>
+      <address>500 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7500</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>The Lady Vanishes</Description>
+         <Part Id="37429122129" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Traffic</Description>
+         <Part Id="696306038924" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>The Shop on Main Street</Description>
+         <Part Id="37429156124" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>And God Created Woman</Description>
+         <Part Id="37429147825" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Blood for Dracula</Description>
+         <Part Id="715515009522" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Children of Paradise</Description>
+         <Part Id="37429151723" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>That Obscure Object of Desire</Description>
+         <Part Id="37429162026" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Brief Encounter</Description>
+         <Part Id="37429150726" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Mon Oncle</Description>
+         <Part Id="37429155929" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>The Importance of Being Earnest</Description>
+         <Part Id="37429165621" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Nanook of the North</Description>
+         <Part Id="715515009829" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Ballad of a Soldier</Description>
+         <Part Id="37429167922" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

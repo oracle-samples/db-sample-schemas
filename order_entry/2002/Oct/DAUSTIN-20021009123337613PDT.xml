@@ -1,0 +1,113 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>DAUSTIN-20021009123337613PDT</Reference>
+   <Actions>
+      <Action>
+         <User>AHUNOLD</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>David L. Austin</Requestor>
+   <User>DAUSTIN</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>David L. Austin</name>
+      <address>300 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7300</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Orphic Trilogy </Description>
+         <Part Id="37429148327" UnitPrice="79.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>How to Get Ahead in Advertising</Description>
+         <Part Id="715515012324" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Getrud</Description>
+         <Part Id="37429158524" UnitPrice="0.0" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Notorious</Description>
+         <Part Id="715515012720" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Tokyo Olympiad</Description>
+         <Part Id="37429166420" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Kwaidan</Description>
+         <Part Id="37429152027" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Summertime</Description>
+         <Part Id="37429130728" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Grey Gardens</Description>
+         <Part Id="37429159125" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>In the Mood for Love</Description>
+         <Part Id="715515012928" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Lord of the Flies</Description>
+         <Part Id="37429136720" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Black Orpheus</Description>
+         <Part Id="37429138328" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Eisenstein: The Sound Years</Description>
+         <Part Id="37429149126" UnitPrice="79.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>For All Mankind</Description>
+         <Part Id="37429139523" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>W.C. Fields - Six Short Films</Description>
+         <Part Id="715515010726" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>M. Hulot's Holiday</Description>
+         <Part Id="37429155721" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>The Element of Crime</Description>
+         <Part Id="37429149423" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>The Killer</Description>
+         <Part Id="715515008976" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>Hearts and Minds</Description>
+         <Part Id="37429166321" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>Hamlet</Description>
+         <Part Id="37429128428" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>Picnic at Hanging Rock</Description>
+         <Part Id="37429126325" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="21">
+         <Description>Nights of Cabiria</Description>
+         <Part Id="37429138427" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="22">
+         <Description>Andrei Rublev</Description>
+         <Part Id="715515009928" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

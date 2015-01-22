@@ -1,0 +1,77 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>PTUCKER-20021009123335430PDT</Reference>
+   <Actions>
+      <Action>
+         <User>JRUSSEL</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Peter L. Tucker</Requestor>
+   <User>PTUCKER</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Peter L. Tucker</name>
+      <address>400 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7400</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Picnic at Hanging Rock</Description>
+         <Part Id="37429126325" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>The Bank Dick</Description>
+         <Part Id="715515010627" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Do the Right Thing</Description>
+         <Part Id="715515011228" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Tokyo Olympiad</Description>
+         <Part Id="37429166420" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>The Last Temptation of Christ</Description>
+         <Part Id="715515010528" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Chasing Amy</Description>
+         <Part Id="717951002372" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Alexander Nevsky</Description>
+         <Part Id="37429149225" UnitPrice="0.0" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Sid &amp; Nancy</Description>
+         <Part Id="715515009232" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Blood of a Poet</Description>
+         <Part Id="37429147429" UnitPrice="0.0" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>In the Mood for Love</Description>
+         <Part Id="715515012928" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>The Lady Eve</Description>
+         <Part Id="715515011624" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Mon Oncle</Description>
+         <Part Id="37429155929" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Insomnia</Description>
+         <Part Id="37429138229" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

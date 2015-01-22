@@ -1,0 +1,1500 @@
+62|"Private"|149617|"< Bach."|10|"Widowed"|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|1.6|2|0|3|1|0|1|1|0|0|1|1|1|0|0|0|1|
+41|"Private"|315834|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|2|
+34|"Private"|279015|"< Bach."|10|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|6.5|7|0|6|1|0|1|0|1|1|0|1|1|0|0|1|3|
+50|"Private"|271160|"< Bach."|10|"Divorc."|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|4|
+46|"Private"|34377|"Assoc-A"|12|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|5|
+20|"Private"|148709|"< Bach."|10|"NeverM"|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|0|2.5|3|0|2|1|0|1|0|0|0|0|1|1|1|0|0|6|
+40|"Sta-gov"|390781|"HS-grad"|9|"Divorc."|"Other"|"2"|"Discoun"|"Female"|"U.S."|0|4.8|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|7|
+41|"Private"|206565|"< Bach."|10|"NeverM"|"Crafts"|"2"|"Discoun"|"Male"|"U.S."|0|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|8|
+29|"Private"|133937|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|9|
+28|"Private"|416577|"HS-grad"|9|"Married"|"Crafts"|"3"|"Discoun"|"Male"|"U.S."|0|4|4|282.9|3|0|0|1|0|1|1|0|1|1|1|0|1|10|
+31|"Private"|129804|"9th"|5|"NeverM"|"Farming"|"2"|"FreeShi"|"Male"|"P.Rico."|0|4|4|0|3|1|0|1|0|0|0|0|0|1|0|0|0|11|
+35|"Private"|161637|"PhD"|16|"Married"|"Prof."|"3"|"Service"|"Male"|"Taiwan"|1|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|12|
+42|"Private"|85995|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|5|1|0|0|0|0|0|1|1|1|0|0|0|13|
+49|"Private"|31264|"HS-grad"|9|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|14|
+44|"Private"|355728|"< Bach."|10|"Separ."|"Exec."|"2"|"FreeShi"|"Male"|"England"|0|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|15|
+34|"Private"|269723|"HS-grad"|9|"Divorc."|"Exec."|"9+"|"FreeShi"|"Female"|"U.S."|0|5|5|297.7|4|0|0|1|0|1|1|0|1|1|0|0|1|16|
+68|"No-pay"|174695|"< Bach."|10|"Mabsent"|"Farming"|"9+"|"FreeShi"|"Female"|"U.S."|0|2.5|3|0|5|1|0|1|1|1|1|1|1|1|0|0|1|17|
+27|"Private"|19395|"< Bach."|10|"Married"|"Handler"|"4-5"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|3|1|0|0|0|0|0|0|1|1|1|1|0|18|
+32|"Private"|90969|"Assoc-V"|11|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|4|1|0|0|0|0|0|0|1|1|0|0|0|19|
+57|"Loc-gov"|199546|"Masters"|14|"Divorc."|"Other"|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|20|
+39|"Private"|185099|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|21|
+38|"Private"|187847|"Assoc-V"|11|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|22|
+54|"SelfENI"|212165|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|8|1|0|1|0|1|1|1|1|1|0|0|1|23|
+51|"Private"|115025|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|24|
+26|"Private"|162872|"Assoc-A"|12|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|1|1|1|0|1|25|
+30|"Private"|302149|"Bach."|13|"Married"|"Sales"|"3"|"Service"|"Male"|"India"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|26|
+34|"Private"|314646|"9th"|5|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|0|1|0|0|0|27|
+32|"Private"|97306|"Bach."|13|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4.8|5|0|4|1|0|0|0|0|0|0|1|1|0|0|0|28|
+41|"Private"|171615|"Assoc-A"|12|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|29|
+23|"SelfENI"|184370|"HS-grad"|9|"Divorc."|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|30|
+36|"Private"|152744|"Bach."|13|"Divorc."|"Sales"|"6-8"|"Service"|"Female"|"South"|0|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|31|
+38|"Private"|202683|"HS-grad"|9|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|32|
+45|"Private"|190482|"HS-grad"|9|"Divorc."|"Machine"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|33|
+40|"Sta-gov"|506329|"PhD"|16|"Married"|"Prof."|"3"|"Service"|"Male"|"Taiwan"|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|34|
+30|"Private"|162442|"Bach."|13|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|1|5|5|768.8|4|1|1|1|0|1|0|0|1|1|0|0|1|35|
+49|"SelfEI"|315998|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|36|
+46|"Private"|249686|"Profsc"|15|"Separ."|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|37|
+23|"Private"|148709|"HS-grad"|9|"Married"|"Cleric."|"6-8"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|38|
+33|"Private"|217460|"Assoc-A"|12|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|39|
+17|"Private"|216137|"11th"|7|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|.8|1|0|0|1|0|1|0|1|1|0|0|1|1|0|0|40|
+21|"Private"|442131|"HS-grad"|9|"NeverM"|"Handler"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|41|
+37|"SelfENI"|241998|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|.5|1|0|1|1|0|1|0|1|1|1|1|1|0|0|1|42|
+24|"SelfENI"|143062|"HS-grad"|9|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|0|0|0|1|1|1|0|0|43|
+23|"Private"|149224|"HS-grad"|9|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|44|
+33|"Private"|355856|"Assoc-A"|12|"Married"|"Sales"|"3"|"Service"|"Male"|"U.S."|0|6|6|0|5|1|0|1|0|1|1|0|1|1|0|0|1|45|
+41|"Private"|115932|"< Bach."|10|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|9999.9|5|1|1|1|0|0|0|1|1|1|0|0|0|46|
+23|"Private"|64520|"HS-grad"|9|"NeverM"|"Cleric."|"1"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|0|0|0|0|0|1|1|1|0|0|47|
+23|"Private"|173535|"HS-grad"|9|"NeverM"|"Sales"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|48|
+55|"Private"|327589|"HS-grad"|9|"Divorc."|"Machine"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|49|
+24|"Private"|110371|"12th"|8|"NeverM"|"Machine"|"9+"|"FreeShi"|"Male"|"Mexico"|0|4|4|0|2|1|0|1|0|0|0|0|0|1|1|0|0|50|
+44|"Private"|462838|"HS-grad"|9|"Divorc."|"Handler"|"2"|"FreeShi"|"Female"|"U.S."|0|4.8|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|51|
+46|"Private"|155489|"Masters"|14|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|1|0|1|1|1|0|0|1|52|
+69|"SelfENI"|128206|"HS-grad"|9|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|0|3|3|0|5|1|0|1|1|0|0|1|1|1|0|0|0|53|
+35|"Private"|198202|"HS-grad"|9|"NeverM"|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|5.4|5|0|4|1|0|1|0|1|1|1|1|1|0|0|1|54|
+25|"Private"|199545|"< Bach."|10|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|0|1.5|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|55|
+44|"Private"|127592|"Bach."|13|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|56|
+41|"Private"|320744|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|57|
+42|"SelfENI"|166813|"< Bach."|10|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|6|1|0|1|0|1|1|1|1|1|0|0|1|58|
+49|"SelfENI"|105614|"HS-grad"|9|"Divorc."|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|0|0|1|1|1|0|0|0|59|
+34|"Private"|146980|"HS-grad"|9|"Mabsent"|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|0|6.5|7|0|6|1|0|1|0|0|0|0|1|1|0|0|0|60|
+44|"Loc-gov"|73199|"Assoc-V"|11|"Divorc."|"TechSup"|"9+"|"Service"|"Male"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|61|
+40|"Private"|287983|"Bach."|13|"NeverM"|"TechSup"|"2"|"Service"|"Female"|"Phil."|0|4.8|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|62|
+53|"Private"|104879|"HS-grad"|9|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|63|
+53|"Private"|149784|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|64|
+54|"Private"|183248|"HS-grad"|9|"Divorc."|"Transp."|"2"|"Discoun"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|65|
+46|"Fed-gov"|341762|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|768.8|6|1|1|1|0|1|1|1|1|1|0|0|1|66|
+41|"Private"|163258|"Bach."|13|"NeverM"|"TechSup"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|67|
+61|"Private"|69867|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|6|1|0|0|1|0|0|1|1|1|0|0|0|68|
+45|"Loc-gov"|132563|"Profsc"|15|"Divorc."|"Prof."|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|69|
+43|"Private"|117158|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|5|1|0|1|0|0|0|1|1|1|0|0|0|70|
+28|"Private"|147560|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|4|1|0|1|0|0|0|0|1|1|1|0|0|71|
+32|"Private"|226267|"5th-6th"|3|"Mabsent"|"Crafts"|"6-8"|"FreeShi"|"Male"|"El-Sal."|0|4|4|0|3|1|0|1|0|1|1|0|0|1|0|0|0|72|
+44|"Private"|257758|"PhD"|16|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|73|
+36|"SelfEI"|37019|"HS-grad"|9|"NeverM"|"Farming"|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|5|1|0|0|0|0|0|1|1|1|0|0|0|74|
+39|"Private"|176101|"Bach."|13|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|75|
+21|"Private"|255685|"< Bach."|10|"NeverM"|"Other"|"1"|"Discoun"|"Male"|"Outl-US"|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|76|
+44|"Private"|277720|"< Bach."|10|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|77|
+28|"Private"|214858|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|78|
+25|"Private"|181814|"HS-grad"|9|"NeverM"|"Crafts"|"6-8"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|79|
+27|"SelfENI"|140863|"9th"|5|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|0|1|1|0|0|80|
+48|"Private"|96359|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"Greece"|1|6|6|0|7|1|0|0|0|0|0|1|1|1|0|0|0|81|
+28|"Private"|331381|"Bach."|13|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|82|
+29|"Private"|24562|"Bach."|13|"Divorc."|"Other"|"9+"|"Other"|"Female"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|83|
+36|"Private"|179358|"HS-grad"|9|"Widowed"|"Handler"|"9+"|"FreeShi"|"Female"|"U.S."|0|3|3|0|3|1|0|1|0|1|1|1|1|1|0|0|1|84|
+59|"Private"|168569|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|85|
+19|"Private"|333953|"12th"|8|"NeverM"|"Other"|"6-8"|"FreeShi"|"Female"|"U.S."|0|3|3|0|1|1|0|1|0|1|1|0|0|1|1|0|0|86|
+33|"Loc-gov"|70164|"Bach."|13|"NeverM"|"Prof."|"2"|"Special"|"Male"|"U.S."|0|6|6|0|5|1|0|0|0|0|0|0|1|1|0|0|0|87|
+36|"SelfEI"|487085|"7th-8th"|4|"NeverM"|"Crafts"|"9+"|"Discoun"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|0|1|0|0|0|88|
+68|"Private"|170376|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|7|1|0|1|1|1|1|1|1|1|0|0|1|89|
+42|"Private"|182108|"Bach."|13|"NeverM"|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|90|
+41|"Private"|110562|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|91|
+69|"Private"|370837|"Bach."|13|"Divorc."|"Handler"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|7|1|0|1|1|1|1|1|1|1|0|0|1|92|
+57|"Private"|372020|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|501.3|7|0|0|1|1|1|1|1|1|1|0|0|1|93|
+46|"Private"|54985|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|94|
+37|"Private"|49626|"Assoc-V"|11|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|0|4.3|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|95|
+45|"SelfENI"|328051|"Masters"|14|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|96|
+33|"Private"|175479|"5th-6th"|3|"NeverM"|"Other"|"9+"|"FreeShi"|"Female"|"Mexico"|0|4|4|0|3|1|0|1|0|1|1|0|0|1|0|0|0|97|
+25|"Private"|210184|"11th"|7|"Separ."|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|0|1|1|0|0|98|
+30|"Private"|370183|"HS-grad"|9|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|99|
+44|"Loc-gov"|193425|"Masters"|14|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|438.6|4|1|1|1|0|1|1|1|1|1|0|0|1|100|
+31|"Loc-gov"|153005|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|0|0|1|1|0|0|1|101|
+37|"Private"|60313|"HS-grad"|9|"NeverM"|"Crafts"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|102|
+27|"Sta-gov"|192257|"HS-grad"|9|"NeverM"|"Protec."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|217.4|3|0|0|1|0|1|1|0|1|1|1|0|1|103|
+21|"Private"|186648|"10th"|6|"Separ."|"Machine"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|0|1|1|0|0|104|
+27|"Private"|213842|"Bach."|13|"NeverM"|"Cleric."|"1"|"FreeShi"|"Male"|"U.S."|0|3.8|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|105|
+40|"Private"|205706|"HS-grad"|9|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|106|
+56|"Private"|346033|"9th"|5|"Divorc."|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|0|1|0|0|0|107|
+48|"SelfEI"|302612|"Masters"|14|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|108|
+46|"SelfENI"|256014|"Assoc-V"|11|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|109|
+28|"SelfENI"|38079|"< Bach."|10|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|5.5|6|0|4|1|0|0|0|0|0|0|1|1|1|0|0|110|
+33|"Private"|96635|"< Bach."|10|"NeverM"|"Sales"|"2"|"Service"|"Male"|"South"|0|2.6|3|0|2|1|0|0|0|0|0|0|1|1|0|0|0|111|
+61|"Private"|175999|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|112|
+18|"Private"|31983|"12th"|8|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|0|0|0|0|0|0|1|1|0|0|113|
+22|"Private"|106843|"10th"|6|"NeverM"|"Crafts"|"6-8"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|0|0|0|0|1|1|0|0|114|
+22|"Private"|117779|"Bach."|13|"NeverM"|"Prof."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|115|
+40|"Private"|349405|"Assoc-V"|11|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|0|3.6|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|116|
+35|"Private"|177121|"HS-grad"|9|"Divorc."|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|117|
+47|"Private"|303637|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.9|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|118|
+41|"SelfENI"|143129|"Bach."|13|"Divorc."|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|119|
+41|"SelfENI"|32533|"Assoc-V"|11|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|5|1|0|0|0|0|0|1|1|1|0|0|0|120|
+28|"Private"|189346|"HS-grad"|9|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|4|1|0|1|0|1|1|0|1|1|1|0|1|121|
+49|"Private"|43910|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|0|3|3|0|4|1|0|0|0|0|0|1|1|1|0|0|0|122|
+65|"Private"|153522|"HS-grad"|9|"Widowed"|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|0|1.7|2|0|3|1|0|1|1|1|0|1|1|1|0|0|1|123|
+64|"Private"|114994|"HS-grad"|9|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|0|1.8|2|0|3|1|0|1|1|0|0|1|1|1|0|0|0|124|
+28|"Sta-gov"|107218|"Bach."|13|"NeverM"|"TechSup"|"1"|"Service"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|0|0|0|1|1|1|0|0|125|
+35|"SelfENI"|157473|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|126|
+24|"Private"|211345|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"Mexico"|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|127|
+35|"Private"|99357|"Bach."|13|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|1|3|3|0|3|1|0|0|0|0|0|1|1|1|0|0|0|128|
+24|"Private"|321666|"Assoc-A"|12|"NeverM"|"Machine"|"1"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|129|
+46|"Private"|216666|"5th-6th"|3|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"Mexico"|0|4|4|0|5|1|0|1|0|1|1|1|0|1|0|0|0|130|
+25|"Private"|285367|"HS-grad"|9|"Divorc."|"Other"|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|131|
+77|"Private"|187656|"< Bach."|10|"Widowed"|"House-s"|"2"|"FreeShi"|"Female"|"U.S."|0|2|2|0|4|1|0|1|1|1|1|1|1|1|0|0|1|132|
+28|"Private"|69847|"Bach."|13|"NeverM"|"Cleric."|"1"|"Service"|"Female"|"U.S."|0|3|3|0|2|1|0|0|0|0|0|0|1|1|1|0|0|133|
+38|"Private"|343403|"Assoc-A"|12|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|1.6|2|0|2|1|0|1|0|1|1|1|1|1|0|0|1|134|
+46|"Private"|100067|"11th"|7|"Married"|"Other"|"4-5"|"Discoun"|"Female"|"U.S."|1|3.5|4|0|5|1|0|1|0|0|0|1|0|1|0|0|0|135|
+29|"Loc-gov"|220419|"Bach."|13|"NeverM"|"Protec."|"2"|"FreeShi"|"Male"|"U.S."|0|5.6|6|0|4|1|0|1|0|1|1|0|1|1|1|0|1|136|
+40|"Private"|109969|"11th"|7|"Divorc."|"Other"|"6-8"|"FreeShi"|"Female"|"U.S."|0|2|2|0|2|1|0|1|0|0|0|1|0|1|0|0|0|137|
+44|"Private"|320277|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|138|
+58|"Private"|209423|"1st-4th"|2|"Married"|"Other"|"3"|"FreeShi"|"Male"|"Cuba"|0|3.8|4|0|6|1|0|1|1|1|1|1|0|1|0|0|0|139|
+20|"?"|214635|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Male"|"U.S."|0|2.4|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|140|
+26|"Private"|115717|"< Bach."|10|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|141|
+55|"Fed-gov"|186791|"HS-grad"|9|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|142|
+34|"Private"|238246|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|143|
+36|"Fed-gov"|192443|"< Bach."|10|"NeverM"|"Exec."|"2"|"Discoun"|"Male"|"U.S."|1|4|4|1355|4|1|1|1|0|1|1|1|1|1|0|0|1|144|
+25|"Private"|304032|"HS-grad"|9|"NeverM"|"Cleric."|"1"|"FreeShi"|"Male"|"U.S."|0|3.6|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|145|
+44|"Private"|167005|"HS-grad"|9|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|1|4.8|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|146|
+78|"?"|27979|"HS-grad"|9|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|0|3.2|3|222.8|6|0|0|0|1|0|0|1|1|1|0|0|0|147|
+67|"Loc-gov"|176931|"7th-8th"|4|"Widowed"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|2|2|0|3|1|0|1|1|1|1|1|0|1|0|0|0|148|
+48|"SelfENI"|104790|"11th"|7|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|0|0|1|0|1|0|0|0|149|
+57|"SelfENI"|123778|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|7|1|0|1|1|0|0|1|1|1|0|0|0|150|
+46|"?"|162034|"HS-grad"|9|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|151|
+33|"Private"|106938|"HS-grad"|9|"Married"|"TechSup"|"4-5"|"Discoun"|"Female"|"U.S."|0|3.8|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|152|
+25|"?"|237865|"< Bach."|10|"NeverM"|"?"|"1"|"Discoun"|"Male"|"?"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|153|
+47|"Private"|164423|"HS-grad"|9|"Divorc."|"Exec."|"9+"|"FreeShi"|"Female"|"U.S."|0|4.3|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|154|
+26|"Private"|181655|"Assoc-V"|11|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|155|
+36|"Loc-gov"|142573|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|5|1|0|1|0|0|0|1|1|1|0|0|0|156|
+18|"Private"|186954|"11th"|7|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|0|1|1|0|0|157|
+22|"Private"|142566|"HS-grad"|9|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|158|
+21|"?"|138575|"HS-grad"|9|"NeverM"|"?"|"6-8"|"FreeShi"|"Male"|"U.S."|0|6|6|0|3|1|0|1|0|0|0|0|1|1|1|0|0|159|
+32|"Private"|110279|"Assoc-A"|12|"Divorc."|"Prof."|"9+"|"Discoun"|"Female"|"U.S."|0|3.5|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|160|
+56|"Fed-gov"|61885|"Bach."|13|"NeverM"|"Transp."|"2"|"Discoun"|"Male"|"U.S."|0|6.5|7|0|10|1|0|0|1|0|0|1|1|1|0|0|0|161|
+48|"Private"|178686|"HS-grad"|9|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|162|
+77|"Private"|235775|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"Cuba"|0|2.5|3|0|6|1|0|1|1|1|1|1|1|1|0|0|1|163|
+57|"Private"|314153|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|9|1|0|1|1|1|1|1|1|1|0|0|1|164|
+44|"Sta-gov"|87282|"Bach."|13|"NeverM"|"Prof."|"2"|"Service"|"Female"|"U.S."|0|3.8|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|165|
+42|"Private"|208875|"< Bach."|10|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"El-Sal."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|166|
+19|"Sta-gov"|37332|"HS-grad"|9|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|0|0|0|0|0|1|1|1|0|0|167|
+27|"Private"|177119|"< Bach."|10|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4.4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|168|
+28|"Private"|85812|"< Bach."|10|"Married"|"Sales"|"4-5"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|169|
+60|"?"|116961|"7th-8th"|4|"Widowed"|"?"|"9+"|"FreeShi"|"Female"|"U.S."|0|2|2|0|3|1|0|1|1|0|0|1|0|1|0|0|0|170|
+37|"Private"|67433|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|171|
+19|"Private"|223392|"HS-grad"|9|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|1.5|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|172|
+44|"Private"|157217|"Assoc-A"|12|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|173|
+51|"Private"|123011|"Bach."|13|"Divorc."|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|0|0|1|1|1|0|0|0|174|
+28|"Private"|190836|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|341.1|3|0|0|1|0|1|1|0|1|1|1|0|1|175|
+35|"Sta-gov"|177974|"HS-grad"|9|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|176|
+19|"Private"|323421|"< Bach."|10|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|177|
+49|"Private"|157569|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|178|
+52|"Private"|108435|"Masters"|14|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"Greece"|1|5|5|0|7|1|0|1|0|0|0|1|1|1|0|0|0|179|
+22|"Private"|325179|"< Bach."|10|"NeverM"|"Prof."|"1"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|180|
+26|"Private"|292803|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|2.4|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|181|
+31|"Private"|356882|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|501.3|3|0|0|1|0|1|1|0|1|1|0|0|1|182|
+55|"Private"|141326|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|6|1|0|1|1|0|0|1|1|1|0|0|0|183|
+41|"Private"|33310|"HS-grad"|9|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|184|
+50|"Private"|238959|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"?"|1|6|6|9999.9|8|1|1|1|0|1|1|1|1|1|0|0|1|185|
+18|"?"|216508|"HS-grad"|9|"NeverM"|"?"|"1"|"FreeShi"|"Male"|"U.S."|0|3|3|0|1|1|0|1|0|1|1|0|1|1|1|0|1|186|
+25|"Private"|240676|"< Bach."|10|"Divorc."|"TechSup"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|187|
+19|"Private"|235909|"< Bach."|10|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|188|
+25|"Loc-gov"|334133|"Masters"|14|"NeverM"|"Prof."|"1"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|189|
+47|"Loc-gov"|80282|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|313.7|5|0|0|0|0|0|0|1|1|1|0|0|0|190|
+26|"Private"|165673|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|191|
+36|"Sta-gov"|183735|"Masters"|14|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|192|
+28|"Sta-gov"|37250|"Bach."|13|"NeverM"|"Prof."|"1"|"FreeShi"|"Male"|"U.S."|0|1.6|2|0|1|1|0|0|0|0|0|0|1|1|1|0|0|193|
+22|"Private"|65704|"HS-grad"|9|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"?"|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|194|
+19|"Private"|271521|"HS-grad"|9|"NeverM"|"Other"|"6-8"|"Service"|"Male"|"U.S."|0|2.4|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|195|
+64|"?"|267198|"Profsc"|15|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|0|1.6|2|0|3|1|0|1|1|1|1|1|1|1|0|0|1|196|
+42|"SelfENI"|121718|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|2.4|2|0|2|1|0|1|0|0|0|1|1|1|0|0|0|197|
+17|"?"|145886|"11th"|7|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|3|3|0|1|1|0|1|0|0|0|0|0|1|1|0|0|198|
+81|"Private"|114670|"9th"|5|"Widowed"|"House-s"|"2"|"Discoun"|"Female"|"U.S."|0|.5|1|206.2|2|0|0|1|1|0|0|1|0|1|0|0|0|199|
+20|"Private"|471452|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|200|
+23|"Private"|565313|"< Bach."|10|"NeverM"|"Other"|"1"|"Discoun"|"Male"|"U.S."|0|8|8|220.2|5|0|0|1|0|1|1|0|1|1|1|0|1|201|
+33|"Sta-gov"|243678|"< Bach."|10|"NeverM"|"TechSup"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|202|
+29|"Private"|217200|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|203|
+26|"SelfENI"|201930|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|204|
+23|"Private"|203715|"HS-grad"|9|"NeverM"|"Farming"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|205|
+26|"Private"|153078|"HS-grad"|9|"NeverM"|"Cleric."|"1"|"Service"|"Male"|"?"|1|8|8|0|5|1|0|1|0|1|0|0|1|1|1|0|1|206|
+37|"Private"|280500|"< Bach."|10|"NeverM"|"TechSup"|"1"|"Discoun"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|207|
+32|"Private"|203674|"Assoc-A"|12|"Divorc."|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|0|3.6|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|208|
+35|"Private"|139647|"< Bach."|10|"Divorc."|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|1|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|209|
+55|"SelfENI"|185195|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|9.9|10|0|14|1|0|1|1|1|1|1|1|1|0|0|1|210|
+23|"Sta-gov"|279243|"< Bach."|10|"NeverM"|"Protec."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|211|
+20|"Private"|115057|"< Bach."|10|"NeverM"|"Other"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|212|
+25|"Private"|295919|"Assoc-A"|12|"NeverM"|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|213|
+19|"Private"|84747|"HS-grad"|9|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|2.4|2|0|1|1|0|0|0|0|0|0|1|1|1|0|0|214|
+44|"Private"|242861|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|215|
+59|"Loc-gov"|212600|"< Bach."|10|"Separ."|"Protec."|"2"|"FreeShi"|"Male"|"U.S."|1|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|216|
+46|"Private"|142719|"HS-grad"|9|"Mabsent"|"Farming"|"2"|"FreeShi"|"Male"|"U.S."|0|6.5|7|0|8|1|0|1|0|0|0|1|1|1|0|0|0|217|
+32|"Private"|290964|"Bach."|13|"NeverM"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|218|
+54|"Private"|420691|"1st-4th"|2|"Married"|"Other"|"3"|"FreeShi"|"Male"|"Mexico"|0|4|4|0|5|1|0|1|0|1|1|1|0|1|0|0|0|219|
+24|"Private"|270075|"Bach."|13|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|0|5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|220|
+36|"Private"|248445|"HS-grad"|9|"Separ."|"Transp."|"6-8"|"FreeShi"|"Male"|"Mexico"|0|6|6|0|5|1|0|1|0|1|1|1|1|1|0|0|1|221|
+31|"Private"|159979|"< Bach."|10|"NeverM"|"Sales"|"2"|"Service"|"Female"|"U.S."|0|5|5|0|4|1|0|1|0|1|0|0|1|1|0|0|1|222|
+26|"Private"|250066|"Assoc-V"|11|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|223|
+52|"Fed-gov"|22428|"Bach."|13|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|8|1|0|0|0|0|0|1|1|1|0|0|0|224|
+24|"Private"|424494|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|225|
+20|"Private"|314422|"HS-grad"|9|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|226|
+27|"?"|224421|"< Bach."|10|"Divorc."|"?"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|227|
+21|"Private"|109952|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|228|
+37|"SelfENI"|82540|"9th"|5|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|1|7|7|0|6|1|0|0|0|0|0|1|0|1|0|0|0|229|
+47|"Private"|192776|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|230|
+19|"Private"|228238|"HS-grad"|9|"NeverM"|"Machine"|"6-8"|"FreeShi"|"Male"|"Mexico"|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|231|
+35|"Private"|189916|"Bach."|13|"Married"|"Sales"|"4-5"|"FreeShi"|"Female"|"U.S."|1|3|3|0|3|1|0|1|0|1|1|1|1|1|0|0|1|232|
+50|"Private"|89041|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|1502.4|6|1|1|0|0|0|0|1|1|1|0|0|0|233|
+20|"Private"|84726|"< Bach."|10|"NeverM"|"TechSup"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|234|
+71|"Private"|200418|"5th-6th"|3|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|7|1|0|1|1|1|1|1|0|1|0|0|0|235|
+45|"Private"|98092|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|7|1|0|0|0|0|0|1|1|1|0|0|0|236|
+47|"Fed-gov"|119199|"< Bach."|10|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|237|
+30|"Private"|488720|"Assoc-V"|11|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"Mexico"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|238|
+42|"Loc-gov"|227890|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|239|
+24|"?"|283731|"Bach."|13|"NeverM"|"?"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|240|
+37|"Loc-gov"|397877|"Bach."|13|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|241|
+21|"Sta-gov"|258490|"< Bach."|10|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|242|
+34|"SelfENI"|196791|"Assoc-A"|12|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|1|2.5|3|0|3|1|0|1|0|1|1|0|1|1|0|0|1|243|
+62|"Private"|152148|"9th"|5|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|0|1|0|1|0|0|0|244|
+43|"Private"|188808|"Masters"|14|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|245|
+25|"Private"|262978|"< Bach."|10|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|246|
+37|"Private"|238959|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|247|
+27|"SelfENI"|212041|"Bach."|13|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|248|
+37|"Fed-gov"|194630|"Masters"|14|"NeverM"|"Exec."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|249|
+39|"Private"|53447|"HS-grad"|9|"Divorc."|"Farming"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|250|
+74|"Private"|194312|"9th"|5|"Widowed"|"Crafts"|"2"|"FreeShi"|"Male"|"?"|0|1|1|0|2|1|0|1|1|1|1|1|0|1|0|0|0|251|
+43|"Private"|96421|"Bach."|13|"Divorc."|"Prof."|"9+"|"FreeShi"|"Female"|"Outl-US"|0|2.4|2|0|2|1|0|0|0|0|0|1|1|1|0|0|0|252|
+25|"SelfENI"|257574|"Bach."|13|"NeverM"|"Cleric."|"2"|"Discoun"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|253|
+34|"Private"|189759|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|254|
+25|"Private"|198870|"Bach."|13|"NeverM"|"Cleric."|"1"|"Discoun"|"Male"|"U.S."|0|3.5|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|255|
+51|"Private"|118793|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|7|7|0|9|1|0|1|0|0|0|1|1|1|0|0|0|256|
+23|"Private"|495888|"HS-grad"|9|"NeverM"|"Other"|"2"|"FreeShi"|"Male"|"El-Sal."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|257|
+28|"Private"|111696|"HS-grad"|9|"Separ."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|258|
+34|"Private"|209449|"< Bach."|10|"Married"|"TechSup"|"3"|"Discoun"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|259|
+58|"Private"|234328|"Bach."|13|"Divorc."|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|260|
+26|"Private"|202033|"Bach."|13|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|261|
+39|"Private"|141802|"< Bach."|10|"Divorc."|"Cleric."|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|262|
+34|"Private"|144949|"10th"|6|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|4|1|0|1|0|0|0|0|0|1|0|0|0|263|
+22|"Private"|141698|"10th"|6|"NeverM"|"Crafts"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|0|1|1|0|0|264|
+44|"Loc-gov"|409505|"Bach."|13|"Divorc."|"Protec."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|265|
+54|"SelfENI"|392286|"Assoc-A"|12|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|7|1|0|1|0|1|1|1|1|1|0|0|1|266|
+50|"Private"|177896|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|267|
+36|"Private"|143486|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|729.8|5|1|1|1|0|0|0|1|1|1|0|0|0|268|
+46|"Fed-gov"|106252|"< Bach."|10|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|269|
+49|"Private"|54772|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|310.3|6|1|1|0|0|0|0|1|1|1|0|0|0|270|
+36|"Private"|148581|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|5|1|0|1|0|0|0|1|1|1|0|0|0|271|
+43|"Private"|63503|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|272|
+65|"SelfEI"|208452|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|3.5|4|0|7|1|0|1|1|1|1|1|1|1|0|0|1|273|
+36|"Private"|84306|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|501.3|5|0|0|0|0|0|0|1|1|1|0|0|0|274|
+40|"Fed-gov"|171231|"Bach."|13|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"P.Rico."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|275|
+57|"SelfENI"|95280|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|9999.9|7|1|1|0|1|0|0|1|1|1|0|0|0|276|
+57|"Private"|562558|"HS-grad"|9|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|277|
+40|"Private"|72887|"Assoc-V"|11|"Married"|"Machine"|"3"|"Service"|"Male"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|278|
+38|"Private"|161141|"< Bach."|10|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|5|1|0|1|0|1|0|1|1|1|0|0|1|279|
+42|"Loc-gov"|201723|"< Bach."|10|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|280|
+45|"SelfENI"|160724|"Bach."|13|"Married"|"Exec."|"3"|"Service"|"Male"|"China"|1|4.5|5|0|6|1|0|1|0|1|0|1|1|1|0|0|1|281|
+32|"Private"|37210|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|4|1|0|0|0|0|0|0|1|1|0|0|0|282|
+48|"Private"|285335|"11th"|7|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|6|1|0|1|0|1|1|1|0|1|0|0|0|283|
+22|"?"|217421|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|284|
+38|"Fed-gov"|65706|"< Bach."|10|"Divorc."|"Exec."|"9+"|"FreeShi"|"Female"|"U.S."|0|3.8|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|285|
+40|"Private"|183765|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|286|
+26|"Private"|68991|"HS-grad"|9|"NeverM"|"Other"|"9+"|"Discoun"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|287|
+23|"Private"|352207|"Assoc-V"|11|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|288|
+54|"Private"|38795|"9th"|5|"Separ."|"Crafts"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|0|0|0|0|1|0|1|0|0|0|289|
+78|"SelfENI"|59583|"7th-8th"|4|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|2.5|3|0|6|1|0|0|1|0|0|1|0|1|0|0|0|290|
+36|"Sta-gov"|223020|"< Bach."|10|"Divorc."|"Other"|"9+"|"Discoun"|"Female"|"U.S."|0|2|2|0|2|1|0|1|0|1|1|1|1|1|0|0|1|291|
+19|"Private"|456572|"HS-grad"|9|"NeverM"|"Farming"|"6-8"|"FreeShi"|"Male"|"U.S."|0|3.5|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|292|
+38|"Private"|368140|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|293|
+20|"Private"|125010|"HS-grad"|9|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|3|3|0|2|1|0|1|0|0|0|0|1|1|1|0|0|294|
+49|"Private"|156926|"Assoc-V"|11|"Divorc."|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|6|1|0|1|0|1|0|1|1|1|0|0|1|295|
+57|"Private"|148315|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|3|3|0|4|1|0|1|1|0|0|1|1|1|0|0|0|296|
+19|"?"|140590|"12th"|8|"NeverM"|"?"|"1"|"Discoun"|"Male"|"U.S."|0|3|3|0|1|1|0|1|0|0|0|0|0|1|1|0|0|297|
+30|"Private"|56121|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|0|0|0|298|
+20|"?"|273701|"< Bach."|10|"NeverM"|"?"|"6-8"|"Discoun"|"Male"|"U.S."|0|1|1|3409.5|1|0|0|1|0|1|1|0|1|1|1|0|1|299|
+42|"SelfEI"|130126|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|300|
+58|"Private"|241056|"< Bach."|10|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4.6|5|0|7|1|0|1|1|1|1|1|1|1|0|0|1|301|
+28|"Private"|203776|"10th"|6|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|4|1|0|1|0|1|1|0|0|1|1|0|0|302|
+39|"Private"|112731|"HS-grad"|9|"Divorc."|"Other"|"2"|"Other"|"Female"|"Domin-R"|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|303|
+30|"Private"|87561|"Assoc-A"|12|"NeverM"|"TechSup"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|0|0|0|304|
+31|"SelfEI"|103435|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|4|1|0|1|0|0|0|0|1|1|0|0|0|305|
+24|"Private"|194748|"HS-grad"|9|"NeverM"|"Transp."|"2"|"FreeShi"|"Female"|"U.S."|0|4.9|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|306|
+22|"Fed-gov"|218445|"< Bach."|10|"NeverM"|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|307|
+81|"Private"|364099|"< Bach."|10|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|2|2|0|4|1|0|1|1|1|1|1|1|1|0|0|1|308|
+52|"Private"|175714|"Assoc-A"|12|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|8|1|0|1|0|1|1|1|1|1|0|0|1|309|
+48|"Private"|265192|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|310|
+30|"Private"|130078|"Bach."|13|"NeverM"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|4|1|0|1|0|0|0|0|1|1|0|0|0|311|
+34|"Private"|186269|"HS-grad"|9|"Divorc."|"Cleric."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|312|
+53|"SelfEI"|251675|"< Bach."|10|"Divorc."|"Sales"|"2"|"FreeShi"|"Male"|"Cuba"|1|5|5|861.4|7|1|1|1|0|1|1|1|1|1|0|0|1|313|
+75|"Private"|187424|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|2|2|0|4|1|0|1|1|1|1|1|1|1|0|0|1|314|
+49|"Private"|169042|"HS-grad"|9|"Separ."|"Prof."|"9+"|"FreeShi"|"Female"|"P.Rico."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|315|
+27|"Private"|401723|"HS-grad"|9|"NeverM"|"Cleric."|"2"|"Discoun"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|316|
+44|"Private"|145160|"HS-grad"|9|"NeverM"|"Crafts"|"6-8"|"FreeShi"|"Male"|"U.S."|0|5.8|6|0|7|1|0|1|0|0|0|1|1|1|0|0|0|317|
+41|"SelfENI"|188738|"HS-grad"|9|"Divorc."|"Crafts"|"9+"|"FreeShi"|"Male"|"U.S."|0|2.7|3|0|3|1|0|1|0|1|1|1|1|1|0|0|1|318|
+21|"Private"|72119|"< Bach."|10|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|3|1|0|0|0|0|0|0|1|1|1|0|0|319|
+24|"Private"|34446|"< Bach."|10|"NeverM"|"TechSup"|"2"|"FreeShi"|"Female"|"U.S."|0|3.7|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|320|
+18|"Private"|703067|"11th"|7|"NeverM"|"Sales"|"1"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|0|1|1|0|0|321|
+44|"Private"|277647|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|322|
+49|"Private"|153536|"< Bach."|10|"Divorc."|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|1|4.4|4|1408.4|5|1|1|1|0|1|0|1|1|1|0|0|1|323|
+39|"?"|157443|"Masters"|14|"Married"|"?"|"4-5"|"Service"|"Female"|"?"|0|4|4|346.4|4|0|0|1|0|1|0|1|1|1|0|0|1|324|
+34|"SelfENI"|304622|"Bach."|13|"Divorc."|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|0|5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|325|
+40|"Private"|202872|"< Bach."|10|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|2.4|2|0|2|1|0|1|0|1|1|1|1|1|0|0|1|326|
+34|"Loc-gov"|134886|"HS-grad"|9|"Married"|"Other"|"4-5"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|327|
+47|"SelfENI"|160131|"< Bach."|10|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|328|
+24|"Loc-gov"|111450|"10th"|6|"NeverM"|"Crafts"|"9+"|"Discoun"|"Male"|"Haiti"|0|6.5|7|0|4|1|0|1|0|0|0|0|0|1|1|0|0|329|
+52|"?"|92968|"Masters"|14|"Married"|"?"|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|1502.4|5|1|1|0|0|0|0|1|1|1|0|0|0|330|
+33|"Loc-gov"|262042|"HS-grad"|9|"Divorc."|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|331|
+62|"?"|181014|"Bach."|13|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|332|
+51|"Private"|467611|"9th"|5|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"Mexico"|0|4|4|0|5|1|0|1|0|1|1|1|0|1|0|0|0|333|
+58|"?"|53481|"Bach."|13|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|0|7|7|0|10|1|0|0|1|0|0|1|1|1|0|0|0|334|
+17|"Private"|295991|"10th"|6|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|0|1|1|0|0|335|
+34|"Private"|94235|"Bach."|13|"NeverM"|"Crafts"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|0|0|0|336|
+25|"?"|218948|"7th-8th"|4|"NeverM"|"?"|"2"|"FreeShi"|"Female"|"Mexico"|0|3.2|3|0|2|1|0|1|0|1|1|0|0|1|1|0|0|337|
+58|"Private"|163113|"HS-grad"|9|"Widowed"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|1|3.5|4|0|6|1|0|1|1|1|0|1|1|1|0|0|1|338|
+37|"Private"|188540|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|339|
+29|"Private"|54411|"HS-grad"|9|"NeverM"|"Farming"|"2"|"FreeShi"|"Male"|"?"|0|5|5|0|4|1|0|0|0|0|0|0|1|1|1|0|0|340|
+28|"Loc-gov"|356089|"Bach."|13|"NeverM"|"Prof."|"6-8"|"FreeShi"|"Male"|"U.S."|0|5|5|0|4|1|0|1|0|1|1|0|1|1|1|0|1|341|
+24|"Private"|83141|"Bach."|13|"NeverM"|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|342|
+37|"Loc-gov"|191364|"Assoc-A"|12|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"France"|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|343|
+36|"Private"|153205|"Bach."|13|"Married"|"Prof."|"3"|"Service"|"Male"|"?"|0|4.5|5|0|5|1|0|1|0|1|0|1|1|1|0|0|1|344|
+48|"Private"|174829|"Assoc-A"|12|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|345|
+29|"?"|188675|"< Bach."|10|"Divorc."|"?"|"1"|"Discoun"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|346|
+29|"Private"|255817|"5th-6th"|3|"NeverM"|"Other"|"6-8"|"FreeShi"|"Female"|"El-Sal."|0|4|4|0|3|1|0|1|0|1|1|0|0|1|1|0|0|347|
+26|"Private"|142689|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"?"|0|4.5|5|0|3|1|0|1|0|0|0|0|1|1|1|0|0|348|
+24|"Private"|301199|"< Bach."|10|"NeverM"|"TechSup"|"1"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|349|
+42|"Private"|33521|"Assoc-A"|12|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|5|1|0|0|0|0|0|1|1|1|0|0|0|350|
+47|"Private"|270079|"7th-8th"|4|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|0|1|0|0|0|351|
+40|"Loc-gov"|196234|"HS-grad"|9|"Divorc."|"Crafts"|"1"|"FreeShi"|"Female"|"P.Rico."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|352|
+25|"SelfENI"|463667|"HS-grad"|9|"NeverM"|"Other"|"2"|"FreeShi"|"Male"|"U.S."|0|.8|1|0|1|1|0|1|0|1|1|0|1|1|1|0|1|353|
+42|"SelfENI"|344920|"< Bach."|10|"Married"|"Farming"|"4-5"|"FreeShi"|"Female"|"U.S."|0|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|354|
+42|"Loc-gov"|100793|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|6|1|0|1|0|0|0|1|1|1|0|0|0|355|
+23|"Private"|169188|"< Bach."|10|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|0|2.5|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|356|
+39|"Private"|346478|"< Bach."|10|"NeverM"|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|357|
+27|"Private"|506436|"< Bach."|10|"Divorc."|"Sales"|"9+"|"FreeShi"|"Female"|"Peru"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|358|
+39|"Private"|190719|"< Bach."|10|"Divorc."|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|359|
+22|"Private"|164775|"9th"|5|"NeverM"|"Machine"|"9+"|"FreeShi"|"Male"|"Guatem."|0|4|4|0|2|1|0|1|0|1|0|0|0|1|1|0|0|360|
+34|"Private"|255693|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|0|2|2|0|2|1|0|1|0|1|1|0|1|1|0|0|1|361|
+21|"Private"|344492|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|362|
+67|"?"|182378|"Bach."|13|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|938.6|10|1|1|1|1|1|1|1|1|1|0|0|1|363|
+33|"Private"|117983|"10th"|6|"Divorc."|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|4|1|0|1|0|0|0|0|0|1|0|0|0|364|
+36|"Loc-gov"|197495|"Bach."|13|"Divorc."|"Prof."|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|365|
+46|"Private"|295791|"HS-grad"|9|"Divorc."|"TechSup"|"2"|"FreeShi"|"Female"|"U.S."|0|3|3|0|3|1|0|1|0|1|1|1|1|1|0|0|1|366|
+40|"Loc-gov"|33274|"HS-grad"|9|"Divorc."|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|5|5|0|5|1|0|0|0|0|0|1|1|1|0|0|0|367|
+31|"Private"|363130|"< Bach."|10|"Married"|"Exec."|"3"|"Discoun"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|368|
+31|"Loc-gov"|143392|"< Bach."|10|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|369|
+29|"Private"|162312|"Assoc-V"|11|"NeverM"|"Machine"|"2"|"Other"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|1|1|1|0|1|370|
+36|"Private"|166988|"Bach."|13|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|371|
+58|"SelfEI"|189933|"< Bach."|10|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|6.5|7|0|10|1|0|1|1|1|1|1|1|1|0|0|1|372|
+56|"Private"|28729|"11th"|7|"Separ."|"Machine"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|6|1|0|0|1|0|0|1|0|1|0|0|0|373|
+24|"Private"|69045|"< Bach."|10|"NeverM"|"Sales"|"2"|"Discoun"|"Male"|"Jamaica"|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|374|
+38|"Private"|318610|"< Bach."|10|"Divorc."|"Cleric."|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|375|
+38|"Private"|203138|"Bach."|13|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|1|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|376|
+40|"Private"|104196|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|377|
+43|"Loc-gov"|37937|"Assoc-A"|12|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|0|4.3|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|378|
+42|"Loc-gov"|143046|"HS-grad"|9|"Widowed"|"Transp."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|379|
+36|"Private"|316298|"Bach."|13|"NeverM"|"TechSup"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|380|
+20|"Private"|209955|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|2.5|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|381|
+77|"SelfENI"|72931|"7th-8th"|4|"Mabsent"|"Cleric."|"2"|"FreeShi"|"Male"|"Italy"|1|2|2|0|4|1|0|0|1|0|0|1|0|1|0|0|0|382|
+29|"Private"|130045|"7th-8th"|4|"Married"|"Other"|"4-5"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|0|1|1|0|0|383|
+32|"Private"|190784|"< Bach."|10|"Divorc."|"Machine"|"9+"|"Special"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|384|
+23|"Private"|201664|"HS-grad"|9|"Married"|"Cleric."|"6-8"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|385|
+37|"Private"|105803|"HS-grad"|9|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|386|
+45|"SelfENI"|285335|"7th-8th"|4|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|1|1|0|1|1|0|1|0|1|1|1|0|1|0|0|0|387|
+42|"Loc-gov"|176716|"Masters"|14|"Divorc."|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|388|
+38|"Loc-gov"|116608|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|1|3.5|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|389|
+53|"Private"|70387|"Masters"|14|"Married"|"Prof."|"3"|"Service"|"Male"|"India"|1|4|4|438.6|5|1|1|0|0|0|0|1|1|1|0|0|0|390|
+27|"Sta-gov"|315640|"Masters"|14|"NeverM"|"Prof."|"2"|"Service"|"Male"|"China"|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|391|
+28|"?"|161290|"< Bach."|10|"NeverM"|"?"|"1"|"Discoun"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|1|1|1|0|1|392|
+45|"Loc-gov"|191776|"Masters"|14|"Divorc."|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|393|
+49|"Private"|115613|"9th"|5|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|0|1|0|0|0|394|
+60|"Private"|166330|"HS-grad"|9|"Married"|"Other"|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|9999.9|6|1|1|1|1|1|1|1|1|1|0|0|1|395|
+47|"Private"|139145|"< Bach."|10|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|6|6|0|7|1|0|1|0|0|0|1|1|1|0|0|0|396|
+34|"Loc-gov"|226443|"< Bach."|10|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|397|
+35|"Private"|84787|"Bach."|13|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|398|
+45|"Private"|125489|"Masters"|14|"Divorc."|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|0|5|5|0|6|1|0|1|0|0|0|1|1|1|0|0|0|399|
+59|"Private"|61885|"12th"|8|"Divorc."|"Transp."|"6-8"|"Discoun"|"Male"|"U.S."|0|3.5|4|0|6|1|0|0|1|0|0|1|0|1|0|0|0|400|
+45|"Private"|72844|"HS-grad"|9|"Divorc."|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4.6|5|0|6|1|0|0|0|0|0|1|1|1|0|0|0|401|
+21|"Private"|119704|"< Bach."|10|"NeverM"|"Sales"|"9+"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|402|
+29|"Private"|52636|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|403|
+54|"Sta-gov"|119565|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"P.Rico."|1|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|404|
+42|"Private"|93770|"HS-grad"|9|"Married"|"Machine"|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|405|
+48|"Private"|247895|"Bach."|13|"Married"|"Exec."|"3"|"Discoun"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|406|
+29|"Private"|367329|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|407|
+40|"Private"|137142|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|6|1|0|1|0|0|0|1|1|1|0|0|0|408|
+49|"Private"|236913|"HS-grad"|9|"Widowed"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|409|
+22|"Private"|214134|"10th"|6|"NeverM"|"Transp."|"2"|"Special"|"Male"|"U.S."|0|8.4|8|0|4|1|0|1|0|1|1|0|0|1|1|0|0|410|
+36|"Private"|376455|"Assoc-V"|11|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|3.8|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|411|
+24|"Private"|162282|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|0|0|1|1|1|0|1|412|
+31|"Private"|164243|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|1|1|0|0|1|413|
+28|"Private"|192588|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|414|
+60|"SelfENI"|95445|"< Bach."|10|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4.6|5|313.7|8|0|0|0|1|0|0|1|1|1|0|0|0|415|
+26|"Private"|343506|"HS-grad"|9|"NeverM"|"Other"|"1"|"Discoun"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|416|
+18|"Private"|32244|"11th"|7|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|3|3|59.4|1|0|0|0|0|0|0|0|0|1|1|0|0|417|
+60|"SelfENI"|95490|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|8|1|0|0|1|0|0|1|1|1|0|0|0|418|
+21|"Private"|119309|"< Bach."|10|"NeverM"|"TechSup"|"1"|"FreeShi"|"Male"|"U.S."|0|1.6|2|0|1|1|0|1|0|0|0|0|1|1|1|0|0|419|
+48|"Private"|141944|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|438.6|5|1|1|1|0|0|0|1|1|1|0|0|0|420|
+29|"Private"|228860|"< Bach."|10|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|4|1|0|1|0|1|1|0|1|1|1|0|1|421|
+64|"?"|338355|"Assoc-V"|11|"Married"|"?"|"4-5"|"FreeShi"|"Female"|"U.S."|0|1.5|2|0|3|1|0|1|1|1|1|1|1|1|0|0|1|422|
+47|"Private"|151087|"HS-grad"|9|"Separ."|"Prof."|"6-8"|"Other"|"Female"|"P.Rico."|0|4|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|423|
+26|"Sta-gov"|252284|"< Bach."|10|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|424|
+62|"Private"|178249|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|3.5|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|425|
+32|"Fed-gov"|131534|"HS-grad"|9|"NeverM"|"Exec."|"2"|"Discoun"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|426|
+25|"Private"|106377|"< Bach."|10|"NeverM"|"Cleric."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|427|
+18|"Private"|338836|"HS-grad"|9|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|428|
+40|"Private"|125461|"Assoc-V"|11|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|4.2|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|429|
+49|"Private"|43206|"Profsc"|15|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|1|5.5|6|0|7|1|0|0|0|0|0|1|1|1|0|0|0|430|
+58|"SelfENI"|195835|"< Bach."|10|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|7|1|0|1|1|1|1|1|1|1|0|0|1|431|
+25|"Loc-gov"|179059|"Bach."|13|"NeverM"|"Prof."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|432|
+65|"Private"|105116|"< Bach."|10|"Widowed"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|234.6|7|0|0|1|1|0|0|1|1|1|0|0|0|433|
+38|"Sta-gov"|272944|"HS-grad"|9|"Divorc."|"Other"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|434|
+21|"Private"|47541|"HS-grad"|9|"Divorc."|"Machine"|"6-8"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|435|
+48|"Sta-gov"|49595|"Masters"|14|"Divorc."|"Protec."|"2"|"FreeShi"|"Male"|"U.S."|0|7.2|7|0|8|1|0|0|0|0|0|1|1|1|0|0|0|436|
+65|"Private"|95303|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|7|1|0|0|1|0|0|1|1|1|0|0|0|437|
+40|"Private"|247469|"PhD"|16|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|1|3|3|0|3|1|0|1|0|1|1|1|1|1|0|0|1|438|
+23|"Private"|202344|"Bach."|13|"NeverM"|"Prof."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|439|
+33|"Private"|159929|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|1|1|0|0|1|440|
+37|"Private"|227597|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|441|
+58|"SelfEI"|349910|"Profsc"|15|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|7|1|0|1|1|1|1|1|1|1|0|0|1|442|
+53|"Private"|211654|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"?"|1|5|5|0|7|1|0|1|0|1|1|1|1|1|0|0|1|443|
+24|"Private"|266926|"< Bach."|10|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|444|
+59|"Private"|366618|"9th"|5|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|3|3|0|4|1|0|1|1|1|1|1|0|1|0|0|0|445|
+49|"Private"|102583|"< Bach."|10|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4.4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|446|
+20|"Private"|131611|"< Bach."|10|"NeverM"|"Cleric."|"1"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|3|1|0|1|0|0|0|0|1|1|1|0|0|447|
+32|"Fed-gov"|115066|"HS-grad"|9|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|448|
+43|"Private"|35210|"< Bach."|10|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|449|
+56|"Loc-gov"|267763|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|450|
+20|"Private"|515797|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|451|
+35|"Private"|301369|"12th"|8|"NeverM"|"Machine"|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|0|1|0|0|0|452|
+18|"Private"|141918|"HS-grad"|9|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|2.2|2|0|1|1|0|1|0|0|0|0|1|1|1|0|0|453|
+19|"Private"|109005|"< Bach."|10|"NeverM"|"Prof."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|454|
+20|"Private"|190772|"Assoc-A"|12|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|455|
+44|"SelfENI"|274363|"HS-grad"|9|"Divorc."|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|456|
+27|"SelfENI"|328518|"Assoc-V"|11|"NeverM"|"Prof."|"6-8"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|457|
+21|"Private"|162228|"HS-grad"|9|"NeverM"|"Sales"|"1"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|1|0|0|1|1|1|0|1|458|
+32|"Fed-gov"|504951|"Assoc-A"|12|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|459|
+25|"Private"|109080|"< Bach."|10|"NeverM"|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|5.5|6|0|4|1|0|1|0|0|0|0|1|1|1|0|0|460|
+22|"Private"|129172|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|1.6|2|0|1|1|0|1|0|0|0|0|1|1|1|0|0|461|
+42|"Private"|187294|"< Bach."|10|"Divorc."|"Crafts"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|462|
+29|"Private"|147340|"< Bach."|10|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|463|
+42|"Private"|39324|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|464|
+25|"Private"|125159|"Assoc-A"|12|"Married"|"Handler"|"3"|"Discoun"|"Male"|"Jamaica"|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|465|
+44|"Private"|277533|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|466|
+32|"Private"|101283|"HS-grad"|9|"NeverM"|"Handler"|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|467|
+25|"Sta-gov"|157028|"Bach."|13|"NeverM"|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|1|1|1|0|1|468|
+26|"Private"|132749|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|3|1|0|1|0|0|0|0|1|1|1|0|0|469|
+63|"SelfENI"|78383|"HS-grad"|9|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|8|1|0|0|1|0|0|1|1|1|0|0|0|470|
+49|"Fed-gov"|179869|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|471|
+30|"Loc-gov"|44566|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|8|8|0|6|1|0|0|0|0|0|0|1|1|0|0|0|472|
+48|"Private"|329778|"HS-grad"|9|"Widowed"|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|473|
+65|"?"|198019|"HS-grad"|9|"Widowed"|"?"|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|7|1|0|1|1|1|1|1|1|1|0|0|1|474|
+23|"Loc-gov"|177265|"HS-grad"|9|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|475|
+51|"SelfEI"|304955|"Masters"|14|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|476|
+29|"Private"|169683|"Assoc-V"|11|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|477|
+54|"Private"|36480|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|1502.4|7|1|1|0|0|0|0|1|1|1|0|0|0|478|
+41|"Private"|203233|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|479|
+33|"Private"|172304|"10th"|6|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|0|1|0|0|0|480|
+45|"Private"|207540|"PhD"|16|"Separ."|"Exec."|"9+"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|481|
+44|"Private"|187720|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4.1|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|482|
+34|"Private"|499249|"HS-grad"|9|"Mabsent"|"Handler"|"2"|"FreeShi"|"Male"|"Guatem."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|483|
+24|"Private"|177287|"12th"|8|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|3.8|4|0|2|1|0|1|0|1|1|0|0|1|1|0|0|484|
+18|"Private"|128086|"12th"|8|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|1.8|2|0|1|1|0|1|0|0|0|0|0|1|1|0|0|485|
+35|"Private"|99357|"Masters"|14|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|1|5|5|1502.4|4|1|1|0|0|0|0|1|1|1|0|0|0|486|
+23|"Private"|141323|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|487|
+46|"Private"|254367|"HS-grad"|9|"NeverM"|"Transp."|"2"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|488|
+25|"Private"|181666|"Assoc-A"|12|"NeverM"|"TechSup"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|489|
+39|"Private"|258102|"< Bach."|10|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|490|
+54|"Private"|172281|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|7|1|0|1|0|1|1|1|1|1|0|0|1|491|
+20|"Private"|333843|"HS-grad"|9|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|492|
+35|"Private"|182898|"HS-grad"|9|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|1|4|4|861.4|4|1|1|1|0|1|1|1|1|1|0|0|1|493|
+48|"Private"|265295|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|494|
+32|"Private"|207400|"HS-grad"|9|"NeverM"|"Machine"|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|495|
+63|"Private"|213095|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|8|1|0|1|1|1|1|1|1|1|0|0|1|496|
+35|"SelfENI"|176101|"HS-grad"|9|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|1|8|8|0|7|1|0|1|0|1|1|1|1|1|0|0|1|497|
+30|"SelfENI"|455995|"11th"|7|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|4|1|0|1|0|1|1|0|0|1|0|0|0|498|
+58|"Private"|138285|"Assoc-A"|12|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|0|0|1|1|1|0|0|0|499|
+20|"Private"|155775|"HS-grad"|9|"NeverM"|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|1|0|0|1|1|1|0|1|500|
+24|"Private"|556660|"HS-grad"|9|"NeverM"|"Exec."|"6-8"|"FreeShi"|"Male"|"U.S."|0|5|5|410.1|3|0|0|1|0|1|1|0|1|1|1|0|1|501|
+35|"Private"|63509|"Assoc-V"|11|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|4|1|0|0|0|0|0|1|1|1|0|0|0|502|
+26|"Private"|94936|"Assoc-A"|12|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|503|
+19|"?"|26620|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|504|
+20|"Private"|190429|"< Bach."|10|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|505|
+33|"Private"|295589|"Bach."|13|"NeverM"|"Prof."|"2"|"Discoun"|"Male"|"U.S."|1|5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|506|
+33|"Private"|231413|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|507|
+46|"Private"|357338|"Bach."|13|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|508|
+24|"Private"|119156|"HS-grad"|9|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|509|
+41|"Private"|193524|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|510|
+44|"SelfEI"|456236|"< Bach."|10|"Divorc."|"Sales"|"1"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|511|
+45|"Loc-gov"|167334|"Masters"|14|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|512|
+30|"Private"|97521|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|4|1|0|0|0|0|0|0|1|1|0|0|0|513|
+24|"Private"|134787|"< Bach."|10|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|514|
+29|"Private"|71067|"Profsc"|15|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|5.5|6|0|4|1|0|0|0|0|0|0|1|1|1|0|0|515|
+37|"Private"|99374|"10th"|6|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|5.5|6|0|6|1|0|0|0|0|0|1|0|1|0|0|0|516|
+50|"Private"|200783|"7th-8th"|4|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|6|6|0|8|1|0|1|0|1|1|1|0|1|0|0|0|517|
+55|"Private"|148590|"10th"|6|"Widowed"|"Crafts"|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|6|1|0|1|1|0|0|1|0|1|0|0|0|518|
+30|"Private"|197886|"< Bach."|10|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|519|
+54|"Loc-gov"|186884|"< Bach."|10|"Married"|"Transp."|"3"|"Discoun"|"Male"|"U.S."|0|3|3|0|4|1|0|1|0|1|1|1|1|1|0|0|1|520|
+40|"Private"|220460|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"Canada"|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|521|
+59|"Private"|182460|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|3|3|0|4|1|0|1|1|1|1|1|1|1|0|0|1|522|
+41|"Fed-gov"|253770|"< Bach."|10|"Married"|"Transp."|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|729.8|4|1|1|1|0|1|1|1|1|1|0|0|1|523|
+33|"Private"|323811|"< Bach."|10|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|5.5|6|0|5|1|0|1|0|1|1|0|1|1|0|0|1|524|
+51|"Private"|207449|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|5.5|6|0|8|1|0|1|0|1|1|1|1|1|0|0|1|525|
+35|"SelfENI"|308874|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"Discoun"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|526|
+37|"Private"|38948|"HS-grad"|9|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|5|1|0|0|0|0|0|1|1|1|0|0|0|527|
+57|"SelfENI"|437281|"< Bach."|10|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|3.8|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|528|
+49|"Private"|117095|"HS-grad"|9|"Separ."|"Machine"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|529|
+49|"Private"|48120|"HS-grad"|9|"NeverM"|"Transp."|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|150.6|5|0|0|0|0|0|0|1|1|1|0|0|0|530|
+23|"Private"|313573|"Bach."|13|"NeverM"|"Sales"|"1"|"Discoun"|"Female"|"U.S."|0|2.5|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|531|
+55|"Sta-gov"|169482|"HS-grad"|9|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|532|
+36|"Private"|139743|"< Bach."|10|"Widowed"|"Prof."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|533|
+54|"SelfENI"|154785|"Bach."|13|"Divorc."|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|7|1|0|1|0|1|0|1|1|1|0|0|1|534|
+21|"Private"|249727|"HS-grad"|9|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|2.2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|535|
+19|"Private"|143360|"HS-grad"|9|"NeverM"|"Machine"|"1"|"FreeShi"|"Female"|"U.S."|0|3.4|3|0|1|1|0|1|0|0|0|0|1|1|1|0|0|536|
+75|"Private"|188612|"HS-grad"|9|"Widowed"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|8|1|0|1|1|1|1|1|1|1|0|0|1|537|
+45|"Private"|101320|"HS-grad"|9|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|538|
+33|"Loc-gov"|162623|"Masters"|14|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|5|5|0|4|1|0|1|0|1|0|0|1|1|0|0|1|539|
+49|"Private"|43348|"Masters"|14|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|540|
+42|"Private"|255847|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|1|4.8|5|438.6|5|1|1|1|0|1|1|1|1|1|0|0|1|541|
+38|"Sta-gov"|143774|"< Bach."|10|"Separ."|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|5|1|0|1|0|0|0|1|1|1|0|0|0|542|
+19|"Private"|71650|"HS-grad"|9|"NeverM"|"Farming"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|543|
+51|"SelfENI"|125417|"Masters"|14|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.2|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|544|
+24|"Private"|500509|"HS-grad"|9|"NeverM"|"Other"|"1"|"Discoun"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|545|
+60|"Fed-gov"|27466|"< Bach."|10|"Widowed"|"Exec."|"2"|"FreeShi"|"Female"|"England"|0|4|4|0|6|1|0|0|1|0|0|1|1|1|0|0|0|546|
+20|"Private"|219266|"HS-grad"|9|"Married"|"Prof."|"1"|"FreeShi"|"Female"|"?"|0|3.6|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|547|
+27|"Private"|252506|"< Bach."|10|"Divorc."|"Exec."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|548|
+26|"SelfENI"|137795|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|0|0|0|1|1|1|0|0|549|
+27|"Private"|212041|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|550|
+39|"Private"|139703|"HS-grad"|9|"Mabsent"|"Sales"|"9+"|"Discoun"|"Female"|"Jamaica"|0|2.8|3|0|3|1|0|1|0|0|0|1|1|1|0|0|0|551|
+25|"?"|192321|"Assoc-A"|12|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|8|8|0|5|1|0|1|0|1|1|0|1|1|1|0|1|552|
+34|"Private"|226296|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|553|
+45|"Private"|199058|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"?"|0|4.8|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|554|
+24|"Private"|153542|"< Bach."|10|"NeverM"|"Sales"|"6-8"|"FreeShi"|"Male"|"U.S."|0|3.5|4|0|2|1|0|1|0|1|0|0|1|1|1|0|1|555|
+28|"Loc-gov"|218990|"Assoc-V"|11|"Married"|"Protec."|"3"|"Discoun"|"Male"|"U.S."|0|4.6|5|0|4|1|0|1|0|1|1|0|1|1|1|0|1|556|
+29|"Fed-gov"|33315|"Assoc-A"|12|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|557|
+39|"Private"|248011|"Assoc-V"|11|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|517.8|4|1|1|1|0|1|1|1|1|1|0|0|1|558|
+51|"Private"|45599|"HS-grad"|9|"Divorc."|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|559|
+63|"Private"|207385|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|3|3|0|5|1|0|1|1|1|1|1|1|1|0|0|1|560|
+35|"Private"|214896|"HS-grad"|9|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|4|1|0|1|0|1|1|1|1|1|0|0|1|561|
+46|"Private"|695411|"HS-grad"|9|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4.4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|562|
+45|"SelfENI"|184285|"Bach."|13|"Divorc."|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|563|
+67|"Loc-gov"|190661|"PhD"|16|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|1|5|5|789.6|8|1|1|1|1|1|1|1|1|1|0|0|1|564|
+36|"Private"|289148|"< Bach."|10|"Divorc."|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|565|
+60|"Private"|165441|"7th-8th"|4|"Divorc."|"Machine"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|0|1|0|0|0|566|
+23|"?"|113700|"Bach."|13|"NeverM"|"?"|"1"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|0|0|0|1|1|1|0|0|567|
+20|"Private"|196745|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|1.6|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|568|
+37|"Private"|186934|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|1502.4|6|1|1|1|0|1|1|1|1|1|0|0|1|569|
+55|"Private"|66356|"HS-grad"|9|"Separ."|"Handler"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|0|1|0|0|1|1|1|0|0|0|570|
+33|"Private"|170336|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"Other"|"Female"|"U.S."|0|1.9|2|0|2|1|0|1|0|1|1|0|1|1|0|0|1|571|
+44|"Private"|215468|"Bach."|13|"Separ."|"Machine"|"9+"|"Discoun"|"Female"|"U.S."|0|.7|1|0|1|1|0|1|0|1|1|1|1|1|0|0|1|572|
+59|"Private"|182460|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|9|1|0|1|1|1|1|1|1|1|0|0|1|573|
+42|"Private"|331651|"Masters"|14|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|1|5|5|861.4|5|1|1|1|0|1|1|1|1|1|0|0|1|574|
+52|"Private"|198744|"HS-grad"|9|"Widowed"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|575|
+40|"Private"|116632|"Bach."|13|"NeverM"|"Sales"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|576|
+46|"Private"|155659|"Bach."|13|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"Germany"|1|4|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|577|
+65|"Private"|180807|"HS-grad"|9|"Separ."|"Protec."|"2"|"FreeShi"|"Male"|"U.S."|0|2|2|99.1|3|0|0|1|1|1|1|1|1|1|0|0|1|578|
+56|"Private"|99894|"10th"|6|"Married"|"Sales"|"4-5"|"Service"|"Female"|"Japan"|1|3|3|0|4|1|0|0|1|0|0|1|0|1|0|0|0|579|
+45|"Private"|164210|"< Bach."|10|"Divorc."|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|580|
+27|"Private"|180262|"< Bach."|10|"NeverM"|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|581|
+34|"Private"|153927|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|1|1|0|0|1|582|
+24|"Private"|136310|"< Bach."|10|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|583|
+33|"Private"|409172|"Bach."|13|"Married"|"Exec."|"1"|"FreeShi"|"Male"|"U.S."|0|5.5|6|0|5|1|0|1|0|1|1|0|1|1|0|0|1|584|
+24|"Private"|537222|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|585|
+23|"Private"|529223|"Bach."|13|"NeverM"|"Sales"|"1"|"Discoun"|"Male"|"U.S."|0|1|1|0|1|1|0|1|0|1|1|0|1|1|1|0|1|586|
+51|"Private"|237729|"< Bach."|10|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|587|
+34|"Loc-gov"|105540|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|588|
+23|"Private"|65038|"HS-grad"|9|"NeverM"|"Sales"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|589|
+25|"Private"|250038|"Masters"|14|"Married"|"Machine"|"2"|"FreeShi"|"Male"|"Mexico"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|590|
+41|"Private"|112763|"HS-grad"|9|"Widowed"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|591|
+33|"Private"|70447|"HS-grad"|9|"NeverM"|"Transp."|"6-8"|"Service"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|0|0|0|592|
+40|"Private"|146908|"HS-grad"|9|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|593|
+26|"Private"|236068|"< Bach."|10|"NeverM"|"Sales"|"6-8"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|594|
+52|"Private"|284129|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|595|
+32|"SelfENI"|197867|"Assoc-V"|11|"Divorc."|"Sales"|"9+"|"FreeShi"|"Male"|"U.S."|0|5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|596|
+26|"Private"|50053|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|5.5|6|0|4|1|0|0|0|0|0|0|1|1|1|0|0|597|
+58|"Private"|212864|"HS-grad"|9|"Divorc."|"Handler"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|598|
+40|"Loc-gov"|153489|"HS-grad"|9|"Married"|"Other"|"6-8"|"FreeShi"|"Male"|"U.S."|0|4|4|313.7|4|0|0|1|0|1|0|1|1|1|0|0|1|599|
+25|"Private"|254933|"11th"|7|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|0|1|1|0|0|600|
+48|"SelfEI"|54190|"Profsc"|15|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|1502.4|5|1|1|0|0|0|0|1|1|1|0|0|0|601|
+62|"Loc-gov"|151369|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|0|1|1|1|0|0|1|602|
+32|"Private"|101562|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|4|1|0|1|0|0|0|0|1|1|0|0|0|603|
+22|"Private"|63105|"HS-grad"|9|"NeverM"|"Prof."|"1"|"Discoun"|"Male"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|604|
+29|"Sta-gov"|309620|"Masters"|14|"Married"|"Prof."|"3"|"Service"|"Male"|"Taiwan"|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|605|
+21|"?"|494638|"Assoc-A"|12|"NeverM"|"?"|"1"|"FreeShi"|"Male"|"U.S."|0|1.5|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|606|
+37|"SelfENI"|265266|"Profsc"|15|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"Cuba"|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|607|
+21|"Loc-gov"|38771|"< Bach."|10|"NeverM"|"Cleric."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|608|
+47|"Private"|175958|"Profsc"|15|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|609|
+28|"Private"|179949|"HS-grad"|9|"Divorc."|"Transp."|"9+"|"Discoun"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|610|
+55|"Private"|92215|"HS-grad"|9|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|6|1|0|0|1|0|0|1|1|1|0|0|0|611|
+29|"Private"|169815|"Assoc-A"|12|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|4|1|0|1|0|1|1|0|1|1|1|0|1|612|
+53|"Private"|346871|"HS-grad"|9|"Divorc."|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|1|4.6|5|478.7|7|1|1|1|0|1|1|1|1|1|0|0|1|613|
+17|"Private"|95909|"11th"|7|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|1.2|1|0|0|1|0|0|0|0|0|0|0|1|1|0|0|614|
+48|"?"|63466|"HS-grad"|9|"Mabsent"|"?"|"9+"|"FreeShi"|"Female"|"U.S."|0|3.2|3|0|4|1|0|0|0|0|0|1|1|1|0|0|0|615|
+33|"Private"|171216|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|616|
+18|"Private"|452452|"10th"|6|"NeverM"|"House-s"|"1"|"Discoun"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|0|1|1|0|0|617|
+53|"Private"|247651|"7th-8th"|4|"Divorc."|"Machine"|"9+"|"Discoun"|"Female"|"U.S."|0|5.6|6|0|8|1|0|1|0|1|1|1|0|1|0|0|0|618|
+30|"Private"|125279|"HS-grad"|9|"Mabsent"|"Sales"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|619|
+52|"Private"|48343|"Assoc-V"|11|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|620|
+49|"Private"|195727|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|621|
+29|"Private"|116613|"Bach."|13|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"Port."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|622|
+19|"Private"|349620|"10th"|6|"NeverM"|"Machine"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|0|1|1|0|0|623|
+32|"Private"|163530|"HS-grad"|9|"Divorc."|"Other"|"9+"|"Special"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|1|1|0|0|1|624|
+31|"Private"|54929|"< Bach."|10|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|6|6|0|5|1|0|0|0|0|0|0|1|1|0|0|0|625|
+63|"?"|222289|"Bach."|13|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|1|5.4|5|768.8|8|1|1|1|1|1|1|1|1|1|0|0|1|626|
+52|"Private"|94988|"5th-6th"|3|"NeverM"|"Handler"|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|7|1|0|0|0|0|0|1|0|1|0|0|0|627|
+37|"Loc-gov"|257588|"HS-grad"|9|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|628|
+45|"Private"|102559|"Assoc-V"|11|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"Canada"|1|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|629|
+18|"Private"|256005|"HS-grad"|9|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|630|
+48|"?"|144397|"< Bach."|10|"Divorc."|"?"|"9+"|"Discoun"|"Female"|"U.S."|0|3|3|0|4|1|0|1|0|0|0|1|1|1|0|0|0|631|
+64|"SelfENI"|167149|"7th-8th"|4|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|2.5|3|0|5|1|0|1|1|1|1|1|0|1|0|0|0|632|
+40|"Private"|146520|"Masters"|14|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|633|
+19|"Private"|185097|"HS-grad"|9|"NeverM"|"Handler"|"2"|"FreeShi"|"Female"|"U.S."|0|3.7|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|634|
+52|"Private"|23780|"Assoc-V"|11|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|7|1|0|0|0|0|0|1|1|1|0|0|0|635|
+40|"Private"|149466|"HS-grad"|9|"Divorc."|"Handler"|"2"|"Discoun"|"Male"|"U.S."|0|3.5|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|636|
+23|"Private"|145651|"< Bach."|10|"NeverM"|"Sales"|"1"|"Discoun"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|0|0|0|1|1|1|0|0|637|
+54|"Private"|111469|"< Bach."|10|"Divorc."|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|638|
+59|"SelfENI"|80467|"HS-grad"|9|"Divorc."|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|2.4|2|0|3|1|0|0|1|0|0|1|1|1|0|0|0|639|
+33|"SelfEI"|128016|"HS-grad"|9|"Widowed"|"Sales"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|640|
+35|"Private"|61343|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|641|
+24|"Private"|183410|"< Bach."|10|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|1.7|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|642|
+25|"Fed-gov"|50053|"Bach."|13|"NeverM"|"TechSup"|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|3|1|0|0|0|0|0|0|1|1|1|0|0|643|
+50|"SelfENI"|132716|"Profsc"|15|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|9999.9|6|1|1|1|0|0|0|1|1|1|0|0|0|644|
+40|"SelfEI"|175696|"HS-grad"|9|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|5.1|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|645|
+62|"Private"|143943|"Bach."|13|"Widowed"|"TechSup"|"9+"|"FreeShi"|"Female"|"U.S."|0|.7|1|0|2|1|0|1|1|0|0|1|1|1|0|0|0|646|
+39|"Private"|297847|"9th"|5|"Married"|"Other"|"4-5"|"Discoun"|"Female"|"U.S."|0|3.4|3|341.1|3|0|0|1|0|1|1|1|0|1|0|0|0|647|
+33|"Private"|118941|"Bach."|13|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|648|
+31|"Loc-gov"|50442|"< Bach."|10|"NeverM"|"Cleric."|"1"|"Special"|"Female"|"U.S."|0|2.5|3|0|2|1|0|0|0|0|0|0|1|1|0|0|0|649|
+58|"SelfENI"|216824|"HS-grad"|9|"Married"|"Farming"|"3"|"Service"|"Male"|"U.S."|0|3|3|0|4|1|0|1|1|1|1|1|1|1|0|0|1|650|
+44|"Private"|147206|"< Bach."|10|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|651|
+73|"Sta-gov"|96262|"HS-grad"|9|"Widowed"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|7|1|0|0|1|0|0|1|1|1|0|0|0|652|
+41|"Private"|185145|"HS-grad"|9|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"?"|1|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|653|
+28|"Private"|83879|"HS-grad"|9|"Married"|"Machine"|"3"|"Discoun"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|654|
+36|"Private"|334291|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|655|
+71|"?"|205011|"< Bach."|10|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|0|1|1|0|2|1|0|1|1|1|1|1|1|1|0|0|1|656|
+18|"Private"|89419|"HS-grad"|9|"NeverM"|"TechSup"|"1"|"FreeShi"|"Female"|"U.S."|0|1|1|0|0|1|0|0|0|0|0|0|1|1|1|0|0|657|
+24|"Private"|243190|"Assoc-A"|12|"Separ."|"Crafts"|"9+"|"Service"|"Male"|"U.S."|1|4|4|861.4|2|1|1|1|0|1|1|0|1|1|1|0|1|658|
+26|"SelfEI"|246025|"HS-grad"|9|"Separ."|"Sales"|"9+"|"FreeShi"|"Female"|"Hondur."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|659|
+41|"SelfENI"|195124|"HS-grad"|9|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"?"|0|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|660|
+72|"Private"|106890|"Assoc-V"|11|"Widowed"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|7|1|0|1|1|0|0|1|1|1|0|0|0|661|
+38|"Private"|193815|"Assoc-A"|12|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"Italy"|0|5.5|6|0|6|1|0|1|0|1|1|1|1|1|0|0|1|662|
+32|"Fed-gov"|128714|"HS-grad"|9|"NeverM"|"Other"|"1"|"Discoun"|"Female"|"U.S."|0|3.2|3|0|2|1|0|1|0|0|0|0|1|1|0|0|0|663|
+22|"Private"|183083|"< Bach."|10|"NeverM"|"Machine"|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|664|
+58|"Private"|137547|"Bach."|13|"Married"|"Other"|"3"|"Service"|"Male"|"South"|0|4|4|0|6|1|0|1|1|0|0|1|1|1|0|0|0|665|
+25|"Private"|109532|"12th"|8|"NeverM"|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|0|1|1|0|0|666|
+42|"Private"|157367|"HS-grad"|9|"NeverM"|"Cleric."|"9+"|"Discoun"|"Female"|"?"|0|3.5|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|667|
+40|"Private"|173590|"Masters"|14|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|668|
+34|"SelfENI"|246439|"HS-grad"|9|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|669|
+28|"Private"|123147|"< Bach."|10|"NeverM"|"TechSup"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|486.5|3|0|0|1|0|0|0|0|1|1|1|0|0|670|
+24|"Private"|403671|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|671|
+56|"Private"|112840|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|8|1|0|1|1|0|0|1|1|1|0|0|0|672|
+44|"Loc-gov"|100479|"Assoc-A"|12|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|6|1|0|1|0|0|0|1|1|1|0|0|0|673|
+23|"Private"|60847|"Assoc-V"|11|"NeverM"|"Sales"|"9+"|"FreeShi"|"Female"|"U.S."|0|6|6|0|3|1|0|0|0|0|0|0|1|1|1|0|0|674|
+22|"Private"|207782|"Assoc-A"|12|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|675|
+46|"Loc-gov"|267588|"Bach."|13|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|0|7|7|0|8|1|0|1|0|1|1|1|1|1|0|0|1|676|
+38|"SelfEI"|107909|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|677|
+22|"Private"|311376|"Bach."|13|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|678|
+79|"?"|163140|"HS-grad"|9|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|8|1|0|1|1|1|0|1|1|1|0|0|1|679|
+49|"?"|407495|"HS-grad"|9|"Mabsent"|"?"|"2"|"FreeShi"|"Male"|"U.S."|0|7|7|0|9|1|0|1|0|1|1|1|1|1|0|0|1|680|
+70|"?"|135339|"Bach."|13|"Married"|"?"|"3"|"Service"|"Male"|"China"|0|4|4|0|7|1|0|1|1|0|0|1|1|1|0|0|0|681|
+24|"Private"|236769|"Assoc-A"|12|"NeverM"|"Exec."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|682|
+36|"Private"|308945|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|683|
+20|"SelfENI"|157145|"< Bach."|10|"NeverM"|"Farming"|"1"|"FreeShi"|"Male"|"U.S."|0|1|1|0|1|1|0|1|0|1|0|0|1|1|1|0|1|684|
+42|"Private"|156526|"< Bach."|10|"NeverM"|"TechSup"|"2"|"FreeShi"|"Male"|"U.S."|0|3.3|3|0|3|1|0|1|0|1|0|1|1|1|0|0|1|685|
+46|"Private"|27802|"Assoc-V"|11|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|686|
+28|"Private"|108569|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|4.3|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|687|
+44|"Private"|889965|"HS-grad"|9|"Married"|"Handler"|"4-5"|"FreeShi"|"Female"|"U.S."|0|3|3|313.7|3|0|0|1|0|1|1|1|1|1|0|0|1|688|
+27|"Private"|37088|"Assoc-A"|12|"NeverM"|"Other"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|689|
+17|"Loc-gov"|148194|"11th"|7|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|1.2|1|0|0|1|0|1|0|0|0|0|0|1|1|0|0|690|
+36|"Private"|166416|"HS-grad"|9|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|691|
+41|"Sta-gov"|355756|"< Bach."|10|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|692|
+36|"Private"|247321|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|693|
+77|"SelfEI"|155761|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|.8|1|0|2|1|0|1|1|1|0|1|1|1|0|0|1|694|
+32|"Private"|324386|"Bach."|13|"NeverM"|"Prof."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|695|
+32|"SelfEI"|113543|"Profsc"|15|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|696|
+43|"SelfEI"|133060|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|697|
+43|"Private"|295510|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|698|
+62|"SelfEI"|24050|"HS-grad"|9|"Widowed"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|1.5|2|0|3|1|0|0|1|0|0|1|1|1|0|1|0|699|
+56|"Private"|244605|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|700|
+47|"Private"|33710|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|310.3|7|1|1|0|0|0|0|1|1|1|0|0|0|701|
+46|"Private"|97883|"Bach."|13|"NeverM"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|702|
+27|"Private"|97490|"< Bach."|10|"Divorc."|"Crafts"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|703|
+41|"Private"|113491|"< Bach."|10|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|704|
+35|"Private"|144937|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4.2|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|705|
+67|"?"|37170|"7th-8th"|4|"Divorc."|"?"|"2"|"FreeShi"|"Male"|"U.S."|0|.3|0|0|0|1|0|0|1|0|0|1|0|1|0|0|0|706|
+29|"Private"|82910|"< Bach."|10|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|707|
+59|"Private"|24384|"HS-grad"|9|"Widowed"|"House-s"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|6|1|0|0|1|0|0|1|1|1|0|0|0|708|
+44|"Private"|205474|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|709|
+58|"?"|114362|"< Bach."|10|"Married"|"?"|"3"|"Discoun"|"Male"|"U.S."|0|3|3|0|4|1|0|1|1|0|0|1|1|1|0|0|0|710|
+36|"Private"|156400|"< Bach."|10|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|711|
+26|"Private"|101027|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|3|1|0|1|0|0|0|0|1|1|1|0|0|712|
+40|"Loc-gov"|289403|"7th-8th"|4|"Married"|"Crafts"|"3"|"Discoun"|"Male"|"?"|1|4|4|0|4|1|0|1|0|1|1|1|0|1|0|0|0|713|
+42|"Private"|349884|"10th"|6|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|3.5|4|0|4|1|0|1|0|1|1|1|0|1|0|0|0|714|
+27|"Private"|347513|"< Bach."|10|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|715|
+63|"?"|150389|"Bach."|13|"Widowed"|"?"|"2"|"FreeShi"|"Female"|"U.S."|1|4|4|0|6|1|0|1|1|1|0|1|1|1|0|0|1|716|
+43|"Private"|160943|"HS-grad"|9|"Married"|"Other"|"3"|"Discoun"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|717|
+33|"Private"|477106|"HS-grad"|9|"Married"|"Transp."|"3"|"Discoun"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|718|
+51|"Loc-gov"|136823|"HS-grad"|9|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|0|3.2|3|0|4|1|0|1|0|0|0|1|1|1|0|0|0|719|
+32|"Private"|153963|"HS-grad"|9|"Divorc."|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|3|1|0|1|0|1|0|0|1|1|0|0|1|720|
+42|"Private"|258589|"HS-grad"|9|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|1|6|6|0|6|1|0|1|0|1|1|1|1|1|0|0|1|721|
+44|"Private"|247880|"Assoc-V"|11|"Divorc."|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|1|4|4|861.4|4|1|1|1|0|1|1|1|1|1|0|0|1|722|
+65|"Private"|149811|"HS-grad"|9|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"Canada"|0|5.9|6|0|10|1|0|1|1|0|0|1|1|1|0|0|0|723|
+31|"Private"|125457|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|4|1|0|1|0|0|0|0|1|1|0|0|0|724|
+20|"Private"|396722|"< Bach."|10|"NeverM"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|725|
+48|"Sta-gov"|183486|"Assoc-V"|11|"Divorc."|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|1|5.6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|726|
+34|"?"|166545|"< Bach."|10|"Married"|"?"|"4-5"|"FreeShi"|"Female"|"U.S."|1|.6|1|768.8|1|1|1|1|0|1|1|0|1|1|0|0|1|727|
+18|"Private"|263024|"HS-grad"|9|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|728|
+38|"Private"|177154|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|729|
+17|"Private"|142912|"10th"|6|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|0|1|1|0|0|730|
+59|"Sta-gov"|398626|"PhD"|16|"Divorc."|"Prof."|"9+"|"FreeShi"|"Male"|"U.S."|1|4.5|5|2523.6|7|1|1|1|1|1|1|1|1|1|0|0|1|731|
+47|"Private"|218435|"HS-grad"|9|"Mabsent"|"Sales"|"9+"|"FreeShi"|"Female"|"Cuba"|0|2|2|0|2|1|0|1|0|1|1|1|1|1|0|0|1|732|
+68|"Sta-gov"|202699|"Masters"|14|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"?"|1|4.2|4|0|7|1|0|1|1|1|1|1|1|1|0|0|1|733|
+28|"Private"|392100|"HS-grad"|9|"Married"|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|734|
+54|"Private"|21698|"10th"|6|"Divorc."|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|0|0|0|0|1|0|1|0|0|0|735|
+30|"Private"|179112|"Bach."|13|"NeverM"|"Prof."|"1"|"Discoun"|"Male"|"?"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|736|
+20|"Private"|177287|"HS-grad"|9|"NeverM"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|3.8|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|737|
+54|"Private"|165278|"< Bach."|10|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|738|
+35|"Sta-gov"|184659|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|739|
+44|"SelfEI"|383493|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|740|
+37|"Private"|237995|"Assoc-V"|11|"Divorc."|"Machine"|"2"|"Discoun"|"Male"|"U.S."|0|4.8|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|741|
+18|"Private"|201901|"HS-grad"|9|"NeverM"|"Handler"|"1"|"FreeShi"|"Female"|"U.S."|0|1.5|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|742|
+21|"Private"|96844|"< Bach."|10|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|0|0|0|0|0|1|1|1|0|0|743|
+44|"Private"|194049|"< Bach."|10|"Divorc."|"Other"|"9+"|"Discoun"|"Female"|"U.S."|0|3.5|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|744|
+46|"Private"|306183|"HS-grad"|9|"NeverM"|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|3.7|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|745|
+42|"Loc-gov"|195897|"7th-8th"|4|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|0|1|0|0|0|746|
+32|"Loc-gov"|95530|"< Bach."|10|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|0|0|0|747|
+27|"Private"|408623|"Bach."|13|"Married"|"Crafts"|"6-8"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|748|
+39|"Fed-gov"|432555|"HS-grad"|9|"Married"|"Cleric."|"3"|"Discoun"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|749|
+51|"Private"|165614|"Masters"|14|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|8|1|0|1|0|1|1|1|1|1|0|0|1|750|
+43|"Private"|191547|"HS-grad"|9|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"Mexico"|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|751|
+61|"Private"|40269|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|6|1|0|0|1|0|0|1|1|1|0|0|0|752|
+34|"Private"|155151|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|0|0|1|1|0|0|1|753|
+55|"Private"|206487|"< Bach."|10|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|754|
+26|"Private"|291968|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|755|
+60|"Private"|25141|"< Bach."|10|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|9|1|0|0|1|0|0|1|1|1|0|0|0|756|
+27|"Private"|105817|"Bach."|13|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|3|1|0|1|0|0|0|0|1|1|1|0|0|757|
+40|"Private"|121772|"Assoc-V"|11|"Married"|"Crafts"|"3"|"Service"|"Male"|"?"|1|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|758|
+64|"Private"|218490|"Bach."|13|"Divorc."|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|1|5.5|6|2782.8|10|1|1|1|1|1|1|1|1|1|0|0|1|759|
+43|"Private"|242968|"Masters"|14|"Married"|"Exec."|"3"|"Service"|"Male"|"India"|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|760|
+30|"Private"|169104|"Assoc-A"|12|"NeverM"|"Other"|"6-8"|"Service"|"Male"|"Vietnam"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|761|
+49|"Private"|247892|"< Bach."|10|"Married"|"Crafts"|"3"|"Discoun"|"Male"|"U.S."|0|3|3|0|4|1|0|1|0|1|1|1|1|1|0|0|1|762|
+29|"Private"|200511|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|4|1|0|1|0|1|1|0|1|1|1|0|1|763|
+37|"Sta-gov"|150566|"HS-grad"|9|"Separ."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4.4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|764|
+39|"Loc-gov"|473547|"10th"|6|"Divorc."|"Handler"|"1"|"Discoun"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|0|1|0|0|0|765|
+45|"Sta-gov"|319666|"Profsc"|15|"Divorc."|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|0|4.3|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|766|
+59|"Private"|177120|"9th"|5|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|0|1|0|0|0|767|
+23|"Private"|44064|"< Bach."|10|"Separ."|"Other"|"2"|"FreeShi"|"Male"|"U.S."|1|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|768|
+33|"Private"|36539|"Bach."|13|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|0|3|1|0|0|0|0|0|0|1|1|0|0|0|769|
+42|"Private"|177989|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|770|
+61|"Private"|270056|"HS-grad"|9|"Divorc."|"Cleric."|"2"|"Service"|"Female"|"Japan"|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|771|
+32|"Private"|116365|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|0|2|2|0|2|1|0|1|0|0|0|0|1|1|0|0|0|772|
+22|"Sta-gov"|96862|"< Bach."|10|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|773|
+20|"?"|124242|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|774|
+36|"Private"|268292|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4.1|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|775|
+37|"Private"|174844|"< Bach."|10|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|1.7|2|0|2|1|0|1|0|1|1|1|1|1|0|0|1|776|
+31|"Private"|213179|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|5|1|0|1|0|1|1|0|1|1|0|0|1|777|
+51|"Loc-gov"|176751|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|778|
+53|"SelfENI"|159876|"HS-grad"|9|"Married"|"Crafts"|"3"|"Discoun"|"Male"|"U.S."|0|7.2|7|310.3|9|0|0|1|0|1|0|1|1|1|0|0|1|779|
+44|"Private"|183342|"Profsc"|15|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|780|
+41|"Loc-gov"|153132|"Assoc-A"|12|"Separ."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|5|1|0|1|0|1|0|1|1|1|0|0|1|781|
+28|"Private"|266070|"Profsc"|15|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|5|5|0|4|1|0|1|0|1|1|0|1|1|1|0|1|782|
+34|"SelfENI"|288486|"11th"|7|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|0|1|0|0|0|783|
+28|"Private"|315287|"HS-grad"|9|"NeverM"|"Cleric."|"6-8"|"Discoun"|"Male"|"?"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|784|
+22|"Private"|321031|"HS-grad"|9|"NeverM"|"Sales"|"1"|"Discoun"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|785|
+32|"Private"|186788|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|786|
+23|"Private"|109199|"5th-6th"|3|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"Mexico"|0|4|4|0|2|1|0|1|0|0|0|0|0|1|1|0|0|787|
+29|"Private"|351324|"Bach."|13|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|788|
+44|"Private"|126701|"HS-grad"|9|"Divorc."|"Crafts"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|789|
+61|"Private"|147845|"7th-8th"|4|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|3.1|3|0|5|1|0|1|1|0|0|1|0|1|0|0|0|790|
+43|"Private"|183273|"Masters"|14|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|1|3.2|3|1502.4|3|1|1|1|0|1|1|1|1|1|0|0|1|791|
+51|"Private"|205884|"< Bach."|10|"Married"|"TechSup"|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|792|
+38|"Private"|203836|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|793|
+27|"Private"|295289|"< Bach."|10|"NeverM"|"Other"|"1"|"Discoun"|"Female"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|794|
+47|"Private"|199058|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|795|
+44|"Private"|174283|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|796|
+33|"Private"|314310|"HS-grad"|9|"Mabsent"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|2|2|0|2|1|0|1|0|1|1|0|1|1|0|0|1|797|
+35|"Loc-gov"|233327|"< Bach."|10|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|798|
+26|"Private"|136226|"HS-grad"|9|"NeverM"|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|799|
+68|"Private"|253866|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|3|3|0|5|1|0|1|1|1|1|1|1|1|0|0|1|800|
+17|"Private"|263746|"10th"|6|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|2.4|2|0|1|1|0|1|0|1|1|0|0|1|1|0|0|801|
+29|"Loc-gov"|180916|"< Bach."|10|"Separ."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|3.8|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|802|
+57|"Private"|250201|"11th"|7|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|5.2|5|0|7|1|0|1|1|1|1|1|0|1|0|0|0|803|
+60|"Fed-gov"|21876|"< Bach."|10|"Divorc."|"Prof."|"2"|"Special"|"Female"|"U.S."|0|4|4|0|6|1|0|0|1|0|0|1|1|1|0|0|0|804|
+44|"Private"|367749|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"Mexico"|0|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|805|
+42|"Private"|124692|"HS-grad"|9|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|806|
+38|"Fed-gov"|190174|"HS-grad"|9|"Divorc."|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|807|
+30|"Private"|103435|"HS-grad"|9|"Divorc."|"Machine"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|808|
+50|"SelfEI"|304955|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|8|1|0|1|0|1|1|1|1|1|0|0|1|809|
+20|"Private"|165804|"< Bach."|10|"NeverM"|"Cleric."|"1"|"Other"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|810|
+65|"Private"|185001|"10th"|6|"Widowed"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|2|2|0|3|1|0|1|1|1|1|1|0|1|0|0|0|811|
+40|"Private"|97688|"< Bach."|10|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|4.8|5|0|5|1|0|0|0|0|0|1|1|1|0|0|0|812|
+44|"Private"|195881|"< Bach."|10|"Divorc."|"Exec."|"6-8"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|813|
+44|"Private"|86298|"HS-grad"|9|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|814|
+57|"Loc-gov"|215175|"Masters"|14|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|9|1|0|1|1|1|1|1|1|1|0|0|1|815|
+41|"Private"|211253|"Masters"|14|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|816|
+71|"SelfENI"|143437|"Masters"|14|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|1060.5|7|1|1|1|1|0|0|1|1|1|0|0|0|817|
+46|"Private"|273575|"Bach."|13|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|1502.4|5|1|1|1|0|1|1|1|1|1|0|0|1|818|
+19|"Sta-gov"|431745|"11th"|7|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|3|3|0|1|1|0|1|0|1|1|0|0|1|1|0|0|819|
+23|"Private"|137994|"< Bach."|10|"NeverM"|"Machine"|"1"|"Discoun"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|820|
+23|"Private"|440456|"Bach."|13|"NeverM"|"Other"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|821|
+41|"SelfENI"|438696|"Masters"|14|"Divorc."|"Sales"|"9+"|"FreeShi"|"Male"|"U.S."|1|.5|1|0|1|1|0|1|0|1|1|1|1|1|0|0|1|822|
+56|"Private"|101128|"Assoc-A"|12|"Mabsent"|"Other"|"2"|"FreeShi"|"Male"|"Iran"|0|2.5|3|0|4|1|0|1|1|0|0|1|1|1|0|0|0|823|
+25|"Loc-gov"|244408|"Bach."|13|"NeverM"|"TechSup"|"9+"|"Service"|"Female"|"Vietnam"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|824|
+23|"Private"|55674|"Bach."|13|"NeverM"|"Protec."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|290.7|2|0|0|0|0|0|0|0|1|1|1|0|0|825|
+20|"Private"|110597|"< Bach."|10|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|3|3|0|2|1|0|1|0|0|0|0|1|1|1|0|0|826|
+58|"Fed-gov"|175873|"< Bach."|10|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|827|
+48|"Private"|176732|"9th"|5|"Divorc."|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|0|1|0|0|0|828|
+42|"Loc-gov"|199095|"Assoc-V"|11|"Widowed"|"Prof."|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|829|
+17|"Loc-gov"|308901|"11th"|7|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|1.5|2|0|1|1|0|1|0|1|1|0|0|1|1|0|0|830|
+28|"Private"|296450|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|831|
+29|"Private"|145592|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"Guatem."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|832|
+19|"Private"|219867|"HS-grad"|9|"NeverM"|"Cleric."|"6-8"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|833|
+33|"Fed-gov"|188246|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|834|
+28|"Private"|176683|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|517.8|4|1|1|1|0|1|1|0|1|1|1|0|1|835|
+41|"Private"|113597|"< Bach."|10|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|1.6|2|0|2|1|0|1|0|0|0|1|1|1|0|0|0|836|
+20|"Private"|170800|"< Bach."|10|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|1.5|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|837|
+30|"Private"|87418|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|4|1|0|0|0|0|0|0|1|1|0|0|0|838|
+30|"Private"|271710|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|729.8|4|1|1|1|0|1|1|0|1|1|0|0|1|839|
+48|"Loc-gov"|189762|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|840|
+60|"Private"|140544|"HS-grad"|9|"NeverM"|"Handler"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|0|0|1|1|1|0|0|0|841|
+53|"Private"|123092|"HS-grad"|9|"Widowed"|"Machine"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|842|
+32|"Loc-gov"|222900|"Bach."|13|"Separ."|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|1|5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|843|
+39|"Private"|225544|"Masters"|14|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"Poland"|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|844|
+27|"Private"|216858|"PhD"|16|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|5.2|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|845|
+21|"Private"|234108|"< Bach."|10|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|846|
+27|"Fed-gov"|105189|"HS-grad"|9|"Divorc."|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|486.5|3|0|0|1|0|0|0|0|1|1|1|0|0|847|
+58|"Private"|201112|"< Bach."|10|"Divorc."|"Cleric."|"2"|"Discoun"|"Female"|"U.S."|1|5.5|6|0|9|1|0|1|1|1|1|1|1|1|0|0|1|848|
+36|"Private"|66173|"Bach."|13|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|5|5|0|5|1|0|0|0|0|0|1|1|1|0|0|0|849|
+40|"Fed-gov"|177595|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|850|
+25|"Loc-gov"|206002|"HS-grad"|9|"Divorc."|"TechSup"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|851|
+51|"Private"|263836|"HS-grad"|9|"Widowed"|"Handler"|"2"|"FreeShi"|"Male"|"U.S."|0|3|3|0|4|1|0|1|0|1|1|1|1|1|0|0|1|852|
+49|"Private"|268090|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|2.6|3|0|4|1|0|1|0|1|1|1|1|1|0|0|1|853|
+47|"Loc-gov"|543162|"HS-grad"|9|"Separ."|"Cleric."|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|854|
+25|"Private"|212495|"Bach."|13|"NeverM"|"Exec."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|855|
+61|"Sta-gov"|159908|"11th"|7|"Widowed"|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|1|3.2|3|0|5|1|0|1|1|1|0|1|0|1|0|0|0|856|
+26|"Private"|192262|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|857|
+26|"Private"|917220|"12th"|8|"NeverM"|"Transp."|"1"|"Discoun"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|0|1|1|0|0|858|
+21|"Sta-gov"|99199|"< Bach."|10|"NeverM"|"Exec."|"1"|"FreeShi"|"Male"|"U.S."|0|1|1|0|1|1|0|0|0|0|0|0|1|1|1|0|0|859|
+33|"Private"|258498|"< Bach."|10|"Married"|"Crafts"|"4-5"|"FreeShi"|"Female"|"U.S."|0|6|6|0|5|1|0|1|0|1|1|0|1|1|0|0|1|860|
+23|"Loc-gov"|336010|"Bach."|13|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|0|3.2|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|861|
+43|"Private"|354408|"12th"|8|"Married"|"Cleric."|"3"|"Discoun"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|0|1|0|0|0|862|
+32|"Private"|313729|"HS-grad"|9|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|863|
+17|"Private"|143791|"10th"|6|"NeverM"|"Other"|"1"|"Discoun"|"Female"|"U.S."|0|1.2|1|0|0|1|0|1|0|0|0|0|0|1|1|0|0|864|
+35|"Loc-gov"|226311|"< Bach."|10|"Divorc."|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|3.8|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|865|
+71|"Private"|180733|"Masters"|14|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|2|2|0|4|1|0|1|1|1|1|1|1|1|0|0|1|866|
+19|"Private"|198663|"HS-grad"|9|"NeverM"|"Machine"|"6-8"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|867|
+42|"Private"|248094|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4.3|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|868|
+22|"Fed-gov"|146538|"HS-grad"|9|"NeverM"|"Cleric."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|869|
+26|"Private"|212798|"Bach."|13|"NeverM"|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|870|
+40|"Private"|63503|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|871|
+32|"SelfENI"|33417|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|4|1|0|0|0|0|0|0|1|1|0|0|0|872|
+24|"Private"|191954|"< Bach."|10|"NeverM"|"Machine"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|873|
+53|"Fed-gov"|173093|"< Bach."|10|"Married"|"Exec."|"4-5"|"Service"|"Female"|"Phil."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|874|
+50|"Loc-gov"|20795|"< Bach."|10|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|875|
+27|"Private"|204098|"10th"|6|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|0|1|1|0|0|876|
+25|"Private"|234263|"Bach."|13|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|877|
+50|"Private"|226497|"< Bach."|10|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|878|
+56|"Loc-gov"|391926|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|879|
+36|"Loc-gov"|28996|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|880|
+35|"Sta-gov"|211115|"< Bach."|10|"NeverM"|"Protec."|"2"|"Discoun"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|881|
+24|"Private"|280134|"10th"|6|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"El-Sal."|0|4.9|5|0|3|1|0|1|0|1|1|0|0|1|1|0|0|882|
+45|"SelfEI"|201699|"PhD"|16|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|883|
+44|"Private"|32000|"< Bach."|10|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|1.8|2|0|2|1|0|0|0|0|0|1|1|1|0|0|0|884|
+19|"?"|204441|"HS-grad"|9|"NeverM"|"?"|"6-8"|"Discoun"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|885|
+20|"Private"|157541|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|2.7|3|0|2|1|0|1|0|1|0|0|1|1|1|0|1|886|
+44|"SelfENI"|127482|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"England"|1|5|5|729.8|6|1|1|1|0|0|0|1|1|1|0|0|0|887|
+37|"Fed-gov"|197284|"< Bach."|10|"NeverM"|"Cleric."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|888|
+46|"Loc-gov"|125457|"Masters"|14|"Married"|"Prof."|"3"|"Discoun"|"Male"|"U.S."|1|3.8|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|889|
+57|"Private"|121362|"< Bach."|10|"Widowed"|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|1|3.8|4|0|6|1|0|1|1|0|0|1|1|1|0|0|0|890|
+55|"SelfENI"|422249|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|7|1|0|1|1|1|1|1|1|1|0|0|1|891|
+26|"Private"|157249|"11th"|7|"NeverM"|"Transp."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|0|1|1|0|0|892|
+35|"SelfENI"|216129|"12th"|8|"NeverM"|"Other"|"2"|"Discoun"|"Female"|"Tri-To."|0|4|4|0|4|1|0|1|0|1|1|1|0|1|0|0|0|893|
+27|"Private"|236481|"Profsc"|15|"NeverM"|"Prof."|"2"|"Service"|"Male"|"India"|0|1|1|0|1|1|0|1|0|1|1|0|1|1|1|0|1|894|
+35|"SelfENI"|60269|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|5|1|0|0|0|0|0|1|1|1|0|0|0|895|
+24|"Private"|174907|"HS-grad"|9|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|896|
+45|"Fed-gov"|201127|"< Bach."|10|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|5.6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|897|
+50|"Private"|196193|"Masters"|14|"Mabsent"|"Prof."|"6-8"|"FreeShi"|"Male"|"?"|0|6|6|0|8|1|0|1|0|1|1|1|1|1|0|0|1|898|
+56|"SelfENI"|236731|"1st-4th"|2|"Separ."|"Exec."|"2"|"FreeShi"|"Male"|"?"|0|2.5|3|0|4|1|0|1|1|1|1|1|0|1|0|0|0|899|
+44|"Private"|124924|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"Mexico"|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|900|
+47|"SelfENI"|158451|"< Bach."|10|"Divorc."|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|6|1|0|1|0|1|0|1|1|1|0|0|1|901|
+21|"Private"|234108|"HS-grad"|9|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|902|
+30|"Private"|167790|"HS-grad"|9|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|903|
+29|"Private"|247445|"HS-grad"|9|"Divorc."|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|4|1|0|1|0|1|1|0|1|1|1|0|1|904|
+63|"?"|445168|"Bach."|13|"Widowed"|"?"|"2"|"Special"|"Female"|"U.S."|0|5.6|6|0|9|1|0|1|1|1|1|1|1|1|0|0|1|905|
+42|"Private"|173704|"Masters"|14|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|906|
+27|"Private"|104329|"11th"|7|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|0|1|1|0|0|907|
+30|"Private"|222162|"HS-grad"|9|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|0|6.6|7|0|5|1|0|1|0|1|1|0|1|1|0|0|1|908|
+70|"Private"|90245|"HS-grad"|9|"Widowed"|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|.5|1|0|2|1|0|0|1|0|0|1|1|1|0|0|0|909|
+80|"Private"|252466|"Assoc-V"|11|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|2.4|2|0|4|1|0|1|1|1|1|1|1|1|0|0|1|910|
+51|"Private"|115851|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|911|
+35|"Private"|328301|"Assoc-A"|12|"Mar-AF"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|912|
+66|"Private"|185336|"HS-grad"|9|"Widowed"|"Sales"|"6-8"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|7|1|0|1|1|1|1|1|1|1|0|0|1|913|
+39|"Private"|403489|"11th"|7|"Divorc."|"Transp."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|0|1|0|0|0|914|
+20|"?"|66695|"< Bach."|10|"NeverM"|"?"|"1"|"Other"|"Female"|"U.S."|0|3.5|4|59.4|2|0|0|0|0|0|0|0|1|1|1|0|0|915|
+26|"Private"|67240|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|916|
+43|"Private"|164693|"Assoc-V"|11|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|5|1|0|1|0|1|0|1|1|1|0|0|1|917|
+30|"Private"|164190|"HS-grad"|9|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"?"|0|3.8|4|0|3|1|0|1|0|1|0|0|1|1|0|0|1|918|
+41|"Private"|41901|"< Bach."|10|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|919|
+35|"Private"|465507|"HS-grad"|9|"Married"|"Machine"|"3"|"Discoun"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|920|
+33|"SelfEI"|144949|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|6.5|7|0|6|1|0|1|0|0|0|0|1|1|0|0|0|921|
+34|"Private"|467108|"< Bach."|10|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|1|5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|922|
+35|"Private"|241001|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4.4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|923|
+40|"Private"|208470|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|924|
+20|"Private"|118462|"HS-grad"|9|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|4.3|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|925|
+29|"Private"|173851|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|926|
+47|"Private"|27624|"Assoc-V"|11|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|5.5|6|0|7|1|0|0|0|0|0|1|1|1|0|0|0|927|
+37|"Sta-gov"|378916|"HS-grad"|9|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|928|
+22|"Private"|113550|"HS-grad"|9|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|929|
+81|"SelfENI"|123959|"Bach."|13|"Widowed"|"Prof."|"2"|"FreeShi"|"Female"|"Hungary"|0|.3|0|0|0|1|0|1|1|0|0|1|1|1|0|0|0|930|
+48|"Private"|266764|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|931|
+31|"Loc-gov"|80058|"HS-grad"|9|"NeverM"|"Machine"|"1"|"FreeShi"|"Male"|"U.S."|0|6.4|6|0|5|1|0|0|0|0|0|0|1|1|0|0|0|932|
+46|"SelfENI"|342907|"HS-grad"|9|"Married"|"Sales"|"3"|"Discoun"|"Male"|"U.S."|1|6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|933|
+29|"?"|41281|"Bach."|13|"Mabsent"|"?"|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|4|1|0|0|0|0|0|0|1|1|1|0|0|934|
+22|"Private"|110946|"< Bach."|10|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|935|
+63|"Private"|66634|"9th"|5|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|1.6|2|0|3|1|0|0|1|0|0|1|0|1|0|0|0|936|
+23|"Private"|201145|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|6.5|7|0|4|1|0|1|0|1|1|0|1|1|1|0|1|937|
+39|"Private"|356838|"HS-grad"|9|"NeverM"|"Farming"|"1"|"FreeShi"|"Male"|"U.S."|0|1.2|1|0|1|1|0|1|0|1|1|1|1|1|0|0|1|938|
+37|"Private"|545483|"Assoc-A"|12|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|939|
+34|"Private"|101345|"HS-grad"|9|"Married"|"Other"|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|940|
+55|"Private"|176012|"9th"|5|"Married"|"TechSup"|"4-5"|"FreeShi"|"Female"|"U.S."|0|2.3|2|0|3|1|0|1|1|1|1|1|0|1|0|0|0|941|
+43|"Private"|187322|"Bach."|13|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|942|
+42|"Fed-gov"|214838|"HS-grad"|9|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|3|3|0|3|1|0|1|0|1|1|1|1|1|0|0|1|943|
+45|"Private"|131826|"< Bach."|10|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|944|
+26|"Private"|167106|"HS-grad"|9|"NeverM"|"Crafts"|"6-8"|"Service"|"Male"|"Hong"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|945|
+36|"Private"|49837|"< Bach."|10|"Divorc."|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|946|
+35|"SelfEI"|186845|"Bach."|13|"Married"|"Sales"|"1"|"FreeShi"|"Male"|"U.S."|1|5|5|517.8|4|1|1|1|0|1|1|1|1|1|0|0|1|947|
+53|"Private"|133436|"7th-8th"|4|"Divorc."|"Machine"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|0|1|0|0|0|948|
+26|"Private"|196805|"< Bach."|10|"Married"|"Transp."|"3"|"Discoun"|"Male"|"U.S."|0|6.5|7|0|5|1|0|1|0|1|1|0|1|1|1|0|1|949|
+45|"Private"|140644|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|0|0|1|1|1|0|0|0|950|
+51|"Private"|284329|"HS-grad"|9|"Widowed"|"Transp."|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|951|
+25|"Private"|37379|"Bach."|13|"NeverM"|"TechSup"|"2"|"FreeShi"|"Female"|"U.S."|0|5|5|0|3|1|0|0|0|0|0|0|1|1|1|0|0|952|
+57|"SelfEI"|119253|"Masters"|14|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|6.5|7|1502.4|10|1|1|1|1|0|0|1|1|1|0|0|0|953|
+38|"Private"|187983|"Profsc"|15|"Married"|"Sales"|"4-5"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|954|
+51|"Private"|159755|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|2|2|0|3|1|0|1|0|1|0|1|1|1|0|0|1|955|
+50|"Private"|148953|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|0|0|1|1|1|0|0|0|956|
+23|"Fed-gov"|55465|"< Bach."|10|"NeverM"|"Handler"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|957|
+28|"Private"|71733|"< Bach."|10|"Separ."|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|0|1.5|2|0|1|1|0|0|0|0|0|0|1|1|1|0|0|958|
+43|"Private"|111483|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|729.8|4|1|1|1|0|0|0|1|1|1|0|0|0|959|
+28|"SelfEI"|32922|"Assoc-V"|11|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|6|6|0|4|1|0|0|0|0|0|0|1|1|1|0|0|960|
+41|"Loc-gov"|168071|"HS-grad"|9|"Divorc."|"Exec."|"1"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|961|
+60|"Private"|159049|"Profsc"|15|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"Germany"|1|7|7|0|11|1|0|1|1|1|0|1|1|1|0|0|1|962|
+44|"Private"|336906|"< Bach."|10|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|963|
+25|"Private"|470203|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|964|
+47|"SelfEI"|206947|"Assoc-A"|12|"Widowed"|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|6.7|7|0|8|1|0|1|0|1|1|1|1|1|0|0|1|965|
+32|"Private"|128002|"Assoc-V"|11|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|4|1|0|1|0|0|0|0|1|1|0|0|0|966|
+33|"Private"|245378|"10th"|6|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|0|1|0|0|0|967|
+45|"SelfENI"|107231|"Bach."|13|"Divorc."|"Prof."|"2"|"FreeShi"|"Male"|"France"|0|4.5|5|0|6|1|0|1|0|0|0|1|1|1|0|0|0|968|
+46|"Private"|213611|"7th-8th"|4|"Mabsent"|"House-s"|"9+"|"FreeShi"|"Female"|"Guatem."|0|2.4|2|0|2|1|0|1|0|1|1|1|0|1|0|0|0|969|
+57|"Private"|308861|"< Bach."|10|"Separ."|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|970|
+40|"SelfENI"|111971|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|3|3|0|3|1|0|1|0|0|0|1|1|1|0|0|0|971|
+55|"Loc-gov"|209535|"Masters"|14|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|972|
+67|"?"|190340|"11th"|7|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|7|1|0|1|1|1|1|1|0|1|0|0|0|973|
+36|"Sta-gov"|166697|"Bach."|13|"Divorc."|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|974|
+55|"Private"|272656|"Bach."|13|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|8|1|0|1|1|1|1|1|1|1|0|0|1|975|
+31|"Private"|377850|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|6.5|7|0|5|1|0|1|0|1|1|0|1|1|0|0|1|976|
+68|"?"|192052|"< Bach."|10|"Married"|"?"|"4-5"|"FreeShi"|"Female"|"U.S."|0|4|4|0|7|1|0|1|1|1|1|1|1|1|0|0|1|977|
+39|"SelfENI"|231180|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|978|
+24|"Loc-gov"|387108|"< Bach."|10|"Married"|"Protec."|"3"|"Discoun"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|979|
+52|"Private"|162576|"Assoc-A"|12|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|980|
+18|"Private"|36251|"10th"|6|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|1.5|2|0|1|1|0|0|0|0|0|0|0|1|1|0|0|981|
+65|"SelfEI"|139272|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|9999.9|10|1|1|1|1|0|0|1|1|1|0|0|0|982|
+23|"Private"|320451|"Bach."|13|"NeverM"|"Exec."|"1"|"Service"|"Male"|"U.S."|0|2.4|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|983|
+33|"Private"|150154|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|1|1|0|0|1|984|
+50|"Private"|147629|"Masters"|14|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|1502.4|6|1|1|1|0|0|0|1|1|1|0|0|0|985|
+39|"Private"|236391|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|986|
+45|"SelfENI"|364365|"Bach."|13|"NeverM"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|987|
+47|"Sta-gov"|118447|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|7|1|0|1|0|0|0|1|1|1|0|0|0|988|
+33|"Private"|189368|"< Bach."|10|"Married"|"Transp."|"3"|"Discoun"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|989|
+22|"Private"|252355|"HS-grad"|9|"NeverM"|"Other"|"2"|"FreeShi"|"Male"|"U.S."|0|2.7|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|990|
+21|"Private"|231160|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|2.5|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|991|
+22|"Private"|410439|"HS-grad"|9|"Mabsent"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|5.5|6|0|3|1|0|1|0|1|1|0|1|1|1|0|1|992|
+28|"Private"|261278|"Assoc-V"|11|"NeverM"|"TechSup"|"2"|"Discoun"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|993|
+42|"Loc-gov"|177937|"Bach."|13|"Divorc."|"Prof."|"2"|"FreeShi"|"Male"|"?"|0|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|994|
+24|"Private"|220426|"HS-grad"|9|"NeverM"|"Handler"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|995|
+75|"SelfENI"|242108|"HS-grad"|9|"Divorc."|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|1.5|2|234.6|4|0|0|1|1|1|1|1|1|1|0|0|1|996|
+45|"Private"|329144|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|997|
+35|"Private"|183800|"Bach."|13|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|998|
+52|"Private"|202956|"7th-8th"|4|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|0|1|0|0|0|999|
+67|"SelfENI"|139960|"7th-8th"|4|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|7|1|0|1|1|0|0|1|0|1|0|0|0|1000|
+21|"Private"|223352|"HS-grad"|9|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|3|3|105.5|2|0|0|1|0|1|1|0|1|1|1|0|1|1001|
+26|"Private"|152855|"HS-grad"|9|"NeverM"|"Exec."|"1"|"Other"|"Female"|"Mexico"|0|4|4|0|3|1|0|1|0|1|0|0|1|1|1|0|1|1002|
+59|"?"|184948|"Assoc-V"|11|"Divorc."|"?"|"2"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|7|1|0|1|1|1|1|1|1|1|0|0|1|1003|
+22|"Private"|145477|"HS-grad"|9|"NeverM"|"Handler"|"1"|"Special"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1004|
+26|"Private"|132572|"Bach."|13|"NeverM"|"Cleric."|"1"|"Discoun"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|1005|
+34|"SelfENI"|100079|"Bach."|13|"Married"|"Sales"|"3"|"Service"|"Male"|"India"|0|5.5|6|0|5|1|0|1|0|0|0|0|1|1|0|0|0|1006|
+48|"Loc-gov"|407495|"Assoc-A"|12|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|1|5.6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|1007|
+25|"Private"|194342|"HS-grad"|9|"NeverM"|"Machine"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1008|
+38|"Private"|156728|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|1009|
+42|"Private"|203554|"Masters"|14|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|6|1|0|1|0|1|1|1|1|1|0|0|1|1010|
+35|"Private"|207202|"10th"|6|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|7|7|0|6|1|0|1|0|1|1|1|0|1|0|0|0|1011|
+38|"Private"|174242|"< Bach."|10|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1012|
+28|"Private"|173611|"HS-grad"|9|"NeverM"|"Exec."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1013|
+34|"Private"|110978|"Profsc"|15|"NeverM"|"Prof."|"2"|"Service"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|1014|
+41|"Loc-gov"|248406|"HS-grad"|9|"Separ."|"Transp."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1015|
+22|"Private"|279901|"HS-grad"|9|"Married"|"Other"|"1"|"Discoun"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1016|
+41|"Private"|115849|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1017|
+28|"Private"|192384|"< Bach."|10|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1018|
+60|"Sta-gov"|129447|"HS-grad"|9|"Widowed"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|6|1|0|1|1|0|0|1|1|1|0|0|0|1019|
+40|"Private"|280362|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|3.5|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1020|
+32|"Private"|228357|"Assoc-V"|11|"Divorc."|"Other"|"9+"|"FreeShi"|"Female"|"?"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1021|
+31|"Private"|161765|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|5.7|6|0|5|1|0|1|0|1|0|0|1|1|0|0|1|1022|
+46|"Private"|146195|"Assoc-A"|12|"Divorc."|"TechSup"|"2"|"Discoun"|"Female"|"U.S."|0|3.6|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1023|
+24|"Private"|100321|"< Bach."|10|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|3|1|0|1|0|0|0|0|1|1|1|0|0|1024|
+30|"Private"|299223|"< Bach."|10|"Divorc."|"Sales"|"9+"|"Special"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1025|
+35|"Private"|86648|"Masters"|14|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|4|1|0|0|0|0|0|1|1|1|0|0|0|1026|
+35|"SelfEI"|140854|"HS-grad"|9|"NeverM"|"Transp."|"2"|"FreeShi"|"Male"|"U.S."|0|6|6|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1027|
+20|"Private"|115824|"11th"|7|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|0|1|1|0|0|1028|
+32|"Private"|93930|"HS-grad"|9|"Divorc."|"Machine"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|0|0|0|1029|
+60|"SelfENI"|146674|"HS-grad"|9|"Divorc."|"Crafts"|"2"|"Discoun"|"Male"|"?"|0|5|5|0|8|1|0|1|1|0|0|1|1|1|0|0|0|1030|
+35|"Private"|185556|"Masters"|14|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1031|
+39|"Private"|190466|"HS-grad"|9|"Divorc."|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|217.4|4|0|0|1|0|1|1|1|1|1|0|0|1|1032|
+64|"Private"|116084|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|263.5|6|0|0|1|1|0|0|1|1|1|0|0|0|1033|
+37|"Private"|160120|"Masters"|14|"NeverM"|"Prof."|"9+"|"Service"|"Male"|"South"|0|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|1034|
+23|"?"|296613|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|3.2|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1035|
+58|"Private"|95835|"< Bach."|10|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|0|3.6|4|0|6|1|0|0|1|0|0|1|1|1|0|0|0|1036|
+19|"Private"|247679|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1037|
+29|"Private"|110134|"< Bach."|10|"Divorc."|"Machine"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|1038|
+69|"?"|28197|"HS-grad"|9|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|10|1|0|0|1|0|0|1|1|1|0|0|0|1039|
+46|"Private"|288608|"HS-grad"|9|"NeverM"|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1040|
+45|"Private"|338105|"Bach."|13|"Married"|"Cleric."|"3"|"Service"|"Male"|"Phil."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1041|
+34|"SelfENI"|312197|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"Mexico"|1|7.5|8|0|7|1|0|1|0|1|1|0|1|1|0|0|1|1042|
+31|"Private"|145791|"Assoc-V"|11|"Divorc."|"TechSup"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|1043|
+37|"Private"|340614|"Masters"|14|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1044|
+39|"Private"|35890|"Assoc-A"|12|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|1045|
+30|"Private"|272451|"Bach."|13|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1046|
+62|"Private"|588484|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|2|2|0|3|1|0|1|1|1|1|1|1|1|0|0|1|1047|
+29|"Private"|197288|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"Discoun"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1048|
+35|"Private"|258339|"Profsc"|15|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1049|
+17|"Private"|566049|"10th"|6|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|.8|1|0|0|1|0|1|0|1|1|0|0|1|1|0|0|1050|
+21|"Private"|111676|"< Bach."|10|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1051|
+22|"Private"|127647|"HS-grad"|9|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|3.6|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1052|
+28|"Private"|265628|"Assoc-V"|11|"NeverM"|"Handler"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1053|
+36|"SelfEI"|27408|"Assoc-V"|11|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|5|1|0|0|0|0|0|1|1|1|0|0|0|1054|
+42|"SelfENI"|212847|"HS-grad"|9|"NeverM"|"Farming"|"1"|"FreeShi"|"Male"|"U.S."|0|8.5|9|0|9|1|0|1|0|1|1|1|1|1|0|0|1|1055|
+28|"Private"|398220|"5th-6th"|3|"NeverM"|"Crafts"|"6-8"|"FreeShi"|"Male"|"Mexico"|0|4|4|0|3|1|0|1|0|1|1|0|0|1|1|0|0|1056|
+58|"Sta-gov"|223400|"Bach."|13|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|1|2|2|0|3|1|0|1|1|1|1|1|1|1|0|0|1|1057|
+51|"Private"|136121|"Assoc-V"|11|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|3.8|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1058|
+55|"Private"|190508|"< Bach."|10|"Married"|"Transp."|"3"|"Discoun"|"Male"|"U.S."|0|3.5|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1059|
+20|"Private"|219835|"< Bach."|10|"NeverM"|"Sales"|"1"|"FreeShi"|"Male"|"?"|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1060|
+24|"Private"|149457|"< Bach."|10|"NeverM"|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1061|
+19|"Sta-gov"|149528|"< Bach."|10|"NeverM"|"Farming"|"1"|"FreeShi"|"Male"|"U.S."|0|1.2|1|0|0|1|0|1|0|0|0|0|1|1|1|0|0|1062|
+52|"Private"|102828|"HS-grad"|9|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|768.8|5|1|1|1|0|0|0|1|1|1|0|0|0|1063|
+18|"Private"|434430|"HS-grad"|9|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|3|3|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1064|
+39|"Private"|122032|"Assoc-V"|11|"NeverM"|"Machine"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1065|
+28|"Private"|206125|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1066|
+26|"Private"|205428|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1067|
+38|"Private"|108140|"Bach."|13|"NeverM"|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|220.2|5|0|0|1|0|0|0|1|1|1|0|0|0|1068|
+41|"Private"|132633|"11th"|7|"Divorc."|"House-s"|"9+"|"FreeShi"|"Female"|"Guatem."|0|2.5|3|0|3|1|0|1|0|0|0|1|0|1|0|0|0|1069|
+25|"Private"|254746|"Assoc-V"|11|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1070|
+40|"SelfENI"|95226|"Bach."|13|"NeverM"|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|5|1|0|0|0|0|0|1|1|1|0|0|0|1071|
+40|"?"|65545|"Masters"|14|"Divorc."|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|5.5|6|0|6|1|0|0|0|0|0|1|1|1|0|0|0|1072|
+37|"Private"|167613|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1073|
+17|"Private"|207791|"10th"|6|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|0|1|1|0|0|1074|
+43|"Private"|60001|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|1075|
+40|"Private"|175398|"Assoc-V"|11|"Divorc."|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|2|2|0|2|1|0|1|0|1|1|1|1|1|0|0|1|1076|
+28|"Loc-gov"|211920|"HS-grad"|9|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1077|
+55|"Private"|199067|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.2|4|1502.4|6|1|1|1|1|1|1|1|1|1|0|0|1|1078|
+21|"?"|149704|"HS-grad"|9|"NeverM"|"?"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|105.5|2|0|0|1|0|0|0|0|1|1|1|0|0|1079|
+25|"Private"|253267|"< Bach."|10|"Married"|"Cleric."|"3"|"Discoun"|"Male"|"U.S."|1|3.6|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1080|
+37|"Private"|179671|"HS-grad"|9|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1081|
+45|"Private"|275995|"Bach."|13|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|1082|
+36|"Sta-gov"|437890|"HS-grad"|9|"NeverM"|"Exec."|"9+"|"Discoun"|"Male"|"U.S."|0|9|9|0|8|1|0|1|0|1|1|1|1|1|0|0|1|1083|
+63|"Private"|113324|"< Bach."|10|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|0|0|1|1|1|0|0|0|1084|
+23|"Private"|335570|"< Bach."|10|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|3.5|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1085|
+56|"SelfENI"|94156|"Profsc"|15|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|7|1|0|0|1|0|0|1|1|1|0|0|0|1086|
+44|"Private"|98466|"10th"|6|"NeverM"|"Farming"|"9+"|"FreeShi"|"Male"|"U.S."|0|3.5|4|0|4|1|0|0|0|0|0|1|0|1|0|0|0|1087|
+42|"Private"|208726|"< Bach."|10|"Divorc."|"Exec."|"9+"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1088|
+45|"SelfEI"|122206|"Assoc-A"|12|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|0|0|1|1|1|0|0|0|1089|
+19|"?"|220517|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1090|
+23|"Private"|182117|"Assoc-A"|12|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|6|6|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1091|
+39|"Fed-gov"|103984|"Bach."|13|"Divorc."|"Exec."|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1092|
+36|"Private"|188834|"9th"|5|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|5|1|0|1|0|1|1|1|0|1|0|0|0|1093|
+29|"?"|19793|"< Bach."|10|"Divorc."|"?"|"9+"|"FreeShi"|"Female"|"U.S."|0|.8|1|0|1|1|0|0|0|0|0|0|1|1|1|1|0|1094|
+19|"Private"|246652|"< Bach."|10|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1095|
+29|"Private"|53271|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|1096|
+55|"Private"|151474|"Bach."|13|"NeverM"|"TechSup"|"6-8"|"FreeShi"|"Female"|"U.S."|0|3.8|4|0|6|1|0|1|1|1|0|1|1|1|0|0|1|1097|
+21|"Private"|91819|"Assoc-V"|11|"NeverM"|"Other"|"2"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|0|0|0|0|0|1|1|1|0|0|1098|
+17|"Private"|220562|"9th"|5|"NeverM"|"Sales"|"6-8"|"Other"|"Female"|"Mexico"|0|3.2|3|0|1|1|0|1|0|1|1|0|0|1|1|0|0|1099|
+34|"Private"|220631|"Assoc-V"|11|"NeverM"|"Other"|"2"|"FreeShi"|"Male"|"?"|0|5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|1100|
+52|"Private"|208137|"Assoc-V"|11|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1101|
+53|"Private"|167033|"< Bach."|10|"NeverM"|"Exec."|"2"|"Discoun"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1102|
+39|"Private"|269722|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|7|7|0|7|1|0|1|0|1|1|1|1|1|0|0|1|1103|
+21|"Private"|166851|"HS-grad"|9|"NeverM"|"Machine"|"6-8"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1104|
+25|"Private"|232991|"5th-6th"|3|"Married"|"Machine"|"3"|"Other"|"Male"|"Mexico"|0|4|4|0|3|1|0|1|0|1|1|0|0|1|1|0|0|1105|
+35|"Private"|112271|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1106|
+32|"Private"|118161|"HS-grad"|9|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|1107|
+36|"Private"|393673|"Assoc-A"|12|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|1|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1108|
+48|"Private"|118717|"Bach."|13|"Divorc."|"Prof."|"2"|"Discoun"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1109|
+69|"Private"|277588|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|1|1|0|2|1|0|1|1|1|1|1|1|1|0|0|1|1110|
+31|"Private"|188108|"HS-grad"|9|"NeverM"|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|410.1|3|0|0|1|0|1|1|0|1|1|0|0|1|1111|
+52|"Private"|187356|"10th"|6|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4.1|4|0|5|1|0|1|0|1|1|1|0|1|0|0|0|1112|
+34|"Private"|223212|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"Peru"|1|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1113|
+36|"Private"|68273|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|1114|
+18|"?"|165532|"12th"|8|"NeverM"|"?"|"1"|"FreeShi"|"Male"|"U.S."|0|2.5|3|0|1|1|0|1|0|1|1|0|0|1|1|0|0|1115|
+36|"Private"|383518|"< Bach."|10|"Married"|"Cleric."|"4-5"|"Discoun"|"Female"|"U.S."|1|4|4|9999.9|4|1|1|1|0|1|1|1|1|1|0|0|1|1116|
+30|"Private"|205950|"< Bach."|10|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1117|
+48|"Private"|172695|"Assoc-V"|11|"Divorc."|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1118|
+51|"Private"|340588|"1st-4th"|2|"Married"|"Other"|"3"|"FreeShi"|"Male"|"Mexico"|0|5.4|5|0|6|1|0|1|0|1|1|1|0|1|0|0|0|1119|
+43|"Private"|94113|"< Bach."|10|"Divorc."|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|5|1|0|0|0|0|0|1|1|1|0|0|0|1120|
+27|"?"|280699|"< Bach."|10|"NeverM"|"?"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1121|
+42|"Sta-gov"|39239|"Masters"|14|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|7|7|0|7|1|0|0|0|0|0|1|1|1|0|0|0|1122|
+48|"Private"|227714|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|1123|
+36|"SelfENI"|257250|"Assoc-V"|11|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|9.9|10|0|9|1|0|1|0|1|1|1|1|1|0|0|1|1124|
+37|"Loc-gov"|221740|"Bach."|13|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|1|3|3|0|3|1|0|1|0|1|1|1|1|1|0|0|1|1125|
+48|"Private"|73434|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"Germany"|1|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|1126|
+42|"Private"|341204|"Assoc-A"|12|"Divorc."|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|1|4|4|861.4|4|1|1|1|0|1|1|1|1|1|0|0|1|1127|
+57|"SelfENI"|174760|"Assoc-A"|12|"Mabsent"|"Farming"|"9+"|"Special"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1128|
+27|"Private"|170017|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1129|
+43|"Private"|52498|"HS-grad"|9|"Divorc."|"Exec."|"9+"|"FreeShi"|"Female"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|1130|
+31|"Private"|120461|"Bach."|13|"NeverM"|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|1131|
+35|"Private"|108293|"< Bach."|10|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1132|
+28|"Private"|337378|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1133|
+57|"Sta-gov"|25045|"Bach."|13|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Male"|"U.S."|0|3.7|4|217.4|6|0|0|0|1|0|0|1|1|1|0|0|0|1134|
+17|"Private"|156736|"10th"|6|"NeverM"|"Sales"|"9+"|"FreeShi"|"Female"|"U.S."|0|1.2|1|0|0|1|0|1|0|1|0|0|0|1|1|0|0|1135|
+47|"Private"|220124|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1136|
+68|"Private"|156000|"10th"|6|"Widowed"|"Other"|"9+"|"Discoun"|"Female"|"U.S."|0|2|2|0|3|1|0|1|1|1|0|1|0|1|0|0|0|1137|
+20|"Private"|211293|"< Bach."|10|"NeverM"|"Sales"|"1"|"Discoun"|"Female"|"U.S."|0|1.4|1|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1138|
+50|"Private"|320510|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1139|
+26|"?"|256141|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1140|
+34|"Loc-gov"|167063|"HS-grad"|9|"NeverM"|"Protec."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1141|
+78|"Private"|184759|"7th-8th"|4|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|0|1.5|2|179.7|4|0|0|1|1|1|1|1|0|1|0|0|0|1142|
+41|"Private"|121130|"HS-grad"|9|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1143|
+46|"Loc-gov"|121124|"Bach."|13|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|1502.4|5|1|1|1|0|0|0|1|1|1|0|0|0|1144|
+54|"SelfENI"|269068|"Profsc"|15|"Married"|"Prof."|"3"|"Service"|"Male"|"Phil."|1|5|5|9999.9|7|1|1|1|0|1|1|1|1|1|0|0|1|1145|
+22|"?"|196280|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1146|
+46|"Private"|161508|"10th"|6|"NeverM"|"Machine"|"2"|"Discoun"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|0|1|0|1|0|0|0|1147|
+36|"Private"|150057|"< Bach."|10|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|6.5|7|0|6|1|0|1|0|1|0|1|1|1|0|0|1|1148|
+26|"Private"|77661|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|1149|
+49|"Private"|119182|"HS-grad"|9|"Separ."|"Other"|"2"|"Discoun"|"Female"|"U.S."|0|3.5|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1150|
+53|"Private"|202720|"9th"|5|"Mabsent"|"Machine"|"9+"|"Discoun"|"Male"|"Haiti"|0|7.5|8|0|11|1|0|1|0|1|1|1|0|1|0|0|0|1151|
+42|"SelfENI"|104118|"< Bach."|10|"NeverM"|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1152|
+20|"?"|41035|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|0|0|0|0|0|1|1|1|0|0|1153|
+25|"Private"|458549|"1st-4th"|2|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"Mexico"|0|9.6|10|0|6|1|0|1|0|1|1|0|0|1|1|0|0|1154|
+21|"Private"|307315|"< Bach."|10|"NeverM"|"Cleric."|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1155|
+30|"SelfENI"|146161|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|4|1|0|1|0|0|0|0|1|1|0|0|0|1156|
+67|"?"|157403|"Profsc"|15|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|1|1|1|641.8|2|1|1|1|1|1|0|1|1|1|0|0|1|1157|
+25|"Private"|189219|"Bach."|13|"NeverM"|"TechSup"|"1"|"FreeShi"|"Female"|"U.S."|0|1.6|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1158|
+38|"Private"|190759|"11th"|7|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|0|1|0|0|0|1159|
+45|"Private"|168837|"< Bach."|10|"Divorc."|"Sales"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1160|
+33|"Loc-gov"|173005|"Bach."|13|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|1161|
+34|"SelfEI"|200689|"Bach."|13|"Divorc."|"Sales"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1162|
+44|"Private"|112262|"Bach."|13|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|517.8|4|1|1|1|0|0|0|1|1|1|0|0|0|1163|
+42|"Private"|121287|"HS-grad"|9|"Divorc."|"Machine"|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1164|
+37|"Private"|295949|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1165|
+47|"Private"|359461|"Bach."|13|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1166|
+35|"Private"|54576|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|1167|
+59|"Loc-gov"|165695|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1168|
+27|"Private"|466224|"< Bach."|10|"NeverM"|"Sales"|"2"|"Discoun"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1169|
+33|"Private"|405913|"< Bach."|10|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"Peru"|1|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1170|
+22|"Private"|333910|"< Bach."|10|"NeverM"|"TechSup"|"2"|"FreeShi"|"Female"|"U.S."|0|4.3|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1171|
+20|"Private"|305446|"HS-grad"|9|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1172|
+35|"Private"|140752|"HS-grad"|9|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|2.5|3|0|3|1|0|1|0|0|0|1|1|1|0|0|0|1173|
+56|"Private"|206399|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1174|
+28|"Private"|253814|"HS-grad"|9|"Divorc."|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1175|
+49|"Private"|151584|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|1176|
+46|"Private"|504725|"5th-6th"|3|"Separ."|"Handler"|"2"|"FreeShi"|"Male"|"Mexico"|0|5|5|0|6|1|0|1|0|1|1|1|0|1|0|0|0|1177|
+43|"SelfEI"|175715|"HS-grad"|9|"NeverM"|"Exec."|"2"|"Discoun"|"Male"|"U.S."|0|5.5|6|0|6|1|0|1|0|1|1|1|1|1|0|0|1|1178|
+39|"Loc-gov"|357962|"Assoc-A"|12|"NeverM"|"Transp."|"2"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1179|
+57|"Sta-gov"|68830|"HS-grad"|9|"Divorc."|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|5|5|0|7|1|0|0|1|0|0|1|1|1|0|0|0|1180|
+31|"Private"|87891|"< Bach."|10|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|0|0|0|1181|
+32|"Private"|62374|"Assoc-V"|11|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|0|0|0|1182|
+21|"Private"|170800|"HS-grad"|9|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1183|
+35|"Private"|301614|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1184|
+54|"?"|155755|"HS-grad"|9|"Divorc."|"?"|"2"|"FreeShi"|"Female"|"U.S."|0|2.5|3|441.6|4|0|0|1|0|1|0|1|1|1|0|0|1|1185|
+49|"Fed-gov"|125892|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1186|
+29|"Fed-gov"|184723|"< Bach."|10|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1187|
+32|"Private"|137875|"< Bach."|10|"Divorc."|"Sales"|"9+"|"FreeShi"|"Female"|"U.S."|0|3|3|0|2|1|0|1|0|0|0|0|1|1|0|0|0|1188|
+50|"Private"|172175|"Profsc"|15|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|1189|
+24|"Private"|202959|"Assoc-V"|11|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1190|
+47|"SelfENI"|109421|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|6|1|0|1|0|0|0|1|1|1|0|0|0|1191|
+30|"Private"|118056|"< Bach."|10|"Mabsent"|"Exec."|"9+"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|4|1|0|1|0|0|0|0|1|1|0|0|0|1192|
+59|"Private"|176647|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1193|
+22|"Private"|157145|"Assoc-V"|11|"NeverM"|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|1|0|0|1|1|1|0|1|1194|
+22|"Private"|231912|"Assoc-V"|11|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|3.7|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1195|
+42|"Private"|173590|"< Bach."|10|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1196|
+20|"Private"|47678|"HS-grad"|9|"NeverM"|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|1197|
+23|"Private"|520231|"< Bach."|10|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1198|
+21|"Private"|434710|"< Bach."|10|"NeverM"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|1.5|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1199|
+19|"?"|860348|"< Bach."|10|"NeverM"|"?"|"1"|"Discoun"|"Female"|"U.S."|0|2.5|3|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1200|
+77|"SelfEI"|192230|"< Bach."|10|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|8|1|0|1|1|1|1|1|1|1|0|0|1|1201|
+28|"SelfENI"|315417|"Profsc"|15|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|217.6|3|0|0|1|0|1|1|0|1|1|1|0|1|1202|
+35|"Private"|178322|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1203|
+18|"Private"|115630|"11th"|7|"NeverM"|"Cleric."|"1"|"Discoun"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|0|0|0|0|1|1|0|0|1204|
+46|"Private"|95636|"< Bach."|10|"Divorc."|"Handler"|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|6|1|0|0|0|0|0|1|1|1|0|0|0|1205|
+35|"SelfENI"|462832|"HS-grad"|9|"Married"|"Crafts"|"4-5"|"Discoun"|"Female"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1206|
+24|"Sta-gov"|177526|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|1.5|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1207|
+50|"SelfEI"|155574|"Masters"|14|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|729.8|6|1|1|1|0|1|0|1|1|1|0|0|1|1208|
+46|"Private"|126513|"HS-grad"|9|"Separ."|"Crafts"|"9+"|"Discoun"|"Female"|"?"|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1209|
+31|"Private"|416415|"HS-grad"|9|"Separ."|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|1210|
+38|"SelfENI"|133299|"Assoc-A"|12|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1211|
+22|"Private"|355686|"< Bach."|10|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1212|
+37|"Loc-gov"|174924|"< Bach."|10|"Divorc."|"Protec."|"9+"|"FreeShi"|"Male"|"Germany"|0|4.8|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1213|
+48|"Private"|199590|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"Mexico"|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1214|
+45|"Loc-gov"|37306|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|6|1|0|0|0|0|0|1|1|1|0|0|0|1215|
+20|"Private"|379525|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|1|1|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1216|
+28|"Private"|155621|"5th-6th"|3|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"Colum."|0|4|4|0|3|1|0|1|0|1|0|0|0|1|1|0|0|1217|
+31|"Private"|46807|"Bach."|13|"NeverM"|"TechSup"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|0|0|0|1218|
+51|"Private"|25031|"< Bach."|10|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|1|1|1|0|1|1|0|0|0|0|0|1|1|1|0|0|0|1219|
+19|"Private"|176570|"11th"|7|"NeverM"|"Machine"|"1"|"FreeShi"|"Male"|"U.S."|0|6|6|0|3|1|0|1|0|1|1|0|0|1|1|0|0|1220|
+48|"Private"|278039|"HS-grad"|9|"Divorc."|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|1221|
+25|"Private"|282612|"Assoc-V"|11|"NeverM"|"TechSup"|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1222|
+22|"Private"|54825|"HS-grad"|9|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|1223|
+32|"Sta-gov"|182556|"Bach."|13|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|1224|
+22|"Private"|190916|"< Bach."|10|"NeverM"|"TechSup"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1225|
+20|"Private"|42706|"< Bach."|10|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|0|2.5|3|0|2|1|0|0|0|0|0|0|1|1|1|0|0|1226|
+48|"Private"|80430|"11th"|7|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|3|3|0|4|1|0|0|0|0|0|1|0|1|0|0|0|1227|
+19|"Private"|451951|"HS-grad"|9|"NeverM"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1228|
+31|"Sta-gov"|190305|"Masters"|14|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|1229|
+39|"Private"|184659|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1230|
+55|"Loc-gov"|171328|"< Bach."|10|"Mabsent"|"Cleric."|"9+"|"Discoun"|"Female"|"U.S."|0|3.5|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1231|
+24|"Private"|198148|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1232|
+38|"Private"|33001|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|6|1|0|0|0|0|0|1|1|1|0|0|0|1233|
+25|"Sta-gov"|295912|"< Bach."|10|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1234|
+43|"Private"|284403|"Assoc-A"|12|"Married"|"Sales"|"3"|"Discoun"|"Male"|"U.S."|0|6|6|0|6|1|0|1|0|1|1|1|1|1|0|0|1|1235|
+20|"Private"|203027|"HS-grad"|9|"NeverM"|"Farming"|"2"|"FreeShi"|"Male"|"U.S."|0|5.5|6|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1236|
+34|"SelfENI"|124052|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|3|3|0|3|1|0|1|0|0|0|0|1|1|0|0|0|1237|
+46|"Private"|219021|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|1|4.4|4|1502.4|5|1|1|1|0|1|1|1|1|1|0|0|1|1238|
+28|"Private"|156257|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|4|1|0|1|0|1|0|0|1|1|1|0|1|1239|
+37|"Private"|126675|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1240|
+20|"Private"|142233|"HS-grad"|9|"NeverM"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1241|
+47|"Fed-gov"|380127|"HS-grad"|9|"NeverM"|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1242|
+19|"?"|263224|"11th"|7|"NeverM"|"?"|"9+"|"FreeShi"|"Female"|"U.S."|0|3|3|0|1|1|0|1|0|1|1|0|0|1|1|0|0|1243|
+24|"Private"|306460|"HS-grad"|9|"NeverM"|"Farming"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1244|
+26|"Loc-gov"|197764|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1245|
+34|"Private"|159322|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|4|1|0|1|0|1|0|0|1|1|0|0|1|1246|
+28|"Private"|188236|"< Bach."|10|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1247|
+55|"Private"|231738|"HS-grad"|9|"Divorc."|"Sales"|"2"|"FreeShi"|"Female"|"England"|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1248|
+39|"Private"|338320|"10th"|6|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|6|1|0|1|0|1|1|1|0|1|0|0|0|1249|
+32|"Private"|201988|"Profsc"|15|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"?"|0|4|4|450.8|3|0|0|1|0|1|1|0|1|1|0|0|1|1250|
+64|"Private"|164204|"1st-4th"|2|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"?"|0|5.3|5|0|8|1|0|1|1|1|0|1|0|1|0|0|0|1251|
+20|"Private"|167787|"< Bach."|10|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1252|
+25|"SelfENI"|266668|"HS-grad"|9|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1253|
+30|"Private"|202051|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.2|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1254|
+43|"Sta-gov"|143939|"HS-grad"|9|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|1|5|5|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1255|
+90|"SelfENI"|282095|"< Bach."|10|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|9|1|0|1|1|1|1|1|1|1|0|0|1|1256|
+31|"Loc-gov"|206609|"HS-grad"|9|"Married"|"Protec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1257|
+30|"Sta-gov"|141297|"Bach."|13|"Married"|"Prof."|"3"|"Service"|"Male"|"India"|1|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|1258|
+41|"Private"|141642|"HS-grad"|9|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1259|
+46|"Private"|128796|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1260|
+23|"Private"|343019|"10th"|6|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|0|1|1|0|0|1261|
+22|"?"|289984|"< Bach."|10|"NeverM"|"?"|"2"|"Discoun"|"Female"|"U.S."|0|2.5|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1262|
+66|"Loc-gov"|36364|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|7|1|0|0|1|0|0|1|1|1|0|0|0|1263|
+33|"Private"|198452|"Assoc-A"|12|"Divorc."|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|1264|
+51|"Private"|95329|"Masters"|14|"Divorc."|"Protec."|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|1265|
+54|"Private"|179291|"< Bach."|10|"Married"|"Prof."|"3"|"Discoun"|"Male"|"Haiti"|1|5.6|6|0|8|1|0|1|0|1|1|1|1|1|0|0|1|1266|
+20|"Private"|120601|"HS-grad"|9|"NeverM"|"Transp."|"1"|"Discoun"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1267|
+28|"Private"|219267|"HS-grad"|9|"NeverM"|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|0|2.8|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1268|
+22|"Private"|109053|"12th"|8|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|0|1|1|0|0|1269|
+37|"Sta-gov"|28887|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|1270|
+34|"?"|222548|"< Bach."|10|"Married"|"?"|"4-5"|"FreeShi"|"Female"|"U.S."|0|.4|0|0|0|1|0|1|0|1|1|0|1|1|0|0|1|1271|
+34|"Private"|114955|"Assoc-A"|12|"Divorc."|"Machine"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|1272|
+21|"Private"|203924|"< Bach."|10|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|259.7|3|0|0|1|0|1|1|0|1|1|1|0|1|1273|
+34|"SelfENI"|289731|"11th"|7|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|0|1|0|0|0|1274|
+60|"Private"|216690|"< Bach."|10|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"?"|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1275|
+24|"?"|138504|"HS-grad"|9|"Separ."|"?"|"9+"|"Discoun"|"Female"|"U.S."|0|3.7|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1276|
+28|"Private"|302406|"Profsc"|15|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|6|6|0|4|1|0|1|0|1|1|0|1|1|1|0|1|1277|
+28|"Private"|111520|"11th"|7|"NeverM"|"Machine"|"9+"|"FreeShi"|"Female"|"Nicar."|0|4|4|0|3|1|0|1|0|0|0|0|0|1|1|0|0|1278|
+20|"Private"|38620|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|2|2|0|1|1|0|0|0|0|0|0|1|1|1|0|0|1279|
+37|"SelfENI"|31670|"HS-grad"|9|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|6|1|0|0|0|0|0|1|1|1|0|0|0|1280|
+20|"Private"|275691|"HS-grad"|9|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|2.8|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1281|
+41|"Private"|119266|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1282|
+44|"Private"|163331|"< Bach."|10|"Widowed"|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|3.2|3|0|3|1|0|1|0|1|0|1|1|1|0|0|1|1283|
+21|"Private"|301199|"< Bach."|10|"NeverM"|"Machine"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1284|
+79|"Private"|333230|"HS-grad"|9|"Mabsent"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|0|.6|1|0|2|1|0|1|1|1|1|1|1|1|0|0|1|1285|
+75|"SelfENI"|213349|"HS-grad"|9|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|2|2|0|4|1|0|1|1|1|1|1|1|1|0|0|1|1286|
+34|"Private"|157886|"Assoc-A"|12|"Separ."|"Other"|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|1|1|0|0|1|1287|
+25|"Private"|557082|"HS-grad"|9|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|3.8|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1288|
+53|"Sta-gov"|153486|"10th"|6|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|0|1|0|1|0|0|0|1289|
+36|"Private"|33983|"Assoc-V"|11|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|1|4.2|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|1290|
+59|"Private"|138370|"10th"|6|"Mabsent"|"Protec."|"2"|"Service"|"Male"|"India"|0|4|4|0|6|1|0|1|1|0|0|1|0|1|0|0|0|1291|
+38|"Private"|205493|"HS-grad"|9|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|1|6|6|0|6|1|0|1|0|1|1|1|1|1|0|0|1|1292|
+25|"Private"|247006|"Assoc-A"|12|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1293|
+41|"Private"|323790|"HS-grad"|9|"Divorc."|"Handler"|"9+"|"FreeShi"|"Male"|"U.S."|0|5.5|6|0|6|1|0|1|0|1|1|1|1|1|0|0|1|1294|
+35|"Private"|180647|"< Bach."|10|"NeverM"|"Prof."|"2"|"Discoun"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1295|
+22|"?"|195143|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|2.9|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1296|
+43|"Private"|183096|"< Bach."|10|"Separ."|"Sales"|"9+"|"FreeShi"|"Female"|"U.S."|0|1|1|0|1|1|0|1|0|1|1|1|1|1|0|0|1|1297|
+45|"Loc-gov"|189890|"HS-grad"|9|"NeverM"|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1298|
+28|"?"|230704|"HS-grad"|9|"NeverM"|"?"|"2"|"Discoun"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1299|
+43|"Private"|237993|"< Bach."|10|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1300|
+54|"Private"|28683|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|346.4|5|0|0|0|0|0|0|1|1|1|0|0|0|1301|
+38|"SelfEI"|124665|"Bach."|13|"NeverM"|"Crafts"|"2"|"FreeShi"|"Female"|"U.S."|0|2|2|0|2|1|0|1|0|0|0|1|1|1|0|0|0|1302|
+26|"Private"|90980|"Assoc-V"|11|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|5.5|6|0|4|1|0|0|0|0|0|0|1|1|1|0|0|1303|
+43|"Private"|186188|"< Bach."|10|"Divorc."|"Exec."|"9+"|"FreeShi"|"Female"|"Iran"|0|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1304|
+32|"Private"|316470|"5th-6th"|3|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"Mexico"|0|6|6|0|5|1|0|1|0|1|1|0|0|1|0|0|0|1305|
+41|"Private"|67339|"Bach."|13|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"?"|0|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|1306|
+27|"Private"|198258|"Bach."|13|"NeverM"|"Sales"|"1"|"FreeShi"|"Male"|"U.S."|0|3.5|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1307|
+45|"Sta-gov"|320818|"< Bach."|10|"Mabsent"|"Other"|"6-8"|"Discoun"|"Male"|"Haiti"|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1308|
+45|"SelfENI"|275445|"Bach."|13|"Divorc."|"Exec."|"9+"|"FreeShi"|"Male"|"U.S."|0|5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|1309|
+26|"Private"|39212|"HS-grad"|9|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|3|1|0|0|0|0|0|0|1|1|1|0|0|1310|
+19|"Loc-gov"|243960|"< Bach."|10|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|1.6|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1311|
+60|"Private"|297261|"< Bach."|10|"Widowed"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|1.5|2|0|3|1|0|1|1|1|1|1|1|1|0|0|1|1312|
+26|"Private"|280093|"5th-6th"|3|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|1|1|0|0|1|1|0|0|1313|
+35|"Private"|474136|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1314|
+49|"Private"|146268|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1315|
+36|"Private"|162256|"HS-grad"|9|"Divorc."|"Exec."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|1316|
+61|"Private"|147393|"Profsc"|15|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|2|2|0|3|1|0|1|1|0|0|1|1|1|0|0|0|1317|
+29|"SelfENI"|33798|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|4|1|0|0|0|0|0|0|1|1|1|0|0|1318|
+19|"?"|218471|"HS-grad"|9|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|3|3|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1319|
+25|"Private"|108658|"HS-grad"|9|"NeverM"|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|3|1|0|1|0|0|0|0|1|1|1|0|0|1320|
+46|"Loc-gov"|160187|"Masters"|14|"Widowed"|"Exec."|"9+"|"Discoun"|"Female"|"U.S."|0|3.5|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|1321|
+53|"Private"|99476|"HS-grad"|9|"Divorc."|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|3.8|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|1322|
+43|"Private"|266439|"Bach."|13|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1323|
+49|"SelfEI"|197332|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|1324|
+50|"Fed-gov"|159670|"HS-grad"|9|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|1325|
+51|"SelfENI"|25932|"HS-grad"|9|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|8|1|0|0|0|0|0|1|1|1|0|0|0|1326|
+18|"Private"|138917|"11th"|7|"NeverM"|"Sales"|"1"|"Discoun"|"Female"|"U.S."|0|1|1|0|0|1|0|1|0|0|0|0|0|1|1|0|0|1327|
+39|"Private"|235259|"< Bach."|10|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1328|
+18|"?"|127388|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1329|
+69|"?"|159077|"11th"|7|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|9|1|0|1|1|1|0|1|0|1|0|0|0|1330|
+26|"Private"|195734|"HS-grad"|9|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|235.4|3|0|0|1|0|1|1|0|1|1|1|0|1|1331|
+49|"Private"|165134|"Assoc-V"|11|"NeverM"|"Exec."|"9+"|"FreeShi"|"Female"|"Colum."|0|3.5|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1332|
+56|"Private"|179641|"HS-grad"|9|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|4.5|5|0|7|1|0|1|1|1|1|1|1|1|0|0|1|1333|
+27|"Private"|126060|"HS-grad"|9|"NeverM"|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|1334|
+49|"Private"|97411|"7th-8th"|4|"NeverM"|"Machine"|"2"|"Service"|"Male"|"Laos"|0|4.5|5|0|6|1|0|0|0|0|0|1|0|1|0|0|0|1335|
+33|"Private"|118551|"HS-grad"|9|"Divorc."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|0|0|0|1336|
+41|"Private"|283116|"HS-grad"|9|"Divorc."|"Crafts"|"9+"|"FreeShi"|"Female"|"U.S."|0|5|5|150.6|5|0|0|1|0|1|1|1|1|1|0|0|1|1337|
+22|"Private"|229987|"< Bach."|10|"NeverM"|"TechSup"|"6-8"|"Service"|"Female"|"U.S."|0|3.2|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1338|
+38|"SelfENI"|129573|"Masters"|14|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1339|
+45|"Private"|230979|"< Bach."|10|"Mabsent"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1340|
+50|"Private"|63000|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|8|1|0|0|0|0|0|1|1|1|0|0|0|1341|
+40|"Sta-gov"|150533|"Bach."|13|"Married"|"Prof."|"6-8"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|1342|
+34|"Private"|182218|"Assoc-V"|11|"Divorc."|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1343|
+17|"Private"|112795|"10th"|6|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|1.5|2|0|1|1|0|1|0|0|0|0|0|1|1|0|0|1344|
+48|"Private"|166929|"Bach."|13|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"?"|1|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|1345|
+45|"Loc-gov"|170099|"Assoc-A"|12|"Married"|"Handler"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1346|
+24|"Private"|359828|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|4.4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1347|
+43|"Private"|320277|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1348|
+56|"Private"|172071|"HS-grad"|9|"Divorc."|"Other"|"9+"|"Discoun"|"Female"|"Jamaica"|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1349|
+30|"Private"|26543|"Bach."|13|"Divorc."|"Other"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|0|0|0|1350|
+74|"Private"|211075|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"U.S."|0|3|3|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1351|
+67|"Private"|236627|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|.2|0|0|0|1|0|1|1|1|1|1|1|1|0|0|1|1352|
+21|"Private"|32616|"HS-grad"|9|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|1.6|2|0|1|1|0|0|0|0|0|0|1|1|1|0|0|1353|
+58|"Private"|172333|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|768.8|6|1|1|1|1|1|1|1|1|1|0|0|1|1354|
+20|"?"|24395|"< Bach."|10|"NeverM"|"?"|"9+"|"FreeShi"|"Female"|"U.S."|0|2|2|0|1|1|0|0|0|0|0|0|1|1|1|1|0|1355|
+21|"Private"|409230|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"Guatem."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1356|
+39|"?"|204756|"< Bach."|10|"Divorc."|"?"|"2"|"FreeShi"|"Female"|"U.S."|0|2|2|0|2|1|0|1|0|1|1|1|1|1|0|0|1|1357|
+18|"Private"|120691|"< Bach."|10|"NeverM"|"Other"|"1"|"Discoun"|"Male"|"?"|0|3.5|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1358|
+25|"Private"|212793|"Assoc-A"|12|"NeverM"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|1|5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1359|
+23|"Private"|428299|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1360|
+46|"Private"|238162|"Bach."|13|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|1361|
+25|"Private"|157900|"< Bach."|10|"Separ."|"Cleric."|"9+"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|0|0|1|1|1|0|1|1362|
+29|"Private"|47429|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|1363|
+21|"?"|253190|"< Bach."|10|"NeverM"|"?"|"1"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1364|
+49|"Private"|204057|"Assoc-A"|12|"Divorc."|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1365|
+60|"Private"|238913|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4.6|5|0|8|1|0|1|1|1|1|1|1|1|0|0|1|1366|
+30|"SelfENI"|167990|"Assoc-V"|11|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|6.5|7|1502.4|5|1|1|1|0|1|1|0|1|1|0|0|1|1367|
+34|"Fed-gov"|67083|"Bach."|13|"NeverM"|"Exec."|"9+"|"Service"|"Male"|"Cambod."|0|4|4|147.1|3|0|0|0|0|0|0|0|1|1|0|0|0|1368|
+51|"Private"|96062|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|1369|
+18|"?"|28311|"11th"|7|"NeverM"|"?"|"1"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|2|1|0|0|0|0|0|0|0|1|1|0|0|1370|
+40|"Private"|316820|"7th-8th"|4|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|406.4|4|0|0|1|0|1|1|1|0|1|0|0|0|1371|
+30|"Private"|208043|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|5|1|0|1|0|1|1|0|1|1|0|0|1|1372|
+50|"SelfENI"|27539|"< Bach."|10|"Married"|"Farming"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|768.8|5|1|1|0|0|0|0|1|1|1|0|0|0|1373|
+63|"Private"|88653|"< Bach."|10|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"?"|0|4|4|0|6|1|0|0|1|0|0|1|1|1|0|0|0|1374|
+42|"Private"|44402|"Bach."|13|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|6|6|0|6|1|0|0|0|0|0|1|1|1|0|0|0|1375|
+27|"Private"|332187|"Bach."|13|"NeverM"|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|6.5|7|0|5|1|0|1|0|1|1|0|1|1|1|0|1|1376|
+43|"Private"|161226|"Bach."|13|"Married"|"Machine"|"3"|"Special"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|0|1|1|1|0|0|1|1377|
+49|"Loc-gov"|304246|"Masters"|14|"Separ."|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|0|7|7|0|9|1|0|1|0|1|1|1|1|1|0|0|1|1378|
+24|"Private"|217961|"< Bach."|10|"NeverM"|"Machine"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1379|
+32|"Private"|165949|"Bach."|13|"Divorc."|"Machine"|"2"|"FreeShi"|"Female"|"U.S."|0|4.2|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1380|
+20|"Private"|289944|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|2.5|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1381|
+35|"Private"|225750|"Bach."|13|"Divorc."|"Prof."|"9+"|"FreeShi"|"Female"|"U.S."|0|3.2|3|0|3|1|0|1|0|1|1|1|1|1|0|0|1|1382|
+23|"Private"|167424|"< Bach."|10|"NeverM"|"Other"|"1"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1383|
+20|"Private"|226978|"HS-grad"|9|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|3.5|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1384|
+27|"Loc-gov"|199172|"HS-grad"|9|"Married"|"Protec."|"4-5"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1385|
+32|"Private"|173730|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|768.8|3|1|1|1|0|1|1|0|1|1|0|0|1|1386|
+37|"Private"|265038|"< Bach."|10|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1387|
+33|"Private"|312055|"Bach."|13|"NeverM"|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1388|
+35|"SelfENI"|267776|"HS-grad"|9|"NeverM"|"Other"|"6-8"|"FreeShi"|"Female"|"U.S."|0|3|3|0|3|1|0|1|0|1|1|1|1|1|0|0|1|1389|
+32|"Private"|222548|"HS-grad"|9|"Divorc."|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1390|
+29|"Loc-gov"|280344|"< Bach."|10|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1391|
+55|"Private"|81865|"Assoc-V"|11|"Divorc."|"Cleric."|"9+"|"Discoun"|"Female"|"U.S."|0|4|4|0|6|1|0|0|1|0|0|1|1|1|0|0|0|1392|
+18|"Sta-gov"|389147|"HS-grad"|9|"NeverM"|"Sales"|"2"|"Discoun"|"Female"|"U.S."|0|3|3|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1393|
+31|"Private"|200246|"9th"|5|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|0|1|0|0|0|1394|
+26|"Private"|248990|"11th"|7|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|3|1|0|1|0|1|1|0|0|1|1|0|0|1395|
+37|"Private"|186191|"HS-grad"|9|"Married"|"Other"|"3"|"FreeShi"|"Male"|"?"|0|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1396|
+44|"SelfEI"|168845|"HS-grad"|9|"Married"|"Sales"|"4-5"|"FreeShi"|"Female"|"U.S."|0|6|6|0|7|1|0|1|0|1|1|1|1|1|0|0|1|1397|
+59|"Private"|329059|"Bach."|13|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|7|1|0|1|1|1|1|1|1|1|0|0|1|1398|
+43|"Private"|208613|"Profsc"|15|"Mabsent"|"Prof."|"2"|"FreeShi"|"Male"|"U.S."|1|4|4|9999.9|4|1|1|1|0|1|1|1|1|1|0|0|1|1399|
+39|"Fed-gov"|30673|"9th"|5|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|0|1|0|0|0|1400|
+31|"SelfENI"|117346|"< Bach."|10|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|4|1|0|1|0|0|0|0|1|1|0|0|0|1401|
+19|"Private"|196857|"HS-grad"|9|"NeverM"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1402|
+49|"Private"|168216|"7th-8th"|4|"Married"|"Machine"|"3"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|6|1|0|1|0|1|1|1|0|1|0|0|0|1403|
+38|"Private"|296212|"Bach."|13|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1404|
+27|"Private"|134890|"Bach."|13|"NeverM"|"TechSup"|"1"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|0|0|0|1|1|1|0|0|1405|
+42|"Private"|115085|"HS-grad"|9|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1406|
+32|"SelfENI"|173854|"Bach."|13|"Divorc."|"Prof."|"6-8"|"FreeShi"|"Male"|"U.S."|1|3.5|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1407|
+66|"Loc-gov"|362165|"Bach."|13|"Widowed"|"Prof."|"2"|"Discoun"|"Female"|"U.S."|0|2.5|3|0|5|1|0|1|1|1|1|1|1|1|0|0|1|1408|
+34|"SelfENI"|29254|"< Bach."|10|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|5|1|0|0|0|0|0|0|1|1|0|0|0|1409|
+38|"Private"|103925|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1410|
+25|"Private"|118088|"HS-grad"|9|"NeverM"|"Crafts"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|1411|
+37|"SelfENI"|184655|"HS-grad"|9|"NeverM"|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|3.5|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1412|
+48|"Private"|160647|"< Bach."|10|"NeverM"|"Exec."|"2"|"FreeShi"|"Female"|"Ireland"|1|4|4|0|5|1|0|1|0|1|0|1|1|1|0|0|1|1413|
+28|"Private"|375482|"Bach."|13|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1414|
+47|"SelfENI"|159869|"PhD"|16|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|6|1|0|1|0|1|0|1|1|1|0|0|1|1415|
+17|"Private"|95799|"11th"|7|"NeverM"|"Sales"|"1"|"FreeShi"|"Female"|"U.S."|0|1.8|2|0|1|1|0|0|0|0|0|0|0|1|1|0|0|1416|
+24|"Private"|186452|"HS-grad"|9|"NeverM"|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|5|5|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1417|
+22|"Private"|151105|"< Bach."|10|"NeverM"|"Sales"|"6-8"|"FreeShi"|"Female"|"U.S."|0|1.8|2|0|1|1|0|1|0|1|0|0|1|1|1|0|1|1418|
+53|"Private"|47396|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|1419|
+48|"Private"|159726|"HS-grad"|9|"Married"|"Transp."|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|0|7|1|0|1|0|1|0|1|1|1|0|0|1|1420|
+48|"SelfEI"|51579|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|0|7|1|0|0|0|0|0|1|1|1|0|0|0|1421|
+32|"Private"|286689|"Assoc-A"|12|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|4.2|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1422|
+20|"Private"|278391|"< Bach."|10|"NeverM"|"Cleric."|"1"|"FreeShi"|"Male"|"Nicar."|0|2.5|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1423|
+23|"Private"|107578|"Bach."|13|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|217.4|2|0|0|1|0|0|0|0|1|1|1|0|0|1424|
+45|"Private"|166636|"HS-grad"|9|"Divorc."|"Other"|"6-8"|"Discoun"|"Female"|"U.S."|0|3.5|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1425|
+39|"SelfEI"|239755|"Profsc"|15|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1426|
+35|"Private"|115214|"HS-grad"|9|"NeverM"|"Machine"|"9+"|"FreeShi"|"Male"|"U.S."|0|6.5|7|649.7|6|0|0|1|0|0|0|1|1|1|0|0|0|1427|
+29|"Fed-gov"|208534|"Profsc"|15|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|8|8|0|6|1|0|1|0|1|1|0|1|1|1|0|1|1428|
+17|"SelfENI"|368700|"11th"|7|"NeverM"|"Farming"|"1"|"FreeShi"|"Male"|"U.S."|0|1|1|0|0|1|0|1|0|1|1|0|0|1|1|0|0|1429|
+36|"SelfENI"|219611|"Bach."|13|"NeverM"|"Sales"|"2"|"Discoun"|"Female"|"U.S."|0|5|5|217.4|5|0|0|1|0|1|1|1|1|1|0|0|1|1430|
+55|"Private"|141549|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|0|0|1|1|1|0|0|0|1431|
+27|"Private"|114967|"9th"|5|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|0|1|1|0|0|1432|
+42|"Private"|296982|"< Bach."|10|"Divorc."|"Sales"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1433|
+76|"Private"|70697|"7th-8th"|4|"Widowed"|"Other"|"2"|"FreeShi"|"Female"|"U.S."|0|2.5|3|0|6|1|0|0|1|0|0|1|0|1|0|0|0|1434|
+36|"Private"|233571|"< Bach."|10|"Divorc."|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|.4|0|0|0|1|0|1|0|1|1|1|1|1|0|0|1|1435|
+25|"Sta-gov"|143062|"HS-grad"|9|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|1436|
+48|"Private"|101299|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1437|
+27|"Sta-gov"|106721|"HS-grad"|9|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|3|1|0|1|0|0|0|0|1|1|1|0|0|1438|
+39|"Loc-gov"|119421|"Bach."|13|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|0|4.2|4|0|4|1|0|1|0|0|0|1|1|1|0|0|0|1439|
+22|"Private"|199266|"Bach."|13|"NeverM"|"Exec."|"2"|"FreeShi"|"Female"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1440|
+17|"Private"|231439|"11th"|7|"NeverM"|"Handler"|"1"|"FreeShi"|"Male"|"U.S."|0|3|3|0|1|1|0|1|0|1|1|0|0|1|1|0|0|1441|
+44|"Private"|167005|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|768.8|7|1|1|1|0|1|1|1|1|1|0|0|1|1442|
+24|"Private"|211527|"Bach."|13|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|0|3|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1443|
+45|"Fed-gov"|76008|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|0|0|0|0|1|1|1|0|0|0|1444|
+45|"SelfEI"|185497|"Bach."|13|"Married"|"Exec."|"4-5"|"Service"|"Female"|"?"|0|7|7|0|8|1|0|1|0|1|1|1|1|1|0|0|1|1445|
+47|"Private"|225065|"5th-6th"|3|"Separ."|"Sales"|"9+"|"FreeShi"|"Female"|"Mexico"|0|4|4|0|5|1|0|1|0|1|1|1|0|1|0|0|0|1446|
+47|"Private"|105381|"HS-grad"|9|"Divorc."|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|1|1|0|0|0|1447|
+43|"Private"|221172|"Bach."|13|"Married"|"TechSup"|"3"|"FreeShi"|"Male"|"U.S."|1|2.4|2|0|2|1|0|1|0|1|1|1|1|1|0|0|1|1448|
+39|"Private"|190297|"PhD"|16|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|5.5|6|9999.9|6|1|1|1|0|1|1|1|1|1|0|0|1|1449|
+38|"Private"|31848|"Assoc-V"|11|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|1|4|4|0|4|1|0|0|0|0|0|1|1|1|0|0|0|1450|
+32|"Private"|259719|"< Bach."|10|"Divorc."|"Handler"|"9+"|"Discoun"|"Male"|"Nicar."|0|4|4|0|3|1|0|1|0|1|1|0|1|1|0|0|1|1451|
+36|"Private"|162424|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|4.5|5|0|5|1|0|1|0|1|0|1|1|1|0|0|1|1452|
+47|"SelfENI"|145290|"HS-grad"|9|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|6|1|0|1|0|0|0|1|1|1|0|0|0|1453|
+69|"Private"|36956|"< Bach."|10|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|2005.1|9|1|1|0|1|0|0|1|1|1|0|0|0|1454|
+48|"Loc-gov"|78859|"HS-grad"|9|"NeverM"|"Exec."|"1"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|1455|
+38|"Private"|219137|"HS-grad"|9|"Married"|"Cleric."|"4-5"|"FreeShi"|"Female"|"U.S."|0|2.2|2|0|2|1|0|1|0|1|1|1|1|1|0|0|1|1456|
+37|"Private"|177858|"< Bach."|10|"NeverM"|"Exec."|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|217.4|4|0|0|1|0|1|1|1|1|1|0|0|1|1457|
+24|"Private"|122348|"Bach."|13|"Married"|"Exec."|"4-5"|"FreeShi"|"Female"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1458|
+38|"Private"|144860|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"U.S."|0|6.5|7|0|7|1|0|1|0|0|0|1|1|1|0|0|0|1459|
+37|"SelfEI"|186359|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|1|6|6|768.8|6|1|1|1|0|1|1|1|1|1|0|0|1|1460|
+66|"?"|210750|"< Bach."|10|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|8|1|0|1|1|1|1|1|1|1|0|0|1|1461|
+23|"Private"|120046|"Assoc-A"|12|"NeverM"|"Cleric."|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1462|
+23|"Private"|256755|"Bach."|13|"NeverM"|"Handler"|"6-8"|"FreeShi"|"Female"|"Cuba"|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1463|
+48|"Fed-gov"|96854|"< Bach."|10|"NeverM"|"Cleric."|"2"|"FreeShi"|"Male"|"U.S."|0|3|3|0|4|1|0|0|0|0|0|1|1|1|0|0|0|1464|
+26|"Loc-gov"|138597|"HS-grad"|9|"NeverM"|"Other"|"9+"|"Discoun"|"Female"|"U.S."|0|2.5|3|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1465|
+49|"Loc-gov"|159726|"11th"|7|"Divorc."|"Handler"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|5|1|0|1|0|1|0|1|0|1|0|0|0|1466|
+44|"Private"|106900|"HS-grad"|9|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|6.8|7|0|8|1|0|1|0|0|0|1|1|1|0|0|0|1467|
+35|"Private"|193241|"< Bach."|10|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|0|3.8|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1468|
+46|"Loc-gov"|180010|"Bach."|13|"Married"|"Prof."|"4-5"|"FreeShi"|"Female"|"U.S."|1|4|4|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1469|
+23|"Private"|409230|"Bach."|13|"NeverM"|"Sales"|"2"|"FreeShi"|"Male"|"U.S."|0|2.5|3|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1470|
+24|"Loc-gov"|161092|"HS-grad"|9|"NeverM"|"Other"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|0|0|1|1|1|0|1|1471|
+63|"Private"|188914|"HS-grad"|9|"Widowed"|"Machine"|"6-8"|"Discoun"|"Female"|"Haiti"|0|4|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1472|
+51|"Loc-gov"|114508|"9th"|5|"Separ."|"Other"|"6-8"|"FreeShi"|"Female"|"U.S."|0|4|4|0|5|1|0|1|0|0|0|1|0|1|0|0|0|1473|
+47|"Private"|95680|"< Bach."|10|"Married"|"Exec."|"3"|"Service"|"Male"|"U.S."|0|4|4|0|5|1|0|0|0|0|0|1|1|1|0|0|0|1474|
+37|"Private"|224566|"HS-grad"|9|"NeverM"|"Crafts"|"9+"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1475|
+23|"Fed-gov"|41031|"< Bach."|10|"NeverM"|"Sales"|"2"|"FreeShi"|"Female"|"U.S."|0|3.5|4|0|2|1|0|0|0|0|0|0|1|1|1|0|0|1476|
+40|"Private"|220563|"12th"|8|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4|4|0|4|1|0|1|0|1|1|1|0|1|0|0|0|1477|
+24|"Private"|52028|"1st-4th"|2|"Married"|"Other"|"1"|"Service"|"Female"|"Vietnam"|0|.5|1|0|1|1|0|0|0|0|0|0|0|1|1|0|0|1478|
+56|"Sta-gov"|110257|"HS-grad"|9|"Married"|"Cleric."|"3"|"FreeShi"|"Male"|"U.S."|0|4|4|0|6|1|0|1|1|0|0|1|1|1|0|0|0|1479|
+28|"Private"|208249|"< Bach."|10|"Divorc."|"TechSup"|"2"|"FreeShi"|"Male"|"U.S."|0|2.4|2|0|1|1|0|1|0|1|1|0|1|1|1|0|1|1480|
+24|"Private"|122166|"< Bach."|10|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"Iran"|0|4|4|0|2|1|0|1|0|0|0|0|1|1|1|0|0|1481|
+58|"Loc-gov"|215245|"Bach."|13|"NeverM"|"Prof."|"2"|"FreeShi"|"Female"|"U.S."|0|3.7|4|0|6|1|0|1|1|1|1|1|1|1|0|0|1|1482|
+19|"Private"|250249|"< Bach."|10|"NeverM"|"Cleric."|"1"|"FreeShi"|"Female"|"U.S."|0|1|1|0|0|1|0|1|0|1|1|0|1|1|1|0|1|1483|
+31|"Private"|118966|"HS-grad"|9|"NeverM"|"Crafts"|"1"|"FreeShi"|"Male"|"U.S."|0|1.8|2|0|2|1|0|1|0|0|0|0|1|1|0|0|0|1484|
+36|"SelfENI"|347491|"PhD"|16|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|0|3.5|4|0|4|1|0|1|0|1|1|1|1|1|0|0|1|1485|
+23|"Private"|287681|"7th-8th"|4|"NeverM"|"Other"|"2"|"FreeShi"|"Male"|"Mexico"|0|2.5|3|0|2|1|0|1|0|1|1|0|0|1|1|0|0|1486|
+28|"SelfENI"|420054|"HS-grad"|9|"Married"|"Crafts"|"3"|"FreeShi"|"Male"|"Italy"|0|4|4|0|3|1|0|1|0|1|1|0|1|1|1|0|1|1487|
+59|"?"|409842|"Masters"|14|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|0|2|2|0|3|1|0|1|1|1|1|1|1|1|0|0|1|1488|
+59|"Private"|314149|"Assoc-V"|11|"Married"|"Sales"|"3"|"FreeShi"|"Male"|"U.S."|0|5|5|0|7|1|0|1|1|1|1|1|1|1|0|0|1|1489|
+24|"Private"|230248|"7th-8th"|4|"Separ."|"Machine"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|0|1|1|0|0|1490|
+75|"?"|35724|"HS-grad"|9|"Widowed"|"?"|"2"|"FreeShi"|"Female"|"U.S."|0|.8|1|0|2|1|0|0|1|0|0|1|1|1|0|0|0|1491|
+29|"Sta-gov"|71592|"< Bach."|10|"NeverM"|"Cleric."|"9+"|"Service"|"Female"|"Phil."|0|4|4|0|3|1|0|0|0|0|0|0|1|1|1|0|0|1492|
+65|"?"|325537|"Assoc-V"|11|"Married"|"?"|"3"|"FreeShi"|"Male"|"U.S."|1|5|5|0|8|1|0|1|1|1|1|1|1|1|0|0|1|1493|
+38|"Private"|193815|"Masters"|14|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.5|5|0|5|1|0|1|0|1|1|1|1|1|0|0|1|1494|
+28|"Private"|190525|"Bach."|13|"Married"|"Exec."|"3"|"FreeShi"|"Male"|"U.S."|1|4.6|5|0|4|1|0|1|0|1|1|0|1|1|1|0|1|1495|
+46|"Private"|233511|"Bach."|13|"Divorc."|"Crafts"|"2"|"FreeShi"|"Male"|"U.S."|0|4.8|5|0|6|1|0|1|0|1|1|1|1|1|0|0|1|1496|
+34|"Private"|175413|"Assoc-A"|12|"Divorc."|"Sales"|"9+"|"Discoun"|"Female"|"U.S."|0|4.5|5|0|4|1|0|1|0|1|1|0|1|1|0|0|1|1497|
+67|"Private"|197865|"< Bach."|10|"Divorc."|"Cleric."|"2"|"FreeShi"|"Female"|"U.S."|0|4|4|0|7|1|0|1|1|1|1|1|1|1|0|0|1|1498|
+56|"Private"|193453|"Bach."|13|"Married"|"Prof."|"3"|"FreeShi"|"Male"|"U.S."|1|6.5|7|0|10|1|0|1|1|1|1|1|1|1|0|0|1|1499|
+22|"Private"|200593|"< Bach."|10|"NeverM"|"Sales"|"1"|"FreeShi"|"Male"|"U.S."|0|4|4|0|2|1|0|1|0|1|1|0|1|1|1|0|1|1500|

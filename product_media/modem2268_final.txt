@@ -1,0 +1,10 @@
+TIGER2 2268 Standard Hayes Compatible Modem
+Product Number: 2268   Price:$77  
+This is the #1 selling modem in the universe! This Tiger2 modem 
+includes call management and Internet voicing. You can even make 
+real-time full duplex phone calls at the same time you're online.
+** ITU 56K V.90 x2  Standard Hayes Compatible
+** Advanced call management and line probes to optimize 
+   V.90 connections
+** Includes software for fax, Internet, and modem
+** USB/Serial options

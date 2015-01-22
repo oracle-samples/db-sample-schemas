@@ -1,0 +1,69 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SKING-20021009123336131PDT</Reference>
+   <Actions>
+      <Action>
+         <User/>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Steven A. King</Requestor>
+   <User>SKING</User>
+   <CostCenter>A10</CostCenter>
+   <ShippingInstructions>
+      <name>Steven A. King</name>
+      <address>500 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7500</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>The Unbearable Lightness Of Being</Description>
+         <Part Id="37429140222" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Carl Th. Dreyer - My Metier</Description>
+         <Part Id="37429161425" UnitPrice="0.0" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Coup De Torchon (Clean Slate)</Description>
+         <Part Id="37429149829" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Chasing Amy</Description>
+         <Part Id="717951002372" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Andrei Rublev</Description>
+         <Part Id="715515009928" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Brazil</Description>
+         <Part Id="37429138526" UnitPrice="59.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Haxan: Witchcraft Through the Ages</Description>
+         <Part Id="37429161722" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Brief Encounter</Description>
+         <Part Id="37429150726" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>The Scarlet Empress</Description>
+         <Part Id="715515011822" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Ordet</Description>
+         <Part Id="37429158623" UnitPrice="0.0" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Branded to Kill</Description>
+         <Part Id="37429136225" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

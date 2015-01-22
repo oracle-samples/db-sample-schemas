@@ -1,0 +1,93 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>DAUSTIN-20021009123337103PDT</Reference>
+   <Actions>
+      <Action>
+         <User>AHUNOLD</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>David L. Austin</Requestor>
+   <User>DAUSTIN</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>David L. Austin</name>
+      <address>300 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7300</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Sanjuro</Description>
+         <Part Id="37429141526" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Robocop</Description>
+         <Part Id="715515009324" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Bob le Flambeur</Description>
+         <Part Id="37429165928" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>The Last Wave</Description>
+         <Part Id="37429161920" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Billy Liar</Description>
+         <Part Id="37429159224" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Lord of the Flies</Description>
+         <Part Id="37429136720" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Big Deal on Madonna Street</Description>
+         <Part Id="37429155424" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Loves of a Blonde</Description>
+         <Part Id="37429165423" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>This is Spinal Tap</Description>
+         <Part Id="715515009126" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Salesman</Description>
+         <Part Id="37429158920" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Summertime</Description>
+         <Part Id="37429130728" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Closely Watched Trains</Description>
+         <Part Id="37429161524" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Alexander Nevsky</Description>
+         <Part Id="37429149225" UnitPrice="0.0" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>The Third Man</Description>
+         <Part Id="37429141625" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Chasing Amy</Description>
+         <Part Id="717951002372" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Insomnia</Description>
+         <Part Id="37429138229" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Orpheus</Description>
+         <Part Id="37429141427" UnitPrice="0.0" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

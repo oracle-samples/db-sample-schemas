@@ -1,0 +1,65 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>VJONES-20021009123336602PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SVOLLMAN</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Vance L. Jones</Requestor>
+   <User>VJONES</User>
+   <CostCenter>R20</CostCenter>
+   <ShippingInstructions>
+      <name>Vance L. Jones</name>
+      <address>600 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7600</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Traffic</Description>
+         <Part Id="696306038924" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Written on the Wind</Description>
+         <Part Id="715515011525" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Good Morning</Description>
+         <Part Id="37429149621" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>The Cranes Are Flying</Description>
+         <Part Id="37429168028" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>The Firemen's Ball</Description>
+         <Part Id="37429165522" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>The Vanishing</Description>
+         <Part Id="37429161623" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>George Washington</Description>
+         <Part Id="37429166123" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Traffic</Description>
+         <Part Id="696306038924" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Samurai 3: Duel at Ganryu Island</Description>
+         <Part Id="37429125625" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Samurai 2: Duel at Ichijoji Temple</Description>
+         <Part Id="37429125526" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

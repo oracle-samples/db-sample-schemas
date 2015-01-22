@@ -1,0 +1,117 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JCHEN-20021009123337443PDT</Reference>
+   <Actions>
+      <Action>
+         <User>NGREENBE</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>John Z. Chen</Requestor>
+   <User>JCHEN</User>
+   <CostCenter>A10</CostCenter>
+   <ShippingInstructions>
+      <name>John Z. Chen</name>
+      <address>300 North First Street
+Belmont
+CA
+94065
+USA</address>
+      <telephone>650 506 7200</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Dreyer Box Set</Description>
+         <Part Id="37429158425" UnitPrice="79.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>The Hidden Fortress</Description>
+         <Part Id="37429135129" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Beastie Boys Video Anthology</Description>
+         <Part Id="715515010924" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>The Seventh Seal</Description>
+         <Part Id="37429124529" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>The Night Porter</Description>
+         <Part Id="37429145227" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Lord of the Flies</Description>
+         <Part Id="37429136720" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Rashomon  </Description>
+         <Part Id="37429161821" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>The Third Man</Description>
+         <Part Id="37429141625" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>L'avventura</Description>
+         <Part Id="37429156025" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Do the Right Thing</Description>
+         <Part Id="715515011228" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Testament of Orpheus</Description>
+         <Part Id="37429143322" UnitPrice="0.0" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Written on the Wind</Description>
+         <Part Id="715515011525" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Dreyer Box Set</Description>
+         <Part Id="37429158425" UnitPrice="79.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Double Suicide</Description>
+         <Part Id="37429149638" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Sullivan's Travels</Description>
+         <Part Id="715515012126" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Life of Brian - Monty Python's</Description>
+         <Part Id="715515010320" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Sid &amp; Nancy</Description>
+         <Part Id="715515009232" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>The Ruling Class</Description>
+         <Part Id="715515012423" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>Peeping Tom</Description>
+         <Part Id="37429142929" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>The 39 Steps</Description>
+         <Part Id="37429135228" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="21">
+         <Description>The Harder They Come</Description>
+         <Part Id="715515010825" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="22">
+         <Description>M</Description>
+         <Part Id="37429126523" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="23">
+         <Description>Juliet of the Spirits</Description>
+         <Part Id="37429165829" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

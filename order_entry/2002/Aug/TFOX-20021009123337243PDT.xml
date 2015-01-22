@@ -1,0 +1,105 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>TFOX-20021009123337243PDT</Reference>
+   <Actions>
+      <Action>
+         <User>GCAMBRAU</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Tayler L. Fox</Requestor>
+   <User>TFOX</User>
+   <CostCenter>R20</CostCenter>
+   <ShippingInstructions>
+      <name>Tayler L. Fox</name>
+      <address>100 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7100</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>The Last Wave</Description>
+         <Part Id="37429161920" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Black Narcissus</Description>
+         <Part Id="37429152126" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Yojimbo</Description>
+         <Part Id="37429141328" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>The Bank Dick</Description>
+         <Part Id="715515010627" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Le million</Description>
+         <Part Id="37429147627" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>W.C. Fields - Six Short Films</Description>
+         <Part Id="715515010726" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Dreyer Box Set</Description>
+         <Part Id="37429158425" UnitPrice="79.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Charade</Description>
+         <Part Id="37429139424" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Coup De Torchon (Clean Slate)</Description>
+         <Part Id="37429149829" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Ivan the Terrible - Parts I &amp; II</Description>
+         <Part Id="37429150122" UnitPrice="0.0" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>The Naked Kiss</Description>
+         <Part Id="37429125823" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Traffic</Description>
+         <Part Id="696306038924" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Mon Oncle</Description>
+         <Part Id="37429155929" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Closely Watched Trains</Description>
+         <Part Id="37429161524" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>The Last Wave</Description>
+         <Part Id="37429161920" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Vagabond</Description>
+         <Part Id="37429148921" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Black Narcissus</Description>
+         <Part Id="37429152126" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>Black Narcissus</Description>
+         <Part Id="37429152126" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>Pygmalion</Description>
+         <Part Id="37429151822" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>And God Created Woman</Description>
+         <Part Id="37429147825" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

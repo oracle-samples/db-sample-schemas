@@ -1,0 +1,105 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>LSMITH-20021009123336852PDT</Reference>
+   <Actions>
+      <Action>
+         <User>KPARTNER</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Lindsey G. Smith</Requestor>
+   <User>LSMITH</User>
+   <CostCenter>R20</CostCenter>
+   <ShippingInstructions>
+      <name>Lindsey G. Smith</name>
+      <address>200 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7200</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Eisenstein: The Sound Years</Description>
+         <Part Id="37429149126" UnitPrice="79.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>The Rock</Description>
+         <Part Id="786936150421" UnitPrice="49.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Children of Paradise</Description>
+         <Part Id="37429151723" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Samurai 2: Duel at Ichijoji Temple</Description>
+         <Part Id="37429125526" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Great Expectations</Description>
+         <Part Id="37429128022" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>The Scarlet Empress</Description>
+         <Part Id="715515011822" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Under the Roofs of Paris</Description>
+         <Part Id="37429168929" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>The Vanishing</Description>
+         <Part Id="37429161623" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Traffic</Description>
+         <Part Id="696306038924" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Fishing With John 1 -3</Description>
+         <Part Id="37429136621" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Branded to Kill</Description>
+         <Part Id="37429136225" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>The Bank Dick</Description>
+         <Part Id="715515010627" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Nights of Cabiria</Description>
+         <Part Id="37429138427" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Big Deal on Madonna Street</Description>
+         <Part Id="37429155424" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Le million</Description>
+         <Part Id="37429147627" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Haxan: Witchcraft Through the Ages</Description>
+         <Part Id="37429161722" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Spartacus</Description>
+         <Part Id="715515011723" UnitPrice="39.96" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>High and Low</Description>
+         <Part Id="37429130322" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>The Ruling Class</Description>
+         <Part Id="715515012423" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>Silence of the Lambs</Description>
+         <Part Id="715515009133" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

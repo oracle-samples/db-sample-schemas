@@ -1,0 +1,125 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AWALSH-20021009123336101PDT</Reference>
+   <Actions>
+      <Action>
+         <User>KPARTNER</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Alana G. Walsh</Requestor>
+   <User>AWALSH</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Alana G. Walsh</name>
+      <address>1200 East Forty Seventh Avenue 
+New York
+NY
+10024
+USA</address>
+      <telephone>212 555 1212</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expedite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>The Long Good Friday</Description>
+         <Part Id="715515009621" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>The Unbearable Lightness Of Being</Description>
+         <Part Id="37429140222" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Cries and Whispers</Description>
+         <Part Id="37429156322" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Silence of the Lambs</Description>
+         <Part Id="715515009133" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>The Magic Flute</Description>
+         <Part Id="37429147528" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Getrud</Description>
+         <Part Id="37429158524" UnitPrice="0.0" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>The 400 Blows</Description>
+         <Part Id="37429122228" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Salo</Description>
+         <Part Id="715515009225" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Getrud</Description>
+         <Part Id="37429158524" UnitPrice="0.0" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>For All Mankind</Description>
+         <Part Id="37429139523" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Carnival of Souls</Description>
+         <Part Id="715515010221" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>The Harder They Come</Description>
+         <Part Id="715515010825" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>That Obscure Object of Desire</Description>
+         <Part Id="37429162026" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>A Nous la Liberte</Description>
+         <Part Id="37429147726" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Rebecca</Description>
+         <Part Id="715515012522" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Time Bandits</Description>
+         <Part Id="715515010122" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Yojimbo</Description>
+         <Part Id="37429141328" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>And the Ship Sails on</Description>
+         <Part Id="37429139028" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>The Lady Vanishes</Description>
+         <Part Id="37429122129" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>The 400 Blows</Description>
+         <Part Id="37429122228" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="21">
+         <Description>Peeping Tom</Description>
+         <Part Id="37429142929" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="22">
+         <Description>Haxan: Witchcraft Through the Ages</Description>
+         <Part Id="37429161722" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="23">
+         <Description>The Horse's Mouth</Description>
+         <Part Id="37429168721" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="24">
+         <Description>Dreyer Box Set</Description>
+         <Part Id="37429158425" UnitPrice="79.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="25">
+         <Description>Tokyo Drifter</Description>
+         <Part Id="37429136126" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

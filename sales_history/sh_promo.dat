@@ -1,0 +1,501 @@
+1|promotion name# 1|downtown billboard|post|77200|15-SEP-1998|15-NOV-1998|
+2|promotion name# 2|hospital flyer|flyer|47100|13-APR-1999|13-JUL-1999|
+3|promotion name# 3|coupon news|newspaper|23900|25-AUG-2000|25-SEP-2000|
+4|promotion name# 4|manufacture rebate news|newspaper|8700|18-NOV-1998|18-JAN-1999|
+5|promotion name# 5|TV program sponsorship|TV|5700|17-MAR-1999|17-JUN-1999|
+6|promotion name# 6|ad news|newspaper|76800|8-MAY-2000|8-JUN-2000|
+7|promotion name# 7|online discount|internet|36400|30-JUN-1998|30-AUG-1998|
+8|promotion name# 8|manufacture rebate news|newspaper|65600|26-OCT-1999|26-JAN-2000|
+9|promotion name# 9|billboard|post|39500|11-DEC-2000|11-JAN-2001|
+10|promotion name# 10|coupon news|newspaper|22400|16-JUL-1998|16-SEP-1998|
+11|promotion name# 11|TV commercial|TV|94700|23-JAN-1999|23-APR-1999|
+12|promotion name# 12|loyal customer discount|internet|86400|22-FEB-2000|22-MAR-2000|
+13|promotion name# 13|hospital flyer|flyer|91400|19-SEP-1998|19-NOV-1998|
+14|promotion name# 14|downtown billboard|post|73800|21-APR-1999|21-JUL-1999|
+15|promotion name# 15|online discount|internet|6600|3-AUG-2000|3-SEP-2000|
+16|promotion name# 16|TV program sponsorship|TV|25200|5-NOV-1998|5-JAN-1999|
+17|promotion name# 17|freeway billboard|post|68700|6-MAR-1999|6-JUN-1999|
+18|promotion name# 18|radio program sponsorship|radio|97200|10-MAY-2000|10-JUN-2000|
+19|promotion name# 19|loyal customer discount|internet|77600|27-JUN-1998|27-AUG-1998|
+20|promotion name# 20|downtown billboard|post|57800|12-OCT-1999|12-JAN-2000|
+21|promotion name# 21|downtown billboard|post|83100|20-DEC-2000|20-JAN-2001|
+22|promotion name# 22|TV commercial|TV|78800|24-JUL-1998|24-SEP-1998|
+23|promotion name# 23|coupon news|newspaper|89900|7-JAN-1999|7-APR-1999|
+24|promotion name# 24|hospital flyer|flyer|58900|1-FEB-2000|1-MAR-2000|
+25|promotion name# 25|online discount|internet|87300|29-SEP-1998|29-NOV-1998|
+26|promotion name# 26|coupon news|newspaper|39800|14-APR-1999|14-JUL-1999|
+27|promotion name# 27|TV program sponsorship|TV|5200|2-AUG-2000|2-SEP-2000|
+28|promotion name# 28|online discount|internet|38200|9-NOV-1998|9-JAN-1999|
+29|promotion name# 29|manufacture rebate magazine|magazine|63300|28-MAR-1999|28-JUN-1999|
+30|promotion name# 30|manufacture rebate magazine|magazine|3200|4-MAY-2000|4-JUN-2000|
+31|promotion name# 31|online discount|internet|85600|15-JUN-1998|15-AUG-1998|
+32|promotion name# 32|online discount|internet|70000|31-OCT-1999|31-JAN-2000|
+33|promotion name# 33|radio program sponsorship|radio|56300|13-DEC-2000|13-JAN-2001|
+34|promotion name# 34|downtown billboard|post|68200|25-JUL-1998|25-SEP-1998|
+35|promotion name# 35|freeway billboard|post|58600|18-JAN-1999|18-APR-1999|
+36|promotion name# 36|ad news|newspaper|3600|17-FEB-2000|17-MAR-2000|
+37|promotion name# 37|online discount|internet|96300|8-SEP-1998|8-NOV-1998|
+38|promotion name# 38|coupon news|newspaper|28300|30-APR-1999|30-JUL-1999|
+39|promotion name# 39|coupon news|newspaper|25500|26-AUG-2000|26-SEP-2000|
+40|promotion name# 40|TV program sponsorship|TV|51500|11-NOV-1998|11-JAN-1999|
+41|promotion name# 41|TV program sponsorship|TV|40700|16-MAR-1999|16-JUN-1999|
+42|promotion name# 42|coupon news|newspaper|54500|23-MAY-2000|23-JUN-2000|
+43|promotion name# 43|coupon news|newspaper|70500|22-JUN-1998|22-AUG-1998|
+44|promotion name# 44|coupon news|newspaper|94900|19-OCT-1999|19-JAN-2000|
+45|promotion name# 45|loyal customer discount|internet|41300|21-DEC-2000|21-JAN-2001|
+46|promotion name# 46|ad|internet|20100|3-JUL-1998|3-SEP-1998|
+47|promotion name# 47|freeway billboard|post|58400|5-JAN-1999|5-APR-1999|
+48|promotion name# 48|coupon magazine|magazine|48700|6-FEB-2000|6-MAR-2000|
+49|promotion name# 49|downtown billboard|post|66700|10-SEP-1998|10-NOV-1998|
+50|promotion name# 50|general flyer|flyer|43700|27-APR-1999|27-JUL-1999|
+51|promotion name# 51|TV program sponsorship|TV|84300|12-AUG-2000|12-SEP-2000|
+52|promotion name# 52|TV program sponsorship|TV|10000|20-NOV-1998|20-JAN-1999|
+53|promotion name# 53|coupon magazine|magazine|65700|24-MAR-1999|24-JUN-1999|
+54|promotion name# 54|ad|internet|67400|7-MAY-2000|7-JUN-2000|
+55|promotion name# 55|hospital flyer|flyer|37200|1-JUN-1998|1-AUG-1998|
+56|promotion name# 56|manufacture rebate magazine|magazine|87000|29-OCT-1999|29-JAN-2000|
+57|promotion name# 57|coupon news|newspaper|57000|14-DEC-2000|14-JAN-2001|
+58|promotion name# 58|ad|internet|61700|2-JUL-1998|2-SEP-1998|
+59|promotion name# 59|TV commercial|TV|61300|9-JAN-1999|9-APR-1999|
+60|promotion name# 60|coupon magazine|magazine|50600|28-FEB-2000|28-MAR-2000|
+61|promotion name# 61|general flyer|flyer|92300|4-SEP-1998|4-NOV-1998|
+62|promotion name# 62|ad news|newspaper|22200|15-APR-1999|15-JUL-1999|
+63|promotion name# 63|TV program sponsorship|TV|38900|31-AUG-2000|30-SEP-2000|
+64|promotion name# 64|TV program sponsorship|TV|56800|13-NOV-1998|13-JAN-1999|
+65|promotion name# 65|ad news|newspaper|5900|25-MAR-1999|25-JUN-1999|
+66|promotion name# 66|freeway billboard|post|31700|18-MAY-2000|18-JUN-2000|
+67|promotion name# 67|promotion movie|TV|66000|17-JUN-1998|17-AUG-1998|
+68|promotion name# 68|online discount|internet|50200|8-OCT-1999|8-JAN-2000|
+69|promotion name# 69|radio commercial|radio|81600|30-DEC-2000|30-JAN-2001|
+70|promotion name# 70|TV program sponsorship|TV|63900|26-JUL-1998|26-SEP-1998|
+71|promotion name# 71|TV program sponsorship|TV|69700|11-JAN-1999|11-APR-1999|
+72|promotion name# 72|downtown billboard|post|73500|16-FEB-2000|16-MAR-2000|
+73|promotion name# 73|coupon magazine|magazine|23800|23-SEP-1998|23-NOV-1998|
+74|promotion name# 74|TV program sponsorship|TV|81700|22-APR-1999|22-JUL-1999|
+75|promotion name# 75|coupon news|newspaper|91800|19-AUG-2000|19-SEP-2000|
+76|promotion name# 76|coupon magazine|magazine|84500|21-NOV-1998|21-JAN-1999|
+77|promotion name# 77|downtown billboard|post|65800|3-MAR-1999|3-JUN-1999|
+78|promotion name# 78|radio program sponsorship|radio|95300|5-MAY-2000|5-JUN-2000|
+79|promotion name# 79|ad news|newspaper|52000|6-JUN-1998|6-AUG-1998|
+80|promotion name# 80|ad magazine|magazine|79300|10-OCT-1999|10-JAN-2000|
+81|promotion name# 81|coupon news|newspaper|27600|27-DEC-2000|27-JAN-2001|
+82|promotion name# 82|ad news|newspaper|32000|12-JUL-1998|12-SEP-1998|
+83|promotion name# 83|online discount|internet|48800|20-JAN-1999|20-APR-1999|
+84|promotion name# 84|TV program sponsorship|TV|94600|24-FEB-2000|24-MAR-2000|
+85|promotion name# 85|promotion movie|TV|58500|7-SEP-1998|7-NOV-1998|
+86|promotion name# 86|manufacture rebate magazine|magazine|76600|1-APR-1999|1-JUL-1999|
+87|promotion name# 87|TV program sponsorship|TV|81500|29-AUG-2000|29-SEP-2000|
+88|promotion name# 88|coupon magazine|magazine|36000|14-NOV-1998|14-JAN-1999|
+89|promotion name# 89|coupon magazine|magazine|54900|2-MAR-1999|2-JUN-1999|
+90|promotion name# 90|household flyer|flyer|81200|9-MAY-2000|9-JUN-2000|
+91|promotion name# 91|hospital flyer|flyer|53200|28-JUN-1998|28-AUG-1998|
+92|promotion name# 92|ad|internet|10500|4-OCT-1999|4-JAN-2000|
+93|promotion name# 93|online discount|internet|3400|15-DEC-2000|15-JAN-2001|
+94|promotion name# 94|ad magazine|magazine|40500|31-JUL-1998|30-SEP-1998|
+95|promotion name# 95|TV commercial|TV|99600|13-JAN-1999|13-APR-1999|
+96|promotion name# 96|manufacture rebate news|newspaper|40900|25-FEB-2000|25-MAR-2000|
+97|promotion name# 97|promotion movie|TV|9400|18-SEP-1998|18-NOV-1998|
+98|promotion name# 98|coupon news|newspaper|79500|17-APR-1999|17-JUL-1999|
+99|promotion name# 99|TV program sponsorship|TV|83400|8-AUG-2000|8-SEP-2000|
+100|promotion name# 100|TV commercial|TV|61600|30-NOV-1998|30-JAN-1999|
+101|promotion name# 101|downtown billboard|post|33400|26-MAR-1999|26-JUN-1999|
+102|promotion name# 102|hospital flyer|flyer|35800|11-MAY-2000|11-JUN-2000|
+103|promotion name# 103|coupon news|newspaper|100000|16-JUN-1998|16-AUG-1998|
+104|promotion name# 104|manufacture rebate news|newspaper|51600|23-OCT-1999|23-JAN-2000|
+105|promotion name# 105|TV program sponsorship|TV|68600|22-DEC-2000|22-JAN-2001|
+106|promotion name# 106|ad news|newspaper|69300|19-JUL-1998|19-SEP-1998|
+107|promotion name# 107|online discount|internet|62800|21-JAN-1999|21-APR-1999|
+108|promotion name# 108|manufacture rebate news|newspaper|65500|3-FEB-2000|3-MAR-2000|
+109|promotion name# 109|billboard|post|11600|5-SEP-1998|5-NOV-1998|
+110|promotion name# 110|coupon news|newspaper|7600|6-APR-1999|6-JUL-1999|
+111|promotion name# 111|TV commercial|TV|1500|10-AUG-2000|10-SEP-2000|
+112|promotion name# 112|loyal customer discount|internet|14900|27-NOV-1998|27-JAN-1999|
+113|promotion name# 113|hospital flyer|flyer|20200|12-MAR-1999|12-JUN-1999|
+114|promotion name# 114|downtown billboard|post|86300|20-MAY-2000|20-JUN-2000|
+115|promotion name# 115|online discount|internet|63500|24-JUN-1998|24-AUG-1998|
+116|promotion name# 116|TV program sponsorship|TV|59000|7-OCT-1999|7-JAN-2000|
+117|promotion name# 117|freeway billboard|post|14300|1-DEC-2000|1-JAN-2001|
+118|promotion name# 118|radio program sponsorship|radio|54600|29-JUL-1998|29-SEP-1998|
+119|promotion name# 119|loyal customer discount|internet|98400|14-JAN-1999|14-APR-1999|
+120|promotion name# 120|downtown billboard|post|8800|2-FEB-2000|2-MAR-2000|
+121|promotion name# 121|downtown billboard|post|33600|9-SEP-1998|9-NOV-1998|
+122|promotion name# 122|TV commercial|TV|91600|28-APR-1999|28-JUL-1999|
+123|promotion name# 123|coupon news|newspaper|28700|4-AUG-2000|4-SEP-2000|
+124|promotion name# 124|hospital flyer|flyer|36200|15-NOV-1998|15-JAN-1999|
+125|promotion name# 125|online discount|internet|9800|31-MAR-1999|30-JUN-1999|
+126|promotion name# 126|coupon news|newspaper|9900|13-MAY-2000|13-JUN-2000|
+127|promotion name# 127|TV program sponsorship|TV|37800|25-JUN-1998|25-AUG-1998|
+128|promotion name# 128|online discount|internet|52600|18-OCT-1999|18-JAN-2000|
+129|promotion name# 129|manufacture rebate magazine|magazine|44900|17-DEC-2000|17-JAN-2001|
+130|promotion name# 130|manufacture rebate magazine|magazine|15500|8-JUL-1998|8-SEP-1998|
+131|promotion name# 131|online discount|internet|86700|30-JAN-1999|30-APR-1999|
+132|promotion name# 132|online discount|internet|74200|26-FEB-2000|26-MAR-2000|
+133|promotion name# 133|radio program sponsorship|radio|17300|11-SEP-1998|11-NOV-1998|
+134|promotion name# 134|downtown billboard|post|84400|16-APR-1999|16-JUL-1999|
+135|promotion name# 135|freeway billboard|post|37900|23-AUG-2000|23-SEP-2000|
+136|promotion name# 136|ad news|newspaper|80500|22-NOV-1998|22-JAN-1999|
+137|promotion name# 137|online discount|internet|59700|19-MAR-1999|19-JUN-1999|
+138|promotion name# 138|coupon news|newspaper|7800|21-MAY-2000|21-JUN-2000|
+139|promotion name# 139|coupon news|newspaper|57300|3-JUN-1998|3-AUG-1998|
+140|promotion name# 140|TV program sponsorship|TV|44500|5-OCT-1999|5-JAN-2000|
+141|promotion name# 141|TV program sponsorship|TV|4800|6-DEC-2000|6-JAN-2001|
+142|promotion name# 142|coupon news|newspaper|27500|10-JUL-1998|10-SEP-1998|
+143|promotion name# 143|coupon news|newspaper|4100|27-JAN-1999|27-APR-1999|
+144|promotion name# 144|coupon news|newspaper|34000|12-FEB-2000|12-MAR-2000|
+145|promotion name# 145|loyal customer discount|internet|1400|20-SEP-1998|20-NOV-1998|
+146|promotion name# 146|ad|internet|87900|24-APR-1999|24-JUL-1999|
+147|promotion name# 147|freeway billboard|post|5400|7-AUG-2000|7-SEP-2000|
+148|promotion name# 148|coupon magazine|magazine|94000|1-NOV-1998|1-JAN-1999|
+149|promotion name# 149|downtown billboard|post|92900|29-MAR-1999|29-JUN-1999|
+150|promotion name# 150|general flyer|flyer|88700|14-MAY-2000|14-JUN-2000|
+151|promotion name# 151|TV program sponsorship|TV|26800|2-JUN-1998|2-AUG-1998|
+152|promotion name# 152|TV program sponsorship|TV|10600|9-OCT-1999|9-JAN-2000|
+153|promotion name# 153|coupon magazine|magazine|31300|28-DEC-2000|28-JAN-2001|
+154|promotion name# 154|ad|internet|55300|4-JUL-1998|4-SEP-1998|
+155|promotion name# 155|hospital flyer|flyer|91900|15-JAN-1999|15-APR-1999|
+156|promotion name# 156|manufacture rebate magazine|magazine|11500|13-FEB-2000|13-MAR-2000|
+157|promotion name# 157|coupon news|newspaper|80600|25-SEP-1998|25-NOV-1998|
+158|promotion name# 158|ad|internet|87600|18-APR-1999|18-JUL-1999|
+159|promotion name# 159|TV commercial|TV|22600|17-AUG-2000|17-SEP-2000|
+160|promotion name# 160|coupon magazine|magazine|49600|8-NOV-1998|8-JAN-1999|
+161|promotion name# 161|general flyer|flyer|15100|30-MAR-1999|30-JUN-1999|
+162|promotion name# 162|ad news|newspaper|76000|26-MAY-2000|26-JUN-2000|
+163|promotion name# 163|TV program sponsorship|TV|15000|11-JUN-1998|11-AUG-1998|
+164|promotion name# 164|TV program sponsorship|TV|48100|16-OCT-1999|16-JAN-2000|
+165|promotion name# 165|ad news|newspaper|200|23-DEC-2000|23-JAN-2001|
+166|promotion name# 166|freeway billboard|post|55800|22-JUL-1998|22-SEP-1998|
+167|promotion name# 167|promotion movie|TV|29600|19-JAN-1999|19-APR-1999|
+168|promotion name# 168|online discount|internet|85500|21-FEB-2000|21-MAR-2000|
+169|promotion name# 169|radio commercial|radio|42100|3-SEP-1998|3-NOV-1998|
+170|promotion name# 170|TV program sponsorship|TV|41500|5-APR-1999|5-JUL-1999|
+171|promotion name# 171|TV program sponsorship|TV|75900|6-AUG-2000|6-SEP-2000|
+172|promotion name# 172|downtown billboard|post|88000|10-NOV-1998|10-JAN-1999|
+173|promotion name# 173|coupon magazine|magazine|33300|27-MAR-1999|27-JUN-1999|
+174|promotion name# 174|TV program sponsorship|TV|7900|12-MAY-2000|12-JUN-2000|
+175|promotion name# 175|coupon news|newspaper|85200|20-JUN-1998|20-AUG-1998|
+176|promotion name# 176|coupon magazine|magazine|59300|24-OCT-1999|24-JAN-2000|
+177|promotion name# 177|downtown billboard|post|98000|7-DEC-2000|7-JAN-2001|
+178|promotion name# 178|radio program sponsorship|radio|99000|1-JUL-1998|1-SEP-1998|
+179|promotion name# 179|ad news|newspaper|75300|29-JAN-1999|29-APR-1999|
+180|promotion name# 180|ad magazine|magazine|21500|14-FEB-2000|14-MAR-2000|
+181|promotion name# 181|coupon news|newspaper|45400|2-SEP-1998|2-NOV-1998|
+182|promotion name# 182|ad news|newspaper|54100|9-APR-1999|9-JUL-1999|
+183|promotion name# 183|online discount|internet|59800|28-AUG-2000|28-SEP-2000|
+184|promotion name# 184|TV program sponsorship|TV|35700|4-NOV-1998|4-JAN-1999|
+185|promotion name# 185|promotion movie|TV|72100|15-MAR-1999|15-JUN-1999|
+186|promotion name# 186|manufacture rebate magazine|magazine|36800|31-MAY-2000|30-JUN-2000|
+187|promotion name# 187|TV program sponsorship|TV|76300|13-JUN-1998|13-AUG-1998|
+188|promotion name# 188|coupon magazine|magazine|98700|25-OCT-1999|25-JAN-2000|
+189|promotion name# 189|coupon magazine|magazine|92500|18-DEC-2000|18-JAN-2001|
+190|promotion name# 190|household flyer|flyer|78000|17-JUL-1998|17-SEP-1998|
+191|promotion name# 191|hospital flyer|flyer|68500|8-JAN-1999|8-APR-1999|
+192|promotion name# 192|ad|internet|41400|26-FEB-2000|26-MAR-2000|
+193|promotion name# 193|online discount|internet|48000|11-SEP-1998|11-NOV-1998|
+194|promotion name# 194|ad magazine|magazine|73200|16-APR-1999|16-JUL-1999|
+195|promotion name# 195|TV commercial|TV|41000|23-AUG-2000|23-SEP-2000|
+196|promotion name# 196|manufacture rebate news|newspaper|37300|22-NOV-1998|22-JAN-1999|
+197|promotion name# 197|promotion movie|TV|14000|19-MAR-1999|19-JUN-1999|
+198|promotion name# 198|coupon news|newspaper|71800|21-MAY-2000|21-JUN-2000|
+199|promotion name# 199|TV program sponsorship|TV|54000|3-JUN-1998|3-AUG-1998|
+200|promotion name# 200|TV commercial|TV|31900|5-OCT-1999|5-JAN-2000|
+201|promotion name# 201|downtown billboard|post|20900|6-DEC-2000|6-JAN-2001|
+202|promotion name# 202|hospital flyer|flyer|79800|10-JUL-1998|10-SEP-1998|
+203|promotion name# 203|coupon news|newspaper|66200|27-JAN-1999|27-APR-1999|
+204|promotion name# 204|manufacture rebate news|newspaper|5100|12-FEB-2000|12-MAR-2000|
+205|promotion name# 205|TV program sponsorship|TV|10300|20-SEP-1998|20-NOV-1998|
+206|promotion name# 206|ad news|newspaper|48500|24-APR-1999|24-JUL-1999|
+207|promotion name# 207|online discount|internet|10900|7-AUG-2000|7-SEP-2000|
+208|promotion name# 208|manufacture rebate news|newspaper|14100|1-NOV-1998|1-JAN-1999|
+209|promotion name# 209|billboard|post|99700|29-MAR-1999|29-JUN-1999|
+210|promotion name# 210|coupon news|newspaper|68800|14-MAY-2000|14-JUN-2000|
+211|promotion name# 211|TV commercial|TV|24200|2-JUN-1998|2-AUG-1998|
+212|promotion name# 212|loyal customer discount|internet|92400|9-OCT-1999|9-JAN-2000|
+213|promotion name# 213|hospital flyer|flyer|50100|28-DEC-2000|28-JAN-2001|
+214|promotion name# 214|downtown billboard|post|53700|4-JUL-1998|4-SEP-1998|
+215|promotion name# 215|online discount|internet|49100|15-JAN-1999|15-APR-1999|
+216|promotion name# 216|TV program sponsorship|TV|77400|13-FEB-2000|13-MAR-2000|
+217|promotion name# 217|freeway billboard|post|2000|25-SEP-1998|25-NOV-1998|
+218|promotion name# 218|radio program sponsorship|radio|53500|18-APR-1999|18-JUL-1999|
+219|promotion name# 219|loyal customer discount|internet|94200|17-AUG-2000|17-SEP-2000|
+220|promotion name# 220|downtown billboard|post|47800|8-NOV-1998|8-JAN-1999|
+221|promotion name# 221|downtown billboard|post|17400|30-MAR-1999|30-JUN-1999|
+222|promotion name# 222|TV commercial|TV|11400|26-MAY-2000|26-JUN-2000|
+223|promotion name# 223|coupon news|newspaper|52700|11-JUN-1998|11-AUG-1998|
+224|promotion name# 224|hospital flyer|flyer|72800|16-OCT-1999|16-JAN-2000|
+225|promotion name# 225|online discount|internet|30300|23-DEC-2000|23-JAN-2001|
+226|promotion name# 226|coupon news|newspaper|79000|22-JUL-1998|22-SEP-1998|
+227|promotion name# 227|TV program sponsorship|TV|44800|19-JAN-1999|19-APR-1999|
+228|promotion name# 228|online discount|internet|88500|21-FEB-2000|21-MAR-2000|
+229|promotion name# 229|manufacture rebate magazine|magazine|71900|3-SEP-1998|3-NOV-1998|
+230|promotion name# 230|manufacture rebate magazine|magazine|81900|5-APR-1999|5-JUL-1999|
+231|promotion name# 231|online discount|internet|46700|6-AUG-2000|6-SEP-2000|
+232|promotion name# 232|online discount|internet|13200|10-NOV-1998|10-JAN-1999|
+233|promotion name# 233|radio program sponsorship|radio|50400|27-MAR-1999|27-JUN-1999|
+234|promotion name# 234|downtown billboard|post|36500|12-MAY-2000|12-JUN-2000|
+235|promotion name# 235|freeway billboard|post|93500|20-JUN-1998|20-AUG-1998|
+236|promotion name# 236|ad news|newspaper|54300|24-OCT-1999|24-JAN-2000|
+237|promotion name# 237|online discount|internet|14700|7-DEC-2000|7-JAN-2001|
+238|promotion name# 238|coupon news|newspaper|65300|1-JUL-1998|1-SEP-1998|
+239|promotion name# 239|coupon news|newspaper|56700|29-JAN-1999|29-APR-1999|
+240|promotion name# 240|TV program sponsorship|TV|78900|14-FEB-2000|14-MAR-2000|
+241|promotion name# 241|TV program sponsorship|TV|16900|2-SEP-1998|2-NOV-1998|
+242|promotion name# 242|coupon news|newspaper|73700|9-APR-1999|9-JUL-1999|
+243|promotion name# 243|coupon news|newspaper|79600|28-AUG-2000|28-SEP-2000|
+244|promotion name# 244|coupon news|newspaper|10400|4-NOV-1998|4-JAN-1999|
+245|promotion name# 245|loyal customer discount|internet|76400|15-MAR-1999|15-JUN-1999|
+246|promotion name# 246|ad|internet|25700|31-MAY-2000|30-JUN-2000|
+247|promotion name# 247|freeway billboard|post|6400|13-JUN-1998|13-AUG-1998|
+248|promotion name# 248|coupon magazine|magazine|70300|25-OCT-1999|25-JAN-2000|
+249|promotion name# 249|downtown billboard|post|39100|18-DEC-2000|18-JAN-2001|
+250|promotion name# 250|general flyer|flyer|11700|17-JUL-1998|17-SEP-1998|
+251|promotion name# 251|TV program sponsorship|TV|35500|8-JAN-1999|8-APR-1999|
+252|promotion name# 252|TV program sponsorship|TV|16300|26-FEB-2000|26-MAR-2000|
+253|promotion name# 253|coupon magazine|magazine|7200|11-SEP-1998|11-NOV-1998|
+254|promotion name# 254|ad|internet|91700|16-APR-1999|16-JUL-1999|
+255|promotion name# 255|hospital flyer|flyer|56600|23-AUG-2000|23-SEP-2000|
+256|promotion name# 256|manufacture rebate magazine|magazine|51000|22-NOV-1998|22-JAN-1999|
+257|promotion name# 257|coupon news|newspaper|2100|19-MAR-1999|19-JUN-1999|
+258|promotion name# 258|ad|internet|81400|21-MAY-2000|21-JUN-2000|
+259|promotion name# 259|TV commercial|TV|8100|3-JUN-1998|3-AUG-1998|
+260|promotion name# 260|coupon magazine|magazine|40100|5-OCT-1999|5-JAN-2000|
+261|promotion name# 261|general flyer|flyer|88900|6-DEC-2000|6-JAN-2001|
+262|promotion name# 262|ad news|newspaper|82600|10-JUL-1998|10-SEP-1998|
+263|promotion name# 263|TV program sponsorship|TV|40200|27-JAN-1999|27-APR-1999|
+264|promotion name# 264|TV program sponsorship|TV|15900|12-FEB-2000|12-MAR-2000|
+265|promotion name# 265|ad news|newspaper|97400|20-SEP-1998|20-NOV-1998|
+266|promotion name# 266|freeway billboard|post|32500|24-APR-1999|24-JUL-1999|
+267|promotion name# 267|promotion movie|TV|87400|7-AUG-2000|7-SEP-2000|
+268|promotion name# 268|online discount|internet|67700|1-NOV-1998|1-JAN-1999|
+269|promotion name# 269|radio commercial|radio|20000|29-MAR-1999|29-JUN-1999|
+270|promotion name# 270|TV program sponsorship|TV|30500|14-MAY-2000|14-JUN-2000|
+271|promotion name# 271|TV program sponsorship|TV|33900|2-JUN-1998|2-AUG-1998|
+272|promotion name# 272|downtown billboard|post|74400|9-OCT-1999|9-JAN-2000|
+273|promotion name# 273|coupon magazine|magazine|73100|28-DEC-2000|28-JAN-2001|
+274|promotion name# 274|TV program sponsorship|TV|13100|4-JUL-1998|4-SEP-1998|
+275|promotion name# 275|coupon news|newspaper|22500|15-JAN-1999|15-APR-1999|
+276|promotion name# 276|coupon magazine|magazine|21700|13-FEB-2000|13-MAR-2000|
+277|promotion name# 277|downtown billboard|post|300|25-SEP-1998|25-NOV-1998|
+278|promotion name# 278|radio program sponsorship|radio|83700|18-APR-1999|18-JUL-1999|
+279|promotion name# 279|ad news|newspaper|44400|17-AUG-2000|17-SEP-2000|
+280|promotion name# 280|ad magazine|magazine|77800|8-NOV-1998|8-JAN-1999|
+281|promotion name# 281|coupon news|newspaper|12700|30-MAR-1999|30-JUN-1999|
+282|promotion name# 282|ad news|newspaper|11800|26-MAY-2000|26-JUN-2000|
+283|promotion name# 283|online discount|internet|63400|11-JUN-1998|11-AUG-1998|
+284|promotion name# 284|TV program sponsorship|TV|31100|16-OCT-1999|16-JAN-2000|
+285|promotion name# 285|promotion movie|TV|62300|23-DEC-2000|23-JAN-2001|
+286|promotion name# 286|manufacture rebate magazine|magazine|26900|22-JUL-1998|22-SEP-1998|
+287|promotion name# 287|TV program sponsorship|TV|38500|19-JAN-1999|19-APR-1999|
+288|promotion name# 288|coupon magazine|magazine|46100|21-FEB-2000|21-MAR-2000|
+289|promotion name# 289|coupon magazine|magazine|47600|3-SEP-1998|3-NOV-1998|
+290|promotion name# 290|household flyer|flyer|62500|5-APR-1999|5-JUL-1999|
+291|promotion name# 291|hospital flyer|flyer|82700|6-AUG-2000|6-SEP-2000|
+292|promotion name# 292|ad|internet|68100|10-NOV-1998|10-JAN-1999|
+293|promotion name# 293|online discount|internet|30700|27-MAR-1999|27-JUN-1999|
+294|promotion name# 294|ad magazine|magazine|89700|12-MAY-2000|12-JUN-2000|
+295|promotion name# 295|TV commercial|TV|3100|20-JUN-1998|20-AUG-1998|
+296|promotion name# 296|manufacture rebate news|newspaper|57700|24-OCT-1999|24-JAN-2000|
+297|promotion name# 297|promotion movie|TV|55200|7-DEC-2000|7-JAN-2001|
+298|promotion name# 298|coupon news|newspaper|64000|1-JUL-1998|1-SEP-1998|
+299|promotion name# 299|TV program sponsorship|TV|97600|29-JAN-1999|29-APR-1999|
+300|promotion name# 300|TV commercial|TV|88300|14-FEB-2000|14-MAR-2000|
+301|promotion name# 301|downtown billboard|post|16100|2-SEP-1998|2-NOV-1998|
+302|promotion name# 302|hospital flyer|flyer|52300|9-APR-1999|9-JUL-1999|
+303|promotion name# 303|coupon news|newspaper|62100|28-AUG-2000|28-SEP-2000|
+304|promotion name# 304|manufacture rebate news|newspaper|72000|4-NOV-1998|4-JAN-1999|
+305|promotion name# 305|TV program sponsorship|TV|8900|15-MAR-1999|15-JUN-1999|
+306|promotion name# 306|ad news|newspaper|61500|31-MAY-2000|30-JUN-2000|
+307|promotion name# 307|online discount|internet|5500|13-JUN-1998|13-AUG-1998|
+308|promotion name# 308|manufacture rebate news|newspaper|21000|25-OCT-1999|25-JAN-2000|
+309|promotion name# 309|billboard|post|6800|18-DEC-2000|18-JAN-2001|
+310|promotion name# 310|coupon news|newspaper|81000|17-JUL-1998|17-SEP-1998|
+311|promotion name# 311|TV commercial|TV|98300|8-JAN-1999|8-APR-1999|
+312|promotion name# 312|loyal customer discount|internet|81800|26-FEB-2000|26-MAR-2000|
+313|promotion name# 313|hospital flyer|flyer|18800|11-SEP-1998|11-NOV-1998|
+314|promotion name# 314|downtown billboard|post|99300|16-APR-1999|16-JUL-1999|
+315|promotion name# 315|online discount|internet|58100|23-AUG-2000|23-SEP-2000|
+316|promotion name# 316|TV program sponsorship|TV|65900|22-NOV-1998|22-JAN-1999|
+317|promotion name# 317|freeway billboard|post|22300|19-MAR-1999|19-JUN-1999|
+318|promotion name# 318|radio program sponsorship|radio|66800|21-MAY-2000|21-JUN-2000|
+319|promotion name# 319|loyal customer discount|internet|71600|3-JUN-1998|3-AUG-1998|
+320|promotion name# 320|downtown billboard|post|99100|5-OCT-1999|5-JAN-2000|
+321|promotion name# 321|downtown billboard|post|2300|6-DEC-2000|6-JAN-2001|
+322|promotion name# 322|TV commercial|TV|36300|10-JUL-1998|10-SEP-1998|
+323|promotion name# 323|coupon news|newspaper|37700|27-JAN-1999|27-APR-1999|
+324|promotion name# 324|hospital flyer|flyer|24700|12-FEB-2000|12-MAR-2000|
+325|promotion name# 325|online discount|internet|30100|20-SEP-1998|20-NOV-1998|
+326|promotion name# 326|coupon news|newspaper|23200|24-APR-1999|24-JUL-1999|
+327|promotion name# 327|TV program sponsorship|TV|15200|7-AUG-2000|7-SEP-2000|
+328|promotion name# 328|online discount|internet|3000|1-NOV-1998|1-JAN-1999|
+329|promotion name# 329|manufacture rebate magazine|magazine|29800|29-MAR-1999|29-JUN-1999|
+330|promotion name# 330|manufacture rebate magazine|magazine|40400|14-MAY-2000|14-JUN-2000|
+331|promotion name# 331|online discount|internet|71700|2-JUN-1998|2-AUG-1998|
+332|promotion name# 332|online discount|internet|26100|9-OCT-1999|9-JAN-2000|
+333|promotion name# 333|radio program sponsorship|radio|17100|28-DEC-2000|28-JAN-2001|
+334|promotion name# 334|downtown billboard|post|28600|4-JUL-1998|4-SEP-1998|
+335|promotion name# 335|freeway billboard|post|8300|15-JAN-1999|15-APR-1999|
+336|promotion name# 336|ad news|newspaper|95900|13-FEB-2000|13-MAR-2000|
+337|promotion name# 337|online discount|internet|17600|25-SEP-1998|25-NOV-1998|
+338|promotion name# 338|coupon news|newspaper|67200|18-APR-1999|18-JUL-1999|
+339|promotion name# 339|coupon news|newspaper|82300|17-AUG-2000|17-SEP-2000|
+340|promotion name# 340|TV program sponsorship|TV|57400|8-NOV-1998|8-JAN-1999|
+341|promotion name# 341|TV program sponsorship|TV|72400|30-MAR-1999|30-JUN-1999|
+342|promotion name# 342|coupon news|newspaper|19600|26-MAY-2000|26-JUN-2000|
+343|promotion name# 343|coupon news|newspaper|19800|11-JUN-1998|11-AUG-1998|
+344|promotion name# 344|coupon news|newspaper|75600|16-OCT-1999|16-JAN-2000|
+345|promotion name# 345|loyal customer discount|internet|4300|23-DEC-2000|23-JAN-2001|
+346|promotion name# 346|ad|internet|89800|22-JUL-1998|22-SEP-1998|
+347|promotion name# 347|freeway billboard|post|31000|19-JAN-1999|19-APR-1999|
+348|promotion name# 348|coupon magazine|magazine|72500|21-FEB-2000|21-MAR-2000|
+349|promotion name# 349|downtown billboard|post|47500|3-SEP-1998|3-NOV-1998|
+350|promotion name# 350|general flyer|flyer|34600|5-APR-1999|5-JUL-1999|
+351|promotion name# 351|TV program sponsorship|TV|67900|6-AUG-2000|6-SEP-2000|
+352|promotion name# 352|TV program sponsorship|TV|75800|10-NOV-1998|10-JAN-1999|
+353|promotion name# 353|coupon magazine|magazine|60100|27-MAR-1999|27-JUN-1999|
+354|promotion name# 354|ad|internet|18500|12-MAY-2000|12-JUN-2000|
+355|promotion name# 355|hospital flyer|flyer|15600|20-JUN-1998|20-AUG-1998|
+356|promotion name# 356|manufacture rebate magazine|magazine|13700|24-OCT-1999|24-JAN-2000|
+357|promotion name# 357|coupon news|newspaper|89000|7-DEC-2000|7-JAN-2001|
+358|promotion name# 358|ad|internet|9600|1-JUL-1998|1-SEP-1998|
+359|promotion name# 359|TV commercial|TV|55000|29-JAN-1999|29-APR-1999|
+360|promotion name# 360|coupon magazine|magazine|8200|14-FEB-2000|14-MAR-2000|
+361|promotion name# 361|general flyer|flyer|68000|2-SEP-1998|2-NOV-1998|
+362|promotion name# 362|ad news|newspaper|2800|9-APR-1999|9-JUL-1999|
+363|promotion name# 363|TV program sponsorship|TV|74900|28-AUG-2000|28-SEP-2000|
+364|promotion name# 364|TV program sponsorship|TV|10800|4-NOV-1998|4-JAN-1999|
+365|promotion name# 365|ad news|newspaper|87100|15-MAR-1999|15-JUN-1999|
+366|promotion name# 366|freeway billboard|post|84900|31-MAY-2000|30-JUN-2000|
+367|promotion name# 367|promotion movie|TV|76500|13-JUN-1998|13-AUG-1998|
+368|promotion name# 368|online discount|internet|53600|25-OCT-1999|25-JAN-2000|
+369|promotion name# 369|radio commercial|radio|21200|18-DEC-2000|18-JAN-2001|
+370|promotion name# 370|TV program sponsorship|TV|62600|17-JUL-1998|17-SEP-1998|
+371|promotion name# 371|TV program sponsorship|TV|9700|8-JAN-1999|8-APR-1999|
+372|promotion name# 372|downtown billboard|post|82900|26-FEB-2000|26-MAR-2000|
+373|promotion name# 373|coupon magazine|magazine|23000|11-SEP-1998|11-NOV-1998|
+374|promotion name# 374|TV program sponsorship|TV|60300|16-APR-1999|16-JUL-1999|
+375|promotion name# 375|coupon news|newspaper|74300|23-AUG-2000|23-SEP-2000|
+376|promotion name# 376|coupon magazine|magazine|45200|22-NOV-1998|22-JAN-1999|
+377|promotion name# 377|downtown billboard|post|99200|19-MAR-1999|19-JUN-1999|
+378|promotion name# 378|radio program sponsorship|radio|30200|21-MAY-2000|21-JUN-2000|
+379|promotion name# 379|ad news|newspaper|51100|3-JUN-1998|3-AUG-1998|
+380|promotion name# 380|ad magazine|magazine|30000|5-OCT-1999|5-JAN-2000|
+381|promotion name# 381|coupon news|newspaper|96200|6-DEC-2000|6-JAN-2001|
+382|promotion name# 382|ad news|newspaper|400|10-JUL-1998|10-SEP-1998|
+383|promotion name# 383|online discount|internet|10700|27-JAN-1999|27-APR-1999|
+384|promotion name# 384|TV program sponsorship|TV|59200|12-FEB-2000|12-MAR-2000|
+385|promotion name# 385|promotion movie|TV|70100|20-SEP-1998|20-NOV-1998|
+386|promotion name# 386|manufacture rebate magazine|magazine|84200|24-APR-1999|24-JUL-1999|
+387|promotion name# 387|TV program sponsorship|TV|83000|7-AUG-2000|7-SEP-2000|
+388|promotion name# 388|coupon magazine|magazine|50900|1-NOV-1998|1-JAN-1999|
+389|promotion name# 389|coupon magazine|magazine|75100|29-MAR-1999|29-JUN-1999|
+390|promotion name# 390|household flyer|flyer|66600|14-MAY-2000|14-JUN-2000|
+391|promotion name# 391|hospital flyer|flyer|15800|2-JUN-1998|2-AUG-1998|
+392|promotion name# 392|ad|internet|69500|9-OCT-1999|9-JAN-2000|
+393|promotion name# 393|online discount|internet|17700|28-DEC-2000|28-JAN-2001|
+394|promotion name# 394|ad magazine|magazine|95100|4-JUL-1998|4-SEP-1998|
+395|promotion name# 395|TV commercial|TV|97100|15-JAN-1999|15-APR-1999|
+396|promotion name# 396|manufacture rebate news|newspaper|49700|13-FEB-2000|13-MAR-2000|
+397|promotion name# 397|promotion movie|TV|43000|25-SEP-1998|25-NOV-1998|
+398|promotion name# 398|coupon news|newspaper|90800|18-APR-1999|18-JUL-1999|
+399|promotion name# 399|TV program sponsorship|TV|7300|17-AUG-2000|17-SEP-2000|
+400|promotion name# 400|TV commercial|TV|18700|8-NOV-1998|8-JAN-1999|
+401|promotion name# 401|downtown billboard|post|71400|30-MAR-1999|30-JUN-1999|
+402|promotion name# 402|hospital flyer|flyer|43300|26-MAY-2000|26-JUN-2000|
+403|promotion name# 403|coupon news|newspaper|73600|11-JUN-1998|11-AUG-1998|
+404|promotion name# 404|manufacture rebate news|newspaper|51700|16-OCT-1999|16-JAN-2000|
+405|promotion name# 405|TV program sponsorship|TV|96500|23-DEC-2000|23-JAN-2001|
+406|promotion name# 406|ad news|newspaper|84100|22-JUL-1998|22-SEP-1998|
+407|promotion name# 407|online discount|internet|55100|19-JAN-1999|19-APR-1999|
+408|promotion name# 408|manufacture rebate news|newspaper|36100|21-FEB-2000|21-MAR-2000|
+409|promotion name# 409|billboard|post|82800|3-SEP-1998|3-NOV-1998|
+410|promotion name# 410|coupon news|newspaper|96000|5-APR-1999|5-JUL-1999|
+411|promotion name# 411|TV commercial|TV|45500|6-AUG-2000|6-SEP-2000|
+412|promotion name# 412|loyal customer discount|internet|82000|10-NOV-1998|10-JAN-1999|
+413|promotion name# 413|hospital flyer|flyer|74600|27-MAR-1999|27-JUN-1999|
+414|promotion name# 414|downtown billboard|post|28000|12-MAY-2000|12-JUN-2000|
+415|promotion name# 415|online discount|internet|42700|20-JUN-1998|20-AUG-1998|
+416|promotion name# 416|TV program sponsorship|TV|7100|24-OCT-1999|24-JAN-2000|
+417|promotion name# 417|freeway billboard|post|63800|7-DEC-2000|7-JAN-2001|
+418|promotion name# 418|radio program sponsorship|radio|41800|1-JUL-1998|1-SEP-1998|
+419|promotion name# 419|loyal customer discount|internet|58700|29-JAN-1999|29-APR-1999|
+420|promotion name# 420|downtown billboard|post|31500|14-FEB-2000|14-MAR-2000|
+421|promotion name# 421|downtown billboard|post|10200|2-SEP-1998|2-NOV-1998|
+422|promotion name# 422|TV commercial|TV|20600|9-APR-1999|9-JUL-1999|
+423|promotion name# 423|coupon news|newspaper|97000|28-AUG-2000|28-SEP-2000|
+424|promotion name# 424|hospital flyer|flyer|21800|4-NOV-1998|4-JAN-1999|
+425|promotion name# 425|online discount|internet|28200|15-MAR-1999|15-JUN-1999|
+426|promotion name# 426|coupon news|newspaper|98500|31-MAY-2000|30-JUN-2000|
+427|promotion name# 427|TV program sponsorship|TV|36700|13-JUN-1998|13-AUG-1998|
+428|promotion name# 428|online discount|internet|48400|25-OCT-1999|25-JAN-2000|
+429|promotion name# 429|manufacture rebate magazine|magazine|83900|18-DEC-2000|18-JAN-2001|
+430|promotion name# 430|manufacture rebate magazine|magazine|6500|17-JUL-1998|17-SEP-1998|
+431|promotion name# 431|online discount|internet|98200|8-JAN-1999|8-APR-1999|
+432|promotion name# 432|online discount|internet|53900|26-FEB-2000|26-MAR-2000|
+433|promotion name# 433|radio program sponsorship|radio|4000|11-SEP-1998|11-NOV-1998|
+434|promotion name# 434|downtown billboard|post|6100|16-APR-1999|16-JUL-1999|
+435|promotion name# 435|freeway billboard|post|87500|23-AUG-2000|23-SEP-2000|
+436|promotion name# 436|ad news|newspaper|95600|22-NOV-1998|22-JAN-1999|
+437|promotion name# 437|online discount|internet|34800|19-MAR-1999|19-JUN-1999|
+438|promotion name# 438|coupon news|newspaper|22800|21-MAY-2000|21-JUN-2000|
+439|promotion name# 439|coupon news|newspaper|4500|3-JUN-1998|3-AUG-1998|
+440|promotion name# 440|TV program sponsorship|TV|44700|5-OCT-1999|5-JAN-2000|
+441|promotion name# 441|TV program sponsorship|TV|60600|6-DEC-2000|6-JAN-2001|
+442|promotion name# 442|coupon news|newspaper|57100|10-JUL-1998|10-SEP-1998|
+443|promotion name# 443|coupon news|newspaper|89600|27-JAN-1999|27-APR-1999|
+444|promotion name# 444|coupon news|newspaper|76100|12-FEB-2000|12-MAR-2000|
+445|promotion name# 445|loyal customer discount|internet|42900|20-SEP-1998|20-NOV-1998|
+446|promotion name# 446|ad|internet|62900|24-APR-1999|24-JUL-1999|
+447|promotion name# 447|freeway billboard|post|93400|7-AUG-2000|7-SEP-2000|
+448|promotion name# 448|coupon magazine|magazine|26400|1-NOV-1998|1-JAN-1999|
+449|promotion name# 449|downtown billboard|post|73000|29-MAR-1999|29-JUN-1999|
+450|promotion name# 450|general flyer|flyer|86100|14-MAY-2000|14-JUN-2000|
+451|promotion name# 451|TV program sponsorship|TV|7700|2-JUN-1998|2-AUG-1998|
+452|promotion name# 452|TV program sponsorship|TV|29400|9-OCT-1999|9-JAN-2000|
+453|promotion name# 453|coupon magazine|magazine|29700|28-DEC-2000|28-JAN-2001|
+454|promotion name# 454|ad|internet|12500|4-JUL-1998|4-SEP-1998|
+455|promotion name# 455|hospital flyer|flyer|56900|15-JAN-1999|15-APR-1999|
+456|promotion name# 456|manufacture rebate magazine|magazine|33800|13-FEB-2000|13-MAR-2000|
+457|promotion name# 457|coupon news|newspaper|46500|25-SEP-1998|25-NOV-1998|
+458|promotion name# 458|ad|internet|58300|18-APR-1999|18-JUL-1999|
+459|promotion name# 459|TV commercial|TV|20800|17-AUG-2000|17-SEP-2000|
+460|promotion name# 460|coupon magazine|magazine|51900|8-NOV-1998|8-JAN-1999|
+461|promotion name# 461|general flyer|flyer|51400|30-MAR-1999|30-JUN-1999|
+462|promotion name# 462|ad news|newspaper|12800|26-MAY-2000|26-JUN-2000|
+463|promotion name# 463|TV program sponsorship|TV|39700|11-JUN-1998|11-AUG-1998|
+464|promotion name# 464|TV program sponsorship|TV|78200|16-OCT-1999|16-JAN-2000|
+465|promotion name# 465|ad news|newspaper|23400|23-DEC-2000|23-JAN-2001|
+466|promotion name# 466|freeway billboard|post|71000|22-JUL-1998|22-SEP-1998|
+467|promotion name# 467|promotion movie|TV|32600|19-JAN-1999|19-APR-1999|
+468|promotion name# 468|online discount|internet|14400|21-FEB-2000|21-MAR-2000|
+469|promotion name# 469|radio commercial|radio|82500|3-SEP-1998|3-NOV-1998|
+470|promotion name# 470|TV program sponsorship|TV|12300|5-APR-1999|5-JUL-1999|
+471|promotion name# 471|TV program sponsorship|TV|1100|6-AUG-2000|6-SEP-2000|
+472|promotion name# 472|downtown billboard|post|4200|10-NOV-1998|10-JAN-1999|
+473|promotion name# 473|coupon magazine|magazine|61900|27-MAR-1999|27-JUN-1999|
+474|promotion name# 474|TV program sponsorship|TV|16200|12-MAY-2000|12-JUN-2000|
+475|promotion name# 475|coupon news|newspaper|80200|20-JUN-1998|20-AUG-1998|
+476|promotion name# 476|coupon magazine|magazine|76900|24-OCT-1999|24-JAN-2000|
+477|promotion name# 477|downtown billboard|post|64300|7-DEC-2000|7-JAN-2001|
+478|promotion name# 478|radio program sponsorship|radio|80400|1-JUL-1998|1-SEP-1998|
+479|promotion name# 479|ad news|newspaper|31800|29-JAN-1999|29-APR-1999|
+480|promotion name# 480|ad magazine|magazine|93900|14-FEB-2000|14-MAR-2000|
+481|promotion name# 481|coupon news|newspaper|65000|2-SEP-1998|2-NOV-1998|
+482|promotion name# 482|ad news|newspaper|73900|9-APR-1999|9-JUL-1999|
+483|promotion name# 483|online discount|internet|34500|28-AUG-2000|28-SEP-2000|
+484|promotion name# 484|TV program sponsorship|TV|40000|4-NOV-1998|4-JAN-1999|
+485|promotion name# 485|promotion movie|TV|61000|15-MAR-1999|15-JUN-1999|
+486|promotion name# 486|manufacture rebate magazine|magazine|67800|31-MAY-2000|30-JUN-2000|
+487|promotion name# 487|TV program sponsorship|TV|47900|13-JUN-1998|13-AUG-1998|
+488|promotion name# 488|coupon magazine|magazine|45300|25-OCT-1999|25-JAN-2000|
+489|promotion name# 489|coupon magazine|magazine|26200|18-DEC-2000|18-JAN-2001|
+490|promotion name# 490|household flyer|flyer|45000|17-JUL-1998|17-SEP-1998|
+491|promotion name# 491|hospital flyer|flyer|43400|8-JAN-1999|8-APR-1999|
+492|promotion name# 492|ad|internet|600|26-FEB-2000|26-MAR-2000|
+493|promotion name# 493|online discount|internet|66500|11-SEP-1998|11-NOV-1998|
+494|promotion name# 494|ad magazine|magazine|88800|16-APR-1999|16-JUL-1999|
+495|promotion name# 495|TV commercial|TV|54700|23-AUG-2000|23-SEP-2000|
+496|promotion name# 496|manufacture rebate news|newspaper|25400|22-NOV-1998|22-JAN-1999|
+497|promotion name# 497|promotion movie|TV|23600|19-MAR-1999|19-JUN-1999|
+498|promotion name# 498|coupon news|newspaper|25900|21-MAY-2000|21-JUN-2000|
+499|promotion name# 499|TV program sponsorship|TV|62200|3-JUN-1998|3-AUG-1998|
+500|promotion name# 500|TV commercial|TV|99900|5-OCT-1999|5-JAN-2000|
+9999|NO PROMOTION|NO RPOMOTION|NO PROMOTION|0|01-JAN-9999|01-JAN-9999|

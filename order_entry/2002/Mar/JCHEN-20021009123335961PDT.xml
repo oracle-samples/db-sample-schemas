@@ -1,0 +1,97 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JCHEN-20021009123335961PDT</Reference>
+   <Actions>
+      <Action>
+         <User>NGREENBE</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>John Z. Chen</Requestor>
+   <User>JCHEN</User>
+   <CostCenter>A10</CostCenter>
+   <ShippingInstructions>
+      <name>John Z. Chen</name>
+      <address>300 North First Street
+Belmont
+CA
+94065
+USA</address>
+      <telephone>650 506 7200</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>A Nous la Liberte</Description>
+         <Part Id="37429147726" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>And God Created Woman</Description>
+         <Part Id="37429147825" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Summertime</Description>
+         <Part Id="37429130728" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Tokyo Drifter</Description>
+         <Part Id="37429136126" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Sanjuro</Description>
+         <Part Id="37429141526" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Peeping Tom</Description>
+         <Part Id="37429142929" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Life of Brian - Monty Python's</Description>
+         <Part Id="715515010320" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Bob le Flambeur</Description>
+         <Part Id="37429165928" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Ballad of a Soldier</Description>
+         <Part Id="37429167922" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Henry V</Description>
+         <Part Id="37429128527" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>This is Spinal Tap</Description>
+         <Part Id="715515009126" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>That Obscure Object of Desire</Description>
+         <Part Id="37429162026" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Children of Paradise</Description>
+         <Part Id="37429151723" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Diary of a Chambermaid</Description>
+         <Part Id="37429158128" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Autumn Sonata</Description>
+         <Part Id="37429126127" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Wages of Fear</Description>
+         <Part Id="37429134924" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Day of Wrath </Description>
+         <Part Id="37429158722" UnitPrice="0.0" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>Loves of a Blonde</Description>
+         <Part Id="37429165423" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

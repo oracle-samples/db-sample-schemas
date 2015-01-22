@@ -1,0 +1,85 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SBELL-20021009123336362PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SVOLLMAN</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Sarah J. Bell</Requestor>
+   <User>SBELL</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Sarah J. Bell</name>
+      <address>400 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7400</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>In the Mood for Love</Description>
+         <Part Id="715515012928" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>The Last Temptation of Christ</Description>
+         <Part Id="715515010528" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Fishing With John 1 -3</Description>
+         <Part Id="37429136621" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Ballad of a Soldier</Description>
+         <Part Id="37429167922" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Time Bandits</Description>
+         <Part Id="715515010122" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Rushmore</Description>
+         <Part Id="715515010429" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>A Nous la Liberte</Description>
+         <Part Id="37429147726" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Haxan: Witchcraft Through the Ages</Description>
+         <Part Id="37429161722" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>The Most Dangerous Game</Description>
+         <Part Id="37429137321" UnitPrice="24.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Black Narcissus</Description>
+         <Part Id="37429152126" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Autumn Sonata</Description>
+         <Part Id="37429126127" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Closely Watched Trains</Description>
+         <Part Id="37429161524" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Big Deal on Madonna Street</Description>
+         <Part Id="37429155424" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Double Suicide</Description>
+         <Part Id="37429149638" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Flesh for Frankenstein</Description>
+         <Part Id="715515009423" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,65 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>VJONES-20021009123336301PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SVOLLMAN</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Vance L. Jones</Requestor>
+   <User>VJONES</User>
+   <CostCenter>R20</CostCenter>
+   <ShippingInstructions>
+      <name>Vance L. Jones</name>
+      <address>600 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7600</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>The Importance of Being Earnest</Description>
+         <Part Id="37429165621" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>The Ruling Class</Description>
+         <Part Id="715515012423" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Black Orpheus</Description>
+         <Part Id="37429138328" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Fishing With John 1 -3</Description>
+         <Part Id="37429136621" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Le Trou</Description>
+         <Part Id="37429156223" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Gimme Shelter: The Rolling Stones </Description>
+         <Part Id="37429154526" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Shock Corridor</Description>
+         <Part Id="37429125922" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Rebecca</Description>
+         <Part Id="715515012522" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Red Beard</Description>
+         <Part Id="37429168820" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Cleo from 5 to 7</Description>
+         <Part Id="37429149027" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

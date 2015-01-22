@@ -1,0 +1,81 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>CJOHNSON-20021009123338124PDT</Reference>
+   <Actions>
+      <Action>
+         <User>EZLOTKEY</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Charles G. Johnson</Requestor>
+   <User>CJOHNSON</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Charles G. Johnson</name>
+      <address>500 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7500</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>All That Heaven Allows</Description>
+         <Part Id="715515011426" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>George Washington</Description>
+         <Part Id="37429166123" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>L'avventura</Description>
+         <Part Id="37429156025" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Rushmore</Description>
+         <Part Id="715515010429" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>8.5</Description>
+         <Part Id="37429135624" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Dreyer Box Set</Description>
+         <Part Id="37429158425" UnitPrice="79.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>The Bank Dick</Description>
+         <Part Id="715515010627" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Bob le Flambeur</Description>
+         <Part Id="37429165928" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Robocop</Description>
+         <Part Id="715515009324" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Le Trou</Description>
+         <Part Id="37429156223" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Rebecca</Description>
+         <Part Id="715515012522" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>That Obscure Object of Desire</Description>
+         <Part Id="37429162026" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Hearts and Minds</Description>
+         <Part Id="37429166321" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Branded to Kill</Description>
+         <Part Id="37429136225" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

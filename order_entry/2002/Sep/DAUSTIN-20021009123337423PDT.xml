@@ -1,0 +1,93 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>DAUSTIN-20021009123337423PDT</Reference>
+   <Actions>
+      <Action>
+         <User>AHUNOLD</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>David L. Austin</Requestor>
+   <User>DAUSTIN</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>David L. Austin</name>
+      <address>300 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7300</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>The Blob</Description>
+         <Part Id="715515011129" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Alexander Nevsky</Description>
+         <Part Id="37429149225" UnitPrice="0.0" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Branded to Kill</Description>
+         <Part Id="37429136225" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Summertime</Description>
+         <Part Id="37429130728" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>The Firemen's Ball</Description>
+         <Part Id="37429165522" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>The Firemen's Ball</Description>
+         <Part Id="37429165522" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Samurai 1: Musashi Miyamoto</Description>
+         <Part Id="37429125427" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Le Trou</Description>
+         <Part Id="37429156223" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Insomnia</Description>
+         <Part Id="37429138229" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Hamlet</Description>
+         <Part Id="37429128428" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Flesh for Frankenstein</Description>
+         <Part Id="715515009423" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Taste of Cherry</Description>
+         <Part Id="37429137222" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>M</Description>
+         <Part Id="37429126523" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Taste of Cherry</Description>
+         <Part Id="37429137222" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Diary of a Chambermaid</Description>
+         <Part Id="37429158128" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>M. Hulot's Holiday</Description>
+         <Part Id="37429155721" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Black Narcissus</Description>
+         <Part Id="37429152126" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

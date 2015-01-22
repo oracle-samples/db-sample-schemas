@@ -1,0 +1,121 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>TFOX-20021009123337653PDT</Reference>
+   <Actions>
+      <Action>
+         <User>GCAMBRAU</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Tayler L. Fox</Requestor>
+   <User>TFOX</User>
+   <CostCenter>R20</CostCenter>
+   <ShippingInstructions>
+      <name>Tayler L. Fox</name>
+      <address>100 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7100</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Brazil</Description>
+         <Part Id="37429138526" UnitPrice="59.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>George Washington</Description>
+         <Part Id="37429166123" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Ivan the Terrible - Parts I &amp; II</Description>
+         <Part Id="37429150122" UnitPrice="0.0" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Summertime</Description>
+         <Part Id="37429130728" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>The Importance of Being Earnest</Description>
+         <Part Id="37429165621" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Children of Paradise</Description>
+         <Part Id="37429151723" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Spartacus</Description>
+         <Part Id="715515011723" UnitPrice="39.96" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Dead Ringers</Description>
+         <Part Id="715515009249" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>The Discreet Charm of Bourgeoisie</Description>
+         <Part Id="37429154625" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Vagabond</Description>
+         <Part Id="37429148921" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Blood of a Poet</Description>
+         <Part Id="37429147429" UnitPrice="0.0" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Mon Oncle</Description>
+         <Part Id="37429155929" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>The Passion of Joan of Arc</Description>
+         <Part Id="37429139820" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>The Night Porter</Description>
+         <Part Id="37429145227" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>The Scarlet Empress</Description>
+         <Part Id="715515011822" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Tokyo Olympiad</Description>
+         <Part Id="37429166420" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Vagabond</Description>
+         <Part Id="37429148921" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>A Night to Remember</Description>
+         <Part Id="715515009058" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>The Ruling Class</Description>
+         <Part Id="715515012423" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>Rebecca</Description>
+         <Part Id="715515012522" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="21">
+         <Description>Testament of Orpheus</Description>
+         <Part Id="37429143322" UnitPrice="0.0" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="22">
+         <Description>Salesman</Description>
+         <Part Id="37429158920" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="23">
+         <Description>Rashomon  </Description>
+         <Part Id="37429161821" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="24">
+         <Description>Do the Right Thing</Description>
+         <Part Id="715515011228" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

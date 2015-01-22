@@ -1,0 +1,93 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>CJOHNSON-20021009123336712PDT</Reference>
+   <Actions>
+      <Action>
+         <User>EZLOTKEY</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Charles G. Johnson</Requestor>
+   <User>CJOHNSON</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Charles G. Johnson</name>
+      <address>500 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7500</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Red Beard</Description>
+         <Part Id="37429168820" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Dreyer Box Set</Description>
+         <Part Id="37429158425" UnitPrice="79.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>The Lady Vanishes</Description>
+         <Part Id="37429122129" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>W.C. Fields - Six Short Films</Description>
+         <Part Id="715515010726" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Beauty and the Beast</Description>
+         <Part Id="37429122020" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Le million</Description>
+         <Part Id="37429147627" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Juliet of the Spirits</Description>
+         <Part Id="37429165829" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Autumn Sonata</Description>
+         <Part Id="37429126127" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>The Last Wave</Description>
+         <Part Id="37429161920" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Chasing Amy</Description>
+         <Part Id="717951002372" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Getrud</Description>
+         <Part Id="37429158524" UnitPrice="0.0" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>The Night Porter</Description>
+         <Part Id="37429145227" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Alphaville</Description>
+         <Part Id="37429130926" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>The Most Dangerous Game</Description>
+         <Part Id="37429137321" UnitPrice="24.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Kwaidan</Description>
+         <Part Id="37429152027" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Coup De Torchon (Clean Slate)</Description>
+         <Part Id="37429149829" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Variety Lights</Description>
+         <Part Id="37429150023" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,69 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SMCCAIN-20021009123335681PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SVOLLMAN</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Samuel B. McCain</Requestor>
+   <User>SMCCAIN</User>
+   <CostCenter>A10</CostCenter>
+   <ShippingInstructions>
+      <name>Samuel B. McCain</name>
+      <address>800 Bridge Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7800</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Seven Samurai</Description>
+         <Part Id="37429121726" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Blood of a Poet</Description>
+         <Part Id="37429147429" UnitPrice="0.0" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Sisters</Description>
+         <Part Id="715515011020" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Rashomon  </Description>
+         <Part Id="37429161821" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Diary of a Chambermaid</Description>
+         <Part Id="37429158128" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Andrei Rublev</Description>
+         <Part Id="715515009928" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Children of Paradise</Description>
+         <Part Id="37429151723" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Sid &amp; Nancy</Description>
+         <Part Id="715515009232" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>And God Created Woman</Description>
+         <Part Id="37429147825" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Salo</Description>
+         <Part Id="715515009225" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>This is Spinal Tap</Description>
+         <Part Id="715515009126" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

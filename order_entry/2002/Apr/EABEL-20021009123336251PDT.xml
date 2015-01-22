@@ -1,0 +1,37 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>EABEL-20021009123336251PDT</Reference>
+   <Actions>
+      <Action>
+         <User>EZLOTKEY</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Ellen S. Abel</Requestor>
+   <User>EABEL</User>
+   <CostCenter>R20</CostCenter>
+   <ShippingInstructions>
+      <name>Ellen S. Abel</name>
+      <address>300 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7300</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Samurai 2: Duel at Ichijoji Temple</Description>
+         <Part Id="37429125526" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>The Red Shoes</Description>
+         <Part Id="37429128220" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>A Night to Remember</Description>
+         <Part Id="715515009058" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

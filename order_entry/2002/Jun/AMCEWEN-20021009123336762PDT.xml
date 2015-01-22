@@ -1,0 +1,78 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AMCEWEN-20021009123336762PDT</Reference>
+   <Actions>
+      <Action>
+         <User>KPARTNER</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Allan D. McEwen</Requestor>
+   <User>AMCEWEN</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Allan D. McEwen</name>
+      <address>Oracle Plaza
+Twin Dolphin Drive
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7700</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Taste of Cherry</Description>
+         <Part Id="37429137222" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Chasing Amy</Description>
+         <Part Id="717951002372" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Rashomon  </Description>
+         <Part Id="37429161821" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Samurai 3: Duel at Ganryu Island</Description>
+         <Part Id="37429125625" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Variety Lights</Description>
+         <Part Id="37429150023" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Insomnia</Description>
+         <Part Id="37429138229" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Le Trou</Description>
+         <Part Id="37429156223" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>The Unbearable Lightness Of Being</Description>
+         <Part Id="37429140222" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>The Cranes Are Flying</Description>
+         <Part Id="37429168028" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>The Unbearable Lightness Of Being</Description>
+         <Part Id="37429140222" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>The Bank Dick</Description>
+         <Part Id="715515010627" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Haxan: Witchcraft Through the Ages</Description>
+         <Part Id="37429161722" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Tokyo Drifter</Description>
+         <Part Id="37429136126" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

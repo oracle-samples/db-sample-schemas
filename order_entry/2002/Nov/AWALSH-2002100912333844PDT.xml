@@ -1,0 +1,125 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AWALSH-2002100912333844PDT</Reference>
+   <Actions>
+      <Action>
+         <User>KPARTNER</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Alana G. Walsh</Requestor>
+   <User>AWALSH</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Alana G. Walsh</name>
+      <address>1200 East Forty Seventh Avenue 
+New York
+NY
+10024
+USA</address>
+      <telephone>212 555 1212</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>I Know Where I'm Going</Description>
+         <Part Id="37429154427" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Blood for Dracula</Description>
+         <Part Id="715515009522" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>The Last Wave</Description>
+         <Part Id="37429161920" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Loves of a Blonde</Description>
+         <Part Id="37429165423" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Andrei Rublev</Description>
+         <Part Id="715515009928" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>The 39 Steps</Description>
+         <Part Id="37429135228" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Mon Oncle</Description>
+         <Part Id="37429155929" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>The Seventh Seal</Description>
+         <Part Id="37429124529" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>M. Hulot's Holiday</Description>
+         <Part Id="37429155721" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Ballad of a Soldier</Description>
+         <Part Id="37429167922" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>And the Ship Sails on</Description>
+         <Part Id="37429139028" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Mon Oncle</Description>
+         <Part Id="37429155929" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Fishing With John 1 -3</Description>
+         <Part Id="37429136621" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Double Suicide</Description>
+         <Part Id="37429149638" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Do the Right Thing</Description>
+         <Part Id="715515011228" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Closely Watched Trains</Description>
+         <Part Id="37429161524" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Samurai 2: Duel at Ichijoji Temple</Description>
+         <Part Id="37429125526" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>Seven Samurai</Description>
+         <Part Id="37429121726" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>Orpheus</Description>
+         <Part Id="37429141427" UnitPrice="0.0" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>Charade</Description>
+         <Part Id="37429139424" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="21">
+         <Description>Samurai 3: Duel at Ganryu Island</Description>
+         <Part Id="37429125625" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="22">
+         <Description>Do the Right Thing</Description>
+         <Part Id="715515011228" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="23">
+         <Description>Silence of the Lambs</Description>
+         <Part Id="715515009133" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="24">
+         <Description>The Red Shoes</Description>
+         <Part Id="37429128220" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="25">
+         <Description>The Last Temptation of Christ</Description>
+         <Part Id="715515010528" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

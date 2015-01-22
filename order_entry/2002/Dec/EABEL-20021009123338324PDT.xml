@@ -1,0 +1,109 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>EABEL-20021009123338324PDT</Reference>
+   <Actions>
+      <Action>
+         <User>EZLOTKEY</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Ellen S. Abel</Requestor>
+   <User>EABEL</User>
+   <CostCenter>R20</CostCenter>
+   <ShippingInstructions>
+      <name>Ellen S. Abel</name>
+      <address>300 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7300</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>The Night Porter</Description>
+         <Part Id="37429145227" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Rififi</Description>
+         <Part Id="37429155622" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Fishing With John 1 -3</Description>
+         <Part Id="37429136621" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Traffic</Description>
+         <Part Id="696306038924" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Getrud</Description>
+         <Part Id="37429158524" UnitPrice="0.0" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>The Hidden Fortress</Description>
+         <Part Id="37429135129" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Sisters</Description>
+         <Part Id="715515011020" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Sanjuro</Description>
+         <Part Id="37429141526" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Orpheus</Description>
+         <Part Id="37429141427" UnitPrice="0.0" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Seven Samurai</Description>
+         <Part Id="37429121726" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>L'avventura</Description>
+         <Part Id="37429156025" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Rashomon  </Description>
+         <Part Id="37429161821" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Variety Lights</Description>
+         <Part Id="37429150023" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Ballad of a Soldier</Description>
+         <Part Id="37429167922" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>The Red Shoes</Description>
+         <Part Id="37429128220" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>Oliver Twist</Description>
+         <Part Id="37429128121" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Branded to Kill</Description>
+         <Part Id="37429136225" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>Ivan the Terrible - Parts I &amp; II</Description>
+         <Part Id="37429150122" UnitPrice="0.0" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>Diary of a Chambermaid</Description>
+         <Part Id="37429158128" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>How to Get Ahead in Advertising</Description>
+         <Part Id="715515012324" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="21">
+         <Description>The Firemen's Ball</Description>
+         <Part Id="37429165522" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,81 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>LSMITH-20021009123335500PDT</Reference>
+   <Actions>
+      <Action>
+         <User>KPARTNER</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Lindsey G. Smith</Requestor>
+   <User>LSMITH</User>
+   <CostCenter>R20</CostCenter>
+   <ShippingInstructions>
+      <name>Lindsey G. Smith</name>
+      <address>200 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7200</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Time Bandits</Description>
+         <Part Id="715515010122" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Hamlet</Description>
+         <Part Id="37429128428" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Playtime</Description>
+         <Part Id="37429155820" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Beauty and the Beast</Description>
+         <Part Id="37429122020" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Coup De Torchon (Clean Slate)</Description>
+         <Part Id="37429149829" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>The 400 Blows</Description>
+         <Part Id="37429122228" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Orpheus</Description>
+         <Part Id="37429141427" UnitPrice="0.0" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>W.C. Fields - Six Short Films</Description>
+         <Part Id="715515010726" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Mona Lisa</Description>
+         <Part Id="715515012027" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Sullivan's Travels</Description>
+         <Part Id="715515012126" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Dead Ringers</Description>
+         <Part Id="715515009249" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>The Lady Vanishes</Description>
+         <Part Id="37429122129" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Salesman</Description>
+         <Part Id="37429158920" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>How to Get Ahead in Advertising</Description>
+         <Part Id="715515012324" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

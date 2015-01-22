@@ -1,0 +1,2677 @@
+set define off
+INSERT INTO product_descriptions VALUES(1726-
+,'ZHT'-
+,UNISTR(-
+'LCD \87a2\5e55 11/PM'-
+),UNISTR(-
+'11 \540b\6db2\6676\986f\793a\5668\3002\5e73\9762\3001\9ad8'||-
+'\89e3\6790\5ea6\756b\9762\ff0c\5177\964d\4f4e\53cd\5149\8207'||-
+'\9ad8\5f71\50cf\756b\8cea\7684\7279\6027\3002'-
+));
+INSERT INTO product_descriptions VALUES(2359-
+,'ZHT'-
+,UNISTR(-
+'LCD \986f\793a\5668 9/PM'-
+),UNISTR(-
+'9 \540b\6db2\6676\986f\793a\5668\3002\9019\662f\4e00\6b3e\5c0f'||-
+'\578b\7684\986f\793a\5668\ff0c\53ef\7bc0\7701\60a8\7684\684c'||-
+'\9762\7a7a\9593\ff0c\4f7f\60a8\5de5\4f5c\8d77\4f86\66f4\5f97'||-
+'\5fc3\61c9\624b\3002\96a8\63d2\5373\7528\7684\529f\80fd\8b93'||-
+'\60a8\8f15\9b06\5730\5b8c\6210\5b89\88dd\3002'-
+));
+INSERT INTO product_descriptions VALUES(3060-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5668 17/HR'-
+),UNISTR(-
+'17 \540b CRT \986f\793a\5668 (\53ef\8996\7bc4\570d 16 \540b) '||-
+'\9ad8\89e3\6790\5ea6\3002\5177\6709\9ad8\5f71\50cf\8868\73fe'||-
+'\8207\984d\5916\7684\986f\793a\7a7a\9593\3002\9019\500b\986f'||-
+'\793a\5668\63d0\4f9b\92b3\5229\800c\9bae\8c54\7684\8868\73fe'||-
+'\ff0c\7d55\5c0d\7269\8d85\6240\503c\3002 OSD \63a7\5236\4e5f'||-
+'\662f\773e\591a\7368\7279\529f\80fd\4e4b\4e00\3002'-
+));
+INSERT INTO product_descriptions VALUES(2243-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5668 17/HR/F'-
+),UNISTR(-
+'17 \540b\986f\793a\5668 (\53ef\8996\7bc4\570d 16 \540b) \5e73'||-
+'\9762\9ad8\89e3\6790\5ea6\3002\5177\6709\52a0\5f37\66f2\7dda'||-
+'\4fee\6b63\7cfb\7d71\7684\9ad8\5bc6\5ea6\96fb\5b50\69cd\ff0c'||-
+'\53ef\63d0\4f9b\66f4\4e00\81f4\3001\7cbe\78ba\7684\756b\9762'||-
+'\7126\9ede\ff0c\5373\4f7f\5728\89d2\843d\8655\4e5f\662f\5982'||-
+'\6b64\3002'-
+));
+INSERT INTO product_descriptions VALUES(3057-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5668 17/SD'-
+),UNISTR(-
+'17 \540b CRT \986f\793a\5668 (\53ef\8996\7bc4\570d 16 \540b) '||-
+'\77ed\7ba1\3002 \9ad8\6e05\6670\5ea6\8207\7cbe\78ba\5ea6\7684'||-
+'\5f71\50cf\3002\5c0d\65bc\9700\8981\5c08\696d\8272\5f69\3001'||-
+'\6280\8853\5de5\7a0b\4ee5\53ca\88fd\4f5c\5f71\7247\8207\52d5'||-
+'\756b\7684\4f7f\7528\8005\800c\8a00\ff0c\80fd\63d0\4f9b\4ed6'||-
+'\5011\6240\9700\8981\7684\8272\5f69\5fe0\771f\5ea6\ff0c\4ee5'||-
+'\53ca\8d85\5927\7684\684c\9762\4ee5\52a0\901f\5de5\4f5c\6548'||-
+'\7387\3002'-
+));
+INSERT INTO product_descriptions VALUES(3061-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5668 19/SD'-
+),UNISTR(-
+'19 \540b CRT \986f\793a\5668 (\53ef\8996\7bc4\570d 18 \540b) '||-
+'\77ed\7ba1\3002\9ad8\5c0d\6bd4\7684\9ed1\87a2\5e55\ff0c\80fd'||-
+'\7522\751f\9ad8\5c0d\6bd4\8207\9ad8\7070\5ea6\7b49\7d1a\7684'||-
+'\8868\73fe\3002\65b0\5f0f\8a2d\8a08\7684\5c08\696d\5587\53ed'||-
+'\ff0c\63d0\4f9b\52d5\611f\7684\4f4e\97f3\ff0c\8b93\60a8\4eab'||-
+'\53d7\8f15\5feb\3001\903c\771f\7684\97f3\97ff\53ca\91cd\4f4e'||-
+'\97f3\3002\9084\6709\4ee5\8272\5f69\7de8\78bc\7684\7e9c\7dda'||-
+'\3001\96a8\63d2\5373\7528\7684\5b89\88dd\4ee5\53ca\6578\4f4d O'||-
+'SD\ff0c\8b93\60a8\5728\6578\5206\9418\5167\5373\53ef\5b8c\6210'||-
+'\591a\5a92\9ad4\8207 Internet \7684\986f\793a\8a2d\5b9a\3002'-
+));
+INSERT INTO product_descriptions VALUES(2245-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5668 19/SD/M'-
+),UNISTR(-
+'19 \540b\986f\793a\5668 (\53ef\8996\7bc4\570d 18 \540b) \77ed'||-
+'\7ba1\ff0c\55ae\8272\3002\7c21\6f54\7684\8a2d\8a08\3001\512a'||-
+'\8cea\7684\5f71\50cf\8868\73fe\3002\7c21\6613\7684 OSD \529f'||-
+'\80fd\8868\8b93\60a8\8f15\9b06\5730\8abf\6574\756b\9762\5927'||-
+'\5c0f\3001\8272\5f69\53ca\5f71\50cf\7279\8cea\3002\53ea\8981'||-
+'\5c07\986f\793a\5668\63d2\5165 PC\ff0c\5c31\53ef\4ee5\958b'||-
+'\59cb\4f7f\7528\3002'-
+));
+INSERT INTO product_descriptions VALUES(3065-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5668 21/D'-
+),UNISTR(-
+'21 \540b CRT \986f\793a\5668 (\53ef\8996\7bc4\570d 20 \540b)'||-
+'\3002\6578\4f4d OptiScan \6280\8853: \53ef\652f\63f4\6700\5927'||-
+'\89e3\6790\5ea6 1600 x 1200\ff0c\66f4\65b0\983b\7387 75Hz\3002'||-
+'\5c3a\5bf8 (HxWxD): 8.3 x 18.5 x 15 \540b\3002\5206\96e2\5f0f\6216'||-
+'\5167\5efa\5f0f\7684 Platinum \7cfb\5217\986f\793a\5668\91cd'||-
+'\529b\5587\53ed\ff0c\63d0\4f9b\8f15\5feb\7684\8072\97f3\4ee5'||-
+'\53ca\6578\4f4d\97f3\97ff\63d2\5ea7\3002\53ea\8981\5c07\6578'||-
+'\4f4d\97f3\97ff\63d2\5165\63d2\5ea7\4e26\8abf\6574\81f3\9069'||-
+'\7576\7684\97f3\91cf\ff0c\5c31\4e0d\9700\518d\8abf\6574 PC '||-
+'\7684\97f3\91cf\3002'-
+));
+INSERT INTO product_descriptions VALUES(3331-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5668 21/HR'-
+),UNISTR(-
+'21 \540b\986f\793a\5668 (\53ef\8996\7bc4\570d 20 \540b) \9ad8'||-
+'\89e3\6790\5ea6\3002\9019\500b\986f\793a\5668\9069\7528\65bc'||-
+'\5546\696d\7528\9014\3001\684c\4e0a\578b\6392\7248\7cfb\7d71'||-
+'\4ee5\53ca\5927\91cf\5716\5f62\8655\7406\7684\61c9\7528\7a0b'||-
+'\5f0f\3002\5927\578b\986f\793a\5668\4f7f\60a8\6709\66f4\5927'||-
+'\7684\7a7a\9593\57f7\884c\66f4\591a\7684\7a0b\5f0f\ff0c\4ee5'||-
+'\52a0\901f\5de5\4f5c\6548\7387\3002'-
+));
+INSERT INTO product_descriptions VALUES(2252-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5668 21/HR/M'-
+),UNISTR(-
+'21 \540b\986f\793a\5668 (20 \53ef\8996\7bc4\570d) \9ad8\89e3'||-
+'\6790\5ea6\ff0c\55ae\8272\3002\672c\8eab\5927\5c0f\ff1a35.6 x 2'||-
+'9.6 x 33.3 \516c\5206 (14.6 \516c\65a4) \5305\88dd\ff1a40.53 x 31.2'||-
+'4 x 35.39 \516c\5206 (16.5 \516c\65a4)\3002\6c34\5e73\66f4\65b0'||-
+'\983b\7387 31.5 - 54 kHz\ff0c\5782\76f4\66f4\65b0\983b\7387 50 - '||-
+'120 Hz\3002\901a\7528\96fb\6e90\4f9b\61c9\5668 90 - 132 V\3001 50'||-
+' - 60 Hz\3002'-
+));
+INSERT INTO product_descriptions VALUES(3064-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5668 21/SD'-
+),UNISTR(-
+'21 \540b\986f\793a\5668 (\53ef\8996\7bc4\570d 20 \540b) \77ed'||-
+'\7ba1\30020.25 \81f3 0.28 \9ede\8ddd\ff0c\6700\5927\89e3\6790'||-
+'\5ea6 1920 x 1200\ff0c\66f4\65b0\983b\7387 76Hz\ff0cOSD \63a7'||-
+'\5236\4ee5\53ca\8868\9762\7d93\904e\9632\70ab\5149\8655\7406'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3155-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5668\62d6\76e4 - \8d85\8010\578b'-
+),UNISTR(-
+'\986f\793a\5668\62d6\76e4\ff0c\8d85\8010\578b\ff0c\53ef\627f'||-
+'\53d7\6700\5927\986f\793a\5668\91cd\91cf 30 \516c\65a4'-
+));
+INSERT INTO product_descriptions VALUES(3234-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5668\62d6\76e4 - \6a19\6e96'-
+),UNISTR(-
+'\6a19\6e96\986f\793a\5668\62d6\76e4\ff0c\53ef\627f\53d7\6700'||-
+'\5927\986f\793a\5668\91cd\91cf 10 \516c\65a4'-
+));
+INSERT INTO product_descriptions VALUES(3350-
+,'ZHT'-
+,UNISTR(-
+'Plasma \986f\793a\5668 10/LE/VGA'-
+),UNISTR(-
+'10 \540b\7701\96fb\96fb\69f3\986f\793a\5668\ff0cVGA \89e3\6790'||-
+'\5ea6'-
+));
+INSERT INTO product_descriptions VALUES(2236-
+,'ZHT'-
+,UNISTR(-
+'\96fb\69f3\986f\793a\5668 10/TFT/XGA'-
+),UNISTR(-
+'10 \540b TFT XGA \5e73\9762\986f\793a\5668\4f9b\7b46\8a18\578b'||-
+'\96fb\8166\4f7f\7528\3002'-
+));
+INSERT INTO product_descriptions VALUES(3054-
+,'ZHT'-
+,UNISTR(-
+'\96fb\69f3\986f\793a\5668 10/XGA'-
+),UNISTR(-
+'10 \540b\6a19\6e96\96fb\69f3\986f\793a\5668\ff0cXGA \89e3\6790'||-
+'\5ea6\3002\70ba\8d85\5e73\3001\9ad8\89e3\6790\5ea6\7684\87a2'||-
+'\5e55\ff0c\5177\6709\5353\8d8a\7684\5f71\50cf\756b\8cea\53ca'||-
+'\8f03\5c11\7684\53cd\5149\3002'-
+));
+INSERT INTO product_descriptions VALUES(1782-
+,'ZHT'-
+,UNISTR(-
+'\5eb7\67cf 400/DQ'-
+),UNISTR(-
+'\6bcf\79d2\5217\5370 400 \5b57\5143\7684\9ad8\901f\8349\7a3f'||-
+'\54c1\8cea\5370\8868\6a5f\3002\5c3a\5bf8 (HxWxD): 17.34 x 24.26 x '||-
+'26.32 \540b\3002\8f38\5165\4ecb\9762\ff1aRS-232 \5e8f\5217 (9-pin'||-
+')\ff0c\7121\64f4\5145\69fd\3002\7d19\5f35\5927\5c0f\ff1aA4'||-
+'\3001US Letter\3002'-
+));
+INSERT INTO product_descriptions VALUES(2430-
+,'ZHT'-
+,UNISTR(-
+'Compact 400/LQ'-
+),UNISTR(-
+'\6bcf\79d2\5217\5370 400 \5b57\5143\7684\9ad8\901f\4fe1\7d19'||-
+'\54c1\8cea\5370\8868\6a5f\3002\5c3a\5bf8 (HxWxD)\ff1a12.37 x 27.9'||-
+'6 x 23.92 \540b\3002\8f38\5165\4ecb\9762\ff1aRS-232 \5e8f\5217 (2'||-
+'5-pin)\ff0c3 \500b\64f4\5145\69fd\3002 \7d19\5f35\5927\5c0f'||-
+'\ff1aA2\3001A3\3001A4\3002'-
+));
+INSERT INTO product_descriptions VALUES(1792-
+,'ZHT'-
+,UNISTR(-
+'Industrial 600/DQ'-
+),UNISTR(-
+'\8d85\5927\7d19\5323\ff0c\5353\8d8a\7684\8272\5f69\529f\80fd'||-
+'\ff0c\6bcf\79d2\5217\5370 600 \5b57\5143\8349\7a3f\7684\9ad8'||-
+'\901f\5370\8868\6a5f\3002\5c3a\5bf8 (HxWxD)\ff1a22.31 x 25.73 x 20'||-
+'.12 \540b\3002\7d19\5f35\5927\5c0f\ff1a3x5 \540b\81f3 11x17 '||-
+'\540b\5168\958b\683c\5f0f\3002'-
+));
+INSERT INTO product_descriptions VALUES(1791-
+,'ZHT'-
+,UNISTR(-
+'Industrial 700/HD'-
+),UNISTR(-
+'\6bcf\79d2\5217\5370 700 \5b57\5143\7684\9ede\77e9\9663\5370'||-
+'\8868\6a5f\ff0c\6709\66f4\5805\56fa\7684\5916\8868\4ee5\53ca'||-
+'\4f9b\5de5\696d\7528\9014\7684\7070\5c64\4fdd\8b77\3002\4f7f'||-
+'\7528\4ecb\9762\ff1aCentronics \5e73\884c\57e0\ff1bIEEE 1284 '||-
+'\76f8\5bb9\3002 \7d19\5f35\5927\5c0f\ff1a3x5 \540b\81f3 11x17 '||-
+'\540b\5168\958b\683c\5f0f\3002\8a18\61b6\9ad4\ff1a4MB\3002'||-
+'\5c3a\5bf8 (HxWxD): 9.3 x 16.5 x 13 \540b\3002'-
+));
+INSERT INTO product_descriptions VALUES(2302-
+,'ZHT'-
+,UNISTR(-
+'\5674\58a8\5370\8868\6a5f B/6'-
+),UNISTR(-
+'\5674\58a8\5370\8868\6a5f\ff0c\9ed1\8272\ff0c\6bcf\5206\9418'||-
+'\5217\5370 6 \9801\3002\89e3\6790\5ea6 600x300 dpi\3002\4f7f'||-
+'\7528\4ecb\9762\ff1a Centronics \5e73\884c\57e0 IEEE 1284 \76f8'||-
+'\5bb9\3002\5c3a\5bf8 (HxWxD)\ff1a7.3 x 17.5 x 14 \540b\3002\7d19'||-
+'\5f35\5927\5c0f\ff1a A3\3001A4\3001US legal\3002\7121\64f4\5145'||-
+'\69fd\3002'-
+));
+INSERT INTO product_descriptions VALUES(2453-
+,'ZHT'-
+,UNISTR(-
+'\5674\58a8\5370\8868\6a5f C/4'-
+),UNISTR(-
+'\5f69\8272\5674\58a8\5370\8868\6a5f (\5169\500b\58a8\6c34\5323'||-
+')\ff0c\9ed1\767d\8272\6bcf\5206\9418\5217\5370 6 \9801\ff0c'||-
+'\5f69\8272\6bcf\5206\9418\5217\5370 4 \9801\ff0c\89e3\6790'||-
+'\5ea6 600x300 dpi\3002\4f7f\7528\4ecb\9762\ff1aBiodirectional IEEE '||-
+'1284 \76f8\5bb9\5e73\884c\57e0\4ecb\9762\4ee5\53ca RS-232 \5e8f'||-
+'\5217 (9-pin) \4ecb\9762\ff0c2 \500b\958b\653e\5f0f EIO \64f4'||-
+'\5145\69fd\3002\8a18\61b6\9ad4\ff1a8MB 96KB \63a5\53d7\7de9'||-
+'\885d\5340\3002'-
+));
+INSERT INTO product_descriptions VALUES(1797-
+,'ZHT'-
+,UNISTR(-
+'\5674\58a8\5370\8868\6a5f C/8/HQ'-
+),UNISTR(-
+'\5674\58a8\5370\8868\6a5f\ff0c\5f69\8272\6bcf\5206\9418\5217'||-
+'\5370 8 \9801\ff0c\9ad8\89e3\6790\5ea6 (\76f8\7247\54c1\8cea)'||-
+'\3002\8a18\61b6\9ad4\ff1a16MB\3002\5c3a\540b (HxWxD): 7.3 x 17.5 x'||-
+' 14 \540b\3002\7d19\5f35\5927\5c0f\ff1aA4\3001US Letter\3001'||-
+'\4fe1\5c01\3002\4f7f\7528\4ecb\9762\ff1a Centronics \5e73\884c'||-
+'\57e0\ff0cIEEE 1284 \76f8\5bb9\3002'-
+));
+INSERT INTO product_descriptions VALUES(2459-
+,'ZHT'-
+,UNISTR(-
+'\5c08\696d\96f7\5c04\5370\8868\6a5f 1200/8/BW'-
+),UNISTR(-
+'\5c08\696d\9ed1\767d\96f7\5c04\5370\8868\6a5f\ff0c\89e3\6790'||-
+'\5ea6 1200 dpi\ff0c\6bcf\79d2\5217\5370 8 \9801\3002\5c3a\5bf8 ('||-
+'HxWxD)\ff1a22.37 x 19.86 x 21.92 \540b\3002\8edf\9ad4\ff1a\52a0'||-
+'\5f37\578b\7684\9a45\52d5\7a0b\5f0f\652f\63f4 SPNIX v4.0\ff0cMS-'||-
+'DOS \5167\5efa\5370\8868\6a5f\9a45\52d5\7a0b\5f0f\ff1aZoomSmart '||-
+'\7e2e\653e\6280\8853\3001Billboard\3001Handout\3001\93e1\50cf'||-
+'\5f71\5370 (mirror)\3001Watermark\3001\9810\89bd\5217\5370\3001'||-
+'\5feb\901f\8a2d\5b9a\3001\6a21\4eff\96f7\5c04\5370\8868\6a5f'||-
+'\908a\754c\3002'-
+));
+INSERT INTO product_descriptions VALUES(3127-
+,'ZHT'-
+,UNISTR(-
+'\5c08\696d\96f7\5c04\5370\8868\6a5f 600/6/BW'-
+),UNISTR(-
+'\6a19\6e96\9ed1\767d\96f7\5c04\5370\8868\6a5f\ff0c\89e3\6790'||-
+'\5ea6 600 dpi\ff0c\6bcf\79d2 6 \5217\5370\9801\3002\4f7f\7528'||-
+'\4ecb\9762\ff1aCentronics \5e73\884c\57e0\ff0c IEEE 1284 \76f8'||-
+'\5bb9\3002\8a18\61b6\9ad4\ff1a8MB 96KB \63a5\6536\7de9\885d'||-
+'\5340\3002SPNIX AutoCAM v.17 \76f8\5bb9\9a45\52d5\7a0b\5f0f\7684 '||-
+'MS-DOS ToolBox \516c\7528\7a0b\5f0f \3002'-
+));
+INSERT INTO product_descriptions VALUES(2254-
+,'ZHT'-
+,UNISTR(-
+'HD 10GB /I'-
+),UNISTR(-
+'10GB \7684\786c\789f (\5167\63a5\5f0f)\3002\9019\4e9b\88dd\7f6e'||-
+'\7b26\5408\73fe\4ee3\9700\6c42\4ee5\53ca\5177\6709\91cd\8981'||-
+'\8cc7\6599\7684\4f01\696d\74b0\5883\ff0c\800c\4e14\9069\7528'||-
+'\65bc RAID \61c9\7528\7a0b\5f0f\3002\901a\7528\9078\9805\5957'||-
+'\4ef6\5df2\8a2d\5b9a\7d44\614b\4e26\5df2\5728\9069\7576\7684'||-
+'\96a8\63d2\5373\7528\6258\76e4\4e2d\9810\5148\639b\4e0a\ff0c'||-
+'\4ee5\4fbf\65bc\7acb\5373\5b89\88dd\81f3\516c\53f8\4f3a\670d'||-
+'\5668\6216\5132\5b58\7cfb\7d71\3002'-
+));
+INSERT INTO product_descriptions VALUES(3353-
+,'ZHT'-
+,UNISTR(-
+'HD 10GB /R'-
+),UNISTR(-
+'10GB \62bd\53d6\5f0f\786c\789f\3002Supra7 \78c1\789f\88dd\7f6e'||-
+'\63d0\4f9b\6700\65b0\7684\79d1\6280\4ee5\6539\5584\4f01\696d'||-
+'\6548\80fd\ff0c\6700\5927\7684\8cc7\6599\50b3\8f38\901f\7387'||-
+'\53ef\9054 160MB/s\3002'-
+));
+INSERT INTO product_descriptions VALUES(3069-
+,'ZHT'-
+,UNISTR(-
+'HD 10GB /S'-
+),UNISTR(-
+'\4f9b\6a19\6e96\639b\4e0a\7684 10GB \786c\789f\3002\53ef\8207 S'||-
+'upra5 \7cfb\7d71\56de\6eaf\76f8\5bb9\ff0c\4f7f\7528\8005\53ef'||-
+'\4ee5\96a8\610f\914d\7f6e\8207\8207\91cd\65b0\914d\7f6e\589e'||-
+'\52a0\7684\5132\5b58\9ad4\5bb9\91cf\3002Supra \9a45\52d5\7a0b'||-
+'\5f0f\53ef\6d88\9664\97cc\9ad4\4e0d\76f8\5bb9\7684\98a8\96aa'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2253-
+,'ZHT'-
+,UNISTR(-
+'HD 10GB @5400 /SE'-
+),UNISTR(-
+'10GB \7684\786c\789f\88dd\7f6e (\5916\63a5\5f0f) SCSI \4ecb\9762'||-
+'\ff0c5400 RPM\3002\901a\7528\9078\9805\5957\4ef6\5df2\7d93\8a2d'||-
+'\5b9a\7d44\614b\4e26\4e14\5df2\5728\9069\7576\7684\96a8\63d2'||-
+'\5373\7528\6258\76e4\4e2d\9810\5148\88dd\4e0a\ff0c\4ee5\4fbf'||-
+'\65bc\7acb\5373\5b89\88dd\81f3\516c\53f8\4f3a\670d\5668\6216'||-
+'\5132\5b58\7cfb\7d71\3002 Supra \9a45\52d5\7a0b\5f0f\53ef\6d88'||-
+'\9664\97cc\9ad4\4e0d\76f8\5bb9\7684\98a8\96aa\3002'-
+));
+INSERT INTO product_descriptions VALUES(3354-
+,'ZHT'-
+,UNISTR(-
+'HD 12GB /I'-
+),UNISTR(-
+'12GB \786c\789f\88dd\7f6e (\5167\63a5\5f0f)\3002Supra \9a45\52d5'||-
+'\7a0b\5f0f\53ef\6d88\9664\97cc\9ad4\4e0d\76f8\5bb9\7684\98a8'||-
+'\96aa\3002\56de\6eaf\76f8\5bb9\6027\ff1a\60a8\53ef\4ee5\6df7'||-
+'\5408\6216\642d\914d Supra2 \8207 Supra3 \88dd\7f6e\505a\70ba'||-
+'\6700\4f73\5316\65b9\6848\8207\672a\4f86\6210\9577\4e4b\7528'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3072-
+,'ZHT'-
+,UNISTR(-
+'HD 12GB /N'-
+),UNISTR(-
+'\4f9b\72f9\7a84\639b\4e0a\7684 12GB \786c\789f\3002Supra9 \96a8'||-
+'\63d2\5373\7528\786c\789f\88dd\7f6e\63d0\4f9b\7dda\4e0a\5b89'||-
+'\88dd\6216\79fb\9664\88dd\7f6e\3002\6211\5011\7684\96a8\63d2'||-
+'\5373\7528\786c\789f\88dd\7f6e\9700\7b26\5408\56b4\683c\7684'||-
+'\7a69\5b9a\6027\8207\6548\80fd\6a19\6e96\3002'-
+));
+INSERT INTO product_descriptions VALUES(3334-
+,'ZHT'-
+,UNISTR(-
+'HD 12GB /R'-
+),UNISTR(-
+'12GB \62bd\53d6\5f0f\786c\789f\88dd\7f6e\3002\5177\6709\8de8'||-
+'\591a\500b\4f01\696d\5e73\53f0\7684\76f8\5bb9\6027\ff0c\4f7f'||-
+'\60a8\53ef\96a8\610f\914d\7f6e\8207\91cd\65b0\914d\7f6e\6b64'||-
+'\88dd\7f6e\4ee5\5feb\901f\5730\50b3\9001\589e\52a0\7684\5132'||-
+'\5b58\5bb9\91cf\3002Supra7 \901a\7528\78c1\789f\88dd\7f6e\662f'||-
+'\7b2c\4e8c\4ee3\9ad8\6548\7387\7684\96a8\63d2\5373\7528\88dd'||-
+'\7f6e\ff0c\53ef\65bc\5171\7528\4f3a\670d\5668\8207\5916\90e8'||-
+'\5132\5b58\9ad4\4e4b\9593\5206\4eab\76f8\5bb9\6027\3002'-
+));
+INSERT INTO product_descriptions VALUES(3071-
+,'ZHT'-
+,UNISTR(-
+'HD 12GB /S'-
+),UNISTR(-
+'\4f9b\6a19\6e96\639b\4e0a\7684 12GB \786c\789f\3002Supra9 \96a8'||-
+'\63d2\5373\7528\786c\789f\88dd\7f6e\63d0\4f9b\7dda\4e0a\5b89'||-
+'\88dd\6216\79fb\9664\7684\529f\80fd\3002\6211\5011\7684\96a8'||-
+'\63d2\5373\7528\786c\789f\88dd\7f6e\9700\7b26\5408\56b4\683c'||-
+'\7684\7a69\5b9a\6027\8207\6548\80fd\6a19\6e96\3002'-
+));
+INSERT INTO product_descriptions VALUES(2255-
+,'ZHT'-
+,UNISTR(-
+'HD 12GB @7200 /SE'-
+),UNISTR(-
+'12 GB \7684\786c\789f\88dd\7f6e (\5916\63a5\5f0f) SCSI, 7200 RPM'||-
+'\3002\9019\4e9b\88dd\7f6e\7b26\5408\73fe\4ee3\9700\6c42\4ee5'||-
+'\53ca\5177\6709\91cd\8981\8cc7\6599\7684\4f01\696d\74b0\5883'||-
+'\ff0c\800c\4e14\9069\7528\65bc RAID \61c9\7528\7a0b\5f0f\3002'||-
+'\901a\7528\9078\9805\5957\4ef6\5df2\8a2d\5b9a\7d44\614b\4e26'||-
+'\5df2\5728\9069\7576\7684\96a8\63d2\5373\7528\6258\76e4\4e2d'||-
+'\9810\5148\639b\4e0a\ff0c\4ee5\4fbf\65bc\7acb\5373\5b89\88dd'||-
+'\81f3\516c\53f8\4f3a\670d\5668\6216\5132\5b58\7cfb\7d71\3002'-
+));
+INSERT INTO product_descriptions VALUES(1743-
+,'ZHT'-
+,UNISTR(-
+'HD 18.2GB @10000 /E'-
+),UNISTR(-
+'18.2 GB \5916\63a5\5f0f\786c\789f\88dd\7f6e\ff0c\53ef\9054 10,00'||-
+'0 RPM. \9019\4e9b\88dd\7f6e\7b26\5408\73fe\4ee3\9700\6c42\4ee5'||-
+'\53ca\5177\6709\91cd\8981\8cc7\6599\7684\4f01\696d\74b0\5883'||-
+'\ff0c\800c\4e14\9069\7528\65bc RAID \61c9\7528\7a0b\5f0f\3002'-
+));
+INSERT INTO product_descriptions VALUES(2382-
+,'ZHT'-
+,UNISTR(-
+'HD 18.2GB@10000 /I'-
+),UNISTR(-
+'18.2 GB SCSI \786c\789f @ 10000 RPM (\5167\63a5\5f0f)\3002Supra7 '||-
+'\901a\7528\78c1\789f\63d0\4f9b\4e0d\5e73\7b49\5c64\6b21\7684'||-
+'\5c01\9396\4fdd\8b77\53ca\7c21\5316\ff0c\4f9b\5ba2\6236\555f'||-
+'\7528\8de8\591a\500b\4f01\696d\5e73\53f0\7684\78c1\789f\76f8'||-
+'\5bb9\6027\3002'-
+));
+INSERT INTO product_descriptions VALUES(3399-
+,'ZHT'-
+,UNISTR(-
+'HD 18GB /SE'-
+),UNISTR(-
+'18GB SCSI \5916\63a5\5f0f\78c1\789f\88dd\7f6e\3002Supra5 \901a'||-
+'\7528\78c1\789f\88dd\63d0\4f9b\4e0d\540c\4f3a\670d\5668\3001RA'||-
+'ID Array \8207\5916\90e8\5132\5b58\9ad4\4e4b\9593\7684\96a8'||-
+'\63d2\5373\7528\529f\80fd\3002'-
+));
+INSERT INTO product_descriptions VALUES(3073-
+,'ZHT'-
+,UNISTR(-
+'HD 6GB /I'-
+),UNISTR(-
+'6GB \529f\80fd\7684\786c\789f\88dd\7f6e (\5167\5efa\5f0f)\3002S'||-
+'upra \9a45\52d5\7a0b\5f0f\53ef\6d88\9664\97cc\9ad4\4e0d\76f8'||-
+'\5bb9\7684\98a8\96aa\3002'-
+));
+INSERT INTO product_descriptions VALUES(1768-
+,'ZHT'-
+,UNISTR(-
+'HD 8.2GB @5400'-
+),UNISTR(-
+'8.2 GB \786c\789f\88dd\7f6e\ff0c\901f\5ea6\53ef\9054 5,400 RPM'||-
+'\3002Supra \9a45\52d5\7a0b\5f0f\53ef\6d88\9664\97cc\9ad4\4e0d'||-
+'\76f8\5bb9\7684\98a8\96aa\3002\6a19\6e96\5e8f\5217 RS-232 \4ecb'||-
+'\9762\3002'-
+));
+INSERT INTO product_descriptions VALUES(2410-
+,'ZHT'-
+,UNISTR(-
+'HD 8.4GB @5400'-
+),UNISTR(-
+'8.4 GB \786c\789f @ 5400 RPM\3002\6e1b\5c11\64c1\6709\7684\6210'||-
+'\672c\ff1a\53ef\7528\65bc\4f01\696d\8de8\5e73\53f0\4e4b\9593'||-
+'\3002\9019\500b\96a8\63d2\5373\7528\786c\789f\9700\8981\7b26'||-
+'\5408\60a8\56b4\683c\7684\7a69\5b9a\6027\8207\6548\80fd\6a19'||-
+'\6e96\3002'-
+));
+INSERT INTO product_descriptions VALUES(2257-
+,'ZHT'-
+,UNISTR(-
+'HD 8GB /I'-
+),UNISTR(-
+'8GB \786c\789f (\5167\5efa\5f0f)\3002Supra9 \96a8\63d2\5373\7528'||-
+'\786c\789f\63d0\4f9b\7dda\4e0a\5b89\88dd\6216\79fb\9664\88dd'||-
+'\7f6e\7684\529f\80fd\3002\56de\6eaf\76f8\5bb9\6027\ff1a\60a8'||-
+'\53ef\4ee5\6df7\5408\6216\642d\914d Supra2 \8207 Supra3 \88dd'||-
+'\7f6e\505a\70ba\6700\4f73\5316\65b9\6848\8207\672a\4f86\6210'||-
+'\9577\4e4b\7528\3002'-
+));
+INSERT INTO product_descriptions VALUES(3400-
+,'ZHT'-
+,UNISTR(-
+'HD 8GB /SE'-
+),UNISTR(-
+'8GB SCSI \786c\789f (\5916\63a5\5f0f)\3002Supra7 \78c1\789f\63d0'||-
+'\4f9b\6700\65b0\7684\6280\8853\4ee5\6539\5584\4f01\696d\6548'||-
+'\80fd\ff0c\53ef\589e\52a0\6700\5927\8cc7\6599\50b3\8f38\7387'||-
+'\81f3 255MB/s\3002'-
+));
+INSERT INTO product_descriptions VALUES(3355-
+,'ZHT'-
+,UNISTR(-
+'HD 8GB /SI'-
+),UNISTR(-
+'8 GB SISC \786c\789f\88dd\7f6e\3002\5177\6709\8de8\591a\500b'||-
+'\4f01\696d\5e73\53f0\7684\76f8\5bb9\6027\ff0c\4f7f\60a8\53ef'||-
+'\96a8\610f\914d\7f6e\8207\91cd\65b0\914d\7f6e\6b64\88dd\7f6e'||-
+'\4ee5\5feb\901f\5730\50b3\9001\589e\52a0\7684\5132\5b58\5bb9'||-
+'\91cf\3002'-
+));
+INSERT INTO product_descriptions VALUES(1772-
+,'ZHT'-
+,UNISTR(-
+'HD 9.1GB @10000'-
+),UNISTR(-
+'9.1 GB \786c\789f\88dd\7f6e\ff0c\901f\5ea6\53ef\9054 10,000 RPM'||-
+'\3002\9019\4e9b\88dd\7f6e\7b26\5408\73fe\4ee3\9700\6c42\4ee5'||-
+'\53ca\5177\6709\91cd\8981\8cc7\6599\7684\4f01\696d\74b0\5883'||-
+'\3002\9069\7528\65bc\5546\696d\7528\9014\ff1a\60a8\53ef\8f15'||-
+'\9b06\5730\9078\53d6\6240\9700\7684\786c\789f\ff0c\4e0d\9700'||-
+'\9867\616e\4ed6\5011\5c07\914d\7f6e\7684\61c9\7528\7a0b\5f0f'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2414-
+,'ZHT'-
+,UNISTR(-
+'HD 9.1GB @10000 /I'-
+),UNISTR(-
+'9.1 GB SCSI \786c\789f @ 10000 RPM (\5167\63a5\5f0f)\3002Supra7 '||-
+'\78c1\789f\53ef\9054 10,000 RPM \8f49\901f\4ee5\53ca 18GB \8207 9'||-
+'.1 GB \7684\5bb9\91cf\3002SCSI \8207 RS-232 \4ecb\9762\3002'-
+));
+INSERT INTO product_descriptions VALUES(2415-
+,'ZHT'-
+,UNISTR(-
+'HD 9.1GB @7200'-
+),UNISTR(-
+'9.1 GB \786c\789f @ 7200 RPM\3002\901a\7528\9078\9805\5957\4ef6'||-
+'\5df2\8a2d\5b9a\7d44\614b\4e26\5df2\5728\9069\7576\7684\96a8'||-
+'\63d2\5373\7528\6258\76e4\4e2d\9810\5148\639b\4e0a\ff0c\4ee5'||-
+'\4fbf\65bc\7acb\5373\5b89\88dd\81f3\516c\53f8\4f3a\670d\5668'||-
+'\6216\5132\5b58\7cfb\7d71\3002'-
+));
+INSERT INTO product_descriptions VALUES(2395-
+,'ZHT'-
+,UNISTR(-
+'32MB \5feb\53d6 /M'-
+),UNISTR(-
+'32MB \93e1\50cf\5feb\53d6\8a18\61b6 (100-MHz \8a3b\518a\7684 SDRA'||-
+'M)'-
+));
+INSERT INTO product_descriptions VALUES(1755-
+,'ZHT'-
+,UNISTR(-
+'32MB \5feb\53d6 /NM'-
+),UNISTR(-
+'32MB \975e\93e1\50cf\5feb\53d6\8a18\61b6\9ad4'-
+));
+INSERT INTO product_descriptions VALUES(2406-
+,'ZHT'-
+,UNISTR(-
+'64MB \5feb\53d6 /M'-
+),UNISTR(-
+'64MB \93e1\50cf\5feb\53d6\8a18\61b6\9ad4'-
+));
+INSERT INTO product_descriptions VALUES(2404-
+,'ZHT'-
+,UNISTR(-
+'64MB \5feb\53d6 /NM'-
+),UNISTR(-
+'64 M \975e\93e1\50cf\5feb\53d6\8a18\61b6\9ad4\3002FPM \8a18'||-
+'\61b6\9ad4\6676\7247\662f\5b89\88dd\5728 5 \4f0f\7279\7684 SIMM'||-
+' \4e0a\ff0c\4f46\4e5f\53ef\5b89\88dd\65bc 3.3 \4f0f\7279\7684 D'||-
+'IMM \4e0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(1770-
+,'ZHT'-
+,UNISTR(-
+'8MB \5feb\53d6 /NM'-
+),UNISTR(-
+'8MB \975e\93e1\50cf\5feb\53d6\8a18\61b6\9ad4 (100-MHz \8a3b\518a'||-
+'\7684 SDRAM)'-
+));
+INSERT INTO product_descriptions VALUES(2412-
+,'ZHT'-
+,UNISTR(-
+'8MB EDO \8a18\61b6\9ad4'-
+),UNISTR(-
+'8 MB 8x32 EDO SIM \8a18\61b6\9ad4\3002 Extended Data Out \8a18\61b6'||-
+'\9ad4\8207 FPM \4e0d\540c\ff0c\5176\9ad4\7a4d\8f03\5c0f\800c'||-
+'\4e14\8a2d\8a08\4e0a\4e5f\6709\91cd\5927\8b8a\66f4\3002\4e0d'||-
+'\50cf FPM\ff0cEDO \7684\8cc7\6599\8f38\51fa\9a45\52d5\7a0b\5f0f'||-
+'\4ecd\7dad\6301\5728\8a18\61b6\9ad4\63a7\5236\5668\79fb\9664'||-
+'\6b04\4f4d\4f4d\5740\7684\6642\9593\4ee5\958b\555f\4e0b\4e00'||-
+'\5468\671f\3002\56e0\6b64\65b0\8cc7\6599\5468\671f\6703\5728'||-
+'\524d\4e00\5468\671f\5b8c\6210\4e4b\524d\958b\59cb\3002EDO '||-
+'\53ef\5b89\88dd\65bc 3.3 \4f0f\7279\7684 SIMM\4ee5\53ca 5 \4f0f'||-
+'\7279\7684 DIMM\3002'-
+));
+INSERT INTO product_descriptions VALUES(2378-
+,'ZHT'-
+,UNISTR(-
+'DIMM - 128 MB'-
+),UNISTR(-
+'128 MB DIMM \8a18\61b6\9ad4\3002\5f9e SIMM \8b8a\66f4\70ba DIMM '||-
+'\7684\4e3b\8981\539f\56e0\662f\8981\652f\63f4\66f4\9ad8 64 '||-
+'\4f4d\5143\8655\7406\5668\7684\532f\6d41\6392\5bec\5ea6\3002DI'||-
+'MM \662f 64 \6216 72 \4f4d\5143\7684\5bec\5ea6\ff0cSIMM \53ea'||-
+'\6709 32 \4f4d\5143\6216 36 \4f4d\5143\7684\5bec\5ea6 (\52a0'||-
+'\4e0a\540c\4f4d\5143)\3002'-
+));
+INSERT INTO product_descriptions VALUES(3087-
+,'ZHT'-
+,UNISTR(-
+'DIMM - 16 MB'-
+),UNISTR(-
+'Citrus OLX DIMM - 16 MB \5bb9\91cf\3002'-
+));
+INSERT INTO product_descriptions VALUES(2384-
+,'ZHT'-
+,UNISTR(-
+'DIMM - 1GB'-
+),UNISTR(-
+'\8a18\61b6\9ad4 DIMM\ff1aRAM - 1 GB \5bb9\91cf\3002'-
+));
+INSERT INTO product_descriptions VALUES(1749-
+,'ZHT'-
+,UNISTR(-
+'DIMM - 256MB'-
+),UNISTR(-
+'\8a18\61b6\9ad4 DIMM\ff1aRAM 256 MB\3002(100-MHz \8a3b\518a\7684 S'||-
+'DRAM)'-
+));
+INSERT INTO product_descriptions VALUES(1750-
+,'ZHT'-
+,UNISTR(-
+'DIMM - 2GB'-
+),UNISTR(-
+'\8a18\61b6\9ad4 DIMM\ff1aRAM\ff0c2 GB \5bb9\91cf\3002'-
+));
+INSERT INTO product_descriptions VALUES(2394-
+,'ZHT'-
+,UNISTR(-
+'DIMM - 32MB'-
+),UNISTR(-
+'32 MB DIMM \8a18\61b6\9ad4\5347\7d1a'-
+));
+INSERT INTO product_descriptions VALUES(2400-
+,'ZHT'-
+,UNISTR(-
+'DIMM - 512 MB'-
+),UNISTR(-
+'512 MB DIMM \8a18\61b6\9ad4\3002\70ba\6539\5584\7684\8a18\61b6'||-
+'\9ad4\5347\7d1a\4e86\8cc7\6599\9ede\ff0c\82e5\5728\76f8\540c'||-
+'\7cfb\7d71\4e2d\4f7f\7528 DIMM \8207 SIMM\ff0c\5927\90e8\5206'||-
+'\7684 DIMM \4e0d\9700\8981\5347\7d1a\7cfb\7d71\3002\6700\5927'||-
+'\8a18\61b6\9ad4\589e\52a0\7684\6975\9650\ff1a\82e5\6709\76f8'||-
+'\540c\6578\91cf\7684\8a18\61b6\9ad4\63d2\69fd\ff0c\4f7f\7528 D'||-
+'IMM \7684\7cfb\7d71\6700\5927\8a18\61b6\9ad4\6bd4 SIMM \5927'||-
+'\5f88\591a\3002DIMM \5728\677f\5b50\7684\6bcf\4e00\908a\90fd'||-
+'\6709\9023\63a5\9ede\ff0c\5373\5176\8cc7\6599\50b3\8f38\901f'||-
+'\7387\70ba SIMM \7684\5169\500d\3002'-
+));
+INSERT INTO product_descriptions VALUES(1763-
+,'ZHT'-
+,UNISTR(-
+'DIMM - 64MB'-
+),UNISTR(-
+'\8a18\61b6\9ad4 DIMM\ff1aRAM\ff0c64MB (100-MHz \672a\8a3b\518a'||-
+'\7684 ECC SDRAM)'-
+));
+INSERT INTO product_descriptions VALUES(2396-
+,'ZHT'-
+,UNISTR(-
+'EDO - 32MB'-
+),UNISTR(-
+'\8a18\61b6\9ad4 EDO SIM\ff1aRAM\ff0c32 MB (100-MHz \672a\8a3b\518a'||-
+'\7684 ECC SDRAM)\3002\8207 FPM\76f8\540c\7684\662f\ff0cEDO \53ef'||-
+'\5b89\88dd\65bc 3.3 \4f0f\7279\8207 5 \4f0f\7279\7684 SIMM \53ca'||-
+' DIMM \4e0a\ff0c\4f46\5982\679c EDO \8a18\61b6\9ad4\6240\5b89'||-
+'\88dd\7684\96fb\8166\4e0d\652f\63f4\5b83\7684\8a71\ff0c\8a18'||-
+'\61b6\9ad4\5c31\7121\6cd5\4f7f\7528\3002'-
+));
+INSERT INTO product_descriptions VALUES(2272-
+,'ZHT'-
+,UNISTR(-
+'RAM - 16 MB'-
+),UNISTR(-
+'\8a18\61b6\9ad4 SIMM\ff1aRAM - 16 MB \5bb9\91cf\3002'-
+));
+INSERT INTO product_descriptions VALUES(2274-
+,'ZHT'-
+,UNISTR(-
+'RAM - 32 MB'-
+),UNISTR(-
+'\8a18\61b6\9ad4 SIMM\ff1aRAM - 32 MB \5bb9\91cf\3002'-
+));
+INSERT INTO product_descriptions VALUES(3090-
+,'ZHT'-
+,UNISTR(-
+'RAM - 48 MB'-
+),UNISTR(-
+'\96a8\6a5f\5b58\53d6\8a18\61b6\9ad4\ff0cSIMM - 48 MB \5bb9\91cf'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(1739-
+,'ZHT'-
+,UNISTR(-
+'SDRAM - 128 MB'-
+),UNISTR(-
+'SDRAM \8a18\61b6\9ad4\ff0c128 MB \5bb9\91cf\3002SDRAM \5b58\53d6'||-
+'\8cc7\6599\901f\5ea6\53ef\9054 100 MHz \ff0c\662f\6a19\6e96 DRAM'||-
+' \7684\56db\500d\3002SDRAM \7684\597d\8655\662f\4e0d\5bb9\7f6e'||-
+'\7591\7684\ff0c\4e0d\904e\ff0c\53ea\80fd\5b89\88dd\65bc\652f'||-
+'\63f4 SDRAM \7684\96fb\8166\4e2d\3002SDRAM \53ef\5b89\88dd\65bc '||-
+'5 \4f0f\7279\8207 3.3 \4f0f\7279\7684 DIMM\3002'-
+));
+INSERT INTO product_descriptions VALUES(3359-
+,'ZHT'-
+,UNISTR(-
+'SDRAM - 16 MB'-
+),UNISTR(-
+'SDRAM \8a18\61b6\9ad4\5347\7d1a\6a21\7d44\ff0c16 MB\3002\540c'||-
+'\6b65\52d5\614b\96a8\6a5f\5b58\53d6\8a18\61b6\9ad4 (Synchronous '||-
+'Dynamic Random Access Memory) \662f\5728 EDO \4e4b\5f8c\624d\554f'||-
+'\4e16\3002\5176\67b6\69cb\8207\64cd\4f5c\662f\6839\64da\6a19'||-
+'\6e96 DRAM \800c\8a2d\8a08\ff0c\4e0d\904e SDRAM \7684\4e3b\8981'||-
+'\8a18\61b6\9ad4\63d0\4f9b\4e86\5d84\65b0\7684\8b8a\66f4\ff0c'||-
+'\5b83\5927\5e45\6e1b\5c11\8cc7\6599\64f7\53d6\7684\6b21\6578'||-
+'\3002SDRAM \8207\63a7\5236 CPU \7684\7cfb\7d71\6642\8108\540c'||-
+'\6b65\3002\9019\8868\793a\7cfb\7d71\6642\8108\63a7\5236\5fae'||-
+'\8655\7406\5668\7684\529f\80fd\ff0c\540c\6642\4e5f\63a7\5236 S'||-
+'DRAM \7684\529f\80fd\3002\9019\80fd\8b93\8a18\61b6\9ad4\63a7'||-
+'\5236\5668\77e5\9053\5728\54ea\4e00\500b\6642\8108\5468\671f'||-
+'\4e0a\8cc7\6599\8acb\6c42\6703\5099\59a5\ff0c\4ee5\53ca\85c9'||-
+'\6b64\6d88\9664\6642\9593\5ef6\9072\3002'-
+));
+INSERT INTO product_descriptions VALUES(3088-
+,'ZHT'-
+,UNISTR(-
+'SDRAM - 32 MB'-
+),UNISTR(-
+'\5177\6709 ECC \7684 SDRAM \6a21\7d44 - 32 MB \5bb9\91cf\3002SDRAM'||-
+' \6709\591a\500b\53ef\540c\6b65\5de5\4f5c\7684\8a18\61b6\9ad4'||-
+'\63d2\69fd\ff0c\63d2\69fd\4e4b\9593\8f49\63db\5141\8a31\9023'||-
+'\7e8c\7684\8cc7\6599\6d41\3002'-
+));
+INSERT INTO product_descriptions VALUES(2276-
+,'ZHT'-
+,UNISTR(-
+'SDRAM - 48 MB'-
+),UNISTR(-
+'\8a18\61b6\9ad4 SIMM\ff1aRAM - 48 MB\3002SDRAM \53ef\4ee5\5728 Bur'||-
+'st \6a21\5f0f\4e2d\64cd\4f5c\3002\5728 Burst \6a21\5f0f\4e2d'||-
+'\ff0c\5b58\53d6\55ae\4e00\500b\8cc7\6599\4f4d\5740\6703\64f7'||-
+'\53d6\6574\500b\5340\584a\7684\8cc7\6599\ff0c\800c\4e0d\662f'||-
+'\53ea\6709\55ae\4e00\7b46\8cc7\6599\3002\9019\662f\5047\8a2d'||-
+'\4e0b\4e00\7b46\5c07\8981\6c42\7684\8cc7\6599\6703\8207\524d'||-
+'\4e00\7b46\76f8\9023\7e8c\3002\7531\65bc\6b64\72c0\6cc1\5e38'||-
+'\767c\751f\ff0c\6240\4ee5\8cc7\6599\53ef\4ee5\96a8\6642\53d6'||-
+'\5f97\3002'-
+));
+INSERT INTO product_descriptions VALUES(3086-
+,'ZHT'-
+,UNISTR(-
+'VRAM - 16 MB'-
+),UNISTR(-
+'Citrus Video RAM \6a21\7d44 - 16 MB \5bb9\91cf\3002VRAM \662f\7528'||-
+'\65bc\8996\8a0a\7cfb\7d71\7684\96fb\8166\ff0c\7528\4ee5\5132'||-
+'\5b58\8996\8a0a\8cc7\8a0a\4e26\4e14\5c08\9580\4fdd\7559\7d66'||-
+'\8996\8a0a\4f5c\696d\4f7f\7528\3002\5b83\63d0\4f9b\9023\7e8c'||-
+'\8cc7\6599\6d41\4ee5\91cd\65b0\6574\7406\8996\8a0a\756b\9762'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3091-
+,'ZHT'-
+,UNISTR(-
+'VRAM - 64 MB'-
+),UNISTR(-
+'Citrus Video RAM \8a18\61b6\9ad4\6a21\7d44 - 64 MB \5bb9\91cf\3002'||-
+'\5916\89c0\4e0a\ff0cVRAM \770b\8d77\4f86\8207 DRAM \76f8\4f3c'||-
+'\ff0c\90fd\6709\4e00\500b\540d\70ba\79fb\4f4d\66ab\5b58\5668'||-
+'\7684\65b0\589e\786c\9ad4\3002VRAM \7684\7279\6027\662f\53ef'||-
+'\4ee5\50b3\8f38\6574\5217\7684\8cc7\6599 (\591a\9054 256 \4f4d'||-
+'\5143) \5230\4e00\500b\6642\8108\5468\671f\7684\79fb\4f4d\66ab'||-
+'\5b58\5668\3002\9019\500b\529f\80fd\53ef\5927\5e45\6e1b\5c11'||-
+'\64f7\53d6\6642\9593\ff0c\56e0\70ba\64f7\53d6\7684\6578\76ee'||-
+'\53ef\5f9e\53ef 256 \6e1b\5c11\70ba\4e00\500b\64f7\53d6\3002'||-
+'\79fb\4f4d\66ab\5b58\5668\7684\4e3b\8981\76ca\8655\662f\53ef'||-
+'\7528\65bc\66ab\6642\5bc4\653e\8cc7\6599\ff0c\53ef\91cb\653e C'||-
+'PU \4ee5\91cd\65b0\6574\7406\756b\9762\800c\4e0d\662f\64f7'||-
+'\53d6\8cc7\6599\ff0c\56e0\800c\4f7f\8cc7\6599\983b\5bec\589e'||-
+'\52a0\5169\500d\3002\57fa\65bc\6b64\ff0c\901a\5e38\7a31 VRAM '||-
+'\70ba\96d9\7aef\53e3\3002\4e0d\904e\ff0c\53ea\6703\5728\63a5'||-
+'\5230\7279\6b8a\6307\4ee4\6642\624d\6703\4f7f\7528\79fb\4f4d'||-
+'\66ab\5b58\5668\3002\4f7f\7528\79fb\4f4d\66ab\5b58\5668\7684'||-
+'\547d\4ee4\5167\5efa\65bc\5716\5f62\63a7\5236\5668\3002'-
+));
+INSERT INTO product_descriptions VALUES(1787-
+,'ZHT'-
+,UNISTR(-
+'CPU D300'-
+),UNISTR(-
+'\96d9 CPU @ 300Mhz\3002\50c5\9069\7528\65bc\500b\4eba\7c21\55ae'||-
+'\7684\8655\7406\ff0c\6216\662f\5c11\65bc 5 \4f4d\4f7f\7528'||-
+'\8005\540c\6642\4f7f\7528\7684\6a94\6848\4f3a\670d\5668\3002'||-
+'\9019\500b\7522\54c1\4e0d\4e45\6709\53ef\80fd\505c\7522\3002'-
+));
+INSERT INTO product_descriptions VALUES(2439-
+,'ZHT'-
+,UNISTR(-
+'CPU D400'-
+),UNISTR(-
+'\96d9 CPU @ 400Mhz\3002\597d\50f9\683c\8207\6548\80fd\6bd4\7387'||-
+'\ff0c\9069\7528\65bc\4e2d\578b\5340\57df\7db2\8def\7684\6a94'||-
+'\6848\4f3a\670d\5668 (\6700\591a\53ef\8b93 100 \4f4d\4f7f\7528'||-
+'\8005\540c\6642\4f7f\7528)\3002'-
+));
+INSERT INTO product_descriptions VALUES(1788-
+,'ZHT'-
+,UNISTR(-
+'CPU D600'-
+),UNISTR(-
+'\96d9 CPU @ 600Mhz\3002\9ad8\6642\8108\901f\5ea6\ff0c\9069\7528'||-
+'\65bc WAN \4f3a\670d\5668 (\6700\591a\53ef\8b93 200 \4f4d\4f7f'||-
+'\7528\8005\540c\6642\4f7f\7528)\3002'-
+));
+INSERT INTO product_descriptions VALUES(2375-
+,'ZHT'-
+,UNISTR(-
+'GP 1024x768'-
+),UNISTR(-
+'\5716\5f62\8655\7406\5668\ff0c\89e3\6790\5ea6 1024 X 768 \50cf'||-
+'\7d20\3002\50f9\683c\5408\7406\ff0c\9069\7528\65bc SPNIX v3.3 '||-
+'\8207 v4.0 \7684 2D \8207 3D \61c9\7528\7a0b\5f0f\3002\7528\6b64'||-
+'\5f35\5361\540c\6642\57f7\884c\5169\53f0\986f\793a\5668\4ee5'||-
+'\4f7f\60a8\7684\6aa2\8996\7a7a\9593\589e\52a0\5169\500d\3002 '||-
+'\5169\53f0 17 \540b\7684\986f\793a\5668\6bd4 21 \540b\986f\793a'||-
+'\5668\6709\66f4\591a\7684\986f\793a\5340\57df\3002\5c0d\65bc'||-
+'\9700\8981\7d93\5e38\5f9e\4e8b\591a\5de5\6216\5f9e\591a\500b'||-
+'\4f86\6e90\5b58\53d6\8cc7\6599\7684\4f7f\7528\8005\800c\8a00'||-
+'\662f\6700\4f73\7684\9078\64c7\3002'-
+));
+INSERT INTO product_descriptions VALUES(2411-
+,'ZHT'-
+,UNISTR(-
+'GP 1280x1024'-
+),UNISTR(-
+'\5716\5f62\8655\7406\5668\ff0c\89e3\6790\5ea6 1280 X 1024 \50cf'||-
+'\7d20\3002\4e2d\50f9\4f4d\7684\9ad8\901f 3D \6548\80fd\ff1a'||-
+'\6bcf\79d2\53ef\7522\751f 1\5104\4e94\4f70\842c\7684 Gouraud Sha'||-
+'ded \4e09\89d2\5f62\ff0cMCAD \8207 DCC \61c9\7528\7a0b\5f0f\7684'||-
+'\6700\4f73\5316 3D \9a45\52d5\7a0b\5f0f\ff0c\53ef\8b93\4f7f'||-
+'\7528\8005\81ea\884c\8a2d\5b9a\3002\5728\6240\6709\652f\63f4'||-
+'\7684\6a19\6e96\89e3\6790\5ea6\4e2d\ff0c64MB DDR SDRAM \7d71'||-
+'\4e00\6846\67b6\7de9\885d\5340\652f\63f4\5168\5f69\3002'-
+));
+INSERT INTO product_descriptions VALUES(1769-
+,'ZHT'-
+,UNISTR(-
+'GP 800x600'-
+),UNISTR(-
+'\5716\5f62\8655\7406\5668\ff0c\89e3\6790\5ea6 800 x 600 \50cf'||-
+'\7d20\3002\5c0d\65bc\9700\8981\4f7f\7528\5e73\9762\5716\529f'||-
+'\80fd\8207\4e00\822c\7acb\9ad4\5716\9032\968e\8edf\9ad4\7684'||-
+'\4f7f\7528\8005\800c\8a00\ff0c\5be6\70ba\7269\8d85\6240\503c'||-
+'\3002\9a45\52d5\7a0b\5f0f\80fd\8868\73fe\9ad8\5ea6\8907\96dc'||-
+'\7684\6a21\578b\4ee5\53ca\8b93\9867\5ba2\53ef\4ee5\8457\91cd'||-
+'\5728\8a2d\8a08\4e0a\ff0c\800c\4e0d\662f\8655\7406\904e\7a0b'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2049-
+,'ZHT'-
+,UNISTR(-
+'MB - S300'-
+),UNISTR(-
+'PC \985e\578b\7684\4e3b\6a5f\677f\ff0c300 \7cfb\5217\3002'-
+));
+INSERT INTO product_descriptions VALUES(2751-
+,'ZHT'-
+,UNISTR(-
+'MB - S450'-
+),UNISTR(-
+'PC \985e\578b\7684\4e3b\6a5f\677f\ff0c450 \7cfb\5217\3002'-
+));
+INSERT INTO product_descriptions VALUES(3112-
+,'ZHT'-
+,UNISTR(-
+'MB - S500'-
+),UNISTR(-
+'PC \985e\578b\7684\4e3b\6a5f\677f\ff0c500 \7cfb\5217\3002'-
+));
+INSERT INTO product_descriptions VALUES(2752-
+,'ZHT'-
+,UNISTR(-
+'MB - S550'-
+),UNISTR(-
+'PC \985e\578b\7684\4e3b\6a5f\677f\ff0c550 \7cfb\5217\3002'-
+));
+INSERT INTO product_descriptions VALUES(2293-
+,'ZHT'-
+,UNISTR(-
+'MB - S600'-
+),UNISTR(-
+'\4e3b\6a5f\677f\ff0c600 \7cfb\5217\3002'-
+));
+INSERT INTO product_descriptions VALUES(3114-
+,'ZHT'-
+,UNISTR(-
+'MB - S900/650+'-
+),UNISTR(-
+'PC \4e3b\6a5f\677f\ff0c900 \7cfb\5217\ff1b650 \4ee5\53ca\66f4'||-
+'\65b0\578b\865f\7684\6a19\6e96\4e3b\6a5f\677f\3002'-
+));
+INSERT INTO product_descriptions VALUES(3129-
+,'ZHT'-
+,UNISTR(-
+'\97f3\6548\5361 STD'-
+),UNISTR(-
+'\97f3\6548\5361 - \6a19\6e96\7248\ff0c\63d0\4f9b MIDI \4ecb'||-
+'\9762\3001\8f38\5165/\8f38\51fa\4f4e\7d44\6297\7684\9ea5\514b'||-
+'\98a8\8f38\5165\3002'-
+));
+INSERT INTO product_descriptions VALUES(3133-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5361 /32'-
+),UNISTR(-
+'32 MB \5feb\53d6\8a18\61b6\9ad4\7684\986f\793a\5361\3002'-
+));
+INSERT INTO product_descriptions VALUES(2308-
+,'ZHT'-
+,UNISTR(-
+'\986f\793a\5361 /E32'-
+),UNISTR(-
+'32 MB \8a18\61b6\9ad4\7684 3-D ELSA \986f\793a\5361\3002'-
+));
+INSERT INTO product_descriptions VALUES(2496-
+,'ZHT'-
+,UNISTR(-
+'WSP DA-130'-
+),UNISTR(-
+'\5132\5b58\5b50\55ae\4f4d\7684\5bec\5132\5b58\8655\7406\5668 D'||-
+'A-130\3002'-
+));
+INSERT INTO product_descriptions VALUES(2497-
+,'ZHT'-
+,UNISTR(-
+'WSP DA-290'-
+),UNISTR(-
+'\5bec\5132\5b58\8655\7406\5668 (\578b\865f DA-290)\3002'-
+));
+INSERT INTO product_descriptions VALUES(3106-
+,'ZHT'-
+,UNISTR(-
+'KB 101/EN'-
+),UNISTR(-
+'\6a19\6e96 PC/AT \52a0\5f37\578b\9375\76e4 (101/102 \9375)\3002'||-
+'\8f38\5165\8a9e\8a00\ff1a\82f1\6587 (\7f8e\570b)\3002'-
+));
+INSERT INTO product_descriptions VALUES(2289-
+,'ZHT'-
+,UNISTR(-
+'KB 101/ES'-
+),UNISTR(-
+'\6a19\6e96 PC/AT \52a0\5f37\578b\9375\76e4 (101/102 \9375)\3002'||-
+'\8f38\5165\8a9e\8a00\ff1a\897f\73ed\7259\8a9e\3002'-
+));
+INSERT INTO product_descriptions VALUES(3110-
+,'ZHT'-
+,UNISTR(-
+'KB 101/FR'-
+),UNISTR(-
+'\6a19\6e96 PC/AT \52a0\5f37\578b\9375\76e4 (101/102 \9375)\3002'||-
+'\8f38\5165\8a9e\8a00\ff1a\6cd5\6587\3002'-
+));
+INSERT INTO product_descriptions VALUES(3108-
+,'ZHT'-
+,UNISTR(-
+'KB E/EN'-
+),UNISTR(-
+'\4eba\9ad4\5de5\5b78\9375\76e4\ff0c\6709\5169\500b\5206\958b'||-
+'\7684\5340\57df\4ee5\53ca\53ef\5206\96e2\7684\6578\5b57\9375'||-
+'\76e4\3002\9375\76e4\914d\7f6e\ff1a\82f1\6587 (\7f8e\570b)'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2058-
+,'ZHT'-
+,UNISTR(-
+'\6ed1\9f20 +WP'-
+),UNISTR(-
+'\7d50\5408\6ed1\9f20\8207\624b\8155\588a\ff0c\4f7f\5f97\8f38'||-
+'\5165\4ee5\53ca\64cd\4f5c\6ed1\9f20\6642\66f4\8212\9069\3002'-
+));
+INSERT INTO product_descriptions VALUES(2761-
+,'ZHT'-
+,UNISTR(-
+'\6ed1\9f20 +WP/CL'-
+),UNISTR(-
+'\5305\542b\6ed1\9f20\8207\624b\8155\588a\7684\7d44\5408\ff0c'||-
+'\4e26\5370\6709\516c\53f8\6a19\8a8c'-
+));
+INSERT INTO product_descriptions VALUES(3117-
+,'ZHT'-
+,UNISTR(-
+'\6ed1\9f20 C/E'-
+),UNISTR(-
+'\4eba\9ad4\5de5\5b78\7121\7dda\6ed1\9f20\3002\9644\6709\53ef'||-
+'\8f15\8f15\9b06\9b06\4f7f\7528\4ee5\53ca\80fd\5f97\5230\6700'||-
+'\4f73\8212\9069\611f\7684\8ecc\8de1\7403\3002'-
+));
+INSERT INTO product_descriptions VALUES(2056-
+,'ZHT'-
+,UNISTR(-
+'\6ed1\9f20\588a /CL'-
+),UNISTR(-
+'\5370\6709\516c\53f8\6a19\8a8c\7684\6a19\6e96\6ed1\9f20\588a'-
+));
+INSERT INTO product_descriptions VALUES(2211-
+,'ZHT'-
+,UNISTR(-
+'\624b\8155\588a'-
+),UNISTR(-
+'\4f7f\7528\9375\76e4\6642\6709\8edf\8cea\6a61\81a0\7684\8edf'||-
+'\588a\5728\624b\8155\9760\8457'-
+));
+INSERT INTO product_descriptions VALUES(2944-
+,'ZHT'-
+,UNISTR(-
+'\624b\8155\588a /CL'-
+),UNISTR(-
+'\5370\6709\516c\53f8\6a19\8a8c\7684\624b\8155\588a'-
+));
+INSERT INTO product_descriptions VALUES(1742-
+,'ZHT'-
+,UNISTR(-
+'CD-ROM 500/16x'-
+),UNISTR(-
+'16 \500d\901f\552f\8b80\5149\789f\6a5f\ff0c\6700\5927\5bb9'||-
+'\91cf 500 MB\3002'-
+));
+INSERT INTO product_descriptions VALUES(2402-
+,'ZHT'-
+,UNISTR(-
+'CD-ROM 600/E/24x'-
+),UNISTR(-
+'600 MB \5916\63a5\5f0f 24 \500d\901f CD-ROM \5149\789f\6a5f ('||-
+'\552f\8b80)\3002'-
+));
+INSERT INTO product_descriptions VALUES(2403-
+,'ZHT'-
+,UNISTR(-
+'CD-ROM 600/I/24x'-
+),UNISTR(-
+'600 MB \5167\63a5\5f0f 24 \500d\901f\552f\8b80 CD-ROM \5149\789f'||-
+'\6a5f\3002'-
+));
+INSERT INTO product_descriptions VALUES(1761-
+,'ZHT'-
+,UNISTR(-
+'CD-ROM 600/I/32x'-
+),UNISTR(-
+'600 MB 32 \500d\901f\5167\63a5\5f0f CD-ROM \5149\789f\6a5f (\552f'||-
+'\8b80)\3002'-
+));
+INSERT INTO product_descriptions VALUES(2381-
+,'ZHT'-
+,UNISTR(-
+'CD-ROM 8x'-
+),UNISTR(-
+'8 \500d\901f\552f\8b80\71d2\9304\6a5f'-
+));
+INSERT INTO product_descriptions VALUES(2424-
+,'ZHT'-
+,UNISTR(-
+'CDW 12/24'-
+),UNISTR(-
+'12 \500d\5beb 24 \500d\8b80\71d2\9304\6a5f\3002\8b66\544a\ff1a'||-
+'\4e0d\4e45\5c07\505c\7522\ff1b\9019\500b\901f\5ea6\4e0d\5920'||-
+'\5feb\ff0c\56e0\6b64\50f9\683c\5c07\6703\66f4\8da8\5408\7406'||-
+'\5316\3002'-
+));
+INSERT INTO product_descriptions VALUES(1781-
+,'ZHT'-
+,UNISTR(-
+'CDW 20/48/E'-
+),UNISTR(-
+'48 \500d\8b80 20 \500d\5beb\71d2\9304\6a5f'-
+));
+INSERT INTO product_descriptions VALUES(2264-
+,'ZHT'-
+,UNISTR(-
+'CDW 20/48/I'-
+),UNISTR(-
+'20 \500d\8b80 48 \500d\5beb CD-ROM \5149\789f\6a5f (\5167\63a5'||-
+'\5f0f)'-
+));
+INSERT INTO product_descriptions VALUES(2260-
+,'ZHT'-
+,UNISTR(-
+'DFD 1.44/3.5'-
+),UNISTR(-
+'\96d9\8edf\789f - 1.44 MB - 3.5'-
+));
+INSERT INTO product_descriptions VALUES(2266-
+,'ZHT'-
+,UNISTR(-
+'DVD 12x'-
+),UNISTR(-
+'12 \500d\901f DVD-ROM \5149\789f\6a5f'-
+));
+INSERT INTO product_descriptions VALUES(3077-
+,'ZHT'-
+,UNISTR(-
+'DVD 8x'-
+),UNISTR(-
+'8 \500d\901f DVD \5149\789f\6a5f\3002\4e0d\4e45\6709\53ef\80fd'||-
+'\505c\7522...'-
+));
+INSERT INTO product_descriptions VALUES(2259-
+,'ZHT'-
+,UNISTR(-
+'FD 1.44/3.5'-
+),UNISTR(-
+'\8edf\789f - 1.44 MB \9ad8\5bc6\5ea6\5bb9\91cf - 3.5 \540b \5e95'||-
+'\76e4'-
+));
+INSERT INTO product_descriptions VALUES(2261-
+,'ZHT'-
+,UNISTR(-
+'FD 1.44/3.5/E'-
+),UNISTR(-
+'\8edf\789f - 1.44 MB (\9ad8\5bc6\5ea6) \5bb9\91cf - 3.5 \540b ('||-
+'\5916\63a5\5f0f)'-
+));
+INSERT INTO product_descriptions VALUES(3082-
+,'ZHT'-
+,UNISTR(-
+'\6578\64da\6a5f - 56/90/E'-
+),UNISTR(-
+'\6578\64da\6a5f - \6bcf\79d2 56KB\ff0cV.90 PCI \5168\7403\76f8'||-
+'\5bb9\3002\5916\63a5\5f0f\ff1b\96fb\6e90\4f9b\61c9\5668 110V'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2270-
+,'ZHT'-
+,UNISTR(-
+'\6578\64da\6a5f - 56/90/I'-
+),UNISTR(-
+'\6578\64da\6a5f - \6bcf\79d2 56kb\ff0cV.90 PCI \5168\7403\76f8'||-
+'\5bb9\3002\5167\63a5\5f0f\ff0c\6a19\6e96\5e95\76e4 (3.5 \540b)'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2268-
+,'ZHT'-
+,UNISTR(-
+'\6578\64da\6a5f - 56/H/E'-
+),UNISTR(-
+'\6a19\6e96 Hayes \76f8\5bb9\6578\64da\6a5f - \6bcf\79d2 56KB'||-
+'\ff0c\5916\63a5\5f0f\3002\96fb\6e90\4f9b\61c9\5668\ff1a220V'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3083-
+,'ZHT'-
+,UNISTR(-
+'\6578\64da\6578 - 56/H/I'-
+),UNISTR(-
+'\6a19\6e96 Hayes \6578\64da\6a5f - \6bcf\79d2 56KB\ff0c\5167'||-
+'\63a5\5f0f\ff0c\6a19\6e96 3.5 \540b\5e95\76e4\3002'-
+));
+INSERT INTO product_descriptions VALUES(2374-
+,'ZHT'-
+,UNISTR(-
+'\6578\64da\6a5f - C/100'-
+),UNISTR(-
+'DOCSIS/EURODOCSIS 1.0/1.1-\76f8\5bb9\5916\63a5\5f0f\7e9c\7dda'-
+));
+INSERT INTO product_descriptions VALUES(1740-
+,'ZHT'-
+,UNISTR(-
+'TD 12GB/DAT'-
+),UNISTR(-
+'\78c1\5e36\6a5f - 12 GB \5bb9\91cf\ff0cDAT \683c\5f0f\3002'-
+));
+INSERT INTO product_descriptions VALUES(2409-
+,'ZHT'-
+,UNISTR(-
+'TD 7GB/8'-
+),UNISTR(-
+'\78c1\5e36\6a5f\ff0c7GB \5bb9\91cf\ff0c8mm \5361\5e36\3002'-
+));
+INSERT INTO product_descriptions VALUES(2262-
+,'ZHT'-
+,UNISTR(-
+'ZIP 100'-
+),UNISTR(-
+'ZIP\78c1\789f\6a5f\ff0c100 MB \5bb9\91cf (\5916\63a5\5f0f) \9644'||-
+'\5e73\884c\57e0\9023\63a5\7684\7e9c\7dda'-
+));
+INSERT INTO product_descriptions VALUES(2522-
+,'ZHT'-
+,UNISTR(-
+'\96fb\6c60 - EL'-
+),UNISTR(-
+'\7b46\8a18\578b\96fb\8166\7684\64f4\5145\96fb\6c60'-
+));
+INSERT INTO product_descriptions VALUES(2278-
+,'ZHT'-
+,UNISTR(-
+'\96fb\6c60 - NiHM'-
+),UNISTR(-
+'\7b46\8a18\578b\96fb\8166\7684\53ef\518d\5145\96fb NiHM \96fb'||-
+'\6c60'-
+));
+INSERT INTO product_descriptions VALUES(2418-
+,'ZHT'-
+,UNISTR(-
+'\5099\7528\96fb\6c60 (DA-130)'-
+),UNISTR(-
+'\5177\6709 LED \6307\793a\5668\7684\55ae\4e00\96fb\6c60\5145'||-
+'\96fb\5668'-
+));
+INSERT INTO product_descriptions VALUES(2419-
+,'ZHT'-
+,UNISTR(-
+'\5099\7528\96fb\6c60 (DA-290)'-
+),UNISTR(-
+'\5177\6709 LED \6307\793a\5668\ff0c\53ef\5145\5169\500b\96fb'||-
+'\6c60\7684\5145\96fb\5668'-
+));
+INSERT INTO product_descriptions VALUES(3097-
+,'ZHT'-
+,UNISTR(-
+'\7e9c\7dda\9023\63a5\5668 - 32R'-
+),UNISTR(-
+'\7e9c\7dda\9023\63a5\5668 - 32 pin \9577'-
+));
+INSERT INTO product_descriptions VALUES(3099-
+,'ZHT'-
+,UNISTR(-
+'\7e9c\7dda\7ba1\7406'-
+),UNISTR(-
+'\7528\4ee5\7d44\7e54\548c\6346\675f\96fb\8166\96fb\7dda\7684'||-
+'\7e9c\7dda\7ba1\7406'-
+));
+INSERT INTO product_descriptions VALUES(2380-
+,'ZHT'-
+,UNISTR(-
+'\7e9c\7dda PR/15/P'-
+),UNISTR(-
+'15 \82f1\544e\5e73\884c\57e0\5370\8868\6a5f\7e9c\7dda'-
+));
+INSERT INTO product_descriptions VALUES(2408-
+,'ZHT'-
+,UNISTR(-
+'\7e9c\7dda PR/P/6'-
+),UNISTR(-
+'\6a19\6e96 Centronics 6 \82f1\544e\5370\8868\6a5f\7e9c\7dda\ff0c'||-
+'\5e73\884c\57e0'-
+));
+INSERT INTO product_descriptions VALUES(2457-
+,'ZHT'-
+,UNISTR(-
+'\7e9c\7dda PR/S/6'-
+),UNISTR(-
+'\6a19\6e96 RS232 \5e8f\5217\5370\8868\6a5f\7e9c\7dda\ff0c6\82f1'||-
+'\544e'-
+));
+INSERT INTO product_descriptions VALUES(2373-
+,'ZHT'-
+,UNISTR(-
+'\7e9c\7dda RS232 10/AF'-
+),UNISTR(-
+'\542b F/F \8207 9F/25F \8f49\63a5\982d\768410 \82f1\544e RS232 '||-
+'\7e9c\7dda'-
+));
+INSERT INTO product_descriptions VALUES(1734-
+,'ZHT'-
+,UNISTR(-
+'\7e9c\7dda RS232 10/AM'-
+),UNISTR(-
+'\542b M/M \8207 9M/25M \8f49\63a5\982d\7684 10 \82f1\544e RS232 '||-
+'\7e9c\7dda'-
+));
+INSERT INTO product_descriptions VALUES(1737-
+,'ZHT'-
+,UNISTR(-
+'\7e9c\7dda SCSI 10/FW/ADS'-
+),UNISTR(-
+'10 \82f1\544e SCSI2 F/W \8f49\63a5\81f3 DSxx0 \7e9c\7dda'-
+));
+INSERT INTO product_descriptions VALUES(1745-
+,'ZHT'-
+,UNISTR(-
+'\7e9c\7dda SCSI 20/WD->D'-
+),UNISTR(-
+'20\82f1\544e SCSI2 \5bec\78c1\789f\5132\5b58\81f3\78c1\789f'||-
+'\5132\5b58\7684\7e9c\7dda'-
+));
+INSERT INTO product_descriptions VALUES(2982-
+,'ZHT'-
+,UNISTR(-
+'\78c1\789f\639b\4e0a - A'-
+),UNISTR(-
+'\78c1\789f\639b\4e0a\7d44\88dd\5957\4ef6'-
+));
+INSERT INTO product_descriptions VALUES(3277-
+,'ZHT'-
+,UNISTR(-
+'\78c1\789f\639b\4e0a - A/T'-
+),UNISTR(-
+'Tower PC \7684\78c1\789f\639b\4e0a\7d44\88dd\5957\4ef6'-
+));
+INSERT INTO product_descriptions VALUES(2976-
+,'ZHT'-
+,UNISTR(-
+'\78c1\789f\639b\4e0a - D'-
+),UNISTR(-
+'\684c\4e0a\578b PC \7684\78c1\789f\639b\4e0a'-
+));
+INSERT INTO product_descriptions VALUES(3204-
+,'ZHT'-
+,UNISTR(-
+'Envoy DS'-
+),UNISTR(-
+'Envoy Docking Station'-
+));
+INSERT INTO product_descriptions VALUES(2638-
+,'ZHT'-
+,UNISTR(-
+'Envoy DS/E'-
+),UNISTR(-
+'\52a0\5f37\578b\7684 Envoy Docking Station'-
+));
+INSERT INTO product_descriptions VALUES(3020-
+,'ZHT'-
+,UNISTR(-
+'Envoy IC'-
+),UNISTR(-
+'Envoy Internet \96fb\8166\ff0c\96a8\63d2\5373\7528'-
+));
+INSERT INTO product_descriptions VALUES(1948-
+,'ZHT'-
+,UNISTR(-
+'Envoy IC/58'-
+),UNISTR(-
+'\5167\5efa 58K \6578\64da\6a5f\7684 Internet \96fb\8166'-
+));
+INSERT INTO product_descriptions VALUES(3003-
+,'ZHT'-
+,UNISTR(-
+'\7b46\8a18\578b\96fb\8166 128/12/56/v90/110'-
+),UNISTR(-
+'Envoy \7b46\8a18\578b\96fb\8166\ff0c128MB \8a18\61b6\9ad4\ff0c12'||-
+'GB \786c\789f\ff0cv90 \6578\64da\6a5f\ff0c110V \96fb\6e90\4f9b'||-
+'\61c9\5668\3002'-
+));
+INSERT INTO product_descriptions VALUES(2999-
+,'ZHT'-
+,UNISTR(-
+'\7b46\8a18\578b\96fb\8166 16/8/110'-
+),UNISTR(-
+'Envoy \7b46\8a18\578b\96fb\8166\ff0c16MB \8a18\61b6\9ad4\ff0c8GB'||-
+' \786c\789f\ff0c110V \96fb\6e90\4f9b\61c9\5668 (\50c5\7f8e\570b'||-
+')\3002'-
+));
+INSERT INTO product_descriptions VALUES(3000-
+,'ZHT'-
+,UNISTR(-
+'\7b46\8a18\578b\96fb\8166 32/10/56'-
+),UNISTR(-
+'Envoy \7b46\8a18\578b\96fb\8166\ff0c32MB \8a18\61b6\9ad4\ff0c10G'||-
+'B \786c\789f\ff0c56K \6578\64da\6a5f\ff0c\901a\7528\96fb\6e90'||-
+'\4f9b\61c9\5668 (\53ef\5207\63db)\3002'-
+));
+INSERT INTO product_descriptions VALUES(3001-
+,'ZHT'-
+,UNISTR(-
+'\7b46\8a18\578b\96fb\8166 48/10/56/110'-
+),UNISTR(-
+'Envoy \7b46\8a18\578b\96fb\8166\ff0c48MB \8a18\61b6\9ad4\ff0c10G'||-
+'B \786c\789f\ff0c56K \6578\64da\6a5f\ff0c110V \96fb\6e90\4f9b'||-
+'\61c9\5668\3002'-
+));
+INSERT INTO product_descriptions VALUES(3004-
+,'ZHT'-
+,UNISTR(-
+'\7b46\8a18\578b\96fb\8166 64/10/56/220'-
+),UNISTR(-
+'Envoy \7b46\8a18\578b\96fb\8166\ff0c64MB \8a18\61b6\9ad4\ff0c10G'||-
+'B \786c\789f\ff0c56K \6578\64da\6a5f\ff0c220V \96fb\6e90\4f9b'||-
+'\61c9\5668\3002'-
+));
+INSERT INTO product_descriptions VALUES(3391-
+,'ZHT'-
+,UNISTR(-
+'PS 110/220'-
+),UNISTR(-
+'\96fb\6e90\4f9b\61c9\5668 - \53ef\5207\63db\ff0c110V/220V'-
+));
+INSERT INTO product_descriptions VALUES(3124-
+,'ZHT'-
+,UNISTR(-
+'PS 110V /T'-
+),UNISTR(-
+'Tower PC \7684\96fb\6e90\4f9b\61c9\5668\ff0c110V'-
+));
+INSERT INTO product_descriptions VALUES(1738-
+,'ZHT'-
+,UNISTR(-
+'PS 110V /US'-
+),UNISTR(-
+'110 V \96fb\6e90\4f9b\61c9\5668 - US \76f8\5bb9'-
+));
+INSERT INTO product_descriptions VALUES(2377-
+,'ZHT'-
+,UNISTR(-
+'PS 110V HS/US'-
+),UNISTR(-
+'110 V \71b1\53ef\4ea4\63db\7684\96fb\6e90\4f9b - US \76f8\5bb9'-
+));
+INSERT INTO product_descriptions VALUES(2299-
+,'ZHT'-
+,UNISTR(-
+'PS 12V /P'-
+),UNISTR(-
+'\96fb\6e90\4f9b\61c9\5668 - 12v \53ef\651c\5f0f'-
+));
+INSERT INTO product_descriptions VALUES(3123-
+,'ZHT'-
+,UNISTR(-
+'PS 220V /D'-
+),UNISTR(-
+'\684c\4e0a\578b\96fb\8166\7684\6a19\6e96\96fb\6e90\4f9b\61c9'||-
+'\5668 220V'-
+));
+INSERT INTO product_descriptions VALUES(1748-
+,'ZHT'-
+,UNISTR(-
+'PS 220V /EUR'-
+),UNISTR(-
+'220 \4f0f\7279\96fb\6e90\4f9b\61c9\5668\985e\578b - \6b50\6d32'-
+));
+INSERT INTO product_descriptions VALUES(2387-
+,'ZHT'-
+,UNISTR(-
+'PS 220V /FR'-
+),UNISTR(-
+'220 \4f0f\7279\96fb\6e90\4f9b\61c9\5668\985e\578b - \6cd5\570b'-
+));
+INSERT INTO product_descriptions VALUES(2370-
+,'ZHT'-
+,UNISTR(-
+'PS 220V /HS/FR'-
+),UNISTR(-
+'220 V \71b1\53ef\4ea4\63db\7684\96fb\6e90\4f9b\61c9\5668 - US '||-
+'\76f8\5bb9'-
+));
+INSERT INTO product_descriptions VALUES(2311-
+,'ZHT'-
+,UNISTR(-
+'PS 220V /L'-
+),UNISTR(-
+'220V \7b46\8a18\578b\96fb\8166\7684\96fb\6e90\4f9b\61c9\5668'-
+));
+INSERT INTO product_descriptions VALUES(1733-
+,'ZHT'-
+,UNISTR(-
+'PS 220V /UK'-
+),UNISTR(-
+'220V \96fb\6e90\4f9b\61c9\5668\985e\578b - \82f1\570b'-
+));
+INSERT INTO product_descriptions VALUES(2878-
+,'ZHT'-
+,UNISTR(-
+'\8def\7531\5668 - ASR/2W'-
+),UNISTR(-
+'\7279\6b8a ALS \8def\7531\5668 - \6838\51c6\7684\4f9b\61c9\5546'||-
+'\9700\8981\5177\6709 2-way \7b26\5408\7684\9805\76ee'-
+));
+INSERT INTO product_descriptions VALUES(2879-
+,'ZHT'-
+,UNISTR(-
+'\8def\7531\5668 - ASR/3W'-
+),UNISTR(-
+'\7279\6b8a ALS \8def\7531\5668 - \6838\51c6\7684\4f9b\61c9\5546'||-
+'\9700\8981\5177\6709 3-way \7b26\5408\7684\9805\76ee'-
+));
+INSERT INTO product_descriptions VALUES(2152-
+,'ZHT'-
+,UNISTR(-
+'\8def\7531\5668 - DTMF4'-
+),UNISTR(-
+'DTMF 4 \57e0\8def\7531\5668'-
+));
+INSERT INTO product_descriptions VALUES(3301-
+,'ZHT'-
+,UNISTR(-
+'\87ba\7d72\91d8 <B.28.P>'-
+),UNISTR(-
+'\87ba\7d72\91d8\ff1a\9285\88fd\ff0c\5927\5c0f 28 \516c\91d0'||-
+'\ff0cPhillips \982d\3002\5851\81a0\76d2\ff0c\5167\542b 500 \652f'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3143-
+,'ZHT'-
+,UNISTR(-
+'\87ba\7d72\91d8 <B.28.S>'-
+),UNISTR(-
+'\87ba\7d72\91d8\ff1a\9285\88fd\ff0c\5927\5c0f 28 \516c\91d0'||-
+'\ff0c\76f4\7684\3002\5851\81a0\76d2\ff0c\5167\542b 500 \652f'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2323-
+,'ZHT'-
+,UNISTR(-
+'\87ba\7d72\91d8 <B.32.P>'-
+),UNISTR(-
+'\87ba\7d72\91d8\ff1a\9285\88fd\ff0c\5927\5c0f 32 \516c\91d0'||-
+'\ff0cPhillips \982d\3002\5851\81a0\76d2\ff0c\5167\542b 400 \652f'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3134-
+,'ZHT'-
+,UNISTR(-
+'\87ba\7d72\91d8 <B.32.S>'-
+),UNISTR(-
+'\87ba\7d72\91d8\ff1a\9285\88fd\ff0c\5927\5c0f 32 \516c\91d0'||-
+'\ff0c\76f4\7684\3002\5851\81a0\76d2\ff0c\5167\542b 400 \652f'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3139-
+,'ZHT'-
+,UNISTR(-
+'\87ba\7d72\91d8 <S.16.S>'-
+),UNISTR(-
+'\87ba\7d72\91d8\ff1a\92fc\88fd\ff0c\5927\5c0f 16 \516c\91d0'||-
+'\ff0c\76f4\7684\3002\786c\7d19\76d2\ff0c\5167\542b 750 \652f'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3300-
+,'ZHT'-
+,UNISTR(-
+'\87ba\7d72\91d8 <S.32.P>'-
+),UNISTR(-
+'\87ba\7d72\91d8\ff1a\92fc\88fd\ff0c\5927\5c0f 32 \516c\91d0'||-
+'\ff0cPhillips \982d\3002\5851\81a0\76d2\ff0c\5167\542b 400 \652f'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2316-
+,'ZHT'-
+,UNISTR(-
+'\87ba\7d72\91d8 <S.32.S>'-
+),UNISTR(-
+'\87ba\7d72\91d8\ff1a\92fc\88fd\ff0c\5927\5c0f 32 \516c\91d0'||-
+'\ff0c\76f4\7684\3002\5851\81a0\76d2\ff0c\5167\542b 500 \652f'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3140-
+,'ZHT'-
+,UNISTR(-
+'\87ba\7d72\91d8 <Z.16.S>'-
+),UNISTR(-
+'\87ba\7d72\91d8\ff1a\92c5\88fd\ff0c16 \516c\91d0\9577\ff0c'||-
+'\76f4\7684\3002\786c\7d19\76d2\ff0c\5167\542b 750 \652f\3002'-
+));
+INSERT INTO product_descriptions VALUES(2319-
+,'ZHT'-
+,UNISTR(-
+'\87ba\7d72\91d8 <Z.24.S>'-
+),UNISTR(-
+'\87ba\7d72\91d8\ff1a\92c5\88fd\ff0c\5927\5c0f 24 \516c\91d0'||-
+'\ff0c\76f4\7684\3002\786c\7d19\76d2\ff0c\5167\542b 500 \652f'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2322-
+,'ZHT'-
+,UNISTR(-
+'\87ba\7d72\91d8 <Z.28.P>'-
+),UNISTR(-
+'\87ba\7d72\91d8\ff1a\92c5\88fd\ff0c\5927\5c0f 28 \516c\91d0'||-
+'\ff0cPhillips \982d\3002\786c\7d19\76d2\ff0c\5167\542b 750 \652f'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3178-
+,'ZHT'-
+,UNISTR(-
+'\8a66\7b97\8868 - SSP/V 2.0'-
+),UNISTR(-
+'SmartSpread Spreadsheet\ff0c\5c08\6848\7248 2.0\ff0c\4f9b Vision 11.'||-
+'1 \8207 11.2 \7248\6b21\4f7f\7528\3002\5305\88dd\4e2d\9644\6709'||-
+' CD-ROM \5149\789f\7247\ff0c\5167\542b\9032\968e\8edf\9ad4\3001'||-
+'\7dda\4e0a\6587\4ef6\3001\5370\5237\624b\518a\3001\6559\5b78'||-
+'\8ab2\7a0b\4ee5\53ca\4f7f\7528\6b0a\8a3b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3179-
+,'ZHT'-
+,UNISTR(-
+'\8a66\7b97\8868 - SSS/S 2.1'-
+),UNISTR(-
+'SmartSpread Spreadsheet\ff0c\6a19\6e96\7248 2.1\ff0c\4f9b SPNIX 4.0 '||-
+'\7248\6b21\4f7f\7528\3002\5305\88dd\4e2d\9644\6709 CD-ROM \5149'||-
+'\789f\7247\ff0c\5167\542b\8edf\9ad4\3001\7dda\4e0a\6587\4ef6'||-
+'\3001\5370\5237\624b\518a\4ee5\53ca\4f7f\7528\6b0a\8a3b\518a'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3182-
+,'ZHT'-
+,UNISTR(-
+'\6587\66f8\8655\7406 - SWP/V 4.5'-
+),UNISTR(-
+'SmartWord Word Processor, \5c08\696d\7248 4.5\ff0c\4f9b Vision 11.x '||-
+'\7248\6b21\4f7f\7528\3002\5305\88dd\4e2d\9644\6709 CD-ROM \5149'||-
+'\789f\7247\ff0c\5167\542b\9032\968e\8edf\9ad4\3001\5370\5237'||-
+'\624b\518a\4ee5\53ca\4f7f\7528\6b0a\8a3b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3183-
+,'ZHT'-
+,UNISTR(-
+'\6587\66f8\8655\7406 - SWS/V 4.5'-
+),UNISTR(-
+'SmartWord Word Processor\ff0c\6a19\6e96\7248 4.5\ff0c\4f9b Vision 11'||-
+'.x \7248\6b21\4f7f\7528\3002\5305\88dd\4e2d\5167\542b CD-ROM '||-
+'\5149\789f\7247\8207\4f7f\7528\8005\8a3b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3197-
+,'ZHT'-
+,UNISTR(-
+'\8a66\7b97\8868 - SSS/V 2.1'-
+),UNISTR(-
+'SmartSpread Spreadsheet\ff0c\6a19\6e96\7248 2.1\ff0c\4f9b Vision 11.'||-
+'1 \8207 11.2 \7248\6b21\4f7f\7528\3002\5305\88dd\4e2d\9644\6709'||-
+' CD-ROM \5149\789f\7247\ff0c\5167\542b\8edf\9ad4\3001\7dda\4e0a'||-
+'\6587\4ef6\3001\5370\5237\624b\518a\4ee5\53ca\4f7f\7528\6b0a'||-
+'\8a3b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3255-
+,'ZHT'-
+,UNISTR(-
+'\8a66\7b97\8868 - SSS/CD 2.2B'-
+),UNISTR(-
+'SmartSpread Spreadsheet\ff0c\6a19\6e96\7248\ff0cBeta 2.2\ff0c\4f9b '||-
+'SPNIX 4.1 \7248\6b21\4f7f\7528\3002\53ea\6709 CD-ROM \5149\789f'||-
+'\7247\3002'-
+));
+INSERT INTO product_descriptions VALUES(3256-
+,'ZHT'-
+,UNISTR(-
+'\8a66\7b97\8868 - SSS/V 2.0'-
+),UNISTR(-
+'SmartSpread Spreadsheet\ff0c\6a19\6e96\7248 2.0\ff0c\4f9b Vision 11.'||-
+'0 \7248\6b21\4f7f\7528\3002\5305\88dd\4e2d\9644\6709 CD-ROM '||-
+'\5149\789f\7247\ff0c\5167\542b\8edf\9ad4\3001\7dda\4e0a\6587'||-
+'\4ef6\3001\5370\5237\624b\518a\3001\6559\5b78\8ab2\7a0b\4ee5'||-
+'\53ca\4f7f\7528\6b0a\8a3b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3260-
+,'ZHT'-
+,UNISTR(-
+'\6587\66f8\8655\7406 - SWP/S 4.4'-
+),UNISTR(-
+'SmartSpread Spreadsheet\ff0c\6a19\6e96\7248 2.2\ff0c\4f9b SPNIX 4.0 '||-
+'\7248\6b21\4f7f\7528\3002\5305\88dd\4e2d\9644\6709 CD-ROM \5149'||-
+'\789f\7247\ff0c\5167\542b\8edf\9ad4\3001\5370\5237\624b\518a'||-
+'\4ee5\53ca\4f7f\7528\6b0a\8a3b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3262-
+,'ZHT'-
+,UNISTR(-
+'\8a66\7b97\8868 - SSS/S 2.2'-
+),UNISTR(-
+'SmartSpread Spreadsheet\ff0c\6a19\6e96\7248 2.2\ff0c\4f9b SPNIX 4.1 '||-
+'\7248\6b21\4f7f\7528\3002\5305\88dd\4e2d\9644\6709 CD-ROM \5149'||-
+'\789f\7247\ff0c\5167\542b\8edf\9ad4\3001\7dda\4e0a\6587\4ef6'||-
+'\3001\5370\5237\624b\518a\4ee5\53ca\4f7f\7528\6b0a\8a3b\518a'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3361-
+,'ZHT'-
+,UNISTR(-
+'\8a66\7b97\8868 - SSP/S 1.5'-
+),UNISTR(-
+'SmartSpread Spreadsheet\ff0c\6a19\6e96\7248 1.5\ff0c\4f9b SPNIX 3.3 '||-
+'\7248\6b21\4f7f\7528\3002\5305\88dd\4e2d\9644\6709 CD-ROM \5149'||-
+'\789f\7247\ff0c\5167\542b\9032\968e\8edf\9ad4\3001\7dda\4e0a'||-
+'\6587\4ef6\3001\5370\5237\624b\518a\3001\6559\5b78\8ab2\7a0b'||-
+'\4ee5\53ca\4f7f\7528\6b0a\8a3b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(1799-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 - SL'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - \57fa\790e'||-
+'\4f3a\670d\5668\4f7f\7528\6b0a\3002\5305\62ec\7cfb\7d71\7ba1'||-
+'\7406\3001\958b\767c\8005\6216\4f7f\7528\8005\7684 10 \500b'||-
+'\4e00\822c\4f7f\7528\6b0a\3002\4f46\6c92\6709\7db2\8def\4f7f'||-
+'\7528\8005\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(1801-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 - AL'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - \5176\4ed6'||-
+'\7684\7cfb\7d71\7ba1\7406\8005\4f7f\7528\6b0a\ff0c\5305\62ec'||-
+'\7db2\8def\5b58\53d6\3002'-
+));
+INSERT INTO product_descriptions VALUES(1803-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 - DL'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - \5176\958b'||-
+'\767c\8005\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(1804-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 - UL/N'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - \5176\4ed6'||-
+'\7684\5177\6709\7db2\8def\5b58\53d6\7684\4f7f\7528\8005\4f7f'||-
+'\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(1805-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 - UL/A'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - \5176\4ed6'||-
+'\4f7f\7528\8005\4f7f\7528\6b0a\985e\5225 A\3002'-
+));
+INSERT INTO product_descriptions VALUES(1806-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 - UL/C'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - \5176\4ed6'||-
+'\4f7f\7528\8005\4f7f\7528\6b0a\985e\5225 C\3002'-
+));
+INSERT INTO product_descriptions VALUES(1808-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 - UL/D'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - \5176\4ed6'||-
+'\4f7f\7528\8005\4f7f\7528\6b0a\985e\5225 D\3002'-
+));
+INSERT INTO product_descriptions VALUES(1820-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 - NL'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - \5176\4ed6'||-
+'\7db2\8def\5b58\53d6\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(1822-
+,'ZHT'-
+,UNISTR(-
+'SPNIX4.0 - SL'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 4.0 \7248 - \57fa\790e'||-
+'\4f3a\670d\5668\4f7f\7528\6b0a\3002\5305\62ec\7cfb\7d71\7ba1'||-
+'\7406\3001\958b\767c\8005\6216\4f7f\7528\8005\7684 10 \500b'||-
+'\4e00\822c\4f7f\7528\6b0a\3002\4f46\6c92\6709\7db2\8def\4f7f'||-
+'\7528\8005\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(2422-
+,'ZHT'-
+,UNISTR(-
+'SPNIX4.0 - SAL'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 4.0 \7248 - \5176\4ed6'||-
+'\7cfb\7d71\7ba1\7406\4f7f\7528\6b0a\ff0c\5305\62ec\7db2\8def'||-
+'\5b58\53d6\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(2452-
+,'ZHT'-
+,UNISTR(-
+'SPNIX4.0 - DL'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 4.0 \7248 - \5176\4ed6'||-
+'\958b\767c\8005\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(2462-
+,'ZHT'-
+,UNISTR(-
+'SPNIX4.0 - UL/N'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 4.0 \7248 - \5176\4ed6'||-
+'\5177\7db2\8def\5b58\53d6\6b0a\7684\4f7f\7528\8005\4f7f\7528'||-
+'\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(2464-
+,'ZHT'-
+,UNISTR(-
+'SPNIX4.0 - UL/A'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 4.0 \7248 - \5176\4ed6'||-
+'\4f7f\7528\8005\4f7f\7528\6b0a\985e\5225 A\3002'-
+));
+INSERT INTO product_descriptions VALUES(2467-
+,'ZHT'-
+,UNISTR(-
+'SPNIX4.0 - UL/D'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 4.0 \7248 - \5176\4ed6'||-
+'\4f7f\7528\8005\4f7f\7528\6b0a\985e\5225 D\3002'-
+));
+INSERT INTO product_descriptions VALUES(2468-
+,'ZHT'-
+,UNISTR(-
+'SPNIX4.0 - UL/C'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 4.0 \7248 - \5176\4ed6'||-
+'\4f7f\7528\8005\4f7f\7528\6b0a\985e\5225 C\3002'-
+));
+INSERT INTO product_descriptions VALUES(2470-
+,'ZHT'-
+,UNISTR(-
+'SPNIX4.0 - NL'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 4.0 \7248 - \5176\4ed6'||-
+'\7db2\8def\5b58\53d6\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(2471-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 SU'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 4.0 \7248 - \57fa\790e'||-
+'\4f3a\670d\5668\4f7f\7528\6b0a\5347\7d1a\81f3 4.0 \7248\3002'-
+));
+INSERT INTO product_descriptions VALUES(2492-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 AU'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - 4.0 \7248'||-
+'\5347\7d1a\ff1b\985e\5225 A \4f7f\7528\8005\3002'-
+));
+INSERT INTO product_descriptions VALUES(2493-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 C/DU'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - 4.0 \7248'||-
+'\5347\7d1a\ff1b\985e\5225 C \6216 D \4f7f\7528\8005\3002'-
+));
+INSERT INTO product_descriptions VALUES(2494-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 NU'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - 4.0 \7248'||-
+'\5347\7d1a\ff1b\7db2\8def\5b58\53d6\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(2995-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 SAU'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - 4.0 \7248'||-
+'\5347\7d1a\ff1b\7cfb\7d71\7ba1\7406\8005\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3290-
+,'ZHT'-
+,UNISTR(-
+'SPNIX3.3 DU'-
+),UNISTR(-
+'\4f5c\696d\7cfb\7d71\8edf\9ad4\ff1aSPNIX 3.3 \7248 - 4.0 \7248'||-
+'\5347\7d1a\ff1b\958b\767c\8005\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(1778-
+,'ZHT'-
+,UNISTR(-
+'C for SPNIX3.3 - 1 \57fa\5ea7'-
+),UNISTR(-
+'SPNIX 3.3 \7248\7684 C \7a0b\5f0f\8a9e\8a00\8edf\9ad4 - \55ae'||-
+'\4e00\4f7f\7528\8005'-
+));
+INSERT INTO product_descriptions VALUES(1779-
+,'ZHT'-
+,UNISTR(-
+'C for SPNIX3.3 - \6587\4ef6'-
+),UNISTR(-
+'C \7a0b\5f0f\8a9e\8a00\6587\4ef6\ff0cSPNIX 3.3 \7248'-
+));
+INSERT INTO product_descriptions VALUES(1780-
+,'ZHT'-
+,UNISTR(-
+'C for SPNIX3.3 - \7cfb\7d71'-
+),UNISTR(-
+'SPNIX 3.3 \7248\7684 C \7a0b\5f0f\8a9e\8a00\8edf\9ad4 - \7cfb'||-
+'\7d71\7de8\8b6f\5668\3001\7a0b\5f0f\5eab\3001\9023\7d50\5668'-
+));
+INSERT INTO product_descriptions VALUES(2371-
+,'ZHT'-
+,UNISTR(-
+'C for SPNIX4.0 - \6587\4ef6'-
+),UNISTR(-
+'C \7a0b\5f0f\8a9e\8a00\6587\4ef6\ff0cSPNIX 4.0 \7248'-
+));
+INSERT INTO product_descriptions VALUES(2423-
+,'ZHT'-
+,UNISTR(-
+'C for SPNIX4.0 - 1 \57fa\5ea7'-
+),UNISTR(-
+'SPNIX 4.0 \7248\7684 C \7a0b\5f0f\8a9e\8a00\8edf\9ad4 - \55ae'||-
+'\4e00\4f7f\7528\8005'-
+));
+INSERT INTO product_descriptions VALUES(3501-
+,'ZHT'-
+,UNISTR(-
+'C for SPNIX4.0 - \7cfb\7d71'-
+),UNISTR(-
+'SPNIX V4.0 \7684 C \7a0b\5f0f\8a9e\8a00\8edf\9ad4 - \7cfb\7d71'||-
+'\7de8\8b6f\5668\3001\7a0b\5f0f\5eab\3001\9023\7d50\5668'-
+));
+INSERT INTO product_descriptions VALUES(3502-
+,'ZHT'-
+,UNISTR(-
+'C for SPNIX3.3 - \7cfb\7d71/\5347\7d1a'-
+),UNISTR(-
+'SPNIX 3.3 \7248\7684 C \7a0b\5f0f\8a9e\8a00\8edf\9ad4 - 4.0 \5347'||-
+'\7d1a\ff1b\7cfb\7d71\7de8\8b6f\5668\3001\7a0b\5f0f\5eab\3001'||-
+'\9023\7d50\5668'-
+));
+INSERT INTO product_descriptions VALUES(3503-
+,'ZHT'-
+,UNISTR(-
+'C for SPNIX3.3 - \57fa\5ea7/\5347\7d1a'-
+),UNISTR(-
+'SPNIX 3.3 \7248\7684 C \7a0b\5f0f\8a9e\8a00\8edf\9ad4 - 4.0 \5347'||-
+'\7d1a - \55ae\4e00\4f7f\7528\8005'-
+));
+INSERT INTO product_descriptions VALUES(1774-
+,'ZHT'-
+,UNISTR(-
+'\57fa\790e ISO CP - BL'-
+),UNISTR(-
+'\57fa\790e ISO \901a\8a0a\5957\88dd\8edf\9ad4 - \57fa\790e\4f7f'||-
+'\7528\6b0a'-
+));
+INSERT INTO product_descriptions VALUES(1775-
+,'ZHT'-
+,UNISTR(-
+'\7528\6236\7aef ISO CP - S'-
+),UNISTR(-
+'\5176\4ed6 SPNIX 3.3 \7248\5f9e\5c6c\7aef\7684 ISO \901a\8a0a'||-
+'\5957\88dd\8edf\9ad4\9644\52a0\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(1794-
+,'ZHT'-
+,UNISTR(-
+'OSI 8-16/IL'-
+),UNISTR(-
+'OSI \7b2c 8 \5c64\81f3\7b2c 16 \5c64 - \905e\589e\4f7f\7528\6b0a'-
+));
+INSERT INTO product_descriptions VALUES(1825-
+,'ZHT'-
+,UNISTR(-
+'X25 - 1 \7a2e\4f7f\7528\6b0a'-
+),UNISTR(-
+'X25 \7db2\8def\5b58\53d6\63a7\5236\7cfb\7d71\ff0c\55ae\4e00'||-
+'\4f7f\7528\8005'-
+));
+INSERT INTO product_descriptions VALUES(2004-
+,'ZHT'-
+,UNISTR(-
+'IC \700f\89bd\5668 - S'-
+),UNISTR(-
+'SPNIX \7684 IC Web \700f\89bd\5668\3002\6709\7db2\8def\90f5\4ef6'||-
+'\529f\80fd\7684\700f\89bd\5668\3002'-
+));
+INSERT INTO product_descriptions VALUES(2005-
+,'ZHT'-
+,UNISTR(-
+'IC \700f\89bd\5668\6587\4ef6 - S'-
+),UNISTR(-
+'SPNIX \7684 IC Web \700f\89bd\5668\6587\4ef6\8a2d\5b9a\3002\5305'||-
+'\62ec\5b89\88dd\624b\518a\3001\90f5\4ef6\4f3a\670d\5668\7ba1'||-
+'\7406\6307\5357\4ee5\53ca\4f7f\7528\8005\5feb\901f\53c3\8003'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2416-
+,'ZHT'-
+,UNISTR(-
+'\7528\6236\7aef ISO CP - S'-
+),UNISTR(-
+'\5176\4ed6 SPNIX 4.0 \7248\5f9e\5c6c\7aef\7684 ISO \901a\8a0a'||-
+'\5957\88dd\8edf\9ad4\9644\52a0\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(2417-
+,'ZHT'-
+,UNISTR(-
+'\7528\6236\7aef ISO CP - V'-
+),UNISTR(-
+'\5176\4ed6 Vision \5f9e\5c6c\7aef\7684 ISO \901a\8a0a\5957\88dd'||-
+'\8edf\9ad4\9644\52a0\4f7f\7528\6b0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(2449-
+,'ZHT'-
+,UNISTR(-
+'OSI 1-4/IL'-
+),UNISTR(-
+'OSI \7b2c 1 \81f3 \7b2c 4 \5c64 - \905e\589e\4f7f\7528\6b0a'-
+));
+INSERT INTO product_descriptions VALUES(3101-
+,'ZHT'-
+,UNISTR(-
+'IC \700f\89bd\5668 - V'-
+),UNISTR(-
+'\542b\624b\518a\7684 Vision IC Web \700f\89bd\5668\3002\6709'||-
+'\7db2\8def\8207\90f5\4ef6\529f\80fd\7684\700f\89bd\5668\3002'-
+));
+INSERT INTO product_descriptions VALUES(3170-
+,'ZHT'-
+,UNISTR(-
+'Smart Suite - V/SP'-
+),UNISTR(-
+'Vision \7684 Office Suite (SmartWrite\3001SmartArt\3001SmartSpread'||-
+'\3001SmartBrowse)\3002\897f\73ed\7259\8a9e\8a00\8edf\9ad4\8207'||-
+'\4f7f\7528\8005\624b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3171-
+,'ZHT'-
+,UNISTR(-
+'Smart Suite - S3.3/EN'-
+),UNISTR(-
+'SPNIX 3.3 \7248\7684 Office Suite (SmartWrite\3001SmartArt\3001SmartSp'||-
+'read\3001SmartBrowse)\3002\82f1\6587\8a9e\8a00\8edf\9ad4\8207'||-
+'\4f7f\7528\8005\624b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3172-
+,'ZHT'-
+,UNISTR(-
+'\5716\5f62 - DIK+'-
+),UNISTR(-
+'\8edf\9ad4\5957\4ef6\5716\5f62\ff1aDraw-It Kwik-Plus\3002\5305'||-
+'\62ec\5ee3\6cdb\7684\7f8e\5de5\5716\6848\8207 3D \7269\4ef6'||-
+'\64cd\4f5c\7684\9032\968e\7e6a\5716\5de5\5177\ff0c\591a\6a23'||-
+'\6027\7db2\5e95\8207\64f4\5145\5b57\578b\3002'-
+));
+INSERT INTO product_descriptions VALUES(3173-
+,'ZHT'-
+,UNISTR(-
+'\5716\5f62 - SA'-
+),UNISTR(-
+'\8edf\9ad4\5957\4ef6\5716\5f62\ff1aSmartArt\3002 SPNIX \7684'||-
+'\5c08\696d\5716\5f62\5957\88dd\8edf\9ad4\ff0c\6709\591a\7a2e'||-
+'\7dda\689d\6a23\5f0f\3001\6750\8cea\3001\5167\5efa\5716\5f62'||-
+'\4ee5\53ca\4e00\822c\7b26\865f\3002'-
+));
+INSERT INTO product_descriptions VALUES(3175-
+,'ZHT'-
+,UNISTR(-
+'\5c08\6848\7ba1\7406 - S4.0'-
+),UNISTR(-
+'SPNIX 4.0 \7684\5c08\6848\7ba1\7406\8edf\9ad4\ff0c\5305\62ec'||-
+'\6587\5b57\3001\5716\5f62\3001\8a66\7b97\8868\8207\81ea\8a02'||-
+'\5831\8868\683c\5f0f\7684\547d\4ee4\884c\8207\5716\5f62\4ecb'||-
+'\9762\3002'-
+));
+INSERT INTO product_descriptions VALUES(3176-
+,'ZHT'-
+,UNISTR(-
+'Smart Suite - V/EN'-
+),UNISTR(-
+'Vision \7684 Office Suite (SmartWrite\3001SmartArt\3001SmartSpread'||-
+'\3001SmartBrowse) \3002\82f1\6587\8a9e\8a00\8edf\9ad4\8207\4f7f'||-
+'\7528\8005\624b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3177-
+,'ZHT'-
+,UNISTR(-
+'Smart Suite - V/FR'-
+),UNISTR(-
+'Vision \7684 Office Suite (SmartWrite\3001SmartArt\3001SmartSpread'||-
+'\3001SmartBrowse) \3002\82f1\6587\8a9e\8a00\8edf\9ad4\8207\4f7f'||-
+'\7528\8005\624b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3245-
+,'ZHT'-
+,UNISTR(-
+'Smart Suite - S4.0/FR'-
+),UNISTR(-
+'SPNIX V4.0 \7684 Office Suite (SmartWrite\3001SmartArt\3001SmartSpread'||-
+'\3001SmartBrowse)\3002\6cd5\6587\8a9e\8a00\8edf\9ad4\8207\4f7f'||-
+'\7528\8005\624b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3246-
+,'ZHT'-
+,UNISTR(-
+'Smart Suite - S4.0/SP'-
+),UNISTR(-
+'SPNIX V4.0 \7684 Office Suite (SmartWrite\3001SmartArt\3001SmartSpread'||-
+'\3001SmartBrowse)\3002\897f\73ed\7259\6587\8a9e\8a00\8edf\9ad4'||-
+'\8207\4f7f\7528\8005\624b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3247-
+,'ZHT'-
+,UNISTR(-
+'Smart Suite - V/DE'-
+),UNISTR(-
+'Vision \7684 Office Suite (SmartWrite\3001SmartArt\3001SmartSpread'||-
+'\3001SmartBrowse) \3002\5fb7\6587\8a9e\8a00\8edf\9ad4\8207\4f7f'||-
+'\7528\8005\624b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3248-
+,'ZHT'-
+,UNISTR(-
+'Smart Suite - S4.0/DE'-
+),UNISTR(-
+'SPNIX V4.0 \7684 Office Suite (SmartWrite\3001SmartArt\3001SmartSpread'||-
+'\3001SmartBrowse)\3002\5fb7\6587\8a9e\8a00\8edf\9ad4\8207\4f7f'||-
+'\7528\8005\624b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3250-
+,'ZHT'-
+,UNISTR(-
+'\5716\5f62 - DIK'-
+),UNISTR(-
+'\8edf\9ad4\5957\4ef6\5716\5f62\ff1aDraw-It Kwik\3002Vison \7cfb'||-
+'\7d71\7684\7c21\55ae\5716\5f62\5957\88dd\8edf\9ad4\ff0c\542b'||-
+'\6709\53ef\5132\5b58\70ba GIF\3001 JPG \8207 BMP \683c\5f0f\7684'||-
+'\9078\9805\3002'-
+));
+INSERT INTO product_descriptions VALUES(3251-
+,'ZHT'-
+,UNISTR(-
+'\5c08\6848\7ba1\7406 - V'-
+),UNISTR(-
+'Vision \7684\5c08\6848\7ba1\7406\8edf\9ad4\ff0c\5305\62ec\6587'||-
+'\5b57\3001\5716\5f62\3001\8a66\7b97\8868\8207\81ea\8a02\5831'||-
+'\8868\683c\5f0f\7684\547d\4ee4\884c\8207\5716\5f62\4ecb\9762'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3252-
+,'ZHT'-
+,UNISTR(-
+'\5c08\6848\7ba1\7406 - S3.3'-
+),UNISTR(-
+'SPNIX 3.3 \7684\5c08\6848\7ba1\7406\8edf\9ad4\ff0c\5305\62ec'||-
+'\6587\5b57\3001\5716\5f62\3001\8a66\7b97\8868\8207\81ea\8a02'||-
+'\5831\8868\683c\5f0f\7684\547d\4ee4\884c\8207\5716\5f62\4ecb'||-
+'\9762\3002'-
+));
+INSERT INTO product_descriptions VALUES(3253-
+,'ZHT'-
+,UNISTR(-
+'Smart Suite - S4.0/EN'-
+),UNISTR(-
+'SPNIX V4.0 \7684 Office Suite (SmartWrite\3001SmartArt\3001SmartSpread'||-
+'\3001SmartBrowse) \3002\82f1\6587\8a9e\8a00\8edf\9ad4\8207\4f7f'||-
+'\7528\8005\624b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3257-
+,'ZHT'-
+,UNISTR(-
+'Web \700f\89bd\5668 - SB/S 2.1'-
+),UNISTR(-
+'\8edf\9ad4\5957\4ef6 Web \700f\89bd\5668\ff1aSmartBrowse V2.1 for '||-
+'SPNIX V3.3\3002\5305\62ec\5373\6642\7dda\4e0a\8aaa\660e\8207'||-
+'\7dda\4e0a\6587\4ef6\3002'-
+));
+INSERT INTO product_descriptions VALUES(3258-
+,'ZHT'-
+,UNISTR(-
+'Web \700f\89bd\5668 - SB/V 1.0'-
+),UNISTR(-
+'\8edf\9ad4\5957\4ef6 Web \700f\89bd\5668\ff1aSmartBrowse V2.1 for '||-
+'Vision\3002\5305\62ec\5373\6642\7dda\4e0a\8aaa\660e\8207\7dda'||-
+'\4e0a\6587\4ef6\3002'-
+));
+INSERT INTO product_descriptions VALUES(3362-
+,'ZHT'-
+,UNISTR(-
+'Web \700f\89bd\5668 - SB/S 4.0'-
+),UNISTR(-
+'\8edf\9ad4\5957\4ef6 Web \700f\89bd\5668\ff1aSmartBrowse V4.0 for '||-
+'SPNIX V4.0\3002\5305\62ec\5373\6642\7dda\4e0a\8aaa\660e\8207'||-
+'\7dda\4e0a\6587\4ef6\3002'-
+));
+INSERT INTO product_descriptions VALUES(2231-
+,'ZHT'-
+,UNISTR(-
+'Desk - S/V'-
+),UNISTR(-
+'\6a19\6e96\5927\5c0f\7684\684c\5b50\ff1b\53ef\514c\63db\73fe'||-
+'\91d1\7684\8ab2\7a05\9805\76ee\3002\6700\5f8c\5b8c\6210\662f'||-
+'\5728\8a02\8cfc\6642\5b8c\6210\8584\6728\7247\88dd\98fe\ff0c'||-
+'\5305\62ec\6a61\6728\3001\767d\694a\6728\3001\6afb\6728\8207'||-
+'\6843\82b1\6728\3002'-
+));
+INSERT INTO product_descriptions VALUES(2335-
+,'ZHT'-
+,UNISTR(-
+'\884c\52d5\96fb\8a71'-
+),UNISTR(-
+'\7701\96fb\529f\80fd\7684\96d9\983b\884c\52d5\96fb\8a71\3002'||-
+'\8f15\5de7\3001\53ef\647a\758a\ff0c\6709\4e00\8033\6a5f\63d2'||-
+'\5b54\4ee5\53ca\5099\7528\7684\96fb\6c60\7a7a\9593\3002'-
+));
+INSERT INTO product_descriptions VALUES(2350-
+,'ZHT'-
+,UNISTR(-
+'\684c\5b50 - W/48'-
+),UNISTR(-
+'\684c\5b50 - 48 \82f1\540b\767d\8272\8584\7247\ff0c\7121\9000'||-
+'\9084\ff0c\514c\73fe\91d1\3001\8ab2\7a05\7684\9805\76ee\3002'-
+));
+INSERT INTO product_descriptions VALUES(2351-
+,'ZHT'-
+,UNISTR(-
+'\684c\5b50 - W/48/R'-
+),UNISTR(-
+'\684c\5b50 - 60 \82f1\540b\767d\8272\8584\7247\ff0c\5177\6709 4'||-
+'8 \540b\53ef\9000\9084\ff0c\514c\73fe\91d1\53ca\8ab2\7a05\7684'||-
+'\9805\76ee\3002'-
+));
+INSERT INTO product_descriptions VALUES(2779-
+,'ZHT'-
+,UNISTR(-
+'\684c\5b50 - OS/O/F'-
+),UNISTR(-
+'\4e3b\7ba1\6a23\5f0f\8d85\5927\6a61\6728\8fa6\516c\684c\ff0c'||-
+'\9644\8a2d\6a94\6848\62bd\5c5c\3002\6700\5f8c\5b8c\5de5\53ef'||-
+'\4ee5\81ea\8a02\6de1\8272\6216\6697\8272\7684\6a61\6728\6591'||-
+'\9ede\ff0c\6216\662f\5929\7136\624b\64e6\7684\4e7e\6de8\3002'-
+));
+INSERT INTO product_descriptions VALUES(3337-
+,'ZHT'-
+,UNISTR(-
+'\884c\52d5 Web \96fb\8a71'-
+),UNISTR(-
+'\53ef\6bcf\6708\514d\8cbb\5b58\53d6 Web \7684\884c\52d5\96fb'||-
+'\8a71\3002\7d30\9577\65e5\71c8\7ba1\5f62\72c0\3001\76ae\9769'||-
+'\5305\8207\76ae\5e36\593e\3002'-
+));
+INSERT INTO product_descriptions VALUES(2091-
+,'ZHT'-
+,UNISTR(-
+'\7d19\677f LW 8 1/2 x 11'-
+),UNISTR(-
+'\7d19\677f\ff0c\9577\689d\72c0\ff0c\767d\8272\ff0c \5927\5c0f'||-
+'\70ba 8 1/2 x 11 \82f1\540b'-
+));
+INSERT INTO product_descriptions VALUES(2093-
+,'ZHT'-
+,UNISTR(-
+'\7b46 - 10/FP'-
+),UNISTR(-
+'\6c38\4e45\58a8\6c34\7b46\ff0c\5feb\4e7e\ff0c\9632\64e6\6c61'||-
+'\3002\5e73\6ed1\3001\597d\5beb\3002\6709\826f\597d\7684\7b46'||-
+'\5c16\3002\55ae\4e00\8272\5f69\76d2 (\9ed1\3001\85cd\3001\7d05'||-
+') \6216\591a\8272\76d2 (6 \9ed1\30013\85cd\30011 \7d05)\3002'-
+));
+INSERT INTO product_descriptions VALUES(2144-
+,'ZHT'-
+,UNISTR(-
+'\540d\7247\7c3f\5c01\9762'-
+),UNISTR(-
+'\684c\9762\540d\7247\67b6\7684\53ef\66ff\63db\5c01\9762\3002'||-
+'\7070\7159\8272 (\539f\8272) \6216\4e7e\6de8\7684\5851\81a0'||-
+'\8272\3002'-
+));
+INSERT INTO product_descriptions VALUES(2336-
+,'ZHT'-
+,UNISTR(-
+'\540d\7247\76d2 - 250'-
+),UNISTR(-
+'\540d\7247\76d2\ff0c\5bb9\91cf 250\3002\4f7f\7528\6a23\5f0f BC1'||-
+'10-2\ff0c\7576\8a02\8cfc\8207\5b8c\6210\6240\6709\6b04\4f4d'||-
+'\90fd\6a19\793a\70ba\661f\865f\6642\ff0c\4fee\8a02\65e5\671f'||-
+'\70ba 3/2000 (\786c\5f0f\8907\88fd\6216\7dda\4e0a)\3002'-
+));
+INSERT INTO product_descriptions VALUES(2337-
+,'ZHT'-
+,UNISTR(-
+'\540d\7247 - 1000/2L'-
+),UNISTR(-
+'\540d\7247\76d2\ff0c\5bb9\91cf 1000\ff0c2 \9762\5404\6709\4e0d'||-
+'\540c\8a9e\8a00\3002\4f7f\7528\6a23\5f0f BC111-2\ff0c\8a02\8cfc'||-
+'\6642\ff0c\4fee\8a02\65e5\671f\70ba 12/1999 (\786c\5f0f\8907'||-
+'\88fd\6216\7dda\4e0a)\ff0c\5b8c\6210\6240\6709\6b04\4f4d\90fd'||-
+'\6a19\793a\70ba\661f\865f\4ee5\53ca\7b2c\4e8c\8a9e\8a00\7684'||-
+'\6838\53d6\65b9\584a (\82f1\6587\6c38\9060\662f\7b2c 1 \9762)'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2339-
+,'ZHT'-
+,UNISTR(-
+'\7d19\5f35 - \6a19\6e96\5370\8868\6a5f'-
+),UNISTR(-
+'20 lb. 8.5x11 \82f1\540b\767d\8272\96f7\8272\5370\8868\6a5f\7d19'||-
+'\5f35 (\56de\6536)\ff0c10 \4ee4\ff0c\6bcf\4ee4 500 \5f35'-
+));
+INSERT INTO product_descriptions VALUES(2536-
+,'ZHT'-
+,UNISTR(-
+'\540d\7247 - 250/2L'-
+),UNISTR(-
+'\540d\7247\76d2\ff0c\5bb9\91cf 250\ff0c2 \9762\5404\6709\4e0d'||-
+'\540c\8a9e\8a00\3002\4f7f\7528\6a23\5f0f BC111-2\ff0c\8a02\8cfc'||-
+'\6642\ff0c\4fee\8a02\65e5\671f\70ba 12/1999 (\786c\5f0f\8907'||-
+'\88fd\6216\7dda\4e0a)\ff0c\5b8c\6210\6240\6709\6b04\4f4d\90fd'||-
+'\6a19\793a\70ba\661f\865f\4ee5\53ca\7b2c\4e8c\8a9e\8a00\7684'||-
+'\6838\53d6\65b9\584a (\82f1\6587\6c38\9060\662f\7b2c 1 \9762)'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2537-
+,'ZHT'-
+,UNISTR(-
+'\540d\7247\76d2 - 1000'-
+),UNISTR(-
+'\540d\7247\76d2\ff0c\5bb9\91cf 1000\3002\4f7f\7528\6a23\5f0f BC'||-
+'110-3\ff0c\8a02\8cfc\6642\ff0c\4fee\8a02\65e5\671f\70ba 3/2000 ('||-
+'\786c\5f0f\8907\88fd\6216\7dda\4e0a)\ff0c\5b8c\6210\6240\6709'||-
+'\6b04\4f4d\90fd\6a19\793a\70ba\661f\865f\3002'-
+));
+INSERT INTO product_descriptions VALUES(2783-
+,'ZHT'-
+,UNISTR(-
+'\7d19\593e'-
+),UNISTR(-
+'\4e16\754c\54c1\724c\7684\7d19\593e\8a2d\5b9a\6a19\6e96\54c1'||-
+'\8cea\300210 \76d2\4e2d\6bcf\76d2\7686\6709 100 \500b\7d19\593e'||-
+'\3002#1 \4e00\822c\6216\8d85\5927\3001\5e73\6ed1\6216\9632'||-
+'\6ed1\3002'-
+));
+INSERT INTO product_descriptions VALUES(2808-
+,'ZHT'-
+,UNISTR(-
+'\7d19\677f LY 8 1/2 x 11'-
+),UNISTR(-
+'\7d19\677f\ff0c\9577\689d\72c0\ff0c\9ec3\8272\ff0c\5927\5c0f 8'||-
+' 1/2 x 11 \82f1\540b'-
+));
+INSERT INTO product_descriptions VALUES(2810-
+,'ZHT'-
+,UNISTR(-
+'\58a8\6c34\53ef\8996\92fc\7b46'-
+),UNISTR(-
+'\92fc\73e0\7b46\5177\5e73\6ed1\6613\65bc\66f8\5beb\7684\7b46'||-
+'\5c16\3002\900f\904e\6a61\76ae\7684\63e1\67c4\53ef\4f9b\61c9'||-
+'\53ef\8996\7684\58a8\6c34\30024 \5305\4e2d\6bcf\500b\5404\6709'||-
+' 1 \96bb\9ed1\3001\85cd\3001\7d05\3001\7da0\3002'-
+));
+INSERT INTO product_descriptions VALUES(2870-
+,'ZHT'-
+,UNISTR(-
+'\925b\7b46 - Mech'-
+),UNISTR(-
+'\4eba\9ad4\5de5\5b78\8a2d\8a08\7684\81ea\52d5\925b\7b46\4ee5'||-
+'\6539\5584\66f8\5beb\6d41\5229\5ea6\3002\53ef\66ff\63db\6a61'||-
+'\76ae\7b46\5fc3\3002\6709\4e09\7a2e\7b46\5fc3\5927\5c0f\ff1a .'||-
+'5mm (\7d30))\3001.7mm (\4e2d)) \8207 .9mm (\7c97)\3002'-
+));
+INSERT INTO product_descriptions VALUES(3051-
+,'ZHT'-
+,UNISTR(-
+'\7b46 - 10/MP'-
+),UNISTR(-
+'\6c38\4e45\58a8\6c34\7b46\ff0c\5feb\4e7e\ff0c\9632\64e6\6c61'||-
+'\3002\5e73\6ed1\3001\6613\65bc\66f8\5beb\3002\4e2d\578b\7b46'||-
+'\5c16\3002\55ae\4e00\8272\5f69\76d2 (\9ed1\3001\85cd\3001\7d05'||-
+') \6216\591a\8272\76d2 (6 \9ed1\30013\85cd\30011 \7d05)\3002'-
+));
+INSERT INTO product_descriptions VALUES(3150-
+,'ZHT'-
+,UNISTR(-
+'\540d\7247\67b6 - 25'-
+),UNISTR(-
+'\540d\7247\67b6\ff0c\91cd\578b\5851\81a0\540d\7247\67b6\ff0c'||-
+'\523b\6709\516c\53f8\6a19\8a8c\3002 \4f9d\5361\7247\7684\539a'||-
+'\5ea6\800c\5b9a\ff0c\53ef\7f6e\653e 25 \5f35\540d\7247\3002'-
+));
+INSERT INTO product_descriptions VALUES(3208-
+,'ZHT'-
+,UNISTR(-
+'\925b\7b46 - \6728\88fd'-
+),UNISTR(-
+'2 \76d2\6728\88fd\925b\7b46\3002\6307\5b9a\7b46\5fc3\985e\578b'||-
+'\ff1a2H (\96d9\786c)\ff0cH (\786c)\ff0cHB (\786c\9ed1)\ff0cB ('||-
+'\8edf\9ed1)\3002'-
+));
+INSERT INTO product_descriptions VALUES(3209-
+,'ZHT'-
+,UNISTR(-
+'\524a\925b\7b46\6a5f'-
+),UNISTR(-
+'\96fb\52d5\524a\925b\7b46\ff0c\8010\7528\591a\5c64\92fc\88fd'||-
+'\5200\7247\3002PencilSaver \9632\6b62\524a\5f97\904e\5c16\3002'||-
+'\9632\6ed1\6a61\81a0\7247\3002\5167\5efa\925b\7b46\7f6e\67b6'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(3224-
+,'ZHT'-
+,UNISTR(-
+'\540d\7247\7c3f - 250'-
+),UNISTR(-
+'\5b58\653e\540d\7247\7684\53ef\651c\5f0f\540d\7247\67b6\ff0c'||-
+'\5bb9\91cf 250\3002\5c0f\518a\5b50\6a23\5f0f\ff0c\900f\660e'||-
+'\53e3\888b\53ef\63d2\5165\540d\7247\3002\9078\64c7\6027\7684'||-
+'\5b57\6bcd\6a19\7c64\3002\8a02\8cfc\6642\6307\5b9a\5c01\9762'||-
+'\984f\8272 ((\9ed1\5496\5561\3001\7070\68d5\3001\8461\8404'||-
+'\9152\8272\3001\6de1\7070)\3002'-
+));
+INSERT INTO product_descriptions VALUES(3225-
+,'ZHT'-
+,UNISTR(-
+'\540d\7247\7c3f - 1000'-
+),UNISTR(-
+'\7d44\7e54\540d\7247\7684\5c0f\518a\ff0c\5177\6709\6309\5b57'||-
+'\6bcd\6392\5217\7684\5206\9694\6a19\7c64\ff0c\5bb9\91cf 1000'||-
+'\3002\684c\9762\6a23\5f0f\3001\7070\7159\5c01\9762\8207\9ed1'||-
+'\5e95\3002\53ef\5378\4e0b\84cb\5b50\4ee5\4fbf\5132\653e\5728'||-
+'\5167\90e8\7684\62bd\5c5c\3002'-
+));
+INSERT INTO product_descriptions VALUES(3511-
+,'ZHT'-
+,UNISTR(-
+'\7d19\5f35 - HQ \5370\8868\6a5f'-
+),UNISTR(-
+'\9ad8\7d1a\5674\58a8\7d19\5f35\8207\96f7\5c04\5370\8868\6a5f'||-
+'\4ee5\9632\5370\8868\6a5f\5361\7d19\3002\4e0d\542b\9178\4fbf'||-
+'\65bc\6b78\6a94\300222 \78c5\91cd\ff0c\4eae\5ea6 92\3002 \5927'||-
+'\5c0f\ff1a8 1/2 x 11\3002\5171 1 \4ee4\ff0c1 \4ee4 500 \5f35\3002'-
+));
+INSERT INTO product_descriptions VALUES(3515-
+,'ZHT'-
+,UNISTR(-
+'\53ef\63db\7b46\5fc3'-
+),UNISTR(-
+'\81ea\52d5\925b\7b46\7684\66ff\63db\7b46\5fc3\3002\6bcf\4e00'||-
+'\5305\542b 25 \652f\7b46\5fc3\4ee5\53ca\66ff\63db\6a61\76ae'||-
+'\64e6\3002\6709\4e09\7a2e\5927\5c0f\ff1a.5mm (\7d30))\3001.7mm ('||-
+'\4e2d)) \8207 .9mm (\7d44)\3002'-
+));
+INSERT INTO product_descriptions VALUES(2986-
+,'ZHT'-
+,UNISTR(-
+'\624b\518a - Vision OS/2x +'-
+),UNISTR(-
+'Vision \4f5c\696d\7cfb\7d71 2.x \7248\8207 Vision Office Suite '||-
+'\7684\624b\518a'-
+));
+INSERT INTO product_descriptions VALUES(3163-
+,'ZHT'-
+,UNISTR(-
+'\624b\518a - Vision Net6.3/US'-
+),UNISTR(-
+'Vision Networking 6.3 \7248\53c3\8003\624b\518a\3002\7f8e\570b'||-
+'\7248\6709\9032\968e\7de8\78bc\3002'-
+));
+INSERT INTO product_descriptions VALUES(3165-
+,'ZHT'-
+,UNISTR(-
+'\624b\518a - Vision \5de5\5177 2.0'-
+),UNISTR(-
+'Vision \5546\696d\5de5\5177\5957\4ef6 2.0 \7248\53c3\8003\624b'||-
+'\518a\3002\5305\62ec\5b89\88dd\3001\8a2d\5b9a\8207\4f7f\7528'||-
+'\8005\6307\5357\3002'-
+));
+INSERT INTO product_descriptions VALUES(3167-
+,'ZHT'-
+,UNISTR(-
+'\624b\518a - OS/2.x \7248'-
+),UNISTR(-
+'Vision \4f5c\696d\7cfb\7d71 2.0/2.1/2/3 \7248\53c3\8003\624b\518a'||-
+'\3002\5b8c\6574\5b89\88dd\3001\8a2d\5b9a\3001\7ba1\7406\8207'||-
+'\53d6\5f97 Vision \7cfb\7d71\7ba1\7406\7684\8cc7\8a0a\3002\8acb'||-
+'\6ce8\610f\ff0c\9019\500b\624b\518a\53d6\4ee3 2.0 \8207 2.1 '||-
+'\624b\518a\3002'-
+));
+INSERT INTO product_descriptions VALUES(3216-
+,'ZHT'-
+,UNISTR(-
+'\624b\518a - Vision Net6.3'-
+),UNISTR(-
+'Vision Networking 6.3 \7248\53c3\8003\624b\518a\3002\975e\7f8e'||-
+'\570b\7248\6709\57fa\790e\7684\7de8\78bc\3002'-
+));
+INSERT INTO product_descriptions VALUES(3220-
+,'ZHT'-
+,UNISTR(-
+'\624b\518al - Vision OS/1.2'-
+),UNISTR(-
+'Vision \4f5c\696d\7cfb\7d71 1.2 \7248\53c3\8003\624b\518a\3002'||-
+'\5b8c\6574\5b89\88dd\3001\8a2d\5b9a\3001\7ba1\7406\8207\53d6'||-
+'\5f97 Vision \7cfb\7d71\7ba1\7406\7684\8cc7\8a0a\3002'-
+));
+INSERT INTO product_descriptions VALUES(1729-
+,'ZHT'-
+,UNISTR(-
+'\5316\5b78\85e5\5291 - RCP'-
+),UNISTR(-
+'\6e05\6d17\5316\5b78\85e5\5291 - 3500 \6efe\8f2a\6e05\6d17\588a'-
+));
+INSERT INTO product_descriptions VALUES(1910-
+,'ZHT'-
+,UNISTR(-
+'FG \652f\67b6 - H'-
+),UNISTR(-
+'\73bb\7483\7e96\7dad\652f\67b6 - \8010\7528\578b\ff0c1 \5c64'||-
+'\539a'-
+));
+INSERT INTO product_descriptions VALUES(1912-
+,'ZHT'-
+,UNISTR(-
+'SS \652f\67b6 - 3 \516c\91d0'-
+),UNISTR(-
+'\4e0d\93fd\92fc\652f\67b6 - 3 \516c\91d0\3002\53ef\4ee5\70ba'||-
+'\6a19\6e96\96fb\6e90\4f9b\61c9\5668\3001\4e3b\6a5f\677f\652f'||-
+'\67b6\8207\78c1\789f\9810\5148\947d\5b54\3002\7576\8a02\8cfc'||-
+'\947d\5b54\7684\677f\91d1\6642\ff0c\8acb\4f7f\7528\9069\7576'||-
+'\7684\7bc4\672c\4ee5\8b58\5225\578b\865f\3001\4f4d\7f6e\8207'||-
+'\5b8c\6210\7684\677f\91d1\5927\5c0f\3002'-
+));
+INSERT INTO product_descriptions VALUES(1940-
+,'ZHT'-
+,UNISTR(-
+'ESD \624b\74b0/\9257\5b50'-
+),UNISTR(-
+'\9632\975c\96fb\624b\74b0\4ee5\53ca\9c77\9b5a\9257\4ee5\4fbf'||-
+'\8f15\6613\9023\63a5\81f3\96fb\8166\5e95\90e8\6216\5176\4ed6'||-
+'\5730\65b9\3002'-
+));
+INSERT INTO product_descriptions VALUES(2030-
+,'ZHT'-
+,UNISTR(-
+'\76ae\69f3\624b\5957'-
+),UNISTR(-
+'\7d44\88dd\54e1\3001\5316\5b78\85e5\5291\64cd\4f5c\8005\3001'||-
+'\88dd\914d\5de5\6240\4f7f\7528\7684\6a61\81a0\624b\5957\3002'||-
+'\8010\7528\3001\5b89\5168\6a58\8272\4ee5\53ca\5728\624b\6307'||-
+'\8207\62c7\6307\6709\7e54\7d0b\7684\8a2d\8a08\3002\9632\6c34'||-
+'\8207\9632\9707\6700\9ad8\53ef\9054 220 \4f0f\7279/2 \5b89\57f9'||-
+'\ff0c110 \4f0f\7279/5 \5b89\57f9\3002 \9632\9178\6642\9593\6700'||-
+'\9577\53ef\9054 5 \5206\9418\3002'-
+));
+INSERT INTO product_descriptions VALUES(2326-
+,'ZHT'-
+,UNISTR(-
+'\5851\81a0\652f\67b6 - Y'-
+),UNISTR(-
+'\5851\81a0\652f\67b6 - \9ec3\8272\3001\6a19\6e96\54c1\8cea'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2330-
+,'ZHT'-
+,UNISTR(-
+'\5851\81a0\652f\67b6 - R'-
+),UNISTR(-
+'\5851\81a0\652f\67b6 - \7d05\8272\3001\6a19\6e96\54c1\8cea'||-
+'\3002'-
+));
+INSERT INTO product_descriptions VALUES(2334-
+,'ZHT'-
+,UNISTR(-
+'\5408\6210\6a39\8102'-
+),UNISTR(-
+'\4e00\822c\76ee\7684\7684\5408\6210\6a39\8102\3002'-
+));
+INSERT INTO product_descriptions VALUES(2340-
+,'ZHT'-
+,UNISTR(-
+'\5316\5b78\85e5\5291 - SW'-
+),UNISTR(-
+'\6e05\6f54\5316\5b78\85e5\5291 - \53ef\64e6 3500 \6b21'-
+));
+INSERT INTO product_descriptions VALUES(2365-
+,'ZHT'-
+,UNISTR(-
+'\5316\5b78\85e5\5291 - TCS'-
+),UNISTR(-
+'\6e05\6f54\5316\5b78\85e5\5291 - 2500 \50b3\8f38\6e05\6f54\677f'||-
+'\91d1'-
+));
+INSERT INTO product_descriptions VALUES(2594-
+,'ZHT'-
+,UNISTR(-
+'FG \652f\67b6 - L'-
+),UNISTR(-
+'\73bb\7483\7e96\7dad\652f\67b6 - \8f15\5de7\578b\3001\5167'||-
+'\90e8\9632\71b1\8b77\5957\ff0c1/4 \539a'-
+));
+INSERT INTO product_descriptions VALUES(2596-
+,'ZHT'-
+,UNISTR(-
+'SS \652f\67b6 - 1\516c\91d0'-
+),UNISTR(-
+'\4e0d\93fd\92fc\652f\67b6 - 3 \516c\91d0\3002\53ef\4ee5\70ba'||-
+'\6a19\6e96\6a5f\578b\7684\4e3b\6a5f\677f\8207\96fb\6c60\652f'||-
+'\67b6\9810\5148\947d\5b54\3002\7576\8a02\8cfc\947d\5b54\7684'||-
+'\677f\91d1\6642\ff0c\8acb\4f7f\7528\9069\7576\7684\7bc4\672c'||-
+'\4ee5\8b58\5225\578b\865f\3001\4f4d\7f6e\8207\5b8c\6210\7684'||-
+'\677f\91d1\5927\5c0f\3002'-
+));
+INSERT INTO product_descriptions VALUES(2631-
+,'ZHT'-
+,UNISTR(-
+'ESD \624b\74b0/QR'-
+),UNISTR(-
+'\9632\975c\96fb\624b\74b0\ff1a2 \7247\5177\6709\5feb\901f\91cb'||-
+'\653e\9023\63a5\5668\7684\925b\3002\4e00\7247\4f7f\7528\87ba'||-
+'\7d72\8207\96fb\8166\5e95\5ea7\6c38\4e45\9023\63a5\ff0c\53e6'||-
+'\4e00\7247\8207\624b\74b0\9023\63a5\3002\6709\5176\4ed6\53ef'||-
+'\4f7f\7528\7684\6c38\4e45\7aef\3002'-
+));
+INSERT INTO product_descriptions VALUES(2721-
+,'ZHT'-
+,UNISTR(-
+'PC \888b - L/S'-
+),UNISTR(-
+'\9ed1\8272\96fb\8166\76ae\7bb1 - \53ef\88dd\4e00\53f0\7b46'||-
+'\8a18\578b\96fb\8166\ff0c\8a2d\6709\53e3\888b\53ef\88dd\624b'||-
+'\518a\3001\5176\4ed6\786c\9ad4\8207\5de5\4f5c\6587\4ef6\3002'||-
+'\53ef\8abf\6574\7684\9632\8b77\80cc\5e36\8207\53ef\5378\9664'||-
+'\7684\96fb\6e90\4f9b\61c9\5668\8207\7e9c\7dda\53e3\888b\3002'-
+));
+INSERT INTO product_descriptions VALUES(2722-
+,'ZHT'-
+,UNISTR(-
+'PC \888b - L/D'-
+),UNISTR(-
+'\9ed1\8272\96fb\8166\76ae\7bb1 - \53ef\88dd\5169\53f0\7b46'||-
+'\8a18\578b\96fb\8166\ff0c\8a2d\6709\53e3\888b\53ef\88dd\5176'||-
+'\4ed6\786c\9ad4\6216\624b\518a\8207\5de5\4f5c\6587\4ef6\3002'||-
+'\53ef\8abf\6574\7684\9632\8b77\80cc\5e36\8207\53ef\5378\9664'||-
+'\7684\96fb\6e90\4f9b\61c9\5668\8207\7e9c\7dda\53e3\888b\3002'||-
+'\8a2d\6709\96d9\500d\5bec\7684\80a9\5e36\ff0c\8b93\80cc\8d77'||-
+'\4f86\66f4\8212\9069\3002'-
+));
+INSERT INTO product_descriptions VALUES(2725-
+,'ZHT'-
+,UNISTR(-
+'\6a5f\68b0\6cb9'-
+),UNISTR(-
+'CD-ROM \5149\789f\6a5f\9580\8207\6ed1\7247\7684\6f64\6ed1\6cb9'||-
+'\3002\81ea\52d5\6e05\7406\7684\53ef\8abf\6574\5674\5634\ff0c'||-
+'\6709\7d30\5674\8207\4e2d\5674\3002'-
+));
+INSERT INTO product_descriptions VALUES(2782-
+,'ZHT'-
+,UNISTR(-
+'PC \888b - C/S'-
+),UNISTR(-
+'\5e06\5e03\96fb\8166\76ae\7bb1 - \53ef\88dd\4e00\53f0\7b46'||-
+'\8a18\578b\96fb\8166\ff0c\8a2d\6709\53e3\888b\53ef\88dd\624b'||-
+'\518a\3001\5176\4ed6\786c\9ad4\8207\5de5\4f5c\6587\4ef6\3002'||-
+'\53ef\8abf\6574\7684\9632\8b77\80cc\5e36\8207\53ef\5378\9664'||-
+'\7684\96fb\6e90\4f9b\61c9\5668\8207\7e9c\7dda\53e3\888b\3002'||-
+'\5728\53e3\888b\5916\8a2d\6709\4fbf\65bc\65c5\884c\4f7f\7528'||-
+'\7684\6263\74b0\3002'-
+));
+INSERT INTO product_descriptions VALUES(3187-
+,'ZHT'-
+,UNISTR(-
+'\5851\81a0\652f\67b6 - B/HD'-
+),UNISTR(-
+'\5851\81a0\652f\67b6 - \85cd\8272\3001\9ad8\5bc6\5ea6\3002'-
+));
+INSERT INTO product_descriptions VALUES(3189-
+,'ZHT'-
+,UNISTR(-
+'\5851\81a0\652f\67b6 - G'-
+),UNISTR(-
+'\5851\81a0\652f\67b6 - \7da0\8272\3001\9ad8\5bc6\5ea6\3002'-
+));
+INSERT INTO product_descriptions VALUES(3191-
+,'ZHT'-
+,UNISTR(-
+'\5851\81a0\652f\67b6 - O'-
+),UNISTR(-
+'\5851\81a0\652f\67b6 - \6a58\8272\3001\9ad8\5bc6\5ea6\3002'-
+));
+INSERT INTO product_descriptions VALUES(3193-
+,'ZHT'-
+,UNISTR(-
+'\5851\81a0\652f\67b6 - W/HD'-
+),UNISTR(-
+'\5851\81a0\652f\67b6 - \767d\8272\3001\9ad8\5bc6\5ea6\3002'-
+));
+commit;
+set define on

@@ -1,0 +1,39 @@
+<PurchaseOrder
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+  <Reference>SBELL-2002100912333601PDT</Reference>
+  <Actions>
+    <Action>
+      <User>SVOLLMAN</User>
+    </Action>
+  </Actions>
+  <Reject/>
+  <Requestor>Sarah J. Bell</Requestor>
+  <User>SBELL</User>
+  <CostCenter>S30</CostCenter>
+  <ShippingInstructions>
+    <name>Sarah J. Bell</name>
+    <address>400 Oracle Parkway
+      Redwood Shores
+      CA
+      94065
+      USA</address>
+    <telephone>650 506 7400</telephone>
+  </ShippingInstructions>
+  <SpecialInstructions>Air Mail</SpecialInstructions>
+  <LineItems>
+    <LineItem ItemNumber="1">
+      <Description>A Night to Remember</Description>
+      <Part Id="715515009058" UnitPrice="39.95" Quantity="2"/>
+    </LineItem>
+    <LineItem ItemNumber="2">
+      <Description>The Unbearable Lightness Of Being</Description>
+      <Part Id="37429140222" UnitPrice="29.95" Quantity="2"/>
+    </LineItem>
+    <LineItem ItemNumber="3">
+      <Description>Sisters</Description>
+      <Part Id="715515011020" UnitPrice="29.95" Quantity="4"/>
+    </LineItem>
+  </LineItems>
+</PurchaseOrder>
+

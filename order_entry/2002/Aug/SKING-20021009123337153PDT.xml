@@ -1,0 +1,69 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SKING-20021009123337153PDT</Reference>
+   <Actions>
+      <Action>
+         <User/>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Steven A. King</Requestor>
+   <User>SKING</User>
+   <CostCenter>A10</CostCenter>
+   <ShippingInstructions>
+      <name>Steven A. King</name>
+      <address>500 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7500</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Salo</Description>
+         <Part Id="715515009225" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Red Beard</Description>
+         <Part Id="37429168820" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>The Lady Eve</Description>
+         <Part Id="715515011624" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>The Bank Dick</Description>
+         <Part Id="715515010627" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Good Morning</Description>
+         <Part Id="37429149621" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Chasing Amy</Description>
+         <Part Id="717951002372" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>The Shop on Main Street</Description>
+         <Part Id="37429156124" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>The Rock</Description>
+         <Part Id="786936150421" UnitPrice="49.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Seven Samurai</Description>
+         <Part Id="37429121726" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Beauty and the Beast</Description>
+         <Part Id="37429122020" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Charade</Description>
+         <Part Id="37429139424" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,69 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>TFOX-20021009123337994PDT</Reference>
+   <Actions>
+      <Action>
+         <User>GCAMBRAU</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Tayler L. Fox</Requestor>
+   <User>TFOX</User>
+   <CostCenter>R20</CostCenter>
+   <ShippingInstructions>
+      <name>Tayler L. Fox</name>
+      <address>100 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7100</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>In the Mood for Love</Description>
+         <Part Id="715515012928" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Insomnia</Description>
+         <Part Id="37429138229" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>How to Get Ahead in Advertising</Description>
+         <Part Id="715515012324" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>The Lady Vanishes</Description>
+         <Part Id="37429122129" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>The Hidden Fortress</Description>
+         <Part Id="37429135129" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Oliver Twist</Description>
+         <Part Id="37429128121" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>Insomnia</Description>
+         <Part Id="37429138229" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Diary of a Chambermaid</Description>
+         <Part Id="37429158128" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Traffic</Description>
+         <Part Id="696306038924" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Day of Wrath </Description>
+         <Part Id="37429158722" UnitPrice="0.0" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>A Night to Remember</Description>
+         <Part Id="715515009058" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

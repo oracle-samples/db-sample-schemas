@@ -1,0 +1,65 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SKING-20021009123337383PDT</Reference>
+   <Actions>
+      <Action>
+         <User/>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Steven A. King</Requestor>
+   <User>SKING</User>
+   <CostCenter>A10</CostCenter>
+   <ShippingInstructions>
+      <name>Steven A. King</name>
+      <address>500 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7500</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Good Morning</Description>
+         <Part Id="37429149621" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>The Last Temptation of Christ</Description>
+         <Part Id="715515010528" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Insomnia</Description>
+         <Part Id="37429138229" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Yojimbo</Description>
+         <Part Id="37429141328" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Beauty and the Beast</Description>
+         <Part Id="37429122020" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Vagabond</Description>
+         <Part Id="37429148921" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>That Obscure Object of Desire</Description>
+         <Part Id="37429162026" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Good Morning</Description>
+         <Part Id="37429149621" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Pygmalion</Description>
+         <Part Id="37429151822" UnitPrice="29.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Flesh for Frankenstein</Description>
+         <Part Id="715515009423" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

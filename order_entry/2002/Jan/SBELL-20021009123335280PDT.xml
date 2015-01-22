@@ -1,0 +1,105 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SBELL-20021009123335280PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SVOLLMAN</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Sarah J. Bell</Requestor>
+   <User>SBELL</User>
+   <CostCenter>S30</CostCenter>
+   <ShippingInstructions>
+      <name>Sarah J. Bell</name>
+      <address>400 Oracle Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7400</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Courier</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>All That Heaven Allows</Description>
+         <Part Id="715515011426" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>Picnic at Hanging Rock</Description>
+         <Part Id="37429126325" UnitPrice="29.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>And God Created Woman</Description>
+         <Part Id="37429147825" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>A Nous la Liberte</Description>
+         <Part Id="37429147726" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>Billy Liar</Description>
+         <Part Id="37429159224" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Loves of a Blonde</Description>
+         <Part Id="37429165423" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>A Night to Remember</Description>
+         <Part Id="715515009058" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>Wild Strawberries</Description>
+         <Part Id="37429162422" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Rushmore</Description>
+         <Part Id="715515010429" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>Dead Ringers</Description>
+         <Part Id="715515009249" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Seven Samurai</Description>
+         <Part Id="37429121726" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>The Element of Crime</Description>
+         <Part Id="37429149423" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="13">
+         <Description>Sisters</Description>
+         <Part Id="715515011020" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="14">
+         <Description>Alexander Nevsky</Description>
+         <Part Id="37429149225" UnitPrice="0.0" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="15">
+         <Description>Fiend without a Face</Description>
+         <Part Id="715515011327" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="16">
+         <Description>W.C. Fields - Six Short Films</Description>
+         <Part Id="715515010726" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="17">
+         <Description>Ordet</Description>
+         <Part Id="37429158623" UnitPrice="0.0" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="18">
+         <Description>Kwaidan</Description>
+         <Part Id="37429152027" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="19">
+         <Description>Andrei Rublev</Description>
+         <Part Id="715515009928" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="20">
+         <Description>Alexander Nevsky</Description>
+         <Part Id="37429149225" UnitPrice="0.0" Quantity="4"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

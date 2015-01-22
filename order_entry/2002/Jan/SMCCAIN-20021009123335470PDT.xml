@@ -1,0 +1,73 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SMCCAIN-20021009123335470PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SVOLLMAN</User>
+      </Action>
+   </Actions>
+   <Reject/>
+   <Requestor>Samuel B. McCain</Requestor>
+   <User>SMCCAIN</User>
+   <CostCenter>A10</CostCenter>
+   <ShippingInstructions>
+      <name>Samuel B. McCain</name>
+      <address>800 Bridge Parkway
+Redwood Shores
+CA
+94065
+USA</address>
+      <telephone>650 506 7800</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Courier</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Description>Life of Brian - Monty Python's</Description>
+         <Part Id="715515010320" UnitPrice="39.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Description>The Night Porter</Description>
+         <Part Id="37429145227" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Description>Oliver Twist</Description>
+         <Part Id="37429128121" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Description>Notorious</Description>
+         <Part Id="715515012720" UnitPrice="39.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Description>In the Mood for Love</Description>
+         <Part Id="715515012928" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Description>Alphaville</Description>
+         <Part Id="37429130926" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Description>General Idi Amin Dada</Description>
+         <Part Id="37429166529" UnitPrice="29.95" Quantity="4"/>
+      </LineItem>
+      <LineItem ItemNumber="8">
+         <Description>In the Mood for Love</Description>
+         <Part Id="715515012928" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="9">
+         <Description>Flesh for Frankenstein</Description>
+         <Part Id="715515009423" UnitPrice="39.95" Quantity="3"/>
+      </LineItem>
+      <LineItem ItemNumber="10">
+         <Description>The Killer</Description>
+         <Part Id="715515008976" UnitPrice="39.95" Quantity="1"/>
+      </LineItem>
+      <LineItem ItemNumber="11">
+         <Description>Ballad of a Soldier</Description>
+         <Part Id="37429167922" UnitPrice="29.95" Quantity="2"/>
+      </LineItem>
+      <LineItem ItemNumber="12">
+         <Description>Ordet</Description>
+         <Part Id="37429158623" UnitPrice="0.0" Quantity="2"/>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

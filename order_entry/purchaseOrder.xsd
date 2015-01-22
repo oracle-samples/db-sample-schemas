@@ -1,0 +1,158 @@
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xdb="http://xmlns.oracle.com/xdb"
+  version="1.0"
+  xdb:storeVarrayAsTable="true">
+  <xs:element name="PurchaseOrder" type="PurchaseOrderType" xdb:defaultTable="PURCHASEORDER"/>
+  <xs:complexType name="PurchaseOrderType" xdb:SQLType="PURCHASEORDER_T">
+    <xs:sequence>
+      <xs:element name="Reference" type="ReferenceType" minOccurs="1" xdb:SQLName="REFERENCE"/>
+      <xs:element name="Actions" type="ActionsType" xdb:SQLName="ACTIONS"/>
+      <xs:element name="Reject" type="RejectionType" minOccurs="0" xdb:SQLName="REJECTION"/>
+      <xs:element name="Requestor" type="RequestorType" xdb:SQLName="REQUESTOR"/>
+      <xs:element name="User" type="UserType" minOccurs="1" xdb:SQLName="USERID"/>
+      <xs:element name="CostCenter" type="CostCenterType" xdb:SQLName="COST_CENTER"/>
+      <xs:element name="ShippingInstructions" type="ShippingInstructionsType"
+                  xdb:SQLName="SHIPPING_INSTRUCTIONS"/>
+      <xs:element name="SpecialInstructions" type="SpecialInstructionsType"
+                  xdb:SQLName="SPECIAL_INSTRUCTIONS"/>
+      <xs:element name="LineItems" type="LineItemsType" xdb:SQLName="LINEITEMS"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LineItemsType" xdb:SQLType="LINEITEMS_T">
+    <xs:sequence>
+      <xs:element name="LineItem" type="LineItemType" maxOccurs="unbounded"
+                  xdb:SQLName="LINEITEM" xdb:SQLCollType="LINEITEM_V"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LineItemType" xdb:SQLType="LINEITEM_T">
+    <xs:sequence>
+      <xs:element name="Description" type="DescriptionType" xdb:SQLName="DESCRIPTION"/>
+      <xs:element name="Part" type="PartType" xdb:SQLName="PART"/>
+    </xs:sequence>
+    <xs:attribute name="ItemNumber" type="xs:integer" xdb:SQLName="ITEMNUMBER"
+                  xdb:SQLType="NUMBER"/>
+  </xs:complexType>
+  <xs:complexType name="PartType" xdb:SQLType="PART_T">
+    <xs:attribute name="Id" xdb:SQLName="PART_NUMBER" xdb:SQLType="VARCHAR2">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:minLength value="10"/>
+          <xs:maxLength value="14"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="Quantity" type="quantityType" xdb:SQLName="QUANTITY"/>
+    <xs:attribute name="UnitPrice" type="moneyType" xdb:SQLName="UNITPRICE"/>
+  </xs:complexType>
+  <xs:simpleType name="ReferenceType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="18"/>
+      <xs:maxLength value="30"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ActionsType" xdb:SQLType="ACTIONS_T">
+    <xs:sequence>
+      <xs:element name="Action" maxOccurs="4" xdb:SQLName="ACTION" xdb:SQLCollType="ACTION_V">
+        <xs:complexType xdb:SQLType="ACTION_T">
+          <xs:sequence>
+            <xs:element name="User" type="UserType" xdb:SQLName="ACTIONED_BY"/>
+            <xs:element name="Date" type="DateType" minOccurs="0" xdb:SQLName="DATE_ACTIONED"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RejectionType" xdb:SQLType="REJECTION_T">
+    <xs:all>
+      <xs:element name="User" type="UserType" minOccurs="0" xdb:SQLName="REJECTED_BY"/>
+      <xs:element name="Date" type="DateType" minOccurs="0" xdb:SQLName="DATE_REJECTED"/>
+      <xs:element name="Comments" type="CommentsType" minOccurs="0" xdb:SQLName="REASON_REJECTED"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ShippingInstructionsType" xdb:SQLType="SHIPPING_INSTRUCTIONS_T">
+    <xs:sequence>
+      <xs:element name="name" type="NameType" minOccurs="0" xdb:SQLName="SHIP_TO_NAME"/>
+      <xs:element name="address" type="AddressType" minOccurs="0" xdb:SQLName="SHIP_TO_ADDRESS"/>
+      <xs:element name="telephone" type="TelephoneType" minOccurs="0" xdb:SQLName="SHIP_TO_PHONE"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="moneyType">
+    <xs:restriction base="xs:decimal">
+      <xs:fractionDigits value="2"/>
+      <xs:totalDigits value="12"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="quantityType">
+    <xs:restriction base="xs:decimal">
+      <xs:fractionDigits value="4"/>
+      <xs:totalDigits value="8"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="UserType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="0"/>
+      <xs:maxLength value="10"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="RequestorType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="0"/>
+      <xs:maxLength value="128"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="CostCenterType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="4"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="VendorType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="0"/>
+      <xs:maxLength value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="PurchaseOrderNumberType">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+  <xs:simpleType name="SpecialInstructionsType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="0"/>
+      <xs:maxLength value="2048"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="NameType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="AddressType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="256"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TelephoneType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="24"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DateType">
+    <xs:restriction base="xs:date"/>
+  </xs:simpleType>
+  <xs:simpleType name="CommentsType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="2048"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DescriptionType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="256"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
