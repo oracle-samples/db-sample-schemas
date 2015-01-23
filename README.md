@@ -31,12 +31,12 @@ concepts.  The schemas themselves are documented in
 
 The schemas are:
 
-- HR: Human Resources
-- OE: Order Entry
-- PM: Product Media
-- IX: Information Exchange
-- SH: Sales History
-- BI: Business Intelligence
+- HR: *Human Resources*
+- OE: *Order Entry*
+- PM: *Product Media*
+- IX: *Information Exchange*
+- SH: *Sales History*
+- BI: *Business Intelligence*
 
 *Due to widespread dependence on these scripts in their current form,
 no pull requests for changes can be accepted.*
@@ -121,7 +121,7 @@ sqlplus system/systempw
 @mksample systempw syspw hrpw oepw pmpw ixpw shpw bipw users temp /your/path/to/log/
 ```
 
-*Note: Use an absolute path and also append a trailing slash to the log directory name.*
+*Note*: Use an absolute path and also append a trailing slash to the log directory name.
 
 Use your current SYSTEM and SYS passwords, and also your actual
 default and temporary tablespace names.  The passwords for the new
@@ -138,13 +138,13 @@ Review output in your log directory for errors.
 
 ### 3.1. Set the Oracle environment
 
-```
+```shell
 source /usr/local/bin/oraenv
 ```
 
-### 3.>2. Run the schema removal script
+### 3.2. Run the schema removal script
 
-```
+```shell
 sqlplus system/systempw 
 @drop_sch.sql
 ```
