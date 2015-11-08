@@ -1,4 +1,4 @@
-Rem $Header: bi_views.sql 07-may-2003.10:15:44 ahunold Exp $
+Rem $Header: bi_views.sql 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem Copyright (c) 2002, 2015, Oracle Corporation.  All rights reserved.  
 Rem 
@@ -28,6 +28,8 @@ Rem    DESCRIPTION
 Rem      tbd
 Rem
 Rem    MODIFIED     (MM/DD/YY)
+Rem      smtaylor    03/19/15 - added parameter 2, connect_string
+Rem      smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem      ahunold     05/07/03 - no COMPANY_ID
 Rem      ahunold     09/18/02 - ahunold_sep17_02
 Rem      ahunold     09/17/02 - created
@@ -44,8 +46,11 @@ PROMPT
 PROMPT specify password for BI as parameter 1:
 DEFINE bi_pass             = &1
 PROMPT
+PROMPT specify connect string as parameter 2:
+DEFINE connect_string     = &2
+PROMPT
 
-CONNECT bi/&bi_pass;
+CONNECT bi/&bi_pass@&connect_string;
 
 CREATE SYNONYM channels		FOR sh.channels;
 CREATE SYNONYM countries	FOR sh.countries;

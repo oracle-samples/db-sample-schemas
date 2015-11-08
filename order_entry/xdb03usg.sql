@@ -1,5 +1,5 @@
 Rem
-Rem $Header: rdbms/demo/schema/order_entry/xdb03usg.sql /main/6 2012/08/08 17:51:26 celsbern Exp $
+Rem $Header: rdbms/demo/schema/order_entry/xdb03usg.sql /main/6 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem coe_xml.sql
 Rem
@@ -34,6 +34,7 @@ Rem    NOTES
 Rem      .
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    smtaylor    03/19/15 - added @&&connect_string to CONNECT
 Rem    celsbern    06/15/12 - using force=TRUE on registerSchema
 Rem    bhammers    01/24/11 - bug 11790062: rename XDB_ to COE_, bug 11790009: 
 Rem                           consistent variable name for sys pwd 
@@ -90,8 +91,8 @@ END;
 /
 
 -- revoke the grant of execute on the SUBDIR directory 
-CONNECT sys/&&pass_sys AS SYSDBA;
+CONNECT sys/&&pass_sys@&&connect_string AS SYSDBA;
  
 revoke execute on directory SUBDIR from OE
 /
-CONNECT OE/&pass_oe
+CONNECT OE/&pass_oe@&&connect_string

@@ -1,5 +1,5 @@
 Rem
-Rem $Header: hr_drop.sql 29-aug-2002.11:44:07 hyeh Exp $
+Rem $Header: hr_drop.sql 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem hr_drop.sql
 Rem
@@ -34,6 +34,8 @@ Rem    NOTES
 Rem
 Rem    CREATED by Nancy Greenberg - 06/01/00
 Rem    MODIFIED   (MM/DD/YY)
+Rem    smtaylor    03/19/15 - added parameter 2, connect_string
+Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem    hyeh        08/29/02 - hyeh_mv_comschema_to_rdbms
 Rem    ahunold     02/20/01 - New header, non-table objects
 Rem    vpatabal    03/02/01 - DROP TABLE region 
@@ -46,7 +48,7 @@ SET TAB OFF
 SET PAGESIZE 100
 SET ECHO OFF
 
-CONNECT hr/&password_HR
+CONNECT hr/&password_HR@&connect_string
 
 DROP PROCEDURE add_job_history;
 DROP PROCEDURE secure_dml;

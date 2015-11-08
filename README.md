@@ -47,7 +47,7 @@ no pull requests for changes can be accepted.*
 accounts named HR, OE, PM, IX, SH or BI.
 
 The installation scripts are designed to run on a database host with
-Oracle Database 12.1, non CDB.  Privileged database access is required
+Oracle Database 12.1.  Privileged database access is required
 during installation.
 
 The instructions below work on Linux and similar operating systems.
@@ -117,8 +117,8 @@ Start SQL*Plus and run the top level installation script as
 discussed in [README.txt](#README.txt):
 
 ```shell
-sqlplus system/systempw
-@mksample systempw syspw hrpw oepw pmpw ixpw shpw bipw users temp /your/path/to/log/
+sqlplus system/systempw@connect_string
+@mksample systempw syspw hrpw oepw pmpw ixpw shpw bipw users temp /your/path/to/log/ connect_string
 ```
 
 *Note*: Use an absolute path and also append a trailing slash to the log directory name.
@@ -127,6 +127,13 @@ Use your current SYSTEM and SYS passwords, and also your actual
 default and temporary tablespace names.  The passwords for the new
 HR, OE, PM, IX, SH and BI users will be set to the values you
 specify.
+
+Using a connect string permits connections to non-container databases and 
+pluggable database using the same syntax.
+
+An example of connect strings for databases with services noncdb and pdb:
+  localhost:1521/noncdb
+  localhost:1521/pdb
 
 ### 2.7. Review the installation logs
 
@@ -145,8 +152,8 @@ source /usr/local/bin/oraenv
 ### 3.2. Run the schema removal script
 
 ```shell
-sqlplus system/systempw 
+sqlplus system/systempw@connect_string
 @drop_sch.sql
 ```
 
-When prompted, enter the SYSTEM password and a log file name.
+When prompted, enter the SYSTEM password, a log file name, and connect string.

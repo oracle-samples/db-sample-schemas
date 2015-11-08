@@ -1,5 +1,5 @@
 Rem
-Rem $Header: rdbms/demo/schema/sales_history/lsh_v3.sql /main/16 2013/07/24 08:50:34 jstenois Exp $
+Rem $Header: rdbms/demo/schema/sales_history/lsh_v3.sql /main/16 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem vsh_v3.sql
 Rem
@@ -34,6 +34,8 @@ Rem    NOTES
 Rem      <other useful comments, qualifications, etc.>
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    smtaylor    03/19/15 - added parameter 5, connect_string
+Rem    smtaylor    03/19/15 - added @&connect_string to sqlldr
 Rem    jstenois    07/01/13 - Fix TERRITORY to be AMERICA; not AMERICAN
 Rem    cbauwens    03/06/08 - NLS setting for load
 Rem    bmccarth    04/20/07 - add Territory American to et statement
@@ -77,6 +79,9 @@ PROMPT
 PROMPT specify version as parameter 4:
 DEFINE vrs = &4
 PROMPT
+PROMPT specify connect string as parameter 5:
+DEFINE connect_string     = &5
+PROMPT
 
 SET PAGESIZE 0
 
@@ -100,7 +105,7 @@ PROMPT   &ctl_file
 PROMPT   &dat_file
 PROMPT   &log_file
 
-HOST sqlldr sh/&sh_pass  -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=1000
@@ -119,7 +124,7 @@ PROMPT   &ctl_file
 PROMPT   &dat_file
 PROMPT   &log_file
 
-HOST sqlldr sh/&sh_pass  -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=1000
@@ -138,7 +143,7 @@ PROMPT   &ctl_file
 PROMPT   &dat_file
 PROMPT   &log_file
 
-HOST sqlldr sh/&sh_pass  -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=10000
@@ -159,7 +164,7 @@ PROMPT   &ctl_file
 PROMPT   &dat_file
 PROMPT   &log_file
 
-HOST sqlldr sh/&sh_pass  -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=10000
@@ -179,7 +184,7 @@ PROMPT   &ctl_file
 PROMPT   &dat_file
 PROMPT   &log_file
 
-HOST sqlldr sh/&sh_pass  -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=10
@@ -199,7 +204,7 @@ PROMPT   &ctl_file
 PROMPT   &dat_file
 PROMPT   &log_file
 
-HOST sqlldr sh/&sh_pass  -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=10
@@ -220,7 +225,7 @@ PROMPT   &ctl_file
 PROMPT   &dat_file
 PROMPT   &log_file
 
-HOST sqlldr sh/&sh_pass  -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=100000
@@ -310,7 +315,7 @@ PROMPT   &dat_file
 PROMPT   &log_file
 
 
-HOST sqlldr sh/&sh_pass  -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=100
@@ -330,7 +335,7 @@ PROMPT   &ctl_file
 PROMPT   &dat_file
 PROMPT   &log_file
 
-HOST sqlldr sh/&sh_pass  -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=10

@@ -1,4 +1,6 @@
 rem
+rem $Header: ix_main.sql 2015/03/19 10:23:26 smtaylor Exp $
+rem
 rem Copyright (c) 2001, 2015, Oracle and/or its affiliates.  All rights reserved. 
 rem 
 rem Permission is hereby granted, free of charge, to any person obtaining
@@ -34,6 +36,8 @@ rem   Prerequisites:
 rem     Tablespaces present
 rem
 rem MODIFIED   (MM/DD/YY)
+rem   smtaylor  03/19/15 - added parameter 7, connect_string
+rem   smtaylor  03/19/15 - added @&connect_string to CONNECT
 rem   celsbern  07/02/12 - added explicit analyze of ix schema at finish.
 rem   jmadduku  02/18/11 - Grant Unlimited Tablespace priv with RESOURCE
 rem   ahunold   10/25/02 - gather_schema_stats
@@ -62,6 +66,9 @@ DEFINE log_path = &5
 PROMPT
 PROMPT specify version as parameter 6:
 DEFINE vrs = &6
+PROMPT
+PROMPT specify connect string as parameter 7:
+DEFINE connect_string     = &7
 PROMPT
 
 -- The first dot in the spool command below is 
@@ -137,7 +144,7 @@ REM =======================================================
 REM Grant privilege for Streams, where appropriate
 REM =======================================================
 
-CONNECT sys/&pass_sys AS SYSDBA;
+CONNECT sys/&pass_sys@&connect_string AS SYSDBA;
 
 SET SERVEROUTPUT ON
 
@@ -197,7 +204,7 @@ REM =======================================================
 REM Create objects - message, queuetable, queue
 REM =======================================================
 
-CONNECT ix/&pass
+CONNECT ix/&pass@&connect_string
 
 DEFINE vscript = __SUB__CWD__/info_exchange/cix_&vrs
 @&vscript
@@ -206,7 +213,7 @@ REM =======================================================
 REM Using The Queues and Verification
 REM =======================================================
 
-CONNECT ix/&pass
+CONNECT ix/&pass@&connect_string
 
 DEFINE vscript = __SUB__CWD__/info_exchange/vix_&vrs
 @&vscript
@@ -217,7 +224,7 @@ REM stats.
 REM Do it as SYS so we do not have any grant problems.
 REM =======================================================
 
-connect sys/&pass_sys AS SYSDBA;
+connect sys/&pass_sys@&connect_string AS SYSDBA;
 
 EXECUTE dbms_stats.gather_schema_stats('IX');
 

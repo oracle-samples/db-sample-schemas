@@ -1,5 +1,5 @@
 Rem
-Rem $Header: rdbms/demo/schema/order_entry/createUser.sql.sbs /main/4 2011/03/02 22:41:26 bhammers Exp $
+Rem $Header: rdbms/demo/schema/order_entry/createUser.sql.sbs /main/4 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem coe_xml.sql
 Rem
@@ -34,14 +34,28 @@ Rem    NOTES
 Rem      Instantiates createUser.sql. Sets s_oePath
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    smtaylor    03/19.15 - added prompts for parameters 1 and 2
+Rem    smtaylor    03/19/15 - added parameter 3, connect_string
+Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
+Rem    smtaylor    03/19/15 - added pararmeter &connect_string to script calls
 Rem    bhammers    02/24/11 - 11790077:do not delete home directory if existent
-Rem    bhammers  01/24/11 - bug 11790009: consistent variable name for sys pwd 
+Rem    bhammers    01/24/11 - bug 11790009: consistent variable name for sys pwd 
 Rem    celsbern    07/17/09 - added explicit revoke of execute on directory
 Rem                           objects
 Rem    celsbern    02/24/09 - renamed XMLDIR to SS_OE_XMLDIR
 Rem    cbauwens    09/23/04 - cbauwens_bug3031915
 Rem    cbauwens    03/16/04 - Created
-            
+
+PROMPT
+PROMPT specify password for OE as parameter 1:
+DEFINE pass_oe  = &1
+PROMPT
+PROMPT PROMPT password for SYS as parameter 2:
+DEFINE pass_sys = &2
+PROMPT
+PROMPT specify connect string as parameter 3:
+DEFINE connect_string = &3
+PROMPT
 
 DECLARE
   targetFolder VARCHAR2(256) := '/home';
@@ -61,7 +75,7 @@ BEGIN
 END;
 / 
 
-CONNECT OE/&pass_oe
+CONNECT OE/&pass_oe@&connect_string
 
 --Create Oracle directory object
 DROP DIRECTORY SS_OE_XMLDIR
@@ -71,10 +85,10 @@ CREATE DIRECTORY SS_OE_XMLDIR as '__SUB__CWD__/order_entry/'
 COMMIT
 /
 
-CONNECT sys/&&pass_sys AS SYSDBA;
+CONNECT sys/&&pass_sys@&connect_string AS SYSDBA;
  
 revoke execute on directory SS_OE_XMLDIR from OE
 /
-CONNECT OE/&pass_oe
+CONNECT OE/&pass_oe@&connect_string
 
 

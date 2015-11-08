@@ -1,5 +1,5 @@
 Rem
-Rem $Header: long2lob.sql 13-dec-2002.09:41:18 ahunold Exp $
+Rem $Header: long2lob.sql 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem long2lob.sql
 Rem
@@ -34,6 +34,9 @@ Rem    NOTES
 Rem      <other useful comments, qualifications, etc.>
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    smtaylor    03/19/15 - added prompts for parameter 1
+Rem    smtaylor    03/19/15 - added parameter 2, connect_string
+Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem    ahunold     12/13/02 - ahunold_long2lob
 Rem    ahunold     12/12/02 - Created
 Rem
@@ -48,13 +51,19 @@ SET PAGESIZE 100
 
 SPOOL long2lob.log
 
-DEFINE pm_pass     = &1
+PROMPT
+PROMPT specify password for PM as parameter 1:
+DEFINE pm_pass        = &1
+PROMPT
+PROMPT specify connect string as parameter 2:
+DEFINE connect_string = &2
+PROMPT
 
 DEFINE ctl_file = __SUB__CWD__/product_media/long2lob.ctl
 DEFINE dat_file = __SUB__CWD__/product_media/long2lob.dat
 DEFINE log_file = __SUB__CWD__/log/longload.log
 
-CONNECT pm/&pm_pass;
+CONNECT pm/&pm_pass@&connect_string;
 
 DROP TABLE long2lob;
 

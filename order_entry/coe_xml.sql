@@ -1,5 +1,5 @@
 Rem
-Rem $Header: rdbms/demo/schema/order_entry/coe_xml.sql /main/13 2011/03/02 22:41:26 bhammers Exp $
+Rem $Header: rdbms/demo/schema/order_entry/coe_xml.sql /main/13 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem coe_xml.sql
 Rem
@@ -34,6 +34,9 @@ Rem    NOTES
 Rem      .
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    smtaylor    03/19/15 - added parameter 3, connect_string
+Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
+Rem    smtaylor    03/19/15 - added pararmeter &connect_string to script calls
 Rem    bhammers    01/24/11 - bug 11790062: rename XDB_ to COE_
 Rem    cbauwens    02/24/05 - drop 2 more xdb objects after xml schema creation
 Rem    cbauwens    08/04/04 - drop xdb packages after xml schema creation 
@@ -52,13 +55,15 @@ PROMPT
 PROMPT PROMPT password for SYS as parameter 2:
 DEFINE pass_sys = &2
 PROMPT
+PROMPT specify connect string as parameter 3:
+DEFINE connect_string     = &3
+PROMPT
 
 
 --
 -- CONNECT as SYS. Add roles AND privileges to OE.
 --
-CONNECT sys/&pass_sys AS SYSDBA;
-
+CONNECT sys/&pass_sys@&connect_string AS SYSDBA;
 
 GRANT xdbadmin TO oe;
 GRANT create any directory TO oe; 
@@ -70,11 +75,11 @@ GRANT alter session TO oe;
 
 
 -- Create directory object, instantiated by createUser.sql.sbs
- @__SUB__CWD__/order_entry/createUser
+ @__SUB__CWD__/order_entry/createUser &pass_oe &pass_sys &connect_string
 
 
 
-CONNECT oe/&pass_oe;
+CONNECT oe/&pass_oe@&connect_string;
 
 --
 -- set . and , as decimal point and thousand separator for the session
@@ -90,7 +95,7 @@ ALTER SESSION SET NLS_NUMERIC_CHARACTERS='.,';
 -- CONNECT as SYS. Revoke "ANY" privs
 --
 
-CONNECT sys/&pass_sys AS SYSDBA;  
+CONNECT sys/&pass_sys@&connect_string AS SYSDBA;  
 
 REVOKE create any directory FROM oe;
 REVOKE drop any directory FROM oe;
@@ -105,5 +110,5 @@ DROP TRIGGER xdb.no_dml_operations_allowed;
 DROP VIEW    xdb.database_summary;
 
 
-CONNECT oe/&&pass_oe;
+CONNECT oe/&&pass_oe@&connect_string;
 

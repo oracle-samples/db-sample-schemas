@@ -1,5 +1,5 @@
 Rem
-Rem $Header: rdbms/demo/schema/product_media/pm_main.sql /main/5 2011/05/27 08:25:53 jmadduku Exp $
+Rem $Header: rdbms/demo/schema/product_media/pm_main.sql /main/5 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem pm_main.sql
 Rem
@@ -42,6 +42,9 @@ Rem        will have to edit this data file.
 Rem     3) Run this as SYS or SYSTEM
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem     smtaylor   03/19/15 - added parameter 9, connect_string
+Rem     smtaylor   03/19/15 - added @&connect_string to CONNECT
+Rem     smtaylor   03/19/15 - added pararmeter &connect_string to script calls
 Rem     jmadduku   02/18/11 - Grant Unlimited Tablespace priv with RESOURCE
 Rem     hyeh       11/19/02 - standardize path of pm scripts
 Rem     hyeh       08/29/02 - hyeh_mv_comschema_to_rdbms
@@ -87,6 +90,9 @@ PROMPT
 PROMPT specify work directory path as parameter 8:
 DEFINE work_path = &8
 PROMPT
+PROMPT specify connect string as parameter 9:
+DEFINE connect_string     = &9
+PROMPT
 
 -- The first dot in the spool command below is 
 -- the SQL*Plus concatenation character
@@ -109,7 +115,7 @@ REM =======================================================
 REM grants from oe schema
 REM =======================================================
 
-CONNECT oe/&passoe
+CONNECT oe/&passoe@&connect_string
 
 GRANT REFERENCES, SELECT ON product_information TO pm;
 GRANT SELECT ON order_items TO pm;
@@ -124,7 +130,7 @@ REM =======================================================
 REM grants from sys schema
 REM =======================================================
 
-CONNECT sys/&pass_sys AS SYSDBA;
+CONNECT sys/&pass_sys@&connect_string AS SYSDBA;
 
 GRANT execute ON sys.dbms_stats TO pm;
 
@@ -136,7 +142,7 @@ REM =======================================================
 REM create pm schema (product media)
 REM =======================================================
 
-CONNECT pm/&pass
+CONNECT pm/&pass@&connect_string
 
 ALTER SESSION SET NLS_LANGUAGE=American;
 ALTER SESSION SET NLS_TERRITORY=America;
@@ -148,7 +154,7 @@ REM =======================================================
 REM use sqlldr to populate PRINT_MEDIA and its nested table
 REM =======================================================
  
-@__SUB__CWD__/product_media/pm_p_lob &pass &data_path &log_path &work_path
+@__SUB__CWD__/product_media/pm_p_lob &pass &data_path &log_path &work_path &connect_string
 
 REM =======================================================
 REM finish

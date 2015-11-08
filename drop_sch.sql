@@ -1,5 +1,5 @@
 Rem
-Rem $Header: rdbms/demo/schema/drop_sch.sql /main/1 2009/04/03 15:56:48 cbauwens Exp $
+Rem $Header: rdbms/demo/schema/drop_sch.sql /main/2 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem drop_sch.sql
 Rem
@@ -40,6 +40,8 @@ Rem               named HR,OE,IX,PM,SH
 Rem
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    smtaylor    03/19/15 - added parameter 3, connect string
+Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem    cbauwens    03/05/09 - Drop Sample Schemas
 Rem    cbauwens    03/05/09 - Created
 Rem
@@ -69,7 +71,12 @@ PROMPT specify spoolfile name:
 DEFINE spl_file
 PROMPT 
 
-CONNECT system/&pwd_system
+PROMPT specify connect string:
+DEFINE connect_string
+PROMPT
+
+
+CONNECT system/&pwd_system@&connect_string
 SPOOL &spl_file
 
 Rem ******** List schemas and objects ********

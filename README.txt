@@ -2,7 +2,7 @@ README.txt
 
 Created 25-NOV-2003
 
-Updated 25-FEB-2013
+Updated 19-Mar-2015
 
 Copyright (c) 2015 Oracle
 
@@ -117,15 +117,27 @@ provides instructions for creating the Sample Schemas.
 		log file directory: $ORACLE_HOME/demo/schema/log
 
         NOTE: Use your own passwords.
+
+2.3     Verify the connect string for the database. For illustration 
+        purposes, the value of <connect_string> for database pdb is:
+
+                connect_string: localhost:1521/pdb
  
 
-2.3	Invoke the Sample Schema creation script. Using the values listed 
-	in Sections 2.1 and 2.2, the command would look like this:
+        The connect_string may also be a valid tnsnames.ora entry.
+
+        NOTE: Due to referencing external tables under the sample
+              schema directory, the sample schema files must be
+              extracted on and mksample executed on the host 
+              containing the database.
+
+2.4	Invoke the Sample Schema creation script. Using the values listed 
+	in Sections 2.1, 2.2, and 2.3 the command would look like this:
 
 	SQL> @?/demo/schema/mksample <SYSTEM_password> <SYS_password>
  		<HR_password> <OE_password> <PM_password> <IX_password> 
 		<SH_password> <BI_password> EXAMPLE TEMP 
-		$ORACLE_HOME/demo/schema/log/
+		$ORACLE_HOME/demo/schema/log/ localhost:1521/pdb
 
 	The mksample script lists all the objects created in the data dictionary.  
 
@@ -149,11 +161,4 @@ provides instructions for creating the Sample Schemas.
 	information about the Sample Schemas.
 
 ========================================================================
-
-4.  Known bugs
- 
-4.1 The Sample Schema scripts do not work with pluggable databases.
-
-========================================================================
-
 

@@ -1,5 +1,5 @@
 Rem
-Rem $Header: rdbms/demo/schema/sales_history/sh_pop3.sql /main/5 2013/07/24 08:50:34 jstenois Exp $
+Rem $Header: rdbms/demo/schema/sales_history/sh_pop3.sql /main/5 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem sh_pop3.sql
 Rem
@@ -39,6 +39,8 @@ Rem     without adding any delimiters. this is done for better
 Rem     portability
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem     smtaylor   03/19/15 - added parameter 4, connect_string
+Rem     smtaylor   03/19/15 - added @&connect_string to sqlldr
 Rem     jstenois   07/01/13 - Fix TERRITORY to be AMERICA; not AMERICAN
 Rem     bmccarth   06/21/07 - add territory american to external table
 Rem     hyeh       08/29/02 - hyeh_mv_comschema_to_rdbms
@@ -62,6 +64,7 @@ SET CONCAT '.'
 DEFINE sh_pass = &1 
 DEFINE data_file_directory = &2
 DEFINE log_file_directory = &3
+DEFINE connect_string = &4
 
 prompt
 prompt loading PROMOTIONS ...
@@ -70,7 +73,7 @@ DEFINE ctl_file = &data_file_directory.sh_promo.ctl
 DEFINE dat_file = &data_file_directory.sh_promo.dat
 DEFINE log_file = &log_file_directory.sh_promo.log
 
-HOST sqlldr sh/&sh_pass  -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=1000
@@ -82,7 +85,7 @@ DEFINE ctl_file = &data_file_directory.sh_cust.ctl
 DEFINE dat_file = &data_file_directory.sh_cust.dat
 DEFINE log_file = &log_file_directory.sh_cust.log
 
-HOST sqlldr sh/&sh_pass -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file - 
  direct=yes -
  rows=1000
@@ -94,7 +97,7 @@ DEFINE ctl_file = &data_file_directory.sh_prod.ctl
 DEFINE dat_file = &data_file_directory.sh_prod.dat
 DEFINE log_file = &log_file_directory.sh_prod.log
 
-HOST sqlldr sh/&sh_pass -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file - 
  direct=yes -
  rows=10000
@@ -106,7 +109,7 @@ DEFINE ctl_file = &data_file_directory.sh_sales.ctl
 DEFINE dat_file = &data_file_directory.sh_sales.dat
 DEFINE log_file = &log_file_directory.sh_sales.log
 
-HOST sqlldr sh/&sh_pass -
+HOST sqlldr sh/&sh_pass@&connect_string  -
  control=&ctl_file data=&dat_file log=&log_file - 
  direct=yes -
  rows=10000

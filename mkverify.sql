@@ -1,5 +1,5 @@
 Rem
-Rem $Header: mkverify.sql 11-aug-2004.14:37:55 cbauwens Exp $
+Rem $Header: mkverify.sql 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem mkverify.sql
 Rem
@@ -34,6 +34,8 @@ Rem    NOTES
 Rem      Relies on accurate statistics being collected
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    smtaylor    03/19/15 - added parameter 3, connect string
+Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem    cbauwens    08/09/04 - sorting of constraints 
 Rem    ahunold     02/11/03 - sorting of object privileges
 Rem    ahunold     10/25/02 - Dimensions, XML
@@ -48,8 +50,11 @@ PROMPT
 PROMPT specify spool filename as parameter 2:
 DEFINE spool_file          = &2
 PROMPT 
+PROMPT specify connect string as parameter 3:
+DEFINE connect_string     = &3
+PROMPT
 
-CONNECT system/&password_system;
+CONNECT system/&password_system@&connect_string;
 
 --
 -- Workaround until situation with DBA_ALL_TABLES is clear

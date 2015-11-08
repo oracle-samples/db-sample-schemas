@@ -1,4 +1,4 @@
-Rem $Header: bi_oe_pr.sql 18-sep-2002.10:15:02 ahunold Exp $
+Rem $Header: bi_oe_pr.sql 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem Copyright (c) 2002, 2015 Oracle Corporation.  All rights reserved.  
 Rem 
@@ -28,6 +28,8 @@ Rem    DESCRIPTION
 Rem      tbd
 Rem
 Rem    MODIFIED     (MM/DD/YY)
+Rem      smtaylor    03/19/15 - added parameter 2, connect string
+Rem      smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem      ahunold     09/18/02 - ahunold_sep17_02
 Rem      ahunold     09/17/02 - created
 Rem
@@ -42,10 +44,12 @@ SET PAGESIZE 100
 PROMPT
 PROMPT specify password for oe as parameter 1:
 DEFINE oe_pass             = &1
-
+PROMPT
+PROMPT specify connect string as parameter 2:
+DEFINE connect_string     = &2
 PROMPT
 
-CONNECT oe/&oe_pass;
+CONNECT oe/&oe_pass@&connect_string;
 
 GRANT SELECT ON BOMBAY_INVENTORY TO bi;
 GRANT SELECT ON CUSTOMERS TO bi;

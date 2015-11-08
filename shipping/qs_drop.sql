@@ -1,5 +1,5 @@
 Rem
-Rem $Header: qs_drop.sql 29-aug-2002.11:59:46 hyeh Exp $
+Rem $Header: qs_drop.sql 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem qs_drop.sql
 Rem
@@ -35,6 +35,7 @@ Rem    NOTES
 Rem
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem    hyeh        08/29/02 - hyeh_mv_comschema_to_rdbms
 Rem    ahunold     02/05/01 - Created
 Rem
@@ -42,7 +43,7 @@ Rem
 set echo on;
 set serveroutput on;
 
-CONNECT QS_ADM/&password_QS_ADM
+CONNECT QS_ADM/&password_QS_ADM@&connect_string
 execute dbms_aqadm.stop_queue(queue_name => 'QS.QS_neworders_que');
 execute dbms_aqadm.stop_queue(queue_name => 'QS.QS_bookedorders_que');
 execute dbms_aqadm.stop_queue(queue_name => 'QS.logon_logoff');
@@ -62,7 +63,7 @@ execute dbms_aqadm.stop_queue(queue_name => 'QS_CS.QS_CS_billedorders_que');
 
 Rem Drop queue tables, queues for QS
 Rem
-CONNECT QS/&password_QS
+CONNECT QS/&password_QS@&connect_string
 begin
 dbms_aqadm.drop_queue (
         queue_name              => 'QS_neworders_que');
@@ -88,7 +89,7 @@ dbms_aqadm.drop_queue_table(
 end;
 /
 
-CONNECT QS/&password_QS
+CONNECT QS/&password_QS@&connect_string
 
 Rem
 Rem   Drop the multiconsumer nonpersistent queue in QS schema
@@ -98,7 +99,7 @@ Rem   the number of user connections to the QS application
 execute dbms_aqadm.drop_queue(queue_name => 'LOGON_LOGOFF');
 
 Rem Drop queue tables, queues for QS_WS Shipping
-CONNECT QS_WS/&password_QS_WS
+CONNECT QS_WS/&password_QS_WS@&connect_string
 
 Rem Booked orders are stored in the priority queue table
 begin
@@ -135,7 +136,7 @@ end;
 /
 
 Rem Drop queue tables, queues for QS_ES Shipping
-CONNECT QS_ES/&password_QS_ES
+CONNECT QS_ES/&password_QS_ES@&connect_string
 
 Rem Booked orders are stored in the priority queue table
 begin
@@ -173,7 +174,7 @@ end;
 
 
 Rem Drop queue tables, queues for Overseas Shipping
-CONNECT QS_OS/&password_QS_OS
+CONNECT QS_OS/&password_QS_OS@&connect_string
 
 
 Rem Booked orders are stored in the priority queue table
@@ -211,7 +212,7 @@ end;
 /
 
 Rem Create queue tables, queues for Customer Billing
-CONNECT QS_CBADM/&password_QS_CBADM
+CONNECT QS_CBADM/&password_QS_CBADM@&connect_string
 
 begin
 dbms_aqadm.drop_queue (
@@ -236,7 +237,7 @@ dbms_aqadm.drop_queue_table(
 end;
 /
 
-CONNECT QS_CS/&password_QS_CS
+CONNECT QS_CS/&password_QS_CS@&connect_string
 
 DROP TABLE Order_Status_Table;
 
@@ -264,7 +265,7 @@ dbms_aqadm.drop_queue_table(
 end;
 /
 
-CONNECT QS_ADM/&password_QS_ADM
+CONNECT QS_ADM/&password_QS_ADM@&connect_string
 
 Rem drop objects types 
 
@@ -276,7 +277,7 @@ drop type customer_typ;
 
 Rem drop queue admin account and individual accounts for each application
 Rem
-CONNECT system/&password_SYSTEM
+CONNECT system/&password_SYSTEM@&connect_string
 set serveroutput on;
 set echo on;
 

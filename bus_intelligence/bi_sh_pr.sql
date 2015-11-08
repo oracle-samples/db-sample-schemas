@@ -1,4 +1,4 @@
-Rem $Header: bi_sh_pr.sql 18-sep-2002.10:15:02 ahunold Exp $
+Rem $Header: bi_sh_pr.sql 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem Copyright (c) 2002, 2015 Oracle Corporation.  All rights reserved.  
 Rem 
@@ -28,6 +28,8 @@ Rem    DESCRIPTION
 Rem      tbd
 Rem
 Rem    MODIFIED     (MM/DD/YY)
+Rem      smtaylor    03/19/15 - added parameter 2, connect_string
+Rem      smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem      ahunold     09/18/02 - ahunold_sep17_02
 Rem      ahunold     09/17/02 - created
 Rem
@@ -43,8 +45,11 @@ PROMPT
 PROMPT specify password for SH as parameter 1:
 DEFINE sh_pass             = &1
 PROMPT
+PROMPT specify connect string as parameter 2:
+DEFINE connect_string     = &2
+PROMPT
 
-CONNECT sh/&sh_pass;
+CONNECT sh/&sh_pass@&connect_string;
 
 GRANT SELECT ON channels		TO bi;
 GRANT SELECT ON countries		TO bi;

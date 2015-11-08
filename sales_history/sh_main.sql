@@ -1,5 +1,5 @@
 Rem
-Rem $Header: rdbms/demo/schema/sales_history/sh_main.sql /main/12 2012/06/21 14:38:37 awesley Exp $
+Rem $Header: rdbms/demo/schema/sales_history/sh_main.sql /main/12 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem sh_main.sql
 Rem
@@ -41,6 +41,9 @@ Rem     without adding any delimiters.
 Rem     Run this as SYS or SYSTEM
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem     smtaylor   03/19/15 - added parameter 8, connect_string
+Rem     smtaylor   03/19/15 - added @&connect_string to CONNECT
+Rem     smtaylor   03/19/15 - added pararmeter &connect_string to script calls
 Rem     awesley    04/03/12 - Remove cwm_user
 Rem     jmadduku   02/18/11 - Grant Unlimited Tablespace priv with RESOURCE
 Rem     cbauwens   03/06/08 - NLS settings for load
@@ -89,6 +92,9 @@ PROMPT
 PROMPT specify version as parameter 7:
 DEFINE vrs = &7
 PROMPT
+PROMPT specify connect string as parameter 8:
+DEFINE connect_string     = &8
+PROMPT
 
 DEFINE spool_file = &log_dir.sh_&vrs..log
 SPOOL &spool_file 
@@ -136,7 +142,7 @@ REM =======================================================
 REM grants for sys schema
 REM =======================================================
 
-CONNECT sys/&pass_sys AS SYSDBA;
+CONNECT sys/&pass_sys@&connect_string AS SYSDBA;
 GRANT execute ON sys.dbms_stats TO sh;
 
 REM =======================================================
@@ -156,7 +162,7 @@ REM =======================================================
 REM create sh schema objects (sales history - star schema)
 REM =======================================================
 
-CONNECT sh/&pass
+CONNECT sh/&pass@&connect_string
 
 ALTER SESSION SET NLS_LANGUAGE=American;
 ALTER SESSION SET NLS_TERRITORY=America;
@@ -175,7 +181,7 @@ REM Populate tables
 REM =======================================================
 
 DEFINE vscript = __SUB__CWD__/sales_history/lsh_&vrs 
-@&vscript &pass &data_dir &log_dir &vrs
+@&vscript &pass &data_dir &log_dir &vrs &connect_string
 
 REM =======================================================
 REM Post load operations

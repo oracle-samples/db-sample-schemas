@@ -1,5 +1,5 @@
 Rem
-Rem $Header: pm_p_lob.sql 29-aug-2002.11:48:19 hyeh Exp $
+Rem $Header: pm_p_lob.sql 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem pm_p_ini.sql
 Rem
@@ -41,6 +41,8 @@ Rem      Please note that directory names need the trailing de-
 Rem      limiter
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    smtaylor    03/19/15 - added parameter 5, connect_string
+Rem    smtaylor    03/19/15 - added @&connect_string to sqlldr
 Rem    hyeh        08/29/02 - hyeh_mv_comschema_to_rdbms
 Rem    ahunold     04/27/01 - concat filename in SQL, not SQL*Loader
 Rem    ahunold     04/10/01 - Added parameter 2,3,4
@@ -52,15 +54,16 @@ Rem
 
 SET CONCAT '.'
 
-DEFINE pm_pass     = &1
-DEFINE pm_dat_path = &2
-DEFINE pm_log_path = &3
-DEFINE pm_wrk_path = &4
+DEFINE pm_pass        = &1
+DEFINE pm_dat_path    = &2
+DEFINE pm_log_path    = &3
+DEFINE pm_wrk_path    = &4
+DEFINE connect_string = &5
 
 DEFINE ctl_file = &pm_dat_path.pm_p_lob.ctl
 DEFINE dat_file = &pm_wrk_path.pm_p_lob.dat
 DEFINE log_file = &pm_log_path.pm_p_lob.log
 
-HOST sqlldr pm/&pm_pass -
+HOST sqlldr pm/&pm_pass@&connect_string -
   control=&ctl_file data=&dat_file log=&log_file
 

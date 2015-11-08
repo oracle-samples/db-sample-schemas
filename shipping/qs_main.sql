@@ -1,5 +1,5 @@
 Rem
-Rem $Header: rdbms/demo/schema/shipping/qs_main.sql /main/2 2011/05/27 08:25:53 jmadduku Exp $
+Rem $Header: rdbms/demo/schema/shipping/qs_main.sql /main/2 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem qs_main.sql
 Rem
@@ -35,6 +35,8 @@ Rem    NOTES
 Rem      Run as SYS or SYSTEM
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    smtaylor    03/19/15 - added parameter 8, connect_string
+Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem    jmadduku    02/18/11 - Grant Unlimited Tablespace priv with RESOURCE
 Rem    hyeh        08/29/02 - hyeh_mv_comschema_to_rdbms
 Rem    ahunold     08/28/01 - roles
@@ -70,6 +72,9 @@ DEFINE pass_sys = &6
 PROMPT
 PROMPT specify log directory path as parameter 7:
 DEFINE log_path = &7
+PROMPT
+PROMPT specify connect string as parameter 8:
+DEFINE connect_string     = &8
 PROMPT
 
 DEFINE spool_file = &log_path.qs_main.log
@@ -124,11 +129,11 @@ REM  connected as sys to grant execute on dbms_lock
 REM  and connected again as system 
 REM  ===================================================
 
-CONNECT sys/&pass_sys AS SYSDBA;
+CONNECT sys/&pass_sys@&connect_string AS SYSDBA;
 GRANT execute ON sys.dbms_stats TO qs_adm;
 GRANT execute ON dbms_lock to qs_adm;
 
-CONNECT system/&master_pass
+CONNECT system/&master_pass@&connect_string
 
 execute dbms_aqadm.grant_system_privilege('ENQUEUE_ANY','qs_adm',FALSE);
 execute dbms_aqadm.grant_system_privilege('DEQUEUE_ANY','qs_adm',FALSE);
@@ -239,40 +244,40 @@ REM =======================================================
 REM grants from oe schema to user qs_adm
 REM =======================================================
 
-CONNECT oe/&passoe
+CONNECT oe/&passoe@&connect_string
 GRANT REFERENCES, SELECT ON customers TO qs_adm;
 GRANT REFERENCES, SELECT ON product_information TO qs_adm;
 
 PROMPT calling qs_adm.sql ...
-CONNECT qs_adm/&pass
+CONNECT qs_adm/&pass@&connect_string
 @__SUB__CWD__/shipping/qs_adm
 
 PROMPT calling qs_cre.sql ...
-CONNECT qs/&pass;
+CONNECT qs/&pass@&connect_string;
 @__SUB__CWD__/shipping/qs_cre
 
 PROMPT calling qs_es.sql ...
-CONNECT qs_es/&pass
+CONNECT qs_es/&pass@&connect_string
 @__SUB__CWD__/shipping/qs_es
 
 PROMPT calling qs_ws.sql ...
-CONNECT qs_ws/&pass
+CONNECT qs_ws/&pass@&connect_string
 @__SUB__CWD__/shipping/qs_ws
 
 PROMPT calling qs_os.sql ...
-CONNECT qs_os/&pass
+CONNECT qs_os/&pass@&connect_string
 @__SUB__CWD__/shipping/qs_os
 
 PROMPT calling qs_cbadm.sql ...
-CONNECT qs_cbadm/&pass
+CONNECT qs_cbadm/&pass@&connect_string
 @__SUB__CWD__/shipping/qs_cbadm
 
 PROMPT calling qs_cs.sql ...
-CONNECT qs_cs/&pass
+CONNECT qs_cs/&pass@&connect_string
 @__SUB__CWD__/shipping/qs_cs
 
 PROMPT calling qs_run.sql ...
-CONNECT qs_adm/&pass
+CONNECT qs_adm/&pass@&connect_string
 @__SUB__CWD__/shipping/qs_run
 
 spool off
