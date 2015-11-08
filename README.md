@@ -43,7 +43,7 @@ no pull requests for changes can be accepted.*
 
 ## 2. Installing the Samples
 
-*CAUTION*: Do not use install the samples if you already have user
+*CAUTION*: Do not install the samples if you already have user
 accounts named HR, OE, PM, IX, SH or BI.
 
 The installation scripts are designed to run on a database host with
@@ -132,8 +132,10 @@ Using a connect string permits connections to non-container databases and
 pluggable database using the same syntax.
 
 An example of connect strings for databases with services noncdb and pdb:
+```
   localhost:1521/noncdb
   localhost:1521/pdb
+```
 
 ### 2.7. Review the installation logs
 
