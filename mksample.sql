@@ -3,7 +3,7 @@ Rem $Header: rdbms/demo/schema/mksample.sql.sbs /main/12 2015/03/19 10:23:26 smt
 Rem
 Rem mksample.sql
 Rem
-Rem Copyright (c) 2001, 2015, Oracle and/or its affiliates.  All rights reserved. 
+Rem Copyright (c) 2001, 2016, Oracle and/or its affiliates.  All rights reserved. 
 Rem 
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
@@ -63,7 +63,7 @@ Rem        Example: @/your/path/to/mksample mgr secure h1 o2 p3 q4 s5
 Rem        (please choose your own passwords for security purposes)
 Rem
 Rem    MODIFIED   (MM/DD/YY)
-Rem      gvenzl    04/04/15 - added log directory creation
+Rem      gvenzl    04/04/16 - added log directory creation
 Rem      smtaylor  03/19/15 - added parameter 12, connect_string
 Rem      smtaylor  03/19/15 - added @&&connect_string to CONNECT
 Rem      smtaylor  03/19/15 - added pararmeter &&connect_string to script calls
