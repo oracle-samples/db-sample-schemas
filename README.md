@@ -1,6 +1,6 @@
 # Oracle Database Sample Schemas
 
-Copyright (c) 2015 Oracle
+Copyright (c) 2016 Oracle
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -80,13 +80,7 @@ The schema directory should be owned by the Oracle Database software owner.
 cd $HOME/db-sample-schemas
 ```
 
-### 2.3. Make a log directory
-
-```shell
-mkdir log
-```
-
-### 2.4. Change all embedded paths to match your working directory
+### 2.3. Change all embedded paths to match your working directory
 
 The installation scripts need your current directory embedded in
 various locations.  Use a text editor or the following Perl script to
@@ -98,7 +92,7 @@ with your current working directory, for example
 perl -p -i.bak -e 's#__SUB__CWD__#'$(pwd)'#g' *.sql */*.sql */*.dat 
 ```
 
-### 2.5. Set the Oracle environment
+### 2.4. Set the Oracle environment
 
 ```shell
 source /usr/local/bin/oraenv
@@ -107,7 +101,7 @@ source /usr/local/bin/oraenv
 *Note*: Oracle's `sqlldr` utility needs to be in `$PATH` for correct
 loading of the Product Media (PM) and Sales History (SH) schemas.
 
-### 2.6.  Run the installation script
+### 2.5.  Run the installation script
 
 Review the [README.txt](#README.txt) for information on passwords and
 pre-requirements. In particular, verify your default and temporary
@@ -137,7 +131,7 @@ An example of connect strings for databases with services noncdb and pdb:
   localhost:1521/pdb
 ```
 
-### 2.7. Review the installation logs
+### 2.6. Review the installation logs
 
 Review output in your log directory for errors.
 

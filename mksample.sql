@@ -63,6 +63,7 @@ Rem        Example: @/your/path/to/mksample mgr secure h1 o2 p3 q4 s5
 Rem        (please choose your own passwords for security purposes)
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem      gvenzl    04/04/15 - added log directory creation
 Rem      smtaylor  03/19/15 - added parameter 12, connect_string
 Rem      smtaylor  03/19/15 - added @&&connect_string to CONNECT
 Rem      smtaylor  03/19/15 - added pararmeter &&connect_string to script calls
@@ -137,6 +138,8 @@ PROMPT
 PROMPT Sample Schemas are being created ...
 PROMPT
 DEFINE vrs = v3
+
+host mkdir &&logfile_dir
 
 CONNECT system/&&password_system@&&connect_string
 
