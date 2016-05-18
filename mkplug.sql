@@ -596,11 +596,6 @@ CREATE DIMENSION customers_dim
         ATTRIBUTE cust_total DETERMINES (customers.cust_total);
 COMMIT;
 
-execute dbms_olap.validate_dimension('customers_dim','sh',false,true)
-
-SELECT	'row '||bad_rowid||' in '||table_name||' violates '||dimension_name 
-"Dimension Exception:" FROM dimension_exceptions;
-
 CREATE DIMENSION products_dim 
 	LEVEL product 		IS (products.prod_id)
  	LEVEL subcategory 	IS (products.prod_subcategory_id) 
@@ -620,11 +615,6 @@ CREATE DIMENSION products_dim
         (prod_category, prod_category_desc)
 	ATTRIBUTE prod_total DETERMINES 
         (prod_total);
-
-execute dbms_olap.validate_dimension('products_dim','sh',false,true)
-
-SELECT	'row '||bad_rowid||' in '||table_name||' violates '||dimension_name 
-"Dimension Exception:" FROM dimension_exceptions;
 
 CREATE DIMENSION times_dim
    LEVEL day         IS TIMES.TIME_ID
@@ -672,11 +662,6 @@ CREATE DIMENSION times_dim
 	(fiscal_year, 
          days_in_fis_year, end_of_fis_year);
 
-execute dbms_olap.validate_dimension('times_dim','sh',false,true)
-
-SELECT	'row '||bad_rowid||' in '||table_name||' violates '||dimension_name 
-"Dimension Exception:" FROM dimension_exceptions;
-
 CREATE DIMENSION channels_dim
 	LEVEL channel 	    IS (channels.channel_id) 
 	LEVEL channel_class IS (channels.channel_class_id) 
@@ -687,11 +672,6 @@ CREATE DIMENSION channels_dim
         ATTRIBUTE channel DETERMINES (channel_desc)
         ATTRIBUTE channel_class DETERMINES (channel_class)
         ATTRIBUTE channel_total DETERMINES (channel_total);
-
-execute dbms_olap.validate_dimension('channels_dim','sh',false,true)
-
-SELECT	'row '||bad_rowid||' in '||table_name||' violates '||dimension_name 
-"Dimension Exception:" FROM dimension_exceptions;
 
 CREATE DIMENSION promotions_dim 
 	LEVEL promo 	  	IS (promotions.promo_id) 
@@ -708,11 +688,6 @@ CREATE DIMENSION promotions_dim
         ATTRIBUTE subcategory DETERMINES (promo_subcategory)
         ATTRIBUTE category DETERMINES (promo_category)
         ATTRIBUTE promo_total DETERMINES (promo_total);
-
-execute dbms_olap.validate_dimension('promotions_dim','sh',false,true)
-
-SELECT	'row '||bad_rowid||' in '||table_name||' violates '||dimension_name 
-"Dimension Exception:" FROM dimension_exceptions;
 
 SELECT TO_CHAR(systimestamp, 'YYYYMMDD HH:MI:SS')  FROM dual;
 

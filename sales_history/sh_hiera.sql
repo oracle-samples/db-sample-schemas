@@ -91,9 +91,6 @@ CREATE DIMENSION times_dim
          days_in_fis_year, end_of_fis_year)
 ;
 
-execute dbms_olap.validate_dimension('times_dim','sh',false,true)
-SELECT COUNT(*) FROM dimension_exceptions;
-
 CREATE DIMENSION customers_dim 
 	LEVEL customer	IS (customers.cust_id)
 	LEVEL city 	IS (customers.cust_city) 
@@ -123,9 +120,6 @@ CREATE DIMENSION customers_dim
         ATTRIBUTE region DETERMINES (countries.country_region) 
 ;
 
-execute dbms_olap.validate_dimension('customers_dim','sh',false,true)
-SELECT COUNT(*) FROM dimension_exceptions;
-
 CREATE DIMENSION products_dim 
 	LEVEL product 		IS (products.prod_id)
  	LEVEL subcategory 	IS (products.prod_subcategory) 
@@ -145,9 +139,6 @@ CREATE DIMENSION products_dim
         (prod_category, prod_cat_desc)
 ;
 
-execute dbms_olap.validate_dimension('products_dim','sh',false,true)
-SELECT COUNT(*) FROM dimension_exceptions;
-
 CREATE DIMENSION promotions_dim 
 	LEVEL promo 	  IS (promotions.promo_id) 
 	LEVEL subcategory IS (promotions.promo_subcategory) 
@@ -164,9 +155,6 @@ CREATE DIMENSION promotions_dim
         ATTRIBUTE category DETERMINES (promo_category)
 ;
 
-execute dbms_olap.validate_dimension('promotions_dim','sh',false,true)
-SELECT COUNT(*) FROM dimension_exceptions;
-
 CREATE DIMENSION channels_dim 
 	LEVEL channel 	   IS (channels.channel_id) 
 	LEVEL channel_class IS (channels.channel_class) 
@@ -177,9 +165,6 @@ CREATE DIMENSION channels_dim
         ATTRIBUTE channel DETERMINES (channel_desc)
         ATTRIBUTE channel_class DETERMINES (channel_class)
 ;
-
-execute dbms_olap.validate_dimension('channels_dim','sh',false,true)
-SELECT COUNT(*) FROM dimension_exceptions;
 
 COMMIT;
 

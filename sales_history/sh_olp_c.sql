@@ -129,9 +129,6 @@ CREATE DIMENSION times_dim
          days_in_fis_year, end_of_fis_year)
 ;
 
-execute dbms_olap.validate_dimension('times_dim','sh',false,true)
-SELECT COUNT(*) FROM mview$_exceptions;
-
 DROP DIMENSION customers_dim;
 
 CREATE DIMENSION customers_dim 
@@ -174,9 +171,6 @@ CREATE DIMENSION customers_dim
         ATTRIBUTE cust_total DETERMINES (customers.cust_total) 
 ;
 
-execute dbms_olap.validate_dimension('customers_dim','sh',false,true)
-SELECT COUNT(*) FROM mview$_exceptions;
-
 DROP DIMENSION products_dim;
 
 CREATE DIMENSION products_dim 
@@ -202,9 +196,6 @@ CREATE DIMENSION products_dim
         (prod_total)
 ;
 
-execute dbms_olap.validate_dimension('products_dim','sh',false,true)
-SELECT COUNT(*) FROM mview$_exceptions;
-
 DROP DIMENSION promotions_dim;
 
 CREATE DIMENSION promotions_dim 
@@ -226,9 +217,6 @@ CREATE DIMENSION promotions_dim
         ATTRIBUTE promo_total DETERMINES (promo_total)
 ;
 
-execute dbms_olap.validate_dimension('promotions_dim','sh',false,true)
-SELECT COUNT(*) FROM mview$_exceptions;
-
 DROP DIMENSION channels_dim;
 
 CREATE DIMENSION channels_dim 
@@ -244,9 +232,6 @@ CREATE DIMENSION channels_dim
         ATTRIBUTE channel_class DETERMINES (channel_class)
         ATTRIBUTE channel_total DETERMINES (channel_total)
 ;
-
-execute dbms_olap.validate_dimension('channels_dim','sh',false,true)
-SELECT COUNT(*) FROM mview$_exceptions;
 
 set serveroutput on size 99999
 
