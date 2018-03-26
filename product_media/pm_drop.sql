@@ -1,9 +1,9 @@
 Rem
-Rem $Header: pm_drop.sql 29-aug-2002.11:48:14 hyeh Exp $
+Rem $Header: pm_drop.sql 2018/02/28 15:43:13 jorgerod Exp $
 Rem
 Rem sh_drop.sql
 Rem
-Rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.  
+Rem Copyright (c) 2001, 2018, Oracle Corporation.  All rights reserved.  
 Rem 
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
@@ -35,6 +35,8 @@ Rem    NOTES
 Rem      
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem     jorgerod   02/13/18 - remove drop for online_media
+Rem                           Ordim desupported in 19c
 Rem     hyeh       08/29/02 - hyeh_mv_comschema_to_rdbms
 Rem     ahunold    05/29/02 - directory objects owned by sys
 Rem     ahunold    04/09/02 - drop directory
@@ -44,7 +46,6 @@ Rem
 
 REM drop all tables of schema
 
-DROP TABLE online_media  CASCADE CONSTRAINTS;
 DROP TABLE print_media   CASCADE CONSTRAINTS;
 
 DROP TYPE textdoc_tab;

@@ -1,9 +1,9 @@
 Rem
-Rem $Header: rdbms/demo/schema/product_media/pm_main.sql /main/5 2015/03/19 10:23:26 smtaylor Exp $
+Rem $Header: rdbms/demo/schema/product_media/pm_main.sql 2018/03/05 16:28:42 jorgerod Exp $
 Rem
 Rem pm_main.sql
 Rem
-Rem Copyright (c) 2001, 2015, Oracle and/or its affiliates.  All rights reserved. 
+Rem Copyright (c) 2001, 2018, Oracle and/or its affiliates.  All rights reserved. 
 Rem 
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
@@ -42,6 +42,8 @@ Rem        will have to edit this data file.
 Rem     3) Run this as SYS or SYSTEM
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem     jorgerod   03/02/18 - Remove call to pm_p_ord.sql 
+Rem                           Ordim Desupport in 19c. pm_p_ord.sql removed
 Rem     smtaylor   03/19/15 - added parameter 9, connect_string
 Rem     smtaylor   03/19/15 - added @&connect_string to CONNECT
 Rem     smtaylor   03/19/15 - added pararmeter &connect_string to script calls
@@ -148,7 +150,6 @@ ALTER SESSION SET NLS_LANGUAGE=American;
 ALTER SESSION SET NLS_TERRITORY=America;
 
 @__SUB__CWD__/product_media/pm_cre.sql   -- create objects
-@__SUB__CWD__/product_media/pm_p_ord.sql -- load ORDSYS types
 
 REM =======================================================
 REM use sqlldr to populate PRINT_MEDIA and its nested table
