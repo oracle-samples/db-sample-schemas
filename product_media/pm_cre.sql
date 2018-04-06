@@ -1,9 +1,9 @@
 Rem
-Rem $Header: pm_cre.sql 13-dec-2002.10:01:50 ahunold Exp $
+Rem $Header: pm_cre.sql 2018/02/28 15:43:13 jorgerod Exp $
 Rem
 Rem pm_cre.sql
 Rem
-Rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.  
+Rem Copyright (c) 2001, 2018, Oracle Corporation.  All rights reserved.  
 Rem 
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
@@ -37,6 +37,8 @@ Rem      simplify the setup of Replication demos and are not needed
 Rem      in most unreplicated environments.
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem      jorgerod  02/13/18 - Remove online_media table
+Rem                           Ordim desupported in 19c
 Rem      ahunold   12/13/02 - removing LONG column PRESS_RELEASE
 Rem      hyeh      08/29/02 - hyeh_mv_comschema_to_rdbms
 Rem      ahunold   04/25/01 - OID
@@ -76,34 +78,6 @@ CREATE TYPE textdoc_tab
   OID '82A4AF6A4CD0656DE034080020E0EE3D'
   AS TABLE OF textdoc_typ;
 /
-REM ======================================================================
-REM Create table online_media to hold media for the online catalog
-REM or other marketing/training needs.
-REM pm.online_media has a foreign key on product_id that references the
-REM oe.product_information table. pm.online_media has a primary key on
-REM product_id.
-
-CREATE TABLE online_media 
-   ( product_id         	NUMBER(6) 
-   , product_photo      	ORDSYS.ORDImage 
-   , product_photo_signature  ORDSYS.ORDImageSignature 
-   , product_thumbnail  	ORDSYS.ORDImage 
-   , product_video      	ORDSYS.ORDVideo 
-   , product_audio      	ORDSYS.ORDAudio 
-   , product_text       	CLOB 
-   , product_testimonials	ORDSYS.ORDDoc 
-   ) ; 
-
-CREATE UNIQUE INDEX onlinemedia_pk
-    ON online_media (product_id);
-
-ALTER TABLE online_media
-ADD ( CONSTRAINT onlinemedia__pk
-      PRIMARY KEY (product_id)
-    , CONSTRAINT loc_c_id_fk
-                FOREIGN KEY (product_id)
-                REFERENCES oe.product_information(product_id)
-    ) ;
 
 REM ========================================================================
 REM Create table print_media to hold print advertising information.
