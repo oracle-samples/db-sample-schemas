@@ -1,4 +1,4 @@
-# Custmoer Orders Sample Schema 
+# Customer Orders Sample Schema 
 
 Copyright (c) 2019 Oracle
 
