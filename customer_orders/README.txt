@@ -59,7 +59,7 @@ schema. This requires Oracle Database 12.1.0.2 or higher.
 1.4	Invoke the Sample Schema creation script. Using the values listed 
 	in Sections 1.1, 1.2, and 1.3 the command would look like this:
 
-	SQL> @co_main <CO_password> EXAMPLE TEMP localhost:1521/pdb
+	SQL> @co_main <CO_password> localhost:1521/pdb EXAMPLE TEMP 
 
 1.4.1 To install the objects and data into an existing schema, run:
 

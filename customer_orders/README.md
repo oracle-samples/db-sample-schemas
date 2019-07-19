@@ -48,8 +48,6 @@ or download and extract the ZIP file:
 unzip db-sample-schemas.zip
 ```
 
-The schema directory should be owned by the Oracle Database software owner.
-
 ### 2.2. Change directory
 
 ```shell
@@ -105,6 +103,6 @@ source /usr/local/bin/oraenv
 ### 3.2. Run the schema removal script
 
 ```shell
-sqlplus system/systempw@connect_string
+sqlplus system@connect_string
 @co_drop_user.sql
 ```
