@@ -70,7 +70,7 @@ Start SQL*Plus and run the top level installation script as
 discussed in [README.txt](#README.txt):
 
 ```shell
-sqlplus system/systempw@connect_string
+sqlplus system@connect_string
 @co_main copw connect_string users temp 
 ```
 
