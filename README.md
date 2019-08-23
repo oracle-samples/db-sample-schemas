@@ -1,6 +1,6 @@
 # Oracle Database Sample Schemas
 
-Copyright (c) 2016 Oracle
+Copyright (c) 2019 Oracle
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -24,10 +24,10 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## 1. Introduction
 
 This repository contains a copy of the Oracle Database sample schemas
-that are installed with Oracle Database Enterprise Edition 12c.  These
+that are installed with Oracle Database Enterprise Edition.  These
 schemas are used in Oracle documentation to show SQL language
-concepts.  The schemas themselves are documented in
-[Oracle Database Sample Schemas, 12c Release 1 (12.1)](http://docs.oracle.com/database/121/COMSC/toc.htm).
+concepts and other database features.  The schemas themselves are 
+documented in [Oracle Database Sample Schemas](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=COMSC).
 
 The schemas are:
 
@@ -41,21 +41,23 @@ The schemas are:
 *Due to widespread dependence on these scripts in their current form,
 no pull requests for changes can be accepted.*
 
+In addition, a new schema CO: [Customer Orders](https://github.com/oracle/db-sample-schemas/tree/master/customer_orders), is now also 
+included in this repository. It is not automatically installed along with 
+the rest of the schemas at this time. Follow instructions in that schema's 
+[README](https://github.com/oracle/db-sample-schemas/blob/master/README.md) to install the CO schema.
+
 ## 2. Installing the Samples
 
-*CAUTION*: Do not install the samples if you already have user
-accounts named HR, OE, PM, IX, SH or BI.
+*CAUTION*: The first step in installing sample schemas is to drop 
+user accounts with the following names: HR, OE, PM, IX, SH and BI. 
+Do not proceed with the installation if you have schemas with any 
+of these names that you wish to keep.
 
-The installation scripts are designed to run on a database host with
-Oracle Database 12.1.  Privileged database access is required
-during installation.
+The installation scripts are designed to run on an Oracle Database.  
+Privileged database access is required during installation.
 
 The instructions below work on Linux and similar operating systems.
 Adjust them for other platforms.
-
-An alternative to using this repository is to download and install the
-[Oracle Database 12c Release 1 Examples](http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index-092322.html)
-package for your platform.
 
 ### 2.1. Clone this repository
 
@@ -94,6 +96,9 @@ perl -p -i.bak -e 's#__SUB__CWD__#'$(pwd)'#g' *.sql */*.sql */*.dat
 
 ### 2.4. Set the Oracle environment
 
+Skip this step when running on a client machine (one without an Oracle 
+Database installed).
+
 ```shell
 source /usr/local/bin/oraenv
 ```
@@ -122,6 +127,9 @@ default and temporary tablespace names.  The passwords for the new
 HR, OE, PM, IX, SH and BI users will be set to the values you
 specify.
 
+*Reminder*: currently the CO schema will not be installed as part of this 
+process.
+
 Using a connect string permits connections to non-container databases and 
 pluggable database using the same syntax.
 
@@ -141,6 +149,9 @@ Review output in your log directory for errors.
 
 ### 3.1. Set the Oracle environment
 
+Skip this step when running on a client machine (one without an Oracle 
+Database installed).
+
 ```shell
 source /usr/local/bin/oraenv
 ```
@@ -153,3 +164,12 @@ sqlplus system/systempw@connect_string
 ```
 
 When prompted, enter the SYSTEM password, a log file name, and connect string.
+
+### 3.3 Run the CO schema removal script
+
+If you have installed the CO schema, run the following script to remove it. 
+
+```shell
+sqlplus system/systempw@connect_string
+@co_drop_user.sql 
+```
