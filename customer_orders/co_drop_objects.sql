@@ -15,3 +15,7 @@ drop table stores
   cascade constraints;
 drop table customers
   cascade constraints;
+drop table inventory
+  cascade constraints;
+drop table shipments
+  cascade constraints;

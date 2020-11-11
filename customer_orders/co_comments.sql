@@ -119,6 +119,9 @@ comment on column order_items.unit_price
   
 comment on column order_items.quantity 
   is 'How many items of this product the customer purchased';
+  
+comment on column order_items.shipment_id 
+  is 'Where this product will be delivered';
          
 comment on table customer_order_products
   is 'A summary of who placed each order and what they bought';
@@ -203,3 +206,40 @@ comment on column product_orders.total_sales
   
 comment on column product_orders.order_count 
   is 'The total number of orders placed';
+  
+comment on table shipments
+  is 'Details of where ordered goods will be delivered';
+  
+comment on column shipments.shipment_id
+  is 'Auto-incrementing primary key';
+  
+comment on column shipments.store_id
+  is 'Which location the goods will be transported from';
+  
+comment on column shipments.customer_id
+  is 'Who this shipment is for';
+  
+comment on column shipments.delivery_address
+  is 'Where the goods will be transported to';
+  
+comment on column shipments.shipment_status
+  is 'The current status of the shipment. Valid values are: 
+CREATED - the shipment is ready for order assignment
+SHIPPED - the goods have been dispatched
+IN-TRANSIT - the goods are en-route to their destination
+DELIVERED - the good have arrived at their destintation';
+
+comment on table inventory
+  is 'Details of the quantity of stock available for products at each location';
+  
+comment on column inventory.inventory_id
+  is 'Auto-incrementing primary key';
+  
+comment on column inventory.store_id
+  is 'Which location the goods are located at';
+  
+comment on column inventory.product_id
+  is 'Which item this stock is for';
+  
+comment on column inventory.product_inventory
+  is 'The current quantity in stock';
