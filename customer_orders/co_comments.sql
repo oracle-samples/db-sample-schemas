@@ -227,7 +227,7 @@ comment on column shipments.shipment_status
 CREATED - the shipment is ready for order assignment
 SHIPPED - the goods have been dispatched
 IN-TRANSIT - the goods are en-route to their destination
-DELIVERED - the good have arrived at their destintation';
+DELIVERED - the good have arrived at their destination';
 
 comment on table inventory
   is 'Details of the quantity of stock available for products at each location';
