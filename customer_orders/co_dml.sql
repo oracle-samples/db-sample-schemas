@@ -1,6 +1,8 @@
 PROMPT Removing existing data 
 
 truncate table order_items;
+truncate table inventory;
+delete shipments;
 delete orders;
 delete stores;
 delete customers;
@@ -12,7 +14,9 @@ PROMPT Inserting data
 @@products
 @@stores
 @@orders
+@@shipments
 @@order_items
+@@inventory
 
 commit;
 
