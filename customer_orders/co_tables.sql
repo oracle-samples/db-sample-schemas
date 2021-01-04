@@ -74,4 +74,5 @@ create index orders_customer_id_i on orders ( customer_id );
 create index orders_store_id_i on orders ( store_id );
 create index shipments_store_id_i on shipments ( store_id );
 create index shipments_customer_id_i on shipments ( customer_id );
+create index order_items_shipment_id_i on order_items ( shipment_id );
 create index inventory_product_id_i on inventory ( product_id );
