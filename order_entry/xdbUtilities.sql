@@ -1,5 +1,5 @@
 Rem
-Rem $Header: rdbms/demo/schema/order_entry/xdbUtilities.sql /main/2 2011/03/02 22:41:26 bhammers Exp $
+Rem $Header: rdbms/demo/schema/order_entry/xdbUtilities.sql maravish_bug-3267690 2/1 2021/03/30 15:40:50 maravish Exp $
 Rem
 Rem xdbUtilities.sql
 Rem
@@ -34,6 +34,7 @@ Rem    NOTES
 Rem      XDB_UTILITES should be created as XDB
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    maravish    03/25/21 - Bug 32676902: Remove xmlroot
 Rem    bhammers    01/24/11 - bug 11790062: rename XDB_ to COE_
 Rem    cbauwens    09/23/04 - cbauwens_bug3031915
 Rem    cbauwens    03/16/04 - Created
@@ -42,25 +43,6 @@ Rem    cbauwens    03/16/04 - Created
 ALTER SESSION SET current_schema = XDB
 /
 
-CREATE OR REPLACE FUNCTION XMLROOT (XML XMLType, PI VARCHAR2 DEFAULT NULL)
-RETURN XMLType DETERMINISTIC
-IS
-  tempCLOB CLOB;
-  tempXML XMLType;
-BEGIN
-  SELECT XMLParse(DOCUMENT '<?xml version="1.0" encoding="UTF-8"?>' || PI ||
-                  XML.getClobVal() WELLFORMED) 
-    INTO tempXML 
-    FROM DUAL;
-  RETURN tempXML;
-END;
-/
-SELECT * FROM all_errors WHERE owner = 'XDB'
-/
-CREATE OR REPLACE PUBLIC SYNONYM XMLROOT FOR XMLROOT
-/
-GRANT EXECUTE ON XMLROOT TO PUBLIC
-/
 CREATE OR REPLACE PACKAGE COE_namespaces
 AS
     RESOURCE_NAMESPACE CONSTANT VARCHAR2(128) :=
