@@ -20,7 +20,7 @@ rem FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 rem DEALINGS IN THE SOFTWARE.
 rem 
 rem NAME
-rem   readme.txt - ReadMe text file for HR schema
+rem   README.txt - ReadMe text file for HR schema
 rem
 rem DESCRIPTON
 rem   HR (Human Resources) is a small sample schema resembling an HR department
