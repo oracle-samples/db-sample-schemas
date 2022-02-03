@@ -20,7 +20,7 @@ rem FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 rem DEALINGS IN THE SOFTWARE.
 rem
 rem NAME
-rem   hr_cre.sql - Creates schema objects for HR (Human Resources) schema
+rem   hr_create.sql - Creates schema objects for HR (Human Resources) schema
 rem
 rem DESCRIPTON
 rem   This script creates tables, associated constraints,

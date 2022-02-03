@@ -48,7 +48,7 @@ HR (Human Resources) is a small sample schema resembling an HR department.
 5. `country_name` column changed from `varchar2(40)` to `varchar2(60) `
 
 ### SCHEMA DEPENDENCIES AND REQUIREMENTS
- Required access to `hr_install.sql`, `hr_cre.sql`, `hr_popul.sql`, `hr_code.sql`
+ Required access to `hr_install.sql`, `hr_create.sql`, `hr_populate.sql`, `hr_code.sql`
 
 ## INSTALL INSTRUCTIONS
 1. Run as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)

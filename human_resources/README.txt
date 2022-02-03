@@ -43,7 +43,7 @@ rem     United Kingdom of Great Britain and Northern Ireland
 rem  5. country_name column changed from varchar2(40) to varchar2(60) 
 rem
 rem SCHEMA DEPENDENCIES AND REQUIREMENTS
-rem  Required access to hr_install.sql, hr_cre.sql, hr_popul.sql, hr_code.sql
+rem  Required access to hr_install.sql, hr_create.sql, hr_populate.sql, hr_code.sql
 rem 
 rem INSTALL INSTRUCTIONS
 rem   1. Run as privileged user with rights to create another user 

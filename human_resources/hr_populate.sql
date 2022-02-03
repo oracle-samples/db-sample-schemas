@@ -20,7 +20,7 @@ rem OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN TH
 rem SOFTWARE.
 rem
 rem NAME
-rem   hr_popul.sql - populates the HR (Human Resources) tables with data
+rem   hr_populate.sql - populates the HR (Human Resources) tables with data
 rem
 rem DESCRIPTON
 rem   This script populates the HR tables with rows of data 

@@ -38,7 +38,7 @@ rem MAJOR CHANGES IN THIS RELEASE
 rem   new script for HR installation 
 rem
 rem SCHEMA DEPENDENCIES AND REQUIREMENTS
-rem  This script calls hr_cre.sql, hr_popul.sql, hr_code.sql
+rem  This script calls hr_create.sql, hr_populate.sql, hr_code.sql
 rem 
 rem INSTALL INSTRUCTIONS
 rem   1. Run as privileged user with rights to create another user 
@@ -136,13 +136,13 @@ ALTER SESSION SET NLS_TERRITORY=America;
 -- create tables, indexes, sequences, constraints and comments
 --
 
-@@hr_cre.sql
+@@hr_create.sql
 
 -- 
 -- populate tables
 --
 
-@@hr_popul.sql
+@@hr_populate.sql
 
 
 --
