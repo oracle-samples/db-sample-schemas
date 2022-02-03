@@ -31,7 +31,7 @@ rem SCHEMA VERSION
 rem   21
 rem
 rem RELEASE DATE
-rem   3rd Feburary 2022
+rem   3rd February 2022
 rem
 rem SUPPORTED with DB VERSIONS
 rem   19c and higher

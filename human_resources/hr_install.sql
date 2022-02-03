@@ -29,7 +29,7 @@ rem SCHEMA VERSION
 rem   21
 rem
 rem RELEASE DATE
-rem   3rd Feburary 2022
+rem   3rd February 2022
 rem
 rem SUPPORTED with DB VERSIONS
 rem   19c and higher
@@ -38,7 +38,7 @@ rem MAJOR CHANGES IN THIS RELEASE
 rem   new script for HR installation 
 rem
 rem SCHEMA DEPENDENCIES AND REQUIREMENTS
-rem  This script calls hr_create, hr_popul, hr_code
+rem  This script calls hr_cre.sql, hr_popul.sql, hr_code.sql
 rem 
 rem INSTALL INSTRUCTIONS
 rem   1. Run as privileged user with rights to create another user 

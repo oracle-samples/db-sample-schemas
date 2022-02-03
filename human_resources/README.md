@@ -33,7 +33,7 @@ HR (Human Resources) is a small sample schema resembling an HR department.
 
 ### RELEASE DATE
 
-3rd Feburary 2022
+3rd February 2022
 
 ### SUPPORTED with DB VERSIONS
 
