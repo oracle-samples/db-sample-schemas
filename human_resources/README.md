@@ -39,7 +39,7 @@ HR (Human Resources) is a small sample schema resembling an HR department.
 
 19c and higher
 
-###MAJOR CHANGES IN THIS RELEASE
+### MAJOR CHANGES IN THIS RELEASE
 
 1. all date data is updated
 2. updated phone numbers in US for globalization
