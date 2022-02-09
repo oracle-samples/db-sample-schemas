@@ -88,10 +88,10 @@ ACCEPT tbs PROMPT 'Enter a tablespace for HR [&var_default_tablespace]: ' DEFAUL
 -- Log installation into log file
 SPOOL hr_install.log
 
-REM =======================================================
-REM cleanup old HR schema, if found
-REM Use PL/SQL to avoid "user does not exist" error
-REM =======================================================
+rem =======================================================
+rem cleanup old HR schema, if found
+rem Use PL/SQL to avoid "user does not exist" error
+rem =======================================================
 
 SET SERVEROUTPUT ON;
 DECLARE
@@ -110,9 +110,9 @@ END;
 /
 SET SERVEROUTPUT OFF;
 
-REM =======================================================
-REM create the HR schema user
-REM =======================================================
+rem =======================================================
+rem create the HR schema user
+rem =======================================================
 
 CREATE USER hr IDENTIFIED BY &pass
                DEFAULT TABLESPACE &tbs
@@ -121,38 +121,34 @@ CREATE USER hr IDENTIFIED BY &pass
 GRANT CREATE SESSION, CREATE VIEW, ALTER SESSION, CREATE SEQUENCE TO hr;
 GRANT CREATE SYNONYM, CREATE DATABASE LINK, RESOURCE , UNLIMITED TABLESPACE TO hr;
 
-REM =======================================================
-REM create hr schema objects
-REM =======================================================
-
 ALTER SESSION SET CURRENT_SCHEMA=HR;
 ALTER SESSION SET NLS_LANGUAGE=American;
 ALTER SESSION SET NLS_TERRITORY=America;
 
---
--- create tables, indexes, sequences, constraints and comments
---
+rem =======================================================
+rem create ZZ schema objects
+rem =======================================================
 
 @@hr_create.sql
 
--- 
--- populate tables
---
+rem =======================================================
+rem populate tables with data
+rem =======================================================
 
 @@hr_populate.sql
 
-
---
--- create procedural objects
---
+rem =======================================================
+rem create procedural objects
+rem =======================================================
 
 @@hr_code.sql
 
---
--- installation validation
---
+rem =======================================================
+rem installation validation
+rem =======================================================
+
 SET HEADING ON
--- reactivated by sub-scripts, turn it off again.
+rem reactivated by sub-scripts, turn it off again.
 SET FEEDBACK OFF
 
 SELECT 'Verification:' AS "Installation verification" FROM dual;
@@ -170,12 +166,14 @@ UNION ALL
 SELECT 'jobs' AS "Table", 19 AS "provided", count(1) AS "actual" FROM hr.jobs
 UNION ALL
 SELECT 'job_history' AS "Table", 10 AS "provided", count(1) AS "actual" FROM hr.job_history;
---
--- Installation finish text.
---
--- the SELECT '' FROM DUAL statements serve to print new lines
--- and make the output more readable.
---
+
+rem
+rem Installation finish text.
+rem
+rem the SELECT '' FROM DUAL statements serve to print new lines
+rem and make the output more readable.
+rem
+
 SELECT 'The installation of the sample schema is now finished.'  AS "Thank you!"
    FROM dual
 UNION ALL
@@ -200,12 +198,12 @@ UNION ALL
 SELECT '' AS "Thank you!"
    FROM dual;
 
---
--- Disconnect again from database to prevent any accidental commands being
--- executed as a privileged user.
--- Use 'disconnect' instead of 'exit' to leave SQL*Plus Window open on Windows.
---
+rem
+rem Disconnect again from database to prevent any accidental commands being
+rem executed as a privileged user.
+rem Use 'disconnect' instead of 'exit' to leave SQL*Plus Window open on Windows.
+rem
 disconnect
 
--- spool off at the end so that disconnect is still visible in log file.
+rem spool off at the end so that disconnect is still visible in log file.
 spool off
