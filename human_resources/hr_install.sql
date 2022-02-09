@@ -111,10 +111,7 @@ END;
 SET SERVEROUTPUT OFF;
 
 REM =======================================================
-REM create user
-REM three separate commands, so the create user command 
-REM will succeed regardless of the existence of the 
-REM DEMO and TEMP tablespaces 
+REM create the HR schema user
 REM =======================================================
 
 CREATE USER hr IDENTIFIED BY &pass
