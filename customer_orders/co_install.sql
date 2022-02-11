@@ -115,7 +115,7 @@ REM =======================================================
 REM create the CO schema user
 REM =======================================================
 
-CREATE USER zz IDENTIFIED BY &pass
+CREATE USER co IDENTIFIED BY &pass
                DEFAULT TABLESPACE &tbs
                QUOTA UNLIMITED ON &tbs;
 
@@ -139,3 +139,75 @@ rem create CO schema objects
 rem =======================================================
 
 @@co_create.sql
+
+rem =======================================================
+rem populate tables with data
+rem =======================================================
+
+@@co_populate.sql
+
+rem =======================================================
+rem installation validation
+rem =======================================================
+
+SET HEADING ON
+rem reactivated by sub-scripts, turn it off again.
+SET FEEDBACK OFF
+
+SELECT 'Verification:' AS "Installation verification" FROM dual;
+
+SELECT 'customers' AS "Table", 392 AS "provided", count(1) AS "actual" FROM co.customers
+UNION ALL
+SELECT 'stores' AS "Table", 23 AS "provided", count(1) AS "actual" FROM co.stores
+UNION ALL
+SELECT 'products' AS "Table", 46 AS "provided", count(1) AS "actual" FROM co.products
+UNION ALL
+SELECT 'orders' AS "Table", 1950 AS "provided", count(1) AS "actual" FROM co.orders
+UNION ALL
+SELECT 'shipments' AS "Table", 1892 AS "provided", count(1) AS "actual" FROM co.shipments
+UNION ALL
+SELECT 'order_items' AS "Table", 3914 AS "provided", count(1) AS "actual" FROM co.order_items
+UNION ALL
+SELECT 'inventory' AS "Table", 566 AS "provided", count(1) AS "actual" FROM co.inventory;
+
+
+rem
+rem Installation finish text.
+rem
+rem the SELECT '' FROM DUAL statements serve to print new lines
+rem and make the output more readable.
+rem
+
+SELECT 'The installation of the sample schema is now finished.'  AS "Thank you!"
+   FROM dual
+UNION ALL
+SELECT 'Please check the installation verification output above.' AS "Thank you!"
+   FROM dual
+UNION ALL
+SELECT '' AS "Thank you!"
+   FROM dual
+UNION ALL
+SELECT 'You will now be disconnected from the database.' AS "Thank you!"
+   FROM dual
+UNION ALL
+SELECT 'Please exit this session and start a new one.' AS "Thank you!"
+   FROM dual
+UNION ALL
+SELECT '' AS "Thank you!"
+   FROM dual
+UNION ALL
+SELECT 'Thank you for using Oracle Database!' AS "Thank you!"
+   FROM dual
+UNION ALL
+SELECT '' AS "Thank you!"
+   FROM dual;
+
+rem
+rem Disconnect again from database to prevent any accidental commands being
+rem executed as a privileged user.
+rem Use 'disconnect' instead of 'exit' to leave SQL*Plus Window open on Windows.
+rem
+disconnect
+
+rem spool off at the end so that disconnect is still visible in log file.
+spool off
