@@ -1,6 +1,63 @@
-PROMPT INSERTING into CUSTOMERS
-set define off
-begin
+rem
+rem Copyright (c) 2022 Oracle
+rem
+rem Permission is hereby granted, free of charge, to any person obtaining a
+rem copy of this software and associated documentation files (the "Software"),
+rem to deal in the Software without restriction, including without limitation
+rem the rights to use, copy, modify, merge, publish, distribute, sublicense,
+rem and/or sell copies of the Software, and to permit persons to whom the
+rem Software is furnished to do so, subject to the following conditions:
+rem
+rem The above copyright notice and this permission notice shall be included in
+rem all copies or substantial portions rem of the Software.
+rem
+rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+rem IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+rem FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+rem THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+rem LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+rem OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+rem SOFTWARE.
+rem
+rem NAME
+rem   co_populate.sql - populates the CO (Customer Orders) tables with data
+rem
+rem DESCRIPTON
+rem   This script populates the CO tables with rows of data
+rem
+rem SCHEMA VERSION
+rem   21
+rem
+rem RELEASE DATE
+rem   08-FEB-2022
+rem
+rem SUPPORTED with DB VERSIONS
+rem   19c and higher
+rem
+rem MAJOR CHANGES IN THIS RELEASE
+rem
+rem
+rem SCHEMA DEPENDENCIES AND REQUIREMENTS
+rem   This script is called from the co_install.sql script
+rem
+rem INSTALL INSTRUCTIONS
+rem    Run the co_install.sql script to call this script
+rem
+rem NOTES
+rem   tbd
+rem
+rem --------------------------------------------------------------------------
+
+
+SET VERIFY OFF
+SET DEFINE OFF
+ALTER SESSION SET NLS_LANGUAGE=American;
+
+REM *************************** insert data into the tablename table
+
+Prompt ******  Populating tablename table ....
+
+BEGIN
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (1,'tammy.bryant@internalmail','Tammy Bryant');
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (2,'roy.white@internalmail','Roy White');
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (3,'gary.jenkins@internalmail','Gary Jenkins');
@@ -66,7 +123,7 @@ begin
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (63,'eva.ogatius@internalmail','Eva Ogatius');
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (64,'harriet.auxus@internalmail','Harriet Auxus');
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (65,'domingo.morano@internalmail','Domingo Morano');
-  insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (66,'glaubo.rinnaia@internalmail','Glaubo Rinnaia');
+  insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (66,'john.venzl@internalmail','John Venzl');
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (67,'roberto.sipaia@internalmail','Roberto Sipaia');
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (68,'emilio.sessaia@internalmail','Emilio Sessaia');
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (69,'felix.auvacia@internalmail','Felix Auvacia');
@@ -393,5 +450,5 @@ begin
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (390,'pamela.alexander@internalmail','Pamela Alexander');
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (391,'edward.coleman@internalmail','Edward Coleman');
   insert into customers (CUSTOMER_ID,EMAIL_ADDRESS,FULL_NAME) values (392,'adam.miller@internalmail','Adam Miller');
-end;
+END;
 /
