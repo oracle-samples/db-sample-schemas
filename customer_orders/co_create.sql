@@ -270,3 +270,73 @@ CREATE INDEX shipments_store_id_i      ON shipments   ( store_id );
 CREATE INDEX shipments_customer_id_i   ON shipments   ( customer_id );
 CREATE INDEX order_items_shipment_id_i ON order_items ( shipment_id );
 CREATE INDEX inventory_product_id_i    ON inventory   ( product_id );
+
+rem ********************************************************************
+rem Create constraints
+
+Prompt ******  Adding constraints to tables ...
+
+ALTER TABLE customers ADD CONSTRAINT customers_pk PRIMARY KEY (customer_id);
+
+ALTER TABLE customers ADD CONSTRAINT customers_email_u UNIQUE (email_address);
+
+ALTER TABLE stores ADD CONSTRAINT stores_pk PRIMARY KEY (store_id);
+
+ALTER TABLE stores ADD CONSTRAINT store_name_u UNIQUE (store_name);
+
+ALTER TABLE stores ADD CONSTRAINT store_at_least_one_address_c
+  CHECK (
+    web_address IS NOT NULL or physical_address IS NOT NULL
+  );
+
+ALTER TABLE products ADD CONSTRAINT products_pk PRIMARY KEY (product_id);
+
+ALTER TABLE products ADD CONSTRAINT products_json_c
+                     CHECK ( product_details is json );
+
+ALTER TABLE orders ADD CONSTRAINT orders_pk PRIMARY KEY (order_id);
+
+ALTER TABLE orders ADD CONSTRAINT orders_customer_id_fk
+   FOREIGN KEY (customer_id) REFERENCES customers (customer_id);
+
+ALTER TABLE orders ADD CONSTRAINT  orders_status_c
+                  CHECK ( order_status in
+                    ( 'CANCELLED','COMPLETE','OPEN','PAID','REFUNDED','SHIPPED'));
+
+ALTER TABLE orders ADD CONSTRAINT orders_store_id_fk FOREIGN KEY (store_id)
+   REFERENCES stores (store_id);
+
+ALTER TABLE shipments ADD CONSTRAINT shipments_pk PRIMARY KEY (shipment_id);
+
+ALTER TABLE shipments ADD CONSTRAINT shipments_store_id_fk
+   FOREIGN KEY (store_id) REFERENCES stores (store_id);
+
+ALTER TABLE shipments ADD CONSTRAINT shipments_customer_id_fk
+   FOREIGN KEY (customer_id) REFERENCES customers (customer_id);
+
+ALTER TABLE shipments ADD CONSTRAINT shipment_status_c
+                  CHECK ( shipment_status in
+                    ( 'CREATED', 'SHIPPED', 'IN-TRANSIT', 'DELIVERED'));
+
+ALTER TABLE order_items ADD CONSTRAINT order_items_pk PRIMARY KEY ( order_id, line_item_id );
+
+ALTER TABLE order_items ADD CONSTRAINT order_items_order_id_fk
+   FOREIGN KEY (order_id) REFERENCES orders (order_id);
+
+ALTER TABLE order_items ADD CONSTRAINT order_items_shipment_id_fk
+   FOREIGN KEY (shipment_id) REFERENCES shipments (shipment_id);
+
+ALTER TABLE order_items ADD CONSTRAINT order_items_product_id_fk
+   FOREIGN KEY (product_id) REFERENCES products (product_id);
+
+ALTER TABLE order_items ADD CONSTRAINT order_items_product_u UNIQUE ( product_id, order_id );
+
+ALTER TABLE inventory ADD CONSTRAINT inventory_pk PRIMARY KEY (inventory_id);
+
+ALTER TABLE inventory ADD CONSTRAINT inventory_store_product_u UNIQUE (store_id, product_id);
+
+ALTER TABLE inventory ADD CONSTRAINT inventory_store_id_fk
+   FOREIGN KEY (store_id) REFERENCES stores (store_id);
+
+ALTER TABLE inventory ADD CONSTRAINT inventory_product_id_fk
+   FOREIGN KEY (product_id) REFERENCES products (product_id);
