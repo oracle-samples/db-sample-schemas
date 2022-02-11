@@ -21,11 +21,11 @@ col dec_value format 999,990.00
 PROMPT Store sales analysis
 /* Highest number of consecutive days with a sale at each store */
 with store_orders as (
-  select store_name, trunc ( order_datetime ) dt, count(*) order#
+  select store_name, trunc ( order_tms ) dt, count(*) order#
   from   orders o
   join   stores s
   on     o.store_id = s.store_id
-  group  by store_name, trunc ( order_datetime )
+  group  by store_name, trunc ( order_tms )
 ), consecutive_days as (
   select store_name, consecutive_days, 
          max ( consecutive_days ) over ( partition by store_name ) store_mx
@@ -53,14 +53,14 @@ PROMPT High value customers
 */
 with rws as (
   select 
-         o.customer_id, trunc ( o.order_datetime, 'mm' ) order_month,
+         o.customer_id, trunc ( o.order_tms, 'mm' ) order_month,
          sum ( oi.quantity * oi.unit_price ) month_total
   from   products p
   join   order_items oi
   on     p.product_id = oi.product_id
   join   orders o
   on     oi.order_id = o.order_id
-  group  by o.customer_id, trunc ( o.order_datetime, 'mm' )
+  group  by o.customer_id, trunc ( o.order_tms, 'mm' )
 )
   select * from rws 
   match_recognize (
@@ -130,6 +130,7 @@ group  by p.product_name
 order  by count(*) desc
 fetch  first 5 rows only;
 
+
 PROMPT Most popular products by value
 /* 5 products with the highest revenue
    With their corresponding order rank */
@@ -146,20 +147,21 @@ group  by p.product_name
 order  by sum ( oi.quantity * oi.unit_price ) desc
 fetch  first 5 rows only;
 
+
 PROMPT Daily order count and value
 /* Daily order count and value */
 with dates as (
-  select date'2018-02-03' + level dt 
+  select date'2021-02-03' + level dt
   from   dual
   connect by level <= 433
 ), order_totals as (
-  select trunc ( o.order_datetime ) order_date,
+  select trunc ( o.order_tms ) order_date,
          count ( distinct o.order_id ) number_of_orders,
          sum ( oi.quantity * oi.unit_price ) value_of_orders
   from   orders o
   join   order_items oi
   on     o.order_id = oi.order_id
-  group  by trunc ( o.order_datetime )
+  group  by trunc ( o.order_tms )
 )
   select to_char ( dt, 'DD-MON-YYYY' ) sale_date, 
          nvl ( number_of_orders, 0 ) number_of_orders, 
@@ -168,20 +170,21 @@ with dates as (
   left   join order_totals
   on     dt = order_date
   order  by dt;
-  
+
+
 PROMPT Month and year sales matrix
 /* Month and year pivot table of sales 
    Groups the total sales value by month & year
    The uses pivot to get years as rows and months and columns */
 with order_totals as (
-  select extract ( year from o.order_datetime ) order_year,
-         to_char ( o.order_datetime, 'MON', 'NLS_DATE_LANGUAGE = english' ) order_month,
+  select extract ( year from o.order_tms ) order_year,
+         to_char ( o.order_tms, 'MON', 'NLS_DATE_LANGUAGE = english' ) order_month,
          sum ( oi.quantity * oi.unit_price ) value_of_orders
   from   orders o
   join   order_items oi
   on     o.order_id = oi.order_id
-  group  by extract ( year from o.order_datetime ),
-         to_char ( o.order_datetime, 'MON', 'NLS_DATE_LANGUAGE = english' )
+  group  by extract ( year from o.order_tms ),
+         to_char ( o.order_tms, 'MON', 'NLS_DATE_LANGUAGE = english' )
 )
   select * from order_totals
   pivot (
