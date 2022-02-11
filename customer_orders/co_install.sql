@@ -115,13 +115,27 @@ REM =======================================================
 REM create the CO schema user
 REM =======================================================
 
-#TODO: Add user creation part here
+CREATE USER zz IDENTIFIED BY &pass
+               DEFAULT TABLESPACE &tbs
+               QUOTA UNLIMITED ON &tbs;
 
-REM =======================================================
-REM create CO schema objects
-REM =======================================================
+GRANT CREATE MATERIALIZED VIEW,
+      CREATE PROCEDURE,
+      CREATE SEQUENCE,
+      CREATE SESSION,
+      CREATE SYNONYM,
+      CREATE TABLE,
+      CREATE TRIGGER,
+      CREATE TYPE,
+      CREATE VIEW
+  TO co;
 
 ALTER SESSION SET CURRENT_SCHEMA=CO;
 ALTER SESSION SET NLS_LANGUAGE=American;
 ALTER SESSION SET NLS_TERRITORY=America;
 
+rem =======================================================
+rem create CO schema objects
+rem =======================================================
+
+@@co_create.sql
