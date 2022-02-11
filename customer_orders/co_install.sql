@@ -24,7 +24,7 @@ rem   co_install.sql - Main installation script for CO schema creation
 rem
 rem DESCRIPTON
 rem   CO (Customer Orders) is a sample schema resembling a generic
-rem   customer orders management schema
+rem   customer orders management schema.
 rem
 rem SCHEMA VERSION
 rem   21
