@@ -10,13 +10,13 @@ rem Software is furnished to do so, subject to the following conditions:
 rem
 rem The above copyright notice and this permission notice shall be included in
 rem all copies or substantial portions rem of the Software.
-rem 
+rem
 rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 rem IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 rem FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
 rem THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-rem LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
-rem FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+rem LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+rem FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 rem DEALINGS IN THE SOFTWARE.
 rem
 rem NAME
@@ -34,16 +34,16 @@ rem   08-FEB-2022
 rem
 rem SUPPORTED with DB VERSIONS
 rem   19c and higher
-rem 
+rem
 rem MAJOR CHANGES IN THIS RELEASE
-rem   
+rem
 rem
 rem SCHEMA DEPENDENCIES AND REQUIREMENTS
 rem   This script is called from the co_install.sql script
-rem 
+rem
 rem INSTALL INSTRUCTIONS
 rem    Run the co_install.sql script to call this script
-rem 
+rem
 rem --------------------------------------------------------------------------
 
 SET FEEDBACK 1
@@ -52,7 +52,7 @@ SET LINESIZE 80
 SET TRIMSPOOL ON
 SET TAB OFF
 SET PAGESIZE 100
-SET ECHO OFF 
+SET ECHO OFF
 
 rem ********************************************************************
 rem Create the CUSTOMERS table to hold customer information
@@ -121,7 +121,7 @@ CREATE TABLE orders
 );
 
 rem ********************************************************************
-rem Create the SHIPMENTS table to hold shipment information 
+rem Create the SHIPMENTS table to hold shipment information
 
 Prompt ******  Creating SHIPMENTS table ....
 
@@ -167,7 +167,96 @@ rem Create views
 
 Prompt ******  Create views
 
--- add create statements or remove above comment if there are no view
+rem ********************************************************************
+rem A view for a summary of who placed each order and what they bought
+
+CREATE OR REPLACE VIEW customer_order_products AS
+  SELECT o.order_id, o.order_datetime, o.order_status,
+         c.customer_id, c.email_address, c.full_name,
+         SUM ( oi.quantity * oi.unit_price ) order_total,
+         LISTAGG (
+           p.product_name, ', '
+           ON OVERFLOW TRUNCATE '...' WITH COUNT
+         ) WITHIN GROUP ( ORDER BY oi.line_item_id ) items
+  FROM   orders o
+  JOIN   order_items oi
+  ON     o.order_id = oi.order_id
+  JOIN   customers c
+  ON     o.customer_id = c.customer_id
+  JOIN   products p
+  ON     oi.product_id = p.product_id
+  GROUP  BY o.order_id, o.order_datetime, o.order_status,
+         c.customer_id, c.email_address, c.full_name;
+
+rem ********************************************************************
+rem A view for a summary of what was purchased at each location,
+rem    including summaries each store, order status and overall total
+
+CREATE OR REPLACE VIEW store_orders AS
+  SELECT CASE
+           grouping_id ( store_name, order_status )
+           WHEN 1 THEN 'STORE TOTAL'
+           WHEN 2 THEN 'STATUS TOTAL'
+           WHEN 3 THEN 'GRAND TOTAL'
+         END total,
+         s.store_name,
+         COALESCE ( s.web_address, s.physical_address ) address,
+         s.latitude, s.longitude,
+         o.order_status,
+         COUNT ( DISTINCT o.order_id ) order_count,
+         SUM ( oi.quantity * oi.unit_price ) total_sales
+  FROM   stores s
+  JOIN   orders o
+  ON     s.store_id = o.store_id
+  JOIN   order_items oi
+  ON     o.order_id = oi.order_id
+  GROUP  BY GROUPING SETS (
+    ( s.store_name, COALESCE ( s.web_address, s.physical_address ), s.latitude, s.longitude ),
+    ( s.store_name, COALESCE ( s.web_address, s.physical_address ), s.latitude, s.longitude, o.order_status ),
+    o.order_status,
+    ()
+  );
+
+rem ********************************************************************
+rem A relational view of the reviews stored in the JSON for each product
+
+CREATE OR REPLACE VIEW product_reviews AS
+  SELECT p.product_name, r.rating,
+         ROUND (
+           AVG ( r.rating ) over (
+             PARTITION BY product_name
+           ),
+           2
+         ) avg_rating,
+         r.review
+  FROM   products p,
+         JSON_TABLE (
+           p.product_details, '$'
+           COLUMNS (
+             NESTED PATH '$.reviews[*]'
+             COLUMNS (
+               rating INTEGER PATH '$.rating',
+               review VARCHAR2(4000) PATH '$.review'
+             )
+           )
+         ) r;
+
+rem ********************************************************************
+rem A view for a summary of the total sales per product and order status
+
+CREATE OR REPLACE VIEW product_orders AS
+  SELECT p.product_name, o.order_status,
+         SUM ( oi.quantity * oi.unit_price ) total_sales,
+         COUNT (*) order_count
+  FROM   orders o
+  JOIN   order_items oi
+  ON     o.order_id = oi.order_id
+  JOIN   customers c
+  ON     o.customer_id = c.customer_id
+  JOIN   products p
+  ON     oi.product_id = p.product_id
+  GROUP  BY p.product_name, o.order_status;
+
 
 rem ********************************************************************
 rem Create indexes
