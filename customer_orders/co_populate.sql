@@ -511,3 +511,72 @@ BEGIN
   insert into products (PRODUCT_ID,PRODUCT_NAME,UNIT_PRICE,PRODUCT_DETAILS) values (46,'Girl''s Trousers (Red)',39.16,UTL_RAW.CAST_TO_RAW( '{"colour":"red","gender":"Girl''s","brand":"OTHERSIDE","description":"Lorem officia laborum deserunt veniam cillum anim adipisicing minim aute ad esse sint sit tempor. Magna enim proident eiusmod incididunt adipisicing duis deserunt pariatur sint officia occaecat est minim ipsum.","sizes":["1 Yr","2 Yr","3-4 Yr","5-6 Yr","7-8 Yr","9-10 Yr"],"reviews":[{"rating":9,"review":"Magna magna ullamco ipsum pariatur occaecat eiusmod amet ea sunt reprehenderit dolore aute voluptate."},{"rating":7,"review":"Eiusmod cupidatat cillum qui dolor consequat."},{"rating":4,"review":"Do proident cillum cupidatat laboris in cillum."},{"rating":5,"review":"Sunt eiusmod ea labore est sint adipisicing velit duis."},{"rating":6,"review":"Ut consectetur ad magna officia ut aliqua deserunt magna."}]}') );
 END;
 /
+
+REM *************************** insert data into the STORES table
+
+Prompt ******  Populating STORES table ....
+
+BEGIN
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (1,'Online','https://www.example.com',NULL,NULL,NULL);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (2,'San Francisco',NULL,'Redwood Shores
+    500 Oracle Parkway
+    Redwood Shores, CA 94065',37.529395,-122.267237);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (3,'Seattle',NULL,'1501 Fourth Avenue
+    Suite 1800
+    Seattle, WA 98101',47.6053,-122.33221);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (4,'New York City',NULL,'205 Lexington Ave
+    7th Floor
+    New York, NY 10016',40.745216,-73.980518);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (5,'Chicago',NULL,'233 South Wacker Dr.
+    45th Floor
+    Chicago, IL 60606',41.878751,-87.636675);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (6,'London',NULL,'One South Place
+    London
+    EC2M 2RB',51.519281,-0.087296);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (7,'Bucharest',NULL,'Floreasca Park
+    43 Soseaua Pipera, corp B.
+    Sector 2
+    Bucharest , 014254
+    RO',44.43225,26.10626);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (8,'Berlin',NULL,'Behrenstraße 42 (Humboldt Carré)
+    10117 Berlin',52.5161,13.3873);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (9,'Utrecht',NULL,'Hertogswetering 163-167, 3543 AS Utrecht, Netherlands',52.103263,5.061644);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (10,'Madrid',NULL,'C/ José Echegaray 6B
+    Las Rozas
+    28230 Madrid',40.4929,-3.8737);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (11,'Johannesburg',NULL,'Woodmead North Office Park
+    54 Maxwell Drive
+    Jukskeiview, Sandton, 2196',-26.044222,28.094662);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (12,'Lagos',NULL,'1391 Tiamiyu Savage St, Victoria Island, Lagos, Nigeria',6.42806,3.42199);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (13,'Bengaluru',NULL,'193, Bannerghatta Main Rd, Industrial Area, Stage 2, BTM Layout, Bengaluru, Karnataka 560076, India',12.8939,77.5978);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (14,'Mumbai',NULL,'First International Financial Center
+    Unit No. 501, Level 5
+    No. C54 & 55, G Block
+    Bandra Kurla Complex
+    CTS No. 4207, Kolekalyan Village
+    Mumbai - 400 051
+    India',19.069405,72.870143);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (15,'New Dehli',NULL,'F-01/02, First Floor
+    Salcon Rasvillas
+    D-1, District Centre,
+    Saket, New Delhi - 110017
+    India',28.527693,77.220135);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (16,'Sydney',NULL,'Riverside Corporate Park
+    4 Julius Avenue
+    North Ryde
+    NSW 2113',-33.797279,151.143826);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (17,'Perth',NULL,'Level 9
+    225 St Georges Terrace
+    Perth WA 6000',-31.953715,115.851645);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (18,'São Paulo',NULL,'Rua Dr. Jose Aureo Bustamante,
+    455 - Vila Cordeiro,
+    CEP 04710-090 São Paulo',-23.5475,-46.63611);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (19,'Buenos Aires',NULL,'Juana Manso 1069, Buenos Aires, Argentina',-34.61016,-58.362867);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (20,'Mexico City',NULL,'Montes Urales # 470 P3
+    Col. Lomas de Chapultepec
+    Delegación Miguel Hidalgo - C.P. 11000',19.428489,-99.205745);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (21,'Bejing',NULL,'China, Beijing Shi, Haidian Qu, Dongbeiwang W Rd, 8, 100085',40.0572,116.290061);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (22,'Tokyo',NULL,'2 Chome-5-? Kitaaoyama, Minato City, Tokyo 107-0061, Japan',35.671534,139.718584);
+  insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE) values (23,'Tel Aviv',NULL,'B, Aharon Bart St 18, Petah Tikva, 4951400, Israel',32.100664,34.862138);
+END;
+/
