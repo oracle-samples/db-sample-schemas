@@ -68,7 +68,7 @@ DECLARE
    pragma exception_init(user_does_not_exist, -1918);
 BEGIN
    EXECUTE IMMEDIATE 'DROP USER CO CASCADE';
-   -- The next line will only be reached if the ZZ schema already exists.
+   -- The next line will only be reached if the CO schema already exists.
    -- Otherwise the statement above will trigger an exception.
    DBMS_OUTPUT.PUT_LINE('CO schema has been dropped.');
 EXCEPTION

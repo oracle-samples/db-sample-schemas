@@ -39,7 +39,7 @@ rem MAJOR CHANGES IN THIS RELEASE
 rem   new script for CO installation 
 rem
 rem SCHEMA DEPENDENCIES AND REQUIREMENTS
-rem  This script calls zz_create.sql, zz_populate.sql, zz_code.sql
+rem  This script calls co_create.sql, co_populate.sql, co_code.sql
 rem 
 rem INSTALL INSTRUCTIONS
 rem   1. Run as privileged user with rights to create another user 
@@ -100,7 +100,7 @@ DECLARE
    pragma exception_init(user_does_not_exist, -1918);
 BEGIN
    EXECUTE IMMEDIATE 'DROP USER CO CASCADE';
-   -- The next line will only be reached if the zz schema already exists.
+   -- The next line will only be reached if the CO schema already exists.
    -- Otherwise the statement above will trigger an exception.
    DBMS_OUTPUT.PUT_LINE('Old CO schema has been dropped.');
 EXCEPTION
