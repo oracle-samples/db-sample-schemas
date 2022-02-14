@@ -134,7 +134,7 @@ ALTER SESSION SET NLS_LANGUAGE=American;
 ALTER SESSION SET NLS_TERRITORY=America;
 
 rem =======================================================
-rem create ZZ schema objects
+rem create HR schema objects
 rem =======================================================
 
 @@hr_create.sql
