@@ -170,7 +170,6 @@ SELECT 'order_items' AS "Table", 3914 AS "provided", count(1) AS "actual" FROM c
 UNION ALL
 SELECT 'inventory' AS "Table", 566 AS "provided", count(1) AS "actual" FROM co.inventory;
 
-
 rem
 rem Installation finish text.
 rem

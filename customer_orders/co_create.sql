@@ -344,9 +344,9 @@ ALTER TABLE inventory ADD CONSTRAINT inventory_product_id_fk
 rem ********************************************************************
 rem Add table column comments
 
-Prompt ******  Addign table column comments ...
+Prompt ******  Adding table column comments ...
 
-comment on table customers
+COMMENT ON TABLE customers
   IS 'Details of the people placing orders';
 
 COMMENT ON COLUMN customers.customer_id
@@ -358,7 +358,7 @@ COMMENT ON COLUMN customers.email_address
 COMMENT ON COLUMN customers.full_name
   IS 'What this customer is called';
 
-comment on table stores
+COMMENT ON TABLE stores
   IS 'Physical and virtual locations where people can purchase products';
 
 COMMENT ON COLUMN stores.store_id
@@ -394,7 +394,7 @@ COMMENT ON COLUMN stores.logo_filename
 COMMENT ON COLUMN stores.logo_charset
   IS 'The character set used to encode the image';
 
-comment on table products
+COMMENT ON TABLE products
   IS 'Details of goods that customers can purchase';
 
 COMMENT ON COLUMN products.product_id
@@ -424,7 +424,7 @@ COMMENT ON COLUMN products.image_charset
 COMMENT ON COLUMN products.product_name
   IS 'What a product is called';
 
-comment on table orders
+COMMENT ON TABLE orders
   IS 'Details of who made purchases where';
 
 COMMENT ON COLUMN orders.order_id
@@ -448,7 +448,7 @@ COMPLETE - the customer has received the order
 CANCELLED - the customer has stopped the order
 REFUNDED - there has been an issue with the order and the money has been returned to the customer';
 
-comment on table order_items
+COMMENT ON TABLE order_items
   IS 'Details of which products the customer has purchased in an order';
 
 COMMENT ON COLUMN order_items.order_id
@@ -469,7 +469,7 @@ COMMENT ON COLUMN order_items.quantity
 COMMENT ON COLUMN order_items.shipment_id
   IS 'Where this product will be delivered';
 
-comment on table customer_order_products
+COMMENT ON TABLE customer_order_products
   IS 'A summary of who placed each order and what they bought';
 
 COMMENT ON COLUMN customer_order_products.order_id
@@ -496,7 +496,7 @@ COMMENT ON COLUMN customer_order_products.order_total
 COMMENT ON COLUMN customer_order_products.items
   IS 'A comma-separated list naming the products in this order';
 
-comment on table store_orders
+COMMENT ON TABLE store_orders
   IS 'A summary of what was purchased at each location, including summaries each store, order status and overall total';
 
 COMMENT ON COLUMN store_orders.order_status
@@ -523,7 +523,7 @@ COMMENT ON COLUMN store_orders.total_sales
 COMMENT ON COLUMN store_orders.order_count
   IS 'The total number of orders placed';
 
-comment on table product_reviews
+COMMENT ON TABLE product_reviews
   IS 'A relational view of the reviews stored in the JSON for each product';
 
 COMMENT ON COLUMN product_reviews.product_name
@@ -538,7 +538,7 @@ COMMENT ON COLUMN product_reviews.avg_rating
 COMMENT ON COLUMN product_reviews.review
   IS 'The text of the review';
 
-comment on table product_orders
+COMMENT ON TABLE product_orders
   IS 'A summary of the state of the orders placed for each product';
 
 COMMENT ON COLUMN product_orders.product_name
@@ -553,7 +553,7 @@ COMMENT ON COLUMN product_orders.total_sales
 COMMENT ON COLUMN product_orders.order_count
   IS 'The total number of orders placed';
 
-comment on table shipments
+COMMENT ON TABLE shipments
   IS 'Details of where ordered goods will be delivered';
 
 COMMENT ON COLUMN shipments.shipment_id
@@ -575,7 +575,7 @@ SHIPPED - the goods have been dispatched
 IN-TRANSIT - the goods are en-route to their destination
 DELIVERED - the good have arrived at their destination';
 
-comment on table inventory
+COMMENT ON TABLE inventory
   IS 'Details of the quantity of stock available for products at each location';
 
 COMMENT ON COLUMN inventory.inventory_id
