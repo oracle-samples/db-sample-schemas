@@ -69,46 +69,53 @@ SET FEEDBACK OFF
 -- Exit setup script on any error
 WHENEVER SQLERROR EXIT SQL.SQLCODE
 
--- Retrieve and store database default tablespace
-COLUMN property_value NEW_VALUE var_default_tablespace NOPRINT
-SELECT property_value FROM database_properties WHERE property_name = 'DEFAULT_PERMANENT_TABLESPACE';
+rem =======================================================
+rem Log installation process
+rem =======================================================
+
+SPOOL hr_install.log
+
+rem =======================================================
+rem cleanup old HR schema, if found and requested
+rem =======================================================
+
+ACCEPT overwrite_schema PROMPT 'Do you want to overwrite the schema, if it already exists? [YES|no]: ' DEFAULT 'YES'
+
+SET SERVEROUTPUT ON;
+DECLARE
+   v_user_exists   all_users.username%TYPE;
+BEGIN
+   SELECT MAX(username) INTO v_user_exists
+      FROM all_users WHERE username = 'HR';
+   -- Schema already exists
+   IF v_user_exists IS NOT NULL THEN
+      -- Overwrite schema if the user chose to do so
+      IF UPPER('&overwrite_schema') = 'YES' THEN
+         EXECUTE IMMEDIATE 'DROP USER HR CASCADE';
+         DBMS_OUTPUT.PUT_LINE('Old HR schema has been dropped.');
+      -- or raise error if the user doesn't want to overwrite it
+      ELSE
+         RAISE_APPLICATION_ERROR(-20998, 'Abort: the schema already exists and the user chose not to overwrite it.');
+      END IF;
+   END IF;
+END;
+/
+SET SERVEROUTPUT OFF;
 
 ACCEPT pass PROMPT 'Enter a password for the user HR: ' HIDE
 -- Make sure password is mandatory
-SET SERVEROUTPUT ON;
 BEGIN
    IF '&pass' IS NULL THEN
       RAISE_APPLICATION_ERROR(-20999, 'Error: the HR password is mandatory! Please specify a password!');
    END IF;
 END;
 /
-SET SERVEROUTPUT OFF;
+
+-- Retrieve and store database default tablespace
+COLUMN property_value NEW_VALUE var_default_tablespace NOPRINT
+SELECT property_value FROM database_properties WHERE property_name = 'DEFAULT_PERMANENT_TABLESPACE';
+
 ACCEPT tbs PROMPT 'Enter a tablespace for HR [&var_default_tablespace]: ' DEFAULT '&var_default_tablespace'
-
--- Log installation into log file
-SPOOL hr_install.log
-
-rem =======================================================
-rem cleanup old HR schema, if found
-rem Use PL/SQL to avoid "user does not exist" error
-rem =======================================================
-
-SET SERVEROUTPUT ON;
-DECLARE
-   user_does_not_exist EXCEPTION;
-   pragma exception_init(user_does_not_exist, -1918);
-BEGIN
-   EXECUTE IMMEDIATE 'DROP USER HR CASCADE';
-   -- The next line will only be reached if the HR schema already exists.
-   -- Otherwise the statement above will trigger an exception.
-   DBMS_OUTPUT.PUT_LINE('Old HR schema has been dropped.');
-EXCEPTION
-   WHEN user_does_not_exist THEN
-      -- Ignore error as the user to be dropped does not exist anyway
-      NULL;
-END;
-/
-SET SERVEROUTPUT OFF;
 
 rem =======================================================
 rem create the HR schema user
