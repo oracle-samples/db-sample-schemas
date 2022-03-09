@@ -50,13 +50,13 @@ SET PAGESIZE 100
 SET ECHO OFF 
 
 COMMENT ON TABLE regions 
-IS 'Regions table that contains region numbers and names. Contains 4 rows; references with the Countries table.'
+IS 'Regions table that contains region numbers and names. Contains 4 rows; references with the Countries table.';
 
 COMMENT ON COLUMN regions.region_id
-IS 'Primary key of regions table.'
+IS 'Primary key of regions table.';
 
 COMMENT ON COLUMN regions.region_name
-IS 'Names of regions. Locations are in the countries of these regions.'
+IS 'Names of regions. Locations are in the countries of these regions.';
 
 COMMENT ON TABLE locations
 IS 'Locations table that contains specific address of a specific office,
