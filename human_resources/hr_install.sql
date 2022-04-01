@@ -10,13 +10,13 @@ rem Software is furnished to do so, subject to the following conditions:
 rem
 rem The above copyright notice and this permission notice shall be included in
 rem all copies or substantial portions rem of the Software.
-rem 
+rem
 rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 rem IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 rem FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
 rem THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-rem LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
-rem FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+rem LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+rem FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 rem DEALINGS IN THE SOFTWARE.
 rem
 rem NAME
@@ -33,23 +33,23 @@ rem   03-FEB-2022
 rem
 rem SUPPORTED with DB VERSIONS
 rem   19c and higher
-rem 
+rem
 rem MAJOR CHANGES IN THIS RELEASE
-rem   new script for HR installation 
+rem   new script for HR installation
 rem
 rem SCHEMA DEPENDENCIES AND REQUIREMENTS
 rem  This script calls hr_create.sql, hr_populate.sql, hr_code.sql
 rem 
 rem INSTALL INSTRUCTIONS
-rem   1. Run as privileged user with rights to create another user 
+rem   1. Run as privileged user with rights to create another user
 rem      (SYSTEM, ADMIN, etc.)
 rem   2. Run this script to create the HR (human resources) schema
 rem   3. You are prompted for
 rem      a. password - enter an Oracle Database compliant password
-rem      b. tablespace - if you do not enter a tablespace, the default 
+rem      b. tablespace - if you do not enter a tablespace, the default
 rem         tablespace is used
-rem   Note: If the HR schema already exists, it is removed/dropped and a 
-rem         fresh HR schema is installed
+rem      c. whether you would like to overwrite the existing schema,
+rem         if it is already present in the database
 rem
 rem UNINSTALL INSTRUCTIONS
 rem   If you have installed the HR sample schema, you can remove it by running
@@ -58,7 +58,7 @@ rem
 rem NOTES
 rem   Run as privileged user with rights to create another user
 rem   (SYSTEM, ADMIN, etc.)
-rem 
+rem
 rem --------------------------------------------------------------------------
 
 SET ECHO OFF
@@ -74,6 +74,40 @@ rem Log installation process
 rem =======================================================
 
 SPOOL hr_install.log
+
+rem =======================================================
+rem Accept and verify schema password
+rem =======================================================
+
+ACCEPT pass PROMPT 'Enter a password for the user HR: ' HIDE
+
+BEGIN
+   IF '&pass' IS NULL THEN
+      RAISE_APPLICATION_ERROR(-20999, 'Error: the HR password is mandatory! Please specify a password!');
+   END IF;
+END;
+/
+
+rem =======================================================
+rem Accept and verify tablespace name
+rem =======================================================
+
+COLUMN property_value NEW_VALUE var_default_tablespace NOPRINT
+SELECT property_value FROM database_properties WHERE property_name = 'DEFAULT_PERMANENT_TABLESPACE';
+
+ACCEPT tbs PROMPT 'Enter a tablespace for HR [&var_default_tablespace]: ' DEFAULT '&var_default_tablespace'
+
+DECLARE
+   v_tbs_exists   NUMBER := 0;
+BEGIN
+   SELECT COUNT(1) INTO v_tbs_exists
+     FROM DBA_TABLESPACES
+       WHERE TABLESPACE_NAME = UPPER('&tbs');
+   IF v_tbs_exists = 0 THEN
+      RAISE_APPLICATION_ERROR(-20998, 'Error: the tablespace ''' || UPPER('&tbs') || ''' does not exist!');
+   END IF;
+END;
+/
 
 rem =======================================================
 rem cleanup old HR schema, if found and requested
@@ -95,27 +129,12 @@ BEGIN
          DBMS_OUTPUT.PUT_LINE('Old HR schema has been dropped.');
       -- or raise error if the user doesn't want to overwrite it
       ELSE
-         RAISE_APPLICATION_ERROR(-20998, 'Abort: the schema already exists and the user chose not to overwrite it.');
+         RAISE_APPLICATION_ERROR(-20997, 'Abort: the schema already exists and the user chose not to overwrite it.');
       END IF;
    END IF;
 END;
 /
 SET SERVEROUTPUT OFF;
-
-ACCEPT pass PROMPT 'Enter a password for the user HR: ' HIDE
--- Make sure password is mandatory
-BEGIN
-   IF '&pass' IS NULL THEN
-      RAISE_APPLICATION_ERROR(-20999, 'Error: the HR password is mandatory! Please specify a password!');
-   END IF;
-END;
-/
-
--- Retrieve and store database default tablespace
-COLUMN property_value NEW_VALUE var_default_tablespace NOPRINT
-SELECT property_value FROM database_properties WHERE property_name = 'DEFAULT_PERMANENT_TABLESPACE';
-
-ACCEPT tbs PROMPT 'Enter a tablespace for HR [&var_default_tablespace]: ' DEFAULT '&var_default_tablespace'
 
 rem =======================================================
 rem create the HR schema user
