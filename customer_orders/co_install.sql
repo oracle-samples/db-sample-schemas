@@ -10,13 +10,13 @@ rem Software is furnished to do so, subject to the following conditions:
 rem
 rem The above copyright notice and this permission notice shall be included in
 rem all copies or substantial portions rem of the Software.
-rem 
+rem
 rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 rem IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 rem FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
 rem THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-rem LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
-rem FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+rem LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+rem FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 rem DEALINGS IN THE SOFTWARE.
 rem
 rem NAME
@@ -34,23 +34,23 @@ rem   08-FEB-2022
 rem
 rem SUPPORTED with DB VERSIONS
 rem   19c and higher
-rem 
+rem
 rem MAJOR CHANGES IN THIS RELEASE
-rem   new script for CO installation 
+rem   new script for CO installation
 rem
 rem SCHEMA DEPENDENCIES AND REQUIREMENTS
 rem  This script calls co_create.sql, co_populate.sql, co_code.sql
 rem 
 rem INSTALL INSTRUCTIONS
-rem   1. Run as privileged user with rights to create another user 
+rem   1. Run as privileged user with rights to create another user
 rem      (SYSTEM, ADMIN, etc.)
 rem   2. Run this script to create the CO (Customer Orders) schema
 rem   3. You are prompted for
 rem      a. password - enter an Oracle Database compliant password
-rem      b. tablespace - if you do not enter a tablespace, the default 
+rem      b. tablespace - if you do not enter a tablespace, the default
 rem         tablespace is used
-rem   Note: If the CO schema already exists, it is removed/dropped and a 
-rem         fresh CO schema is installed
+rem      c. whether you would like to overwrite the existing schema,
+rem         if it is already present in the database
 rem
 rem UNINSTALL INSTRUCTIONS
 rem   If you have installed the CO sample schema, you can remove it by running
@@ -59,7 +59,7 @@ rem
 rem NOTES
 rem   Run as privileged user with rights to create another user
 rem   (SYSTEM, ADMIN, etc.)
-rem 
+rem
 rem --------------------------------------------------------------------------
 
 SET ECHO OFF
@@ -70,50 +70,76 @@ SET FEEDBACK OFF
 -- Exit setup script on any error
 WHENEVER SQLERROR EXIT SQL.SQLCODE
 
--- Retrieve and store database default tablespace
-COLUMN property_value NEW_VALUE var_default_tablespace NOPRINT
-SELECT property_value FROM database_properties WHERE property_name = 'DEFAULT_PERMANENT_TABLESPACE';
+rem =======================================================
+rem Log installation process
+rem =======================================================
+
+SPOOL co_install.log
+
+rem =======================================================
+rem Accept and verify schema password
+rem =======================================================
 
 ACCEPT pass PROMPT 'Enter a password for the user CO: ' HIDE
--- Make sure password is mandatory
-SET SERVEROUTPUT ON;
+
 BEGIN
    IF '&pass' IS NULL THEN
       RAISE_APPLICATION_ERROR(-20999, 'Error: the CO password is mandatory! Please specify a password!');
    END IF;
 END;
 /
-SET SERVEROUTPUT OFF;
+
+rem =======================================================
+rem Accept and verify tablespace name
+rem =======================================================
+
+COLUMN property_value NEW_VALUE var_default_tablespace NOPRINT
+SELECT property_value FROM database_properties WHERE property_name = 'DEFAULT_PERMANENT_TABLESPACE';
+
 ACCEPT tbs PROMPT 'Enter a tablespace for CO [&var_default_tablespace]: ' DEFAULT '&var_default_tablespace'
 
--- Log installation into log file
-SPOOL co_install.log
+DECLARE
+   v_tbs_exists   NUMBER := 0;
+BEGIN
+   SELECT COUNT(1) INTO v_tbs_exists
+     FROM DBA_TABLESPACES
+       WHERE TABLESPACE_NAME = UPPER('&tbs');
+   IF v_tbs_exists = 0 THEN
+      RAISE_APPLICATION_ERROR(-20998, 'Error: the tablespace ''' || UPPER('&tbs') || ''' does not exist!');
+   END IF;
+END;
+/
 
-REM =======================================================
-REM cleanup old CO schema, if found
-REM Use PL/SQL to avoid "user does not exist" error
-REM =======================================================
+rem =======================================================
+rem cleanup old CO schema, if found and requested
+rem =======================================================
+
+ACCEPT overwrite_schema PROMPT 'Do you want to overwrite the schema, if it already exists? [YES|no]: ' DEFAULT 'YES'
 
 SET SERVEROUTPUT ON;
 DECLARE
-   user_does_not_exist EXCEPTION;
-   pragma exception_init(user_does_not_exist, -1918);
+   v_user_exists   all_users.username%TYPE;
 BEGIN
-   EXECUTE IMMEDIATE 'DROP USER CO CASCADE';
-   -- The next line will only be reached if the CO schema already exists.
-   -- Otherwise the statement above will trigger an exception.
-   DBMS_OUTPUT.PUT_LINE('Old CO schema has been dropped.');
-EXCEPTION
-   WHEN user_does_not_exist THEN
-      -- Ignore error as the user to be dropped does not exist anyway
-      NULL;
+   SELECT MAX(username) INTO v_user_exists
+      FROM all_users WHERE username = 'CO';
+   -- Schema already exists
+   IF v_user_exists IS NOT NULL THEN
+      -- Overwrite schema if the user chose to do so
+      IF UPPER('&overwrite_schema') = 'YES' THEN
+         EXECUTE IMMEDIATE 'DROP USER CO CASCADE';
+         DBMS_OUTPUT.PUT_LINE('Old CO schema has been dropped.');
+      -- or raise error if the user doesn't want to overwrite it
+      ELSE
+         RAISE_APPLICATION_ERROR(-20997, 'Abort: the schema already exists and the user chose not to overwrite it.');
+      END IF;
+   END IF;
 END;
 /
 SET SERVEROUTPUT OFF;
 
-REM =======================================================
-REM create the CO schema user
-REM =======================================================
+rem =======================================================
+rem create the CO schema user
+rem =======================================================
 
 CREATE USER co IDENTIFIED BY &pass
                DEFAULT TABLESPACE &tbs
