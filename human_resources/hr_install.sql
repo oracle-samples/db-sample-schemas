@@ -220,9 +220,6 @@ UNION ALL
 SELECT 'You will now be disconnected from the database.' AS "Thank you!"
    FROM dual
 UNION ALL
-SELECT 'Please exit this session and start a new one.' AS "Thank you!"
-   FROM dual
-UNION ALL
 SELECT '' AS "Thank you!"
    FROM dual
 UNION ALL
@@ -232,12 +229,11 @@ UNION ALL
 SELECT '' AS "Thank you!"
    FROM dual;
 
-rem
-rem Disconnect again from database to prevent any accidental commands being
-rem executed as a privileged user.
-rem Use 'disconnect' instead of 'exit' to leave SQL*Plus Window open on Windows.
-rem
-disconnect
-
-rem spool off at the end so that disconnect is still visible in log file.
+rem stop writing to the log file
 spool off
+
+rem
+rem Exit from the session.
+rem Use 'exit' and not 'disconnect' to keep behavior the same for when errors occur.
+rem
+exit
