@@ -54,9 +54,9 @@ SET TAB OFF
 SET PAGESIZE 100
 SET ECHO OFF 
 
-REM ********************************************************************
-REM Create the REGIONS table to hold region information for locations
-REM HR.LOCATIONS table has a foreign key to this table.
+rem ********************************************************************
+rem Create the REGIONS table to hold region information for locations
+rem HR.LOCATIONS table has a foreign key to this table.
 
 Prompt ******  Creating REGIONS table ....
 
@@ -74,10 +74,10 @@ ADD ( CONSTRAINT reg_id_pk
        		 PRIMARY KEY (region_id)
     ) ;
 
-REM ********************************************************************
-REM Create the COUNTRIES table to hold country information for customers
-REM and company locations. 
-REM OE.CUSTOMERS table and HR.LOCATIONS have a foreign key to this table.
+rem ********************************************************************
+rem Create the COUNTRIES table to hold country information for customers
+rem and company locations.
+rem OE.CUSTOMERS table and HR.LOCATIONS have a foreign key to this table.
 
 Prompt ******  Creating COUNTRIES table ....
 
@@ -97,9 +97,9 @@ ADD ( CONSTRAINT countr_reg_fk
           	  REFERENCES regions(region_id) 
     ) ;
 
-REM ********************************************************************
-REM Create the LOCATIONS table to hold address information for company departments.
-REM HR.DEPARTMENTS has a foreign key to this table.
+rem ********************************************************************
+rem Create the LOCATIONS table to hold address information for company departments.
+rem HR.DEPARTMENTS has a foreign key to this table.
 
 Prompt ******  Creating LOCATIONS table ....
 
@@ -134,9 +134,9 @@ CREATE SEQUENCE locations_seq
  NOCACHE
  NOCYCLE;
 
-REM ********************************************************************
-REM Create the DEPARTMENTS table to hold company department information.
-REM HR.EMPLOYEES and HR.JOB_HISTORY have a foreign key to this table.
+rem ********************************************************************
+rem Create the DEPARTMENTS table to hold company department information.
+rem HR.EMPLOYEES and HR.JOB_HISTORY have a foreign key to this table.
 
 Prompt ******  Creating DEPARTMENTS table ....
 
@@ -169,9 +169,9 @@ CREATE SEQUENCE departments_seq
  NOCACHE
  NOCYCLE;
 
-REM ********************************************************************
-REM Create the JOBS table to hold the different names of job roles within the company.
-REM HR.EMPLOYEES has a foreign key to this table.
+rem ********************************************************************
+rem Create the JOBS table to hold the different names of job roles within the company.
+rem HR.EMPLOYEES has a foreign key to this table.
 
 Prompt ******  Creating JOBS table ....
 
@@ -191,10 +191,10 @@ ADD ( CONSTRAINT job_id_pk
       		 PRIMARY KEY(job_id)
     ) ;
 
-REM ********************************************************************
-REM Create the EMPLOYEES table to hold the employee personnel 
-REM information for the company.
-REM HR.EMPLOYEES has a self referencing foreign key to this table.
+rem ********************************************************************
+rem Create the EMPLOYEES table to hold the employee personnel
+rem information for the company.
+rem HR.EMPLOYEES has a self referencing foreign key to this table.
 
 Prompt ******  Creating EMPLOYEES table ....
 
@@ -255,10 +255,10 @@ CREATE SEQUENCE employees_seq
  NOCACHE
  NOCYCLE;
 
-REM ********************************************************************
-REM Create the JOB_HISTORY table to hold the history of jobs that 
-REM employees have held in the past.
-REM HR.JOBS, HR_DEPARTMENTS, and HR.EMPLOYEES have a foreign key to this table.
+rem ********************************************************************
+rem Create the JOB_HISTORY table to hold the history of jobs that
+rem employees have held in the past.
+rem HR.JOBS, HR_DEPARTMENTS, and HR.EMPLOYEES have a foreign key to this table.
 
 Prompt ******  Creating JOB_HISTORY table ....
 
@@ -293,10 +293,10 @@ ADD ( CONSTRAINT jhist_emp_id_st_date_pk
                      REFERENCES departments
     ) ;
 
-REM ********************************************************************
-REM Create the EMP_DETAILS_VIEW that joins the employees, jobs, 
-REM departments, jobs, countries, and locations table to provide details
-REM about employees.
+rem ********************************************************************
+rem Create the EMP_DETAILS_VIEW that joins the employees, jobs,
+rem departments, jobs, countries, and locations table to provide details
+rem about employees.
 
 Prompt ******  Creating EMP_DETAILS_VIEW view ...
 
@@ -348,7 +348,10 @@ WHERE e.department_id = d.department_id
   AND j.job_id = e.job_id 
 WITH READ ONLY;
 
-REM Create indexes
+rem ********************************************************************
+rem Create indexes
+
+Prompt ******  Creating indexes ...
 
 CREATE INDEX emp_department_ix
        ON employees (department_id);
@@ -384,7 +387,10 @@ CREATE INDEX loc_country_ix
        ON locations (country_id);
 
 
-Rem  Create comments for HR schema
+rem ********************************************************************
+rem Add table column comments
+
+Prompt ******  Adding table column comments ...
 
 COMMENT ON TABLE regions 
 IS 'Regions table that contains region numbers and names. references with the Countries table.';
@@ -424,7 +430,7 @@ IS 'Country where an office, warehouse, or production site of a company is
 located. Foreign key to country_id column of the countries table.';
 
 
-REM *********************************************
+rem *********************************************
 
 COMMENT ON TABLE departments
 IS 'Departments table that shows details of departments where employees 
@@ -445,7 +451,7 @@ COMMENT ON COLUMN departments.location_id
 IS 'Location id where a department is located. Foreign key to location_id column of locations table.';
 
 
-REM *********************************************
+rem *********************************************
 
 COMMENT ON TABLE job_history
 IS 'Table that stores job history of the employees. If an employee 
@@ -455,103 +461,99 @@ employee. Contains a complex primary key: employee_id+start_date.
 References with jobs, employees, and departments tables.';
 
 COMMENT ON COLUMN job_history.employee_id
-IS 'A not null column in the complex primary key employee_id+start_date.
+  IS 'A not null column in the complex primary key employee_id+start_date. 
 Foreign key to employee_id column of the employee table';
 
 COMMENT ON COLUMN job_history.start_date
-IS 'A not null column in the complex primary key employee_id+start_date. 
+  IS 'A not null column in the complex primary key employee_id+start_date. 
 Must be less than the end_date of the job_history table. (enforced by 
 constraint jhist_date_interval)';
 
 COMMENT ON COLUMN job_history.end_date
-IS 'Last day of the employee in this job role. A not null column. Must be 
+  IS 'Last day of the employee in this job role. A not null column. Must be 
 greater than the start_date of the job_history table. 
 (enforced by constraint jhist_date_interval)';
 
 COMMENT ON COLUMN job_history.job_id
-IS 'Job role in which the employee worked in the past; foreign key to 
+  IS 'Job role in which the employee worked in the past; foreign key to 
 job_id column in the jobs table. A not null column.';
 
 COMMENT ON COLUMN job_history.department_id
-IS 'Department id in which the employee worked in the past; foreign key to deparment_id column in the departments table';
+  IS 'Department id in which the employee worked in the past; foreign key to deparment_id column in the departments table';
 
-
-REM *********************************************
+rem *********************************************
 
 COMMENT ON TABLE countries
-IS 'country table. References with locations table.';
+  IS 'country table. References with locations table.';
 
 COMMENT ON COLUMN countries.country_id
-IS 'Primary key of countries table.';
+  IS 'Primary key of countries table.';
 
 COMMENT ON COLUMN countries.country_name
-IS 'Country name';
+  IS 'Country name';
 
 COMMENT ON COLUMN countries.region_id
-IS 'Region ID for the country. Foreign key to region_id column in the departments table.';
+  IS 'Region ID for the country. Foreign key to region_id column in the departments table.';
 
-REM *********************************************
+rem *********************************************
 
 COMMENT ON TABLE jobs
-IS 'jobs table with job titles and salary ranges. 
+  IS 'jobs table with job titles and salary ranges.
 References with employees and job_history table.';
 
 COMMENT ON COLUMN jobs.job_id
-IS 'Primary key of jobs table.';
+  IS 'Primary key of jobs table.';
 
 COMMENT ON COLUMN jobs.job_title
-IS 'A not null column that shows job title, e.g. AD_VP, FI_ACCOUNTANT';
+  IS 'A not null column that shows job title, e.g. AD_VP, FI_ACCOUNTANT';
 
 COMMENT ON COLUMN jobs.min_salary
-IS 'Minimum salary for a job title.';
+  IS 'Minimum salary for a job title.';
 
 COMMENT ON COLUMN jobs.max_salary
-IS 'Maximum salary for a job title';
+  IS 'Maximum salary for a job title';
 
-REM *********************************************
+rem *********************************************
 
 COMMENT ON TABLE employees
-IS 'employees table. References with departments, 
+  IS 'employees table. References with departments,
 jobs, job_history tables. Contains a self reference.';
 
 COMMENT ON COLUMN employees.employee_id
-IS 'Primary key of employees table.';
+  IS 'Primary key of employees table.';
 
 COMMENT ON COLUMN employees.first_name
-IS 'First name of the employee. A not null column.';
+  IS 'First name of the employee. A not null column.';
 
 COMMENT ON COLUMN employees.last_name
-IS 'Last name of the employee. A not null column.';
+  IS 'Last name of the employee. A not null column.';
 
 COMMENT ON COLUMN employees.email
-IS 'Email id of the employee';
+  IS 'Email id of the employee';
 
 COMMENT ON COLUMN employees.phone_number
-IS 'Phone number of the employee; includes country code and area code';
+  IS 'Phone number of the employee; includes country code and area code';
 
 COMMENT ON COLUMN employees.hire_date
-IS 'Date when the employee started on this job. A not null column.';
+  IS 'Date when the employee started on this job. A not null column.';
 
 COMMENT ON COLUMN employees.job_id
-IS 'Current job of the employee; foreign key to job_id column of the 
+  IS 'Current job of the employee; foreign key to job_id column of the 
 jobs table. A not null column.';
 
 COMMENT ON COLUMN employees.salary
-IS 'Monthly salary of the employee. Must be greater 
+  IS 'Monthly salary of the employee. Must be greater 
 than zero (enforced by constraint emp_salary_min)';
 
 COMMENT ON COLUMN employees.commission_pct
-IS 'Commission percentage of the employee; Only employees in sales 
+  IS 'Commission percentage of the employee; Only employees in sales 
 department elgible for commission percentage';
 
 COMMENT ON COLUMN employees.manager_id
-IS 'Manager id of the employee; has same domain as manager_id in 
-departments table. Foreign key to employee_id column of employees table.
+  IS 'Manager id of the employee; has same domain as manager_id in 
+departments table. Foreign key to employee_id column of employees table. 
 (useful for reflexive joins and CONNECT BY query)';
 
 COMMENT ON COLUMN employees.department_id
-IS 'Department id where employee works; foreign key to department_id 
+  IS 'Department id where employee works; foreign key to department_id 
 column of the departments table';
-
-COMMIT;
-

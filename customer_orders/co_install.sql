@@ -20,30 +20,31 @@ rem FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 rem DEALINGS IN THE SOFTWARE.
 rem
 rem NAME
-rem   hr_install.sql - Main installation script for HR schema creation
+rem   co_install.sql - Main installation script for CO schema creation
 rem
 rem DESCRIPTON
-rem   HR (Human Resources) is a small sample schema resembling an HR department
+rem   CO (Customer Orders) is a sample schema resembling a generic
+rem   customer orders management schema.
 rem
 rem SCHEMA VERSION
 rem   21
 rem
 rem RELEASE DATE
-rem   03-FEB-2022
+rem   08-FEB-2022
 rem
 rem SUPPORTED with DB VERSIONS
 rem   19c and higher
 rem
 rem MAJOR CHANGES IN THIS RELEASE
-rem   new script for HR installation
+rem   new script for CO installation
 rem
 rem SCHEMA DEPENDENCIES AND REQUIREMENTS
-rem  This script calls hr_create.sql, hr_populate.sql, hr_code.sql
+rem  This script calls co_create.sql, co_populate.sql, co_code.sql
 rem 
 rem INSTALL INSTRUCTIONS
 rem   1. Run as privileged user with rights to create another user
 rem      (SYSTEM, ADMIN, etc.)
-rem   2. Run this script to create the HR (human resources) schema
+rem   2. Run this script to create the CO (Customer Orders) schema
 rem   3. You are prompted for
 rem      a. password - enter an Oracle Database compliant password
 rem      b. tablespace - if you do not enter a tablespace, the default
@@ -52,8 +53,8 @@ rem      c. whether you would like to overwrite the existing schema,
 rem         if it is already present in the database
 rem
 rem UNINSTALL INSTRUCTIONS
-rem   If you have installed the HR sample schema, you can remove it by running
-rem   the hr_uninstall.sql script
+rem   If you have installed the CO sample schema, you can remove it by running
+rem   the co_uninstall.sql script
 rem
 rem NOTES
 rem   Run as privileged user with rights to create another user
@@ -73,17 +74,17 @@ rem =======================================================
 rem Log installation process
 rem =======================================================
 
-SPOOL hr_install.log
+SPOOL co_install.log
 
 rem =======================================================
 rem Accept and verify schema password
 rem =======================================================
 
-ACCEPT pass PROMPT 'Enter a password for the user HR: ' HIDE
+ACCEPT pass PROMPT 'Enter a password for the user CO: ' HIDE
 
 BEGIN
    IF '&pass' IS NULL THEN
-      RAISE_APPLICATION_ERROR(-20999, 'Error: the HR password is mandatory! Please specify a password!');
+      RAISE_APPLICATION_ERROR(-20999, 'Error: the CO password is mandatory! Please specify a password!');
    END IF;
 END;
 /
@@ -95,7 +96,7 @@ rem =======================================================
 COLUMN property_value NEW_VALUE var_default_tablespace NOPRINT
 SELECT property_value FROM database_properties WHERE property_name = 'DEFAULT_PERMANENT_TABLESPACE';
 
-ACCEPT tbs PROMPT 'Enter a tablespace for HR [&var_default_tablespace]: ' DEFAULT '&var_default_tablespace'
+ACCEPT tbs PROMPT 'Enter a tablespace for CO [&var_default_tablespace]: ' DEFAULT '&var_default_tablespace'
 
 DECLARE
    v_tbs_exists   NUMBER := 0;
@@ -110,7 +111,7 @@ END;
 /
 
 rem =======================================================
-rem cleanup old HR schema, if found and requested
+rem cleanup old CO schema, if found and requested
 rem =======================================================
 
 ACCEPT overwrite_schema PROMPT 'Do you want to overwrite the schema, if it already exists? [YES|no]: ' DEFAULT 'YES'
@@ -120,13 +121,13 @@ DECLARE
    v_user_exists   all_users.username%TYPE;
 BEGIN
    SELECT MAX(username) INTO v_user_exists
-      FROM all_users WHERE username = 'HR';
+      FROM all_users WHERE username = 'CO';
    -- Schema already exists
    IF v_user_exists IS NOT NULL THEN
       -- Overwrite schema if the user chose to do so
       IF UPPER('&overwrite_schema') = 'YES' THEN
-         EXECUTE IMMEDIATE 'DROP USER HR CASCADE';
-         DBMS_OUTPUT.PUT_LINE('Old HR schema has been dropped.');
+         EXECUTE IMMEDIATE 'DROP USER CO CASCADE';
+         DBMS_OUTPUT.PUT_LINE('Old CO schema has been dropped.');
       -- or raise error if the user doesn't want to overwrite it
       ELSE
          RAISE_APPLICATION_ERROR(-20997, 'Abort: the schema already exists and the user chose not to overwrite it.');
@@ -137,10 +138,10 @@ END;
 SET SERVEROUTPUT OFF;
 
 rem =======================================================
-rem create the HR schema user
+rem create the CO schema user
 rem =======================================================
 
-CREATE USER hr IDENTIFIED BY &pass
+CREATE USER co IDENTIFIED BY &pass
                DEFAULT TABLESPACE &tbs
                QUOTA UNLIMITED ON &tbs;
 
@@ -153,29 +154,23 @@ GRANT CREATE MATERIALIZED VIEW,
       CREATE TRIGGER,
       CREATE TYPE,
       CREATE VIEW
-  TO hr;
+  TO co;
 
-ALTER SESSION SET CURRENT_SCHEMA=HR;
+ALTER SESSION SET CURRENT_SCHEMA=CO;
 ALTER SESSION SET NLS_LANGUAGE=American;
 ALTER SESSION SET NLS_TERRITORY=America;
 
 rem =======================================================
-rem create HR schema objects
+rem create CO schema objects
 rem =======================================================
 
-@@hr_create.sql
+@@co_create.sql
 
 rem =======================================================
 rem populate tables with data
 rem =======================================================
 
-@@hr_populate.sql
-
-rem =======================================================
-rem create procedural objects
-rem =======================================================
-
-@@hr_code.sql
+@@co_populate.sql
 
 rem =======================================================
 rem installation validation
@@ -187,19 +182,19 @@ SET FEEDBACK OFF
 
 SELECT 'Verification:' AS "Installation verification" FROM dual;
 
-SELECT 'regions' AS "Table", 5 AS "provided", count(1) AS "actual" FROM hr.regions
+SELECT 'customers' AS "Table", 392 AS "provided", count(1) AS "actual" FROM co.customers
 UNION ALL
-SELECT 'countries' AS "Table", 25 AS "provided", count(1) AS "actual" FROM hr.countries
+SELECT 'stores' AS "Table", 23 AS "provided", count(1) AS "actual" FROM co.stores
 UNION ALL
-SELECT 'departments' AS "Table", 27 AS "provided", count(1) AS "actual" FROM hr.departments
+SELECT 'products' AS "Table", 46 AS "provided", count(1) AS "actual" FROM co.products
 UNION ALL
-SELECT 'locations' AS "Table", 23 AS "provided", count(1) AS "actual" FROM hr.locations
+SELECT 'orders' AS "Table", 1950 AS "provided", count(1) AS "actual" FROM co.orders
 UNION ALL
-SELECT 'employees' AS "Table", 107 AS "provided", count(1) AS "actual" FROM hr.employees
+SELECT 'shipments' AS "Table", 1892 AS "provided", count(1) AS "actual" FROM co.shipments
 UNION ALL
-SELECT 'jobs' AS "Table", 19 AS "provided", count(1) AS "actual" FROM hr.jobs
+SELECT 'order_items' AS "Table", 3914 AS "provided", count(1) AS "actual" FROM co.order_items
 UNION ALL
-SELECT 'job_history' AS "Table", 10 AS "provided", count(1) AS "actual" FROM hr.job_history;
+SELECT 'inventory' AS "Table", 566 AS "provided", count(1) AS "actual" FROM co.inventory;
 
 rem
 rem Installation finish text.
