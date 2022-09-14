@@ -3,8 +3,8 @@ Rem $Header: mkverify.sql 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem mkverify.sql
 Rem
-Rem Copyright (c) 2002, 2015, Oracle. All rights reserved.  
-Rem 
+Rem Copyright (c) 2002, 2015, Oracle. All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -34,9 +34,10 @@ Rem    NOTES
 Rem      Relies on accurate statistics being collected
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    smtaylor    03/19/15 - added parameter 3, connect string
 Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
-Rem    cbauwens    08/09/04 - sorting of constraints 
+Rem    cbauwens    08/09/04 - sorting of constraints
 Rem    ahunold     02/11/03 - sorting of object privileges
 Rem    ahunold     10/25/02 - Dimensions, XML
 Rem    ahunold     10/12/02 - DBA_ALL_TABLES, data types
@@ -49,7 +50,7 @@ DEFINE password_system     = &1
 PROMPT
 PROMPT specify spool filename as parameter 2:
 DEFINE spool_file          = &2
-PROMPT 
+PROMPT
 PROMPT specify connect string as parameter 3:
 DEFINE connect_string     = &3
 PROMPT
@@ -102,7 +103,7 @@ COLUMN validated        FORMAT A16
 SPOOL &spool_file
 
 PROMPT
-PROMPT All named objects and stati
+PROMPT All named objects and statuses
 
 SELECT    owner, object_type, object_name, subobject_name, status
  FROM     dba_objects
@@ -140,7 +141,7 @@ SELECT    owner, object_type, status, COUNT(*)
 PROMPT
 PROMPT All constraints
 
-SELECT	  owner, 
+SELECT	  owner,
 	  DECODE (constraint_type		,
 		'C', 'Check or Not Null'	,
 		'O', 'Read only view'		,
@@ -148,15 +149,15 @@ SELECT	  owner,
 		'R', 'Foreign key'		,
 		'U', 'Unique key'		,
 		'V', 'With check view'		) CONSTRAINT_TYPE ,
-	  status, 
-	  validated, 
-	  generated, 
+	  status,
+	  validated,
+	  generated,
 	  COUNT(*)
  FROM     dba_constraints
  WHERE    owner in ('HR','OE','SH','PM','IX','BI')
  GROUP BY owner, constraint_type, status, validated, generated
  ORDER BY 2,3,4,5,1;
- 
+
 PROMPT
 PROMPT All dimensions
 
@@ -164,7 +165,7 @@ SELECT    owner, dimension_name, invalid, compile_state
  FROM     dba_dimensions
  WHERE    owner in ('HR','OE','SH','PM','IX','BI')
  ORDER BY 1,2;
- 
+
 PROMPT
 PROMPT All granted roles
 
@@ -212,7 +213,7 @@ SELECT    owner, index_name, distinct_keys, num_rows
  FROM     dba_indexes
  WHERE    owner in ('HR','OE','SH','PM','IX','BI')
  AND      index_name NOT LIKE 'SYS%'
- ORDER BY 1,2,3;        
+ ORDER BY 1,2,3;
 
 SPOOL OFF
 

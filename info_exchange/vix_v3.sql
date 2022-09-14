@@ -3,8 +3,8 @@ Rem $Header: vix_v3.sql 08-jul-2004.11:06:36 huzhao Exp $
 Rem
 Rem vix_v3.sql
 Rem
-Rem Copyright (c) 2002, 2015, Oracle. All rights reserved.  
-Rem 
+Rem Copyright (c) 2002, 2015, Oracle. All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -34,9 +34,10 @@ Rem    NOTES
 Rem      assumes active connection as IX
 Rem
 Rem    MODIFIED   (MM/DD/YY)
-Rem    huzhao      06/18/04 - add to_date to the date values 
+Rem    lorin       09/15/22 - remove spaces at end of lines
+Rem    huzhao      06/18/04 - add to_date to the date values
 Rem    rsahani     05/24/04 - fix/add order by clause
-Rem    cbauwens    01/28/04 - NLS date 64 bit 
+Rem    cbauwens    01/28/04 - NLS date 64 bit
 Rem    ahunold     10/25/02 - gather_schema_stats
 Rem    hyeh        08/29/02 - hyeh_mv_comschema_to_rdbms
 Rem    ahunold     07/31/02 - Created
@@ -95,7 +96,7 @@ BEGIN
 END;
 /
 
-SELECT	queue, msg_state, consumer_name,  
+SELECT	queue, msg_state, consumer_name,
 	order_event_typ(a.user_data.order_id, a.user_data.product_id, a.user_data.customer_id,
 			a.user_data.cust_first_name, a.user_data.cust_last_name, a.user_data.order_status,
 			to_date(a.user_data.delivery_date, 'dd-mon-yyyy')) user_data
@@ -125,7 +126,7 @@ BEGIN
 END;
 /
 
-SELECT	queue, msg_state, consumer_name,  
+SELECT	queue, msg_state, consumer_name,
 	order_event_typ(a.user_data.order_id, a.user_data.product_id, a.user_data.customer_id,
 			a.user_data.cust_first_name, a.user_data.cust_last_name, a.user_data.order_status,
 			to_date(a.user_data.delivery_date, 'dd-mon-yyyy')) user_data
@@ -144,7 +145,7 @@ DECLARE
 BEGIN
 	deqopt.consumer_name := 'BILLING';
 	deqopt.navigation := DBMS_AQ.FIRST_MESSAGE;
-	deqopt.wait := 0;	
+	deqopt.wait := 0;
 	dbms_aq.dequeue(
 		queue_name => 'orders_queue',
 		dequeue_options => deqopt,
@@ -155,7 +156,7 @@ BEGIN
 END;
 /
 
-SELECT	queue, msg_state, consumer_name,  
+SELECT	queue, msg_state, consumer_name,
 	order_event_typ(a.user_data.order_id, a.user_data.product_id, a.user_data.customer_id,
 			a.user_data.cust_first_name, a.user_data.cust_last_name, a.user_data.order_status,
 			to_date(a.user_data.delivery_date, 'dd-mon-yyyy')) user_data
@@ -173,17 +174,17 @@ EXECUTE dbms_stats.gather_schema_stats( -
         block_sample => TRUE            );
 
 SELECT
-	object_type, 
-	object_name, 
+	object_type,
+	object_name,
 	status
- FROM 
+ FROM
 	user_objects
-ORDER BY  
+ORDER BY
 	1,2;
 
 SELECT
-	object_type, 
-	status, 
+	object_type,
+	status,
 	count(*)
 FROM
 	user_objects

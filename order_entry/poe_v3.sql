@@ -3,8 +3,8 @@ Rem $Header: poe_v3.sql 12-mar-2003.15:29:55 ahunold Exp $
 Rem
 Rem poe_v3.sql
 Rem
-Rem Copyright (c) 2002, 2015, Oracle Corporation.  All rights reserved.  
-Rem 
+Rem Copyright (c) 2002, 2015, Oracle Corporation.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -34,6 +34,7 @@ Rem    NOTES
 Rem      <other useful comments, qualifications, etc.>
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    ahunold     03/10/03 - customers and orders views
 Rem    ahunold     11/26/02 - ahunold_bug-2635796
 Rem    ahunold     11/21/02 - Created
@@ -45,19 +46,19 @@ DEFINE vrs = &1
 
 CREATE OR REPLACE VIEW account_managers AS
 SELECT		c.account_mgr_id 		ACCT_MGR,
-		cr.region_id 			REGION, 
-		c.cust_address.country_id 	COUNTRY, 
-		c.cust_address.state_province 	PROVINCE, 
+		cr.region_id 			REGION,
+		c.cust_address.country_id 	COUNTRY,
+		c.cust_address.state_province 	PROVINCE,
 		count(*) 			NUM_CUSTOMERS
 FROM		customers c, countries cr
 WHERE		c.cust_address.country_id = cr.country_id
-GROUP BY ROLLUP (c.account_mgr_id, 
-		 cr.region_id, 
-		 c.cust_address.country_id, 
+GROUP BY ROLLUP (c.account_mgr_id,
+		 cr.region_id,
+		 c.cust_address.country_id,
 		 c.cust_address.state_province);
 
 CREATE OR REPLACE FUNCTION get_phone_number_f
-  (p_in INTEGER, p_phonelist phone_list_typ) 
+  (p_in INTEGER, p_phonelist phone_list_typ)
 RETURN VARCHAR2 AS
   TYPE phone_list IS VARRAY(5) OF VARCHAR2(25);
   phone_out varchar2(25) := null;
@@ -74,7 +75,7 @@ END;
 /
 
 CREATE OR REPLACE VIEW customers_view
-AS SELECT 
+AS SELECT
   c.customer_id,
   c.cust_first_name,
   c.cust_last_name,
@@ -100,15 +101,15 @@ AS SELECT
   c.cust_geo_location.sdo_point.x location_x,
   c.cust_geo_location.sdo_point.y location_y,
   c.cust_geo_location.sdo_point.z location_z
-FROM 
-  countries co, 
+FROM
+  countries co,
   customers c
-WHERE 
-  c.cust_address.country_id = co.country_id(+) 
+WHERE
+  c.cust_address.country_id = co.country_id(+)
 ;
 
 CREATE OR REPLACE VIEW orders_view
-As 
+As
 select order_id,
   to_date(to_char(order_date,'DD-MON-YY HH:MI:SS'),'DD-MON-YY HH:MI:SS')    order_date,
 order_mode,

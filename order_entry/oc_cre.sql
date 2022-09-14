@@ -1,8 +1,8 @@
 rem
 rem Header: oc_cre.sql 09-jan-01
 rem
-rem Copyright (c) 2001, 2015, Oracle and/or its affiliates.  All rights reserved. 
-rem 
+rem Copyright (c) 2001, 2015, Oracle and/or its affiliates.  All rights reserved.
+rem
 rem Permission is hereby granted, free of charge, to any person obtaining
 rem a copy of this software and associated documentation files (the
 rem "Software"), to deal in the Software without restriction, including
@@ -10,10 +10,10 @@ rem without limitation the rights to use, copy, modify, merge, publish,
 rem distribute, sublicense, and/or sell copies of the Software, and to
 rem permit persons to whom the Software is furnished to do so, subject to
 rem the following conditions:
-rem 
+rem
 rem The above copyright notice and this permission notice shall be
 rem included in all copies or substantial portions of the Software.
-rem 
+rem
 rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -28,11 +28,11 @@ rem NAME
 rem   oc_cre.sql - create OC subschema of OE Common Schmema
 rem
 rem DESCRIPTON
-rem   Creates database objects. The script assumes that the OE schema 
+rem   Creates database objects. The script assumes that the OE schema
 rem   is present.
 rem
 rem NOTES
-rem   The OIDs assigned for the object types are used to 
+rem   The OIDs assigned for the object types are used to
 rem   simplify the setup of Replication demos and are not needed
 rem   in most unreplicated environments.
 rem
@@ -63,7 +63,7 @@ CREATE TYPE warehouse_typ
 CREATE TYPE inventory_typ
  OID '82A4AF6A4CD4656DE034080020E0EE3D'
  AS OBJECT
-    ( product_id          NUMBER(6) 
+    ( product_id          NUMBER(6)
     , warehouse           warehouse_typ
     , quantity_on_hand    NUMBER(8)
     ) ;
@@ -134,73 +134,73 @@ CREATE OR REPLACE TYPE customer_typ
     , credit_limit       NUMBER(9,2)
     , cust_email         VARCHAR2(40)
     , cust_orders        order_list_typ
-    ) 
+    )
 NOT FINAL;
 /
 CREATE TYPE category_typ
  OID '82A4AF6A4CDC656DE034080020E0EE3D'
- AS OBJECT 
-    ( category_name           VARCHAR2(50) 
-    , category_description    VARCHAR2(1000) 
-    , category_id             NUMBER(2) 
-    , NOT instantiable 
-      MEMBER FUNCTION category_describe RETURN VARCHAR2 
-      ) 
-  NOT INSTANTIABLE NOT FINAL; 
-/ 
+ AS OBJECT
+    ( category_name           VARCHAR2(50)
+    , category_description    VARCHAR2(1000)
+    , category_id             NUMBER(2)
+    , NOT instantiable
+      MEMBER FUNCTION category_describe RETURN VARCHAR2
+      )
+  NOT INSTANTIABLE NOT FINAL;
+/
 CREATE TYPE subcategory_ref_list_typ
  OID '82A4AF6A4CDD656DE034080020E0EE3D'
- AS TABLE OF REF category_typ; 
-/ 
+ AS TABLE OF REF category_typ;
+/
 CREATE TYPE product_ref_list_typ
  OID '82A4AF6A4CDE656DE034080020E0EE3D'
- AS TABLE OF number(6); 
-/ 
+ AS TABLE OF number(6);
+/
 CREATE TYPE corporate_customer_typ
  OID '82A4AF6A4CDF656DE034080020E0EE3D'
- UNDER customer_typ 
-      ( account_mgr_id     NUMBER(6) 
-      ); 
-/ 
+ UNDER customer_typ
+      ( account_mgr_id     NUMBER(6)
+      );
+/
 CREATE TYPE leaf_category_typ
  OID '82A4AF6A4CE0656DE034080020E0EE3D'
- UNDER category_typ 
-    ( 
-    product_ref_list    product_ref_list_typ 
-    , OVERRIDING MEMBER FUNCTION  category_describe RETURN VARCHAR2 
-    ); 
-/ 
-CREATE TYPE BODY leaf_category_typ AS 
-    OVERRIDING MEMBER FUNCTION  category_describe RETURN VARCHAR2 IS 
-    BEGIN 
-       RETURN  'leaf_category_typ'; 
-    END; 
-   END; 
-/ 
+ UNDER category_typ
+    (
+    product_ref_list    product_ref_list_typ
+    , OVERRIDING MEMBER FUNCTION  category_describe RETURN VARCHAR2
+    );
+/
+CREATE TYPE BODY leaf_category_typ AS
+    OVERRIDING MEMBER FUNCTION  category_describe RETURN VARCHAR2 IS
+    BEGIN
+       RETURN  'leaf_category_typ';
+    END;
+   END;
+/
 CREATE TYPE composite_category_typ
  OID '82A4AF6A4CE1656DE034080020E0EE3D'
- UNDER category_typ 
-      ( 
-    subcategory_ref_list subcategory_ref_list_typ 
-      , OVERRIDING MEMBER FUNCTION  category_describe RETURN VARCHAR2 
-      ) 
-  NOT FINAL; 
-/ 
-CREATE TYPE BODY composite_category_typ  AS 
-    OVERRIDING MEMBER FUNCTION category_describe RETURN VARCHAR2 IS 
-    BEGIN 
-      RETURN 'composite_category_typ'; 
-    END; 
-   END; 
+ UNDER category_typ
+      (
+    subcategory_ref_list subcategory_ref_list_typ
+      , OVERRIDING MEMBER FUNCTION  category_describe RETURN VARCHAR2
+      )
+  NOT FINAL;
+/
+CREATE TYPE BODY composite_category_typ  AS
+    OVERRIDING MEMBER FUNCTION category_describe RETURN VARCHAR2 IS
+    BEGIN
+      RETURN 'composite_category_typ';
+    END;
+   END;
 /
 CREATE TYPE catalog_typ
  OID '82A4AF6A4CE2656DE034080020E0EE3D'
- UNDER composite_category_typ 
-      ( 
-    MEMBER FUNCTION getCatalogName RETURN VARCHAR2 
-       , OVERRIDING MEMBER FUNCTION category_describe RETURN VARCHAR2 
-      ); 
-/ 
+ UNDER composite_category_typ
+      (
+    MEMBER FUNCTION getCatalogName RETURN VARCHAR2
+       , OVERRIDING MEMBER FUNCTION category_describe RETURN VARCHAR2
+      );
+/
 CREATE TYPE BODY catalog_typ AS
   OVERRIDING MEMBER FUNCTION category_describe RETURN varchar2 IS
   BEGIN
@@ -218,13 +218,13 @@ END;
 -- Table definitions
 -- ======================================================================
 
-CREATE TABLE categories_tab OF category_typ 
+CREATE TABLE categories_tab OF category_typ
     ( category_id PRIMARY KEY)
-  NESTED TABLE TREAT 
- (OBJECT_VALUE AS leaf_category_typ).product_ref_list 
-    STORE AS product_ref_list_nestedtab 
-  NESTED TABLE TREAT 
- (OBJECT_VALUE AS composite_category_typ).subcategory_ref_list 
+  NESTED TABLE TREAT
+ (OBJECT_VALUE AS leaf_category_typ).product_ref_list
+    STORE AS product_ref_list_nestedtab
+  NESTED TABLE TREAT
+ (OBJECT_VALUE AS composite_category_typ).subcategory_ref_list
     STORE AS subcategory_ref_list_nestedtab;
 
 -- ========================================================
@@ -233,9 +233,9 @@ CREATE TABLE categories_tab OF category_typ
 --
 -- oc_inventories
 
-CREATE OR REPLACE VIEW oc_inventories OF inventory_typ 
+CREATE OR REPLACE VIEW oc_inventories OF inventory_typ
  WITH OBJECT OID (product_id)
- AS SELECT i.product_id, 
+ AS SELECT i.product_id,
            warehouse_typ(w.warehouse_id, w.warehouse_name, w.location_id),
            i.quantity_on_hand
     FROM inventories i, warehouses w
@@ -243,7 +243,7 @@ CREATE OR REPLACE VIEW oc_inventories OF inventory_typ
 
 -- oc_product_information
 
-CREATE OR REPLACE VIEW oc_product_information OF product_information_typ 
+CREATE OR REPLACE VIEW oc_product_information OF product_information_typ
  WITH OBJECT OID (product_id)
  AS SELECT p.product_id, p.product_name, p.product_description, p.category_id,
            p.weight_class, p.warranty_period, p.supplier_id, p.product_status,
@@ -257,11 +257,11 @@ CREATE OR REPLACE VIEW oc_product_information OF product_information_typ
 -- oc_customers: Multi-level collections
 --
 -- The view is created twice so that it can make a reference to itself. The
--- first CREATE creates the view with a NULL in place of the circular 
+-- first CREATE creates the view with a NULL in place of the circular
 -- reference. The second CREATE creates the view WITH the circular reference,
 -- which works this time because now the view already exists.
 
-CREATE OR REPLACE VIEW oc_customers of customer_typ 
+CREATE OR REPLACE VIEW oc_customers of customer_typ
  WITH OBJECT OID (customer_id)
  AS SELECT c.customer_id, c.cust_first_name, c.cust_last_name, c.cust_address,
            c.phone_numbers,c.nls_language,c.nls_territory,c.credit_limit,
@@ -283,7 +283,7 @@ CREATE OR REPLACE VIEW oc_customers of customer_typ
      FROM customers c;
 
 
-CREATE OR REPLACE VIEW oc_customers OF customer_typ 
+CREATE OR REPLACE VIEW oc_customers OF customer_typ
  WITH OBJECT OID (customer_id)
  AS SELECT c.customer_id, c.cust_first_name, c.cust_last_name, c.cust_address,
            c.phone_numbers,c.nls_language,c.nls_territory,c.credit_limit,
@@ -306,11 +306,11 @@ CREATE OR REPLACE VIEW oc_customers OF customer_typ
 
 -- oc_corporate_customers
 
-CREATE OR REPLACE VIEW oc_corporate_customers OF corporate_customer_typ 
+CREATE OR REPLACE VIEW oc_corporate_customers OF corporate_customer_typ
   UNDER oc_customers
-    AS SELECT c.customer_id, c.cust_first_name, c.cust_last_name, 
+    AS SELECT c.customer_id, c.cust_first_name, c.cust_last_name,
               c.cust_address, c.phone_numbers,c.nls_language,c.nls_territory,
-              c.credit_limit, c.cust_email, 
+              c.credit_limit, c.cust_email,
               CAST(MULTISET(SELECT o.order_id, o.order_mode,
                                MAKE_REF(oc_customers,o.customer_id),
                                o.order_status,

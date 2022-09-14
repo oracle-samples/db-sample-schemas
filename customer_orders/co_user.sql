@@ -1,13 +1,13 @@
-set verify off 
+set verify off
 
-grant create session, 
-      create table, 
-      create sequence, 
-      create view, 
+grant create session,
+      create table,
+      create sequence,
+      create view,
       create procedure
-  to co 
+  to co
   identified by "&co_password";
-  
+
 alter user co default tablespace &tbs
               quota unlimited on &tbs;
 

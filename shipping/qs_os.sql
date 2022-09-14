@@ -3,8 +3,8 @@ Rem $Header: qs_os.sql 29-aug-2002.11:59:50 hyeh Exp $
 Rem
 Rem qs_os.sql
 Rem
-Rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.  
-Rem 
+Rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -34,6 +34,7 @@ Rem
 Rem    NOTES
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    hyeh        08/29/02 - hyeh_mv_comschema_to_rdbms
 Rem    ahunold     02/26/01 - Merged ahunold_qs_filenames
 Rem    ahunold     02/26/01 - Created from qs_os_cre.sql
@@ -46,7 +47,7 @@ BEGIN
   dbms_aqadm.create_queue_table(
         queue_table => 'QS_OS_orders_pr_mqtab',
         sort_list =>'priority,enq_time',
-        comment => 
+        comment =>
           'Overseas Shipping Priority MultiConsumer Orders queue table',
         multiple_consumers => TRUE,
         queue_payload_type => 'QS_ADM.order_typ',

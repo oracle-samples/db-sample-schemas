@@ -3,8 +3,8 @@ REM $Header: sh_cre.sql 29-aug-2002.11:56:35 hyeh Exp $
 REM
 REM sh_cre.sql
 REM
-REM Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.  
-REM 
+REM Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.
+REM
 REM Permission is hereby granted, free of charge, to any person obtaining
 REM a copy of this software and associated documentation files (the
 REM "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ REM without limitation the rights to use, copy, modify, merge, publish,
 REM distribute, sublicense, and/or sell copies of the Software, and to
 REM permit persons to whom the Software is furnished to do so, subject to
 REM the following conditions:
-REM 
+REM
 REM The above copyright notice and this permission notice shall be
 REM included in all copies or substantial portions of the Software.
-REM 
+REM
 REM THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 REM EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 REM MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -35,7 +35,8 @@ REM    NOTES
 REM      Prerequisite: Enterprise Edition with Partitioning Option
 REM      installed
 REM
-REM    MODIFIED   (MM/DD/YY)
+Rem    MODIFIED   (MM/DD/YY)
+Rem      lorin     09/15/22 - remove spaces at end of lines
 REM      hyeh      08/29/02 - hyeh_mv_comschema_to_rdbms
 REM      ahunold   09/04/01 - .
 REM      ahunold   08/16/01 - added partitions
@@ -82,68 +83,68 @@ REM     end_of_fis_year             /* last day of fiscal year */
 
 REM creation of dimension table TIMES ...
 CREATE TABLE times
-    ( 
+    (
       time_id                 DATE
-    , day_name                VARCHAR2(9)  
-        CONSTRAINT 	      tim_day_name_nn           NOT NULL
-    , day_number_in_week      NUMBER(1)    
-        CONSTRAINT 	      tim_day_in_week_nn        NOT NULL
+    , day_name                VARCHAR2(9)
+        CONSTRAINT            tim_day_name_nn           NOT NULL
+    , day_number_in_week      NUMBER(1)
+        CONSTRAINT            tim_day_in_week_nn        NOT NULL
     , day_number_in_month     NUMBER(2)
-        CONSTRAINT 	      tim_day_in_month_nn       NOT NULL
+        CONSTRAINT            tim_day_in_month_nn       NOT NULL
     , calendar_week_number    NUMBER(2)
-        CONSTRAINT 	      tim_cal_week_nn           NOT NULL
+        CONSTRAINT            tim_cal_week_nn           NOT NULL
     , fiscal_week_number      NUMBER(2)
-        CONSTRAINT 	      tim_fis_week_nn           NOT NULL
-    , week_ending_day         DATE     
-        CONSTRAINT 	      tim_week_ending_day_nn    NOT NULL
+        CONSTRAINT            tim_fis_week_nn           NOT NULL
+    , week_ending_day         DATE
+        CONSTRAINT            tim_week_ending_day_nn    NOT NULL
     , calendar_month_number   NUMBER(2)
-        CONSTRAINT 	      tim_cal_month_number_nn   NOT NULL
+        CONSTRAINT            tim_cal_month_number_nn   NOT NULL
     , fiscal_month_number     NUMBER(2)
-        CONSTRAINT 	      tim_fis_month_number_nn   NOT NULL
+        CONSTRAINT            tim_fis_month_number_nn   NOT NULL
     , calendar_month_desc     VARCHAR2(8)
-        CONSTRAINT 	      tim_cal_month_desc_nn     NOT NULL
+        CONSTRAINT            tim_cal_month_desc_nn     NOT NULL
     , fiscal_month_desc       VARCHAR2(8)
-        CONSTRAINT 	      tim_fis_month_desc_nn     NOT NULL
+        CONSTRAINT            tim_fis_month_desc_nn     NOT NULL
     , days_in_cal_month       NUMBER
-        CONSTRAINT 	      tim_days_cal_month_nn     NOT NULL
+        CONSTRAINT            tim_days_cal_month_nn     NOT NULL
     , days_in_fis_month       NUMBER
-        CONSTRAINT	      tim_days_fis_month_nn     NOT NULL
-    , end_of_cal_month	      DATE
-        CONSTRAINT	      tim_end_of_cal_month_nn   NOT NULL
-    , end_of_fis_month	      DATE
-        CONSTRAINT	      tim_end_of_fis_month_nn   NOT NULL
+        CONSTRAINT            tim_days_fis_month_nn     NOT NULL
+    , end_of_cal_month        DATE
+        CONSTRAINT            tim_end_of_cal_month_nn   NOT NULL
+    , end_of_fis_month        DATE
+        CONSTRAINT            tim_end_of_fis_month_nn   NOT NULL
     , calendar_month_name     VARCHAR2(9)
-        CONSTRAINT 	      tim_cal_month_name_nn     NOT NULL
+        CONSTRAINT            tim_cal_month_name_nn     NOT NULL
     , fiscal_month_name       VARCHAR2(9)
-        CONSTRAINT 	      tim_fis_month_name_nn     NOT NULL
-    , calendar_quarter_desc   CHAR(7)   
-        CONSTRAINT 	      tim_cal_quarter_desc_nn   NOT NULL
-    , fiscal_quarter_desc     CHAR(7)    
+        CONSTRAINT            tim_fis_month_name_nn     NOT NULL
+    , calendar_quarter_desc   CHAR(7)
+        CONSTRAINT            tim_cal_quarter_desc_nn   NOT NULL
+    , fiscal_quarter_desc     CHAR(7)
         CONSTRAINT            tim_fis_quarter_desc_nn   NOT NULL
     , days_in_cal_quarter     NUMBER
         CONSTRAINT            tim_days_cal_quarter_nn   NOT NULL
     , days_in_fis_quarter     NUMBER
         CONSTRAINT            tim_days_fis_quarter_nn   NOT NULL
     , end_of_cal_quarter      DATE
-        CONSTRAINT	      tim_end_of_cal_quarter_nn NOT NULL
+        CONSTRAINT	          tim_end_of_cal_quarter_nn NOT NULL
     , end_of_fis_quarter      DATE
-        CONSTRAINT	      tim_end_of_fis_quarter_nn NOT NULL
-    , calendar_quarter_number NUMBER(1)  
+        CONSTRAINT	          tim_end_of_fis_quarter_nn NOT NULL
+    , calendar_quarter_number NUMBER(1)
         CONSTRAINT            tim_cal_quarter_number_nn NOT NULL
-    , fiscal_quarter_number   NUMBER(1)  
+    , fiscal_quarter_number   NUMBER(1)
         CONSTRAINT            tim_fis_quarter_number_nn NOT NULL
-    , calendar_year           NUMBER(4)  
+    , calendar_year           NUMBER(4)
         CONSTRAINT            tim_cal_year_nn           NOT NULL
-    , fiscal_year             NUMBER(4)  
+    , fiscal_year             NUMBER(4)
         CONSTRAINT            tim_fis_year_nn           NOT NULL
     , days_in_cal_year        NUMBER
         CONSTRAINT            tim_days_cal_year_nn      NOT NULL
     , days_in_fis_year        NUMBER
         CONSTRAINT            tim_days_fis_year_nn      NOT NULL
     , end_of_cal_year         DATE
-        CONSTRAINT	      tim_end_of_cal_year_nn    NOT NULL
+        CONSTRAINT	          tim_end_of_cal_year_nn    NOT NULL
     , end_of_fis_year         DATE
-        CONSTRAINT	      tim_end_of_fis_year_nn    NOT NULL
+        CONSTRAINT	          tim_end_of_fis_year_nn    NOT NULL
     )
 PCTFREE 5;
 
@@ -160,8 +161,8 @@ CREATE TABLE channels
     ( channel_id       CHAR(1)
     , channel_desc     VARCHAR2(20)
         CONSTRAINT     chan_desc_nn NOT NULL
-    , channel_class    VARCHAR2(20) 
-    ) 
+    , channel_class    VARCHAR2(20)
+    )
 PCTFREE 5;
 
 CREATE UNIQUE INDEX chan_pk
@@ -187,7 +188,7 @@ CREATE TABLE promotions
         CONSTRAINT 	 promo_begin_date_nn NOT NULL
     , promo_end_date     DATE
         CONSTRAINT 	 promo_end_date_nn   NOT NULL
-    ) 
+    )
 PCTFREE 5;
 
 
@@ -200,14 +201,14 @@ ADD ( CONSTRAINT promo_pk
     ) ;
 
 REM creation of dimension table COUNTRIES ...
-CREATE TABLE countries 
-    ( country_id        CHAR(2) 
-    , country_name      VARCHAR2(40) 
-        CONSTRAINT      country_country_name_nn NOT NULL 
-    , country_subregion VARCHAR2(30) 
-    , country_region    VARCHAR2(20) 
+CREATE TABLE countries
+    ( country_id        CHAR(2)
+    , country_name      VARCHAR2(40)
+        CONSTRAINT      country_country_name_nn NOT NULL
+    , country_subregion VARCHAR2(30)
+    , country_region    VARCHAR2(20)
     )
-PCTFREE 5; 
+PCTFREE 5;
 
 ALTER TABLE countries
 ADD ( CONSTRAINT country_pk
@@ -216,34 +217,34 @@ ADD ( CONSTRAINT country_pk
 
 REM creation of dimension table CUSTOMERS ...
 CREATE TABLE customers
-    ( cust_id                NUMBER       
-    , cust_first_name        VARCHAR2(20) 
+    ( cust_id                NUMBER
+    , cust_first_name        VARCHAR2(20)
         CONSTRAINT           customer_fname_nn NOT NULL
-    , cust_last_name         VARCHAR2(40) 
+    , cust_last_name         VARCHAR2(40)
         CONSTRAINT           customer_lname_nn NOT NULL
-    , cust_gender	     CHAR(1)
+    , cust_gender            CHAR(1)
     , cust_year_of_birth     NUMBER(4)
     , cust_marital_status    VARCHAR2(20)
-    , cust_street_address    VARCHAR2(40) 
+    , cust_street_address    VARCHAR2(40)
         CONSTRAINT           customer_st_addr_nn NOT NULL
-    , cust_postal_code       VARCHAR2(10) 
+    , cust_postal_code       VARCHAR2(10)
         CONSTRAINT           customer_pcode_nn NOT NULL
-    , cust_city              VARCHAR2(30) 
+    , cust_city              VARCHAR2(30)
         CONSTRAINT           customer_city_nn NOT NULL
     , cust_state_province    VARCHAR2(40)
-    , country_id             CHAR(2) 
+    , country_id             CHAR(2)
         CONSTRAINT           customer_country_id_nn NOT NULL
     , cust_main_phone_number VARCHAR2(25)
     , cust_income_level      VARCHAR2(30)
     , cust_credit_limit      NUMBER
     , cust_email             VARCHAR2(30)
-    ) 
+    )
 PCTFREE 5;
 
 CREATE UNIQUE INDEX customers_pk
    ON customers (cust_id) ;
 
-ALTER TABLE customers 
+ALTER TABLE customers
 ADD ( CONSTRAINT customers_pk
       PRIMARY KEY (cust_id) RELY ENABLE VALIDATE
     ) ;
@@ -255,30 +256,30 @@ ADD ( CONSTRAINT customers_country_fk
 
 REM creation of dimension table PRODUCTS ...
 CREATE TABLE products
-    ( prod_id              NUMBER(6)      
-    , prod_name            VARCHAR2(50)   
-	CONSTRAINT 	   products_prod_name_nn NOT NULL
-    , prod_desc            VARCHAR2(4000) 
-	CONSTRAINT 	   products_prod_desc_nn NOT NULL
-    , prod_subcategory     VARCHAR2(50)  
-	CONSTRAINT	   products_prod_subcat_nn NOT NULL
-    , prod_subcat_desc     VARCHAR2(2000)  
-	CONSTRAINT	   products_prod_subcatd_nn NOT NULL
-    , prod_category        VARCHAR2(50)  
-	CONSTRAINT	   products_prod_cat_nn NOT NULL
-    , prod_cat_desc        VARCHAR2(2000)  
-	CONSTRAINT	   products_prod_catd_nn NOT NULL
+    ( prod_id              NUMBER(6)
+    , prod_name            VARCHAR2(50)
+    CONSTRAINT             products_prod_name_nn NOT NULL
+    , prod_desc            VARCHAR2(4000)
+    CONSTRAINT             products_prod_desc_nn NOT NULL
+    , prod_subcategory     VARCHAR2(50)
+    CONSTRAINT             products_prod_subcat_nn NOT NULL
+    , prod_subcat_desc     VARCHAR2(2000)
+    CONSTRAINT             products_prod_subcatd_nn NOT NULL
+    , prod_category        VARCHAR2(50)
+    CONSTRAINT             products_prod_cat_nn NOT NULL
+    , prod_cat_desc        VARCHAR2(2000)
+    CONSTRAINT             products_prod_catd_nn NOT NULL
     , prod_weight_class    NUMBER(2)
     , prod_unit_of_measure VARCHAR2(20)
     , prod_pack_size       VARCHAR2(30)
     , supplier_id          NUMBER(6)
     , prod_status          VARCHAR2(20)
-	CONSTRAINT	   products_prod_stat_nn NOT NULL
-    , prod_list_price      NUMBER(8,2) 
-	CONSTRAINT	   products_prod_list_price_nn NOT NULL
-    , prod_min_price       NUMBER(8,2) 
-	CONSTRAINT	   products_prod_min_price_nn NOT NULL
-     ) 
+    CONSTRAINT             products_prod_stat_nn NOT NULL
+    , prod_list_price      NUMBER(8,2)
+    CONSTRAINT             products_prod_list_price_nn NOT NULL
+    , prod_min_price       NUMBER(8,2)
+    CONSTRAINT             products_prod_min_price_nn NOT NULL
+     )
 PCTFREE 5;
 
 CREATE UNIQUE INDEX products_pk
@@ -304,42 +305,42 @@ CREATE TABLE sales
         CONSTRAINT   sales_promo_nn       NOT NULL
     , quantity_sold  NUMBER(3)
         CONSTRAINT   sales_quantity_nn    NOT NULL
-    , amount_sold         NUMBER(10,2)
+    , amount_sold    NUMBER(10,2)
         CONSTRAINT   sales_amount_nn      NOT NULL
-    )	PCTFREE 5 NOLOGGING
+    )   PCTFREE 5 NOLOGGING
         PARTITION BY RANGE (time_id)
-        (PARTITION SALES_1995 VALUES LESS THAN 
-		(TO_DATE('01-JAN-1996','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION SALES_1996 VALUES LESS THAN 
-		(TO_DATE('01-JAN-1997','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION SALES_H1_1997 VALUES LESS THAN 
-		(TO_DATE('01-JUL-1997','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION SALES_H2_1997 VALUES LESS THAN 
-		(TO_DATE('01-JAN-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION SALES_Q1_1998 VALUES LESS THAN 
-		(TO_DATE('01-APR-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-         PARTITION SALES_Q2_1998 VALUES LESS THAN 
-		(TO_DATE('01-JUL-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-         PARTITION SALES_Q3_1998 VALUES LESS THAN 
-		(TO_DATE('01-OCT-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-         PARTITION SALES_Q4_1998 VALUES LESS THAN 
-		(TO_DATE('01-JAN-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-         PARTITION SALES_Q1_1999 VALUES LESS THAN 
-		(TO_DATE('01-APR-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-         PARTITION SALES_Q2_1999 VALUES LESS THAN 
-		(TO_DATE('01-JUL-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-         PARTITION SALES_Q3_1999 VALUES LESS THAN 
-		(TO_DATE('01-OCT-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-         PARTITION SALES_Q4_1999 VALUES LESS THAN 
-		(TO_DATE('01-JAN-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-         PARTITION SALES_Q1_2000 VALUES LESS THAN 
-		(TO_DATE('01-APR-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-         PARTITION SALES_Q2_2000 VALUES LESS THAN 
-		(TO_DATE('01-JUL-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-         PARTITION SALES_Q3_2000 VALUES LESS THAN 
-		(TO_DATE('01-OCT-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-         PARTITION SALES_Q4_2000 VALUES LESS THAN 
-		(TO_DATE('01-JAN-2001','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')))
+        (PARTITION SALES_1995 VALUES LESS THAN
+        (TO_DATE('01-JAN-1996','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_1996 VALUES LESS THAN
+        (TO_DATE('01-JAN-1997','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_H1_1997 VALUES LESS THAN
+        (TO_DATE('01-JUL-1997','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_H2_1997 VALUES LESS THAN
+        (TO_DATE('01-JAN-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q1_1998 VALUES LESS THAN
+        (TO_DATE('01-APR-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q2_1998 VALUES LESS THAN
+        (TO_DATE('01-JUL-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q3_1998 VALUES LESS THAN
+        (TO_DATE('01-OCT-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q4_1998 VALUES LESS THAN
+        (TO_DATE('01-JAN-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q1_1999 VALUES LESS THAN
+        (TO_DATE('01-APR-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q2_1999 VALUES LESS THAN
+        (TO_DATE('01-JUL-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q3_1999 VALUES LESS THAN
+        (TO_DATE('01-OCT-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q4_1999 VALUES LESS THAN
+        (TO_DATE('01-JAN-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q1_2000 VALUES LESS THAN
+        (TO_DATE('01-APR-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q2_2000 VALUES LESS THAN
+        (TO_DATE('01-JUL-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q3_2000 VALUES LESS THAN
+        (TO_DATE('01-OCT-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+         PARTITION SALES_Q4_2000 VALUES LESS THAN
+        (TO_DATE('01-JAN-2001','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')))
 ;
 
 REM creation of second fact table COSTS ...
@@ -350,46 +351,46 @@ CREATE TABLE costs
     , time_id        DATE
         CONSTRAINT   costs_time_nn        NOT NULL
     , unit_cost      NUMBER(10,2)
-        CONSTRAINT   costs_unit_cost_nn    NOT NULL
+        CONSTRAINT   costs_unit_cost_nn   NOT NULL
     , unit_price     NUMBER(10,2)
-        CONSTRAINT   costs_unit_price_nn      NOT NULL
-    )	PCTFREE 5 NOLOGGING
-	PARTITION BY RANGE (time_id)
-	(PARTITION COSTS_Q1_1998 VALUES LESS THAN 
-		(TO_DATE('01-APR-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION COSTS_Q2_1998 VALUES LESS THAN 
-		(TO_DATE('01-JUL-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION COSTS_Q3_1998 VALUES LESS THAN 
-		(TO_DATE('01-OCT-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION COSTS_Q4_1998 VALUES LESS THAN 
-		(TO_DATE('01-JAN-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION COSTS_Q1_1999 VALUES LESS THAN 
-		(TO_DATE('01-APR-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION COSTS_Q2_1999 VALUES LESS THAN 
-		(TO_DATE('01-JUL-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION COSTS_Q3_1999 VALUES LESS THAN 
-		(TO_DATE('01-OCT-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION COSTS_Q4_1999 VALUES LESS THAN 
-		(TO_DATE('01-JAN-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION COSTS_Q1_2000 VALUES LESS THAN 
-		(TO_DATE('01-APR-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION COSTS_Q2_2000 VALUES LESS THAN 
-		(TO_DATE('01-JUL-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION COSTS_Q3_2000 VALUES LESS THAN 
-		(TO_DATE('01-OCT-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
-	 PARTITION COSTS_Q4_2000 VALUES LESS THAN 
-		(TO_DATE('01-JAN-2001','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')))
+        CONSTRAINT   costs_unit_price_nn  NOT NULL
+    )   PCTFREE 5 NOLOGGING
+    PARTITION BY RANGE (time_id)
+    (PARTITION COSTS_Q1_1998 VALUES LESS THAN
+        (TO_DATE('01-APR-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+     PARTITION COSTS_Q2_1998 VALUES LESS THAN
+        (TO_DATE('01-JUL-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+     PARTITION COSTS_Q3_1998 VALUES LESS THAN
+        (TO_DATE('01-OCT-1998','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+     PARTITION COSTS_Q4_1998 VALUES LESS THAN
+        (TO_DATE('01-JAN-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+     PARTITION COSTS_Q1_1999 VALUES LESS THAN
+        (TO_DATE('01-APR-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+     PARTITION COSTS_Q2_1999 VALUES LESS THAN
+        (TO_DATE('01-JUL-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+     PARTITION COSTS_Q3_1999 VALUES LESS THAN
+        (TO_DATE('01-OCT-1999','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+     PARTITION COSTS_Q4_1999 VALUES LESS THAN
+        (TO_DATE('01-JAN-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+     PARTITION COSTS_Q1_2000 VALUES LESS THAN
+        (TO_DATE('01-APR-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+     PARTITION COSTS_Q2_2000 VALUES LESS THAN
+        (TO_DATE('01-JUL-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+     PARTITION COSTS_Q3_2000 VALUES LESS THAN
+        (TO_DATE('01-OCT-2000','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')),
+     PARTITION COSTS_Q4_2000 VALUES LESS THAN
+        (TO_DATE('01-JAN-2001','DD-MON-YYYY','NLS_DATE_LANGUAGE = American')))
 ;
 
 REM establish foreign keys to ALL dimension tables
 
 ALTER TABLE sales
 ADD ( CONSTRAINT sales_product_fk
-      FOREIGN KEY (prod_id) 
+      FOREIGN KEY (prod_id)
       REFERENCES products RELY ENABLE VALIDATE
-    , CONSTRAINT sales_customer_fk 
+    , CONSTRAINT sales_customer_fk
       FOREIGN KEY (cust_id)
-      REFERENCES customers RELY ENABLE VALIDATE 
+      REFERENCES customers RELY ENABLE VALIDATE
     , CONSTRAINT sales_time_fk
       FOREIGN KEY (time_id)
       REFERENCES times RELY ENABLE VALIDATE
@@ -403,7 +404,7 @@ ADD ( CONSTRAINT sales_product_fk
 
 ALTER TABLE costs
 ADD ( CONSTRAINT costs_product_fk
-      FOREIGN KEY (prod_id) 
+      FOREIGN KEY (prod_id)
       REFERENCES products RELY ENABLE VALIDATE
     , CONSTRAINT costs_time_fk
       FOREIGN KEY (time_id)

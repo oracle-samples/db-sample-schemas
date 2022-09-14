@@ -1,8 +1,8 @@
 rem
 rem Header: oe_views.sql 09-jan-01
 rem
-rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.  
-rem 
+rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.
+rem
 rem Permission is hereby granted, free of charge, to any person obtaining
 rem a copy of this software and associated documentation files (the
 rem "Software"), to deal in the Software without restriction, including
@@ -10,10 +10,10 @@ rem without limitation the rights to use, copy, modify, merge, publish,
 rem distribute, sublicense, and/or sell copies of the Software, and to
 rem permit persons to whom the Software is furnished to do so, subject to
 rem the following conditions:
-rem 
+rem
 rem The above copyright notice and this permission notice shall be
 rem included in all copies or substantial portions of the Software.
-rem 
+rem
 rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -70,7 +70,7 @@ SELECT p.product_id
 ,      i.quantity_on_hand
 FROM   inventories i
 ,      warehouses  w
-,      products    p  
+,      products    p
 WHERE  p.product_id = i.product_id
 AND    i.warehouse_id = w.warehouse_id
 AND    w.warehouse_name = 'Sydney';
@@ -82,7 +82,7 @@ SELECT p.product_id
 ,      i.quantity_on_hand
 FROM   inventories i
 ,      warehouses  w
-,      products    p   
+,      products    p
 WHERE  p.product_id = i.product_id
 AND    i.warehouse_id = w.warehouse_id
 AND    w.warehouse_name = 'Bombay';

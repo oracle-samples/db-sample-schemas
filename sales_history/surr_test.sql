@@ -3,8 +3,8 @@ Rem $Header: surr_test.sql 16-jan-2003.20:42:28 ahunold Exp $
 Rem
 Rem surr_test.sql
 Rem
-Rem Copyright (c) 2002, 2015, Oracle Corporation.  All rights reserved.  
-Rem 
+Rem Copyright (c) 2002, 2015, Oracle Corporation.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -34,6 +34,7 @@ Rem    NOTES
 Rem      <other useful comments, qualifications, etc.>
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    ahunold     01/16/03 - from _KEY to _ID
 Rem    ahunold     10/15/02 - ahunold_oct_15_b
 Rem    ahunold     10/14/02 - Created
@@ -59,13 +60,13 @@ CREATE TABLE surr_test (
     key_level VARCHAR2(30),
     key_value number);
 
-INSERT INTO surr_test 
-	SELECT 'CHANNELS','CHANNEL_ID',NUM_IDS 
+INSERT INTO surr_test
+	SELECT 'CHANNELS','CHANNEL_ID',NUM_IDS
 	FROM (SELECT DISTINCT (CHANNEL_ID) NUM_IDS FROM CHANNELS);
-INSERT INTO surr_test 
+INSERT INTO surr_test
 	SELECT 'CHANNELS','CHANNEL_CLASS_ID',NUM_IDS
 	FROM (SELECT DISTINCT (CHANNEL_CLASS_ID) NUM_IDS FROM CHANNELS);
-INSERT INTO surr_test 
+INSERT INTO surr_test
 	SELECT 'CHANNELS','CHANNEL_TOTAL_ID',NUM_IDS
 	FROM (SELECT DISTINCT (CHANNEL_TOTAL_ID) NUM_IDS FROM CHANNELS);
 
@@ -76,16 +77,16 @@ COMMIT;
 --  from each dimension
 --
 
-INSERT INTO surr_test  
+INSERT INTO surr_test
 	SELECT 'COUNTRIES/CUSTOMERS','COUNTRY_SUBREGION_ID',NUM_IDS
 	FROM (SELECT DISTINCT (COUNTRY_SUBREGION_ID) NUM_IDS FROM COUNTRIES);
-INSERT INTO surr_test  
+INSERT INTO surr_test
 	SELECT 'COUNTRIES/CUSTOMERS','COUNTRY_REGION_ID',NUM_IDS
 	FROM (SELECT DISTINCT (COUNTRY_REGION_ID) NUM_IDS FROM COUNTRIES);
-INSERT INTO surr_test  
+INSERT INTO surr_test
 	SELECT 'COUNTRIES/CUSTOMERS','COUNTRY_TOTAL_ID',NUM_IDS
 	FROM (SELECT DISTINCT (COUNTRY_TOTAL_ID) NUM_IDS FROM COUNTRIES);
-INSERT INTO surr_test  
+INSERT INTO surr_test
 	SELECT 'COUNTRIES/CUSTOMERS','CUST_STATE_PROVINCE_ID',NUM_IDS
 	FROM (SELECT DISTINCT (CUST_STATE_PROVINCE_ID) NUM_IDS FROM CUSTOMERS);
 INSERT INTO surr_test
@@ -102,11 +103,11 @@ INSERT INTO surr_test
 	FROM (SELECT DISTINCT (CUST_ID) NUM_IDS FROM CUSTOMERS);
 
 --
--- Only list COUNTRY_ID_ID once: Column appears twice in 
--- COUNTRIES/CUSTOMERS snowflake dimension. To test for uniqueness of 
+-- Only list COUNTRY_ID_ID once: Column appears twice in
+-- COUNTRIES/CUSTOMERS snowflake dimension. To test for uniqueness of
 -- surrogate key across dimension, the following INSERT is not needed.
--- 
--- INSERT INTO surr_test  
+--
+-- INSERT INTO surr_test
 -- 	SELECT 'COUNTRIES/CUSTOMERS','COUNTRY_ID',NUM_IDS
 --	FROM (SELECT DISTINCT (COUNTRY_ID) NUM_IDS FROM COUNTRIES);
 --
@@ -167,7 +168,7 @@ INSERT INTO surr_test
 
 COMMIT;
 
-CREATE INDEX surr_test_ix 
+CREATE INDEX surr_test_ix
  ON surr_test (dimension, key_level, key_value);
 
 --
@@ -185,7 +186,7 @@ ALTER TABLE surr_test
  UNIQUE (dimension, key_level, key_value)
  EXCEPTIONS INTO exceptions;
 
-SELECT * 
+SELECT *
  FROM surr_test
  WHERE rowid IN (SELECT row_id FROM exceptions);
 

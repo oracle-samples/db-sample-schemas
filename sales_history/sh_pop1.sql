@@ -3,8 +3,8 @@ Rem $Header: sh_pop1.sql 29-aug-2002.11:56:58 hyeh Exp $
 Rem
 Rem sh_pop1.sql
 Rem
-Rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.  
-Rem 
+Rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -25,16 +25,17 @@ Rem OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 Rem WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Rem
 Rem    NAME
-Rem      sh_pop1.sql - Populates the countries and channel table 
+Rem      sh_pop1.sql - Populates the countries and channel table
 Rem
 Rem    DESCRIPTION
 Rem      SH is the Sales History schema of the Oracle 9i Sample
 Rem	   Schemas
 Rem
 Rem    NOTES
-Rem      
+Rem
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    hyeh       08/29/02 - hyeh_mv_comschema_to_rdbms
 Rem    hbaer      01/29/01 - Created
 Rem
@@ -44,39 +45,39 @@ INSERT INTO countries VALUES('US','United States of America'
 INSERT INTO countries VALUES('DE','Germany'
                                  ,'Western Europe',  'Europe');
 INSERT INTO countries VALUES('UK','United Kingdom'
-                                 ,'Western Europe',  'Europe');    
+                                 ,'Western Europe',  'Europe');
 INSERT INTO countries VALUES('NL','The Netherlands'
-                                 ,'Western Europe',  'Europe');       
+                                 ,'Western Europe',  'Europe');
 INSERT INTO countries VALUES('IE','Ireland'
-                                 ,'Western Europe',  'Europe');           
+                                 ,'Western Europe',  'Europe');
 INSERT INTO countries VALUES('DK','Denmark'
-                                 ,'Western Europe',  'Europe');           
+                                 ,'Western Europe',  'Europe');
 INSERT INTO countries VALUES('FR','France'
-                                 ,'Western Europe',  'Europe');            
+                                 ,'Western Europe',  'Europe');
 INSERT INTO countries VALUES('ES','Spain'
-                                 ,'Western Europe',  'Europe');             
+                                 ,'Western Europe',  'Europe');
 INSERT INTO countries VALUES('TR','Turkey'
-                                 ,'Western Europe',  'Europe');           
+                                 ,'Western Europe',  'Europe');
 INSERT INTO countries VALUES('PL','Poland'
-                                 ,'Eastern Europe',  'Europe');            
+                                 ,'Eastern Europe',  'Europe');
 INSERT INTO countries VALUES('BR','Brazil'
-                                 ,'Southern America','Americas');        
+                                 ,'Southern America','Americas');
 INSERT INTO countries VALUES('AR','Argentina'
-                                 ,'Southern America','Americas');     
+                                 ,'Southern America','Americas');
 INSERT INTO countries VALUES('MY','Malaysia'
-                                 ,'Asia',            'Asia');                      
+                                 ,'Asia',            'Asia');
 INSERT INTO countries VALUES('JP','Japan'
-                                 ,'Asia',            'Asia');                         
+                                 ,'Asia',            'Asia');
 INSERT INTO countries VALUES('IN','India'
-                                 ,'Asia',            'Asia');                         
+                                 ,'Asia',            'Asia');
 INSERT INTO countries VALUES('AU','Australia'
-                                 ,'Australia',       'Oceania');           
+                                 ,'Australia',       'Oceania');
 INSERT INTO countries VALUES('NZ','New Zealand'
                                  ,'Australia',       'Oceania');
 INSERT INTO countries VALUES('ZA','South Africa'
-                                 ,'Africa',  'Africa');           
+                                 ,'Africa',  'Africa');
 INSERT INTO countries VALUES('SA','Saudi Arabia'
-                                 ,'Middle East',  'Middle East');           
+                                 ,'Middle East',  'Middle East');
 
 INSERT INTO channels VALUES('S','Direct Sales'  ,'Direct'  );
 INSERT INTO channels VALUES('T','Tele Sales'    ,'Direct'  );

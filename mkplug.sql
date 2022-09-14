@@ -4,7 +4,7 @@ Rem
 Rem mkplug.sql
 Rem
 Rem Copyright (c) 2001, 2015, Oracle and/or its affiliates.  All rights reserved.
-Rem 
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -41,6 +41,7 @@ Rem        If you edit the log file location further down in this
 Rem        script, use absolute pathnames
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem      lorin     09/15/22 - remove spaces at end of lines
 Rem      lokeskum  06/25/14 - revert undo_management changes
 Rem      lokeskum  06/19/14 - XbranchMerge lokeskum_lrg-12263194 from main
 Rem      lokeskum  06/14/14 - include drop tablespace example
@@ -64,19 +65,19 @@ Rem      celsbern  06/02/10 - converted to use impdp.
 Rem      glyon     06/27/07 - grant CWM_USER role to SH user
 Rem      bmccarth  05/29/07 - need territory american on external table
 Rem      pabingha  02/26/07 - LRG 2871657 use dimension_exceptions
-Rem      cbauwens  05/02/05 - bug4054905 Date & Time format 
-Rem      cbauwens  04/19/05 - fix privs for SH and BI 
+Rem      cbauwens  05/02/05 - bug4054905 Date & Time format
+Rem      cbauwens  04/19/05 - fix privs for SH and BI
 Rem      cbauwens  12/03/04 - add call to olp_v3.sql for cube metadata
-Rem      cbauwens  10/29/04 - modifying privs after deprecation of connect 
-Rem      cbauwens  07/26/04 - remove stylesheet tab 
+Rem      cbauwens  10/29/04 - modifying privs after deprecation of connect
+Rem      cbauwens  07/26/04 - remove stylesheet tab
 Rem      rsahani   09/08/04 - privileges granted must be same
 Rem			      as granted when creating schema
-Rem      jcjeon    03/30/04 - fix lrg1628995 
-Rem      huzhao    01/28/04 - validate certain AQ within IX schema after TTS import 
-Rem      cbauwens  11/18/03 - lrg1582814 
-Rem      cbauwens  08/21/03 - OMF support 
-Rem      cbauwens  08/05/03 - profits view 
-Rem      cbauwens  08/05/03 - company_id 
+Rem      jcjeon    03/30/04 - fix lrg1628995
+Rem      huzhao    01/28/04 - validate certain AQ within IX schema after TTS import
+Rem      cbauwens  11/18/03 - lrg1582814
+Rem      cbauwens  08/21/03 - OMF support
+Rem      cbauwens  08/05/03 - profits view
+Rem      cbauwens  08/05/03 - company_id
 Rem      cbauwens  06/19/03 - bug_2878871
 Rem      cbauwens  06/18/03 - bug_2878871
 Rem      ahunold   03/27/03 - Objects not transported: lrg 1348159
@@ -130,7 +131,7 @@ DEFINE data_file_backup    = &9
 PROMPT
 PROMPT specify OUTPUT database file for tablespace EXAMPLE as parameter 10:
 DEFINE data_file_name      = &10
-PROMPT 
+PROMPT
 PROMPT specify OUTPUT log directory as parameter 11:
 DEFINE log_path            = &11
 PROMPT
@@ -144,7 +145,7 @@ PROMPT Sample Schemas are being plugged in  ...
 PROMPT
 DEFINE vrs = v3
 
-SPOOL &log_path.mkplug_&vrs._@.log 
+SPOOL &log_path.mkplug_&vrs._@.log
 
 --
 -- Running the instantiated mk_dir.sql, thus connecting
@@ -171,34 +172,34 @@ CREATE USER bi IDENTIFIED BY &&password_bi ;
 
 GRANT CREATE SESSION			TO hr;
 GRANT ALTER SESSION			TO hr;
-GRANT CREATE DATABASE LINK		TO hr; 
+GRANT CREATE DATABASE LINK		TO hr;
 GRANT CREATE SEQUENCE			TO hr;
 GRANT CREATE SYNONYM			TO hr;
 GRANT CREATE VIEW			TO hr;
-GRANT RESOURCE , UNLIMITED TABLESPACE 				TO hr;
+GRANT RESOURCE, UNLIMITED TABLESPACE	TO hr;
 GRANT execute ON sys.dbms_stats 	TO hr;
 
 GRANT CREATE SESSION 			TO oe;
 GRANT CREATE DATABASE LINK		TO oe;
 GRANT CREATE SYNONYM			TO oe;
 GRANT CREATE VIEW			TO oe;
-GRANT RESOURCE , UNLIMITED TABLESPACE 				TO oe;
+GRANT RESOURCE, UNLIMITED TABLESPACE	TO oe;
 GRANT CREATE MATERIALIZED VIEW  	TO oe;
 GRANT QUERY REWRITE             	TO oe;
 GRANT execute ON sys.dbms_stats 	TO oe;
 grant create trigger                    TO oe;
 grant xdbadmin                          To oe;
-grant create any directory TO oe; 
+grant create any directory TO oe;
 GRANT drop any directory TO oe;
 GRANT alter session TO oe;
 
 GRANT CONNECT 				TO pm;
-GRANT RESOURCE , UNLIMITED TABLESPACE 				TO pm;
+GRANT RESOURCE, UNLIMITED TABLESPACE	TO pm;
 GRANT execute ON sys.dbms_stats         TO pm;
-GRANT READ ON DIRECTORY media_dir       TO pm; 
+GRANT READ ON DIRECTORY media_dir       TO pm;
 
 GRANT CONNECT 				TO ix;
-GRANT RESOURCE , UNLIMITED TABLESPACE 				TO ix;
+GRANT RESOURCE, UNLIMITED TABLESPACE	TO ix;
 
 GRANT aq_administrator_role 		TO ix;
 GRANT aq_user_role 			TO ix;
@@ -221,7 +222,7 @@ GRANT CREATE TRIGGER TO ix;
 GRANT CREATE TYPE TO ix;
 GRANT CREATE SESSION TO ix;
 
-GRANT CONNECT, RESOURCE, UNLIMITED TABLESPACE, SELECT_CATALOG_ROLE TO ix; 
+GRANT CONNECT, RESOURCE, UNLIMITED TABLESPACE, SELECT_CATALOG_ROLE TO ix;
 
 GRANT EXECUTE ON sys.dbms_stats         TO ix;
 GRANT EXECUTE ON DBMS_AQ                TO ix;
@@ -233,14 +234,14 @@ GRANT EXECUTE ON DBMS_PROPAGATION_ADM 	TO ix;
 GRANT EXECUTE ON DBMS_STREAMS_ADM 	TO ix;
 GRANT SELECT ANY DICTIONARY 		TO ix;
 
-EXECUTE DBMS_RULE_ADM.GRANT_SYSTEM_PRIVILEGE( -	
+EXECUTE DBMS_RULE_ADM.GRANT_SYSTEM_PRIVILEGE( -
     privilege    => DBMS_RULE_ADM.CREATE_RULE_SET_OBJ,  -
-    grantee      => 'ix', - 
+    grantee      => 'ix', -
     grant_option => FALSE);
 
 EXECUTE DBMS_RULE_ADM.GRANT_SYSTEM_PRIVILEGE( -
     privilege    => DBMS_RULE_ADM.CREATE_RULE_OBJ,  -
-    grantee      => 'ix', - 
+    grantee      => 'ix', -
     grant_option => FALSE);
 
 GRANT CREATE SESSION                    TO sh;
@@ -255,7 +256,7 @@ GRANT CREATE DIMENSION         		TO sh;
 GRANT QUERY REWRITE            		TO sh;
 GRANT CREATE MATERIALIZED VIEW 		TO sh;
 GRANT CREATE VIEW 		        TO sh;
-GRANT RESOURCE , UNLIMITED TABLESPACE              		TO sh;
+GRANT RESOURCE, UNLIMITED TABLESPACE              		TO sh;
 GRANT select_catalog_role   		TO sh;
 GRANT execute ON sys.dbms_stats 	TO sh;
 rem   ALTER USER sh GRANT CONNECT THROUGH olapsvr;
@@ -268,7 +269,7 @@ GRANT ALTER SESSION                     TO bi;
 GRANT CREATE SEQUENCE                   TO bi;
 GRANT CREATE SYNONYM                    TO bi;
 GRANT CREATE DATABASE LINK              TO bi;
-GRANT RESOURCE , UNLIMITED TABLESPACE 				TO bi;
+GRANT RESOURCE, UNLIMITED TABLESPACE 				TO bi;
 
 --
 -- Restoring database file backup
@@ -289,7 +290,7 @@ declare
   resetlogs_change number;
   creation_change number;
   checkpoint_change number;
-  blksize number; 
+  blksize number;
   omfname varchar2(512);
   real_file_name varchar2(512);
   v_is_pdb number;
@@ -317,7 +318,7 @@ declare
       dbms_backup_restore.getOMFFileName('EXAMPLE',omfname);
       dbms_backup_restore.restoreDataFileTo(data_file_id, omfname, 0,'EXAMPLE');
      ELSE
-      dbms_backup_restore.restoreSetDataFile; 
+      dbms_backup_restore.restoreSetDataFile;
       dbms_backup_restore.restoreDataFileTo(data_file_id,'&data_file_name');
      END IF;
     dbms_output.put_line(' Restoring ... ');
@@ -330,19 +331,19 @@ declare
     FROM V$DATAFILE_COPY
     WHERE recid = rec_id and rfile# = data_file_id;
 
-    -- Set the bindvariable to the real filename                                       
+    -- Set the bindvariable to the real filename
     :new_datafile := real_file_name;
 
     -- Uncatalog the file from V$DATAFILE_COPY. This important.
-    dbms_backup_restore.deleteDataFileCopy(recid => rec_id, 
-                                           stamp => stamp, 
+    dbms_backup_restore.deleteDataFileCopy(recid => rec_id,
+                                           stamp => stamp,
                                            fname => real_file_name,
-                                           dfnumber => data_file_id, 
-                                           resetlogs_change => resetlogs_change, 
-                                           creation_change => creation_change, 
-                                           checkpoint_change => checkpoint_change, 
+                                           dfnumber => data_file_id,
+                                           resetlogs_change => resetlogs_change,
+                                           creation_change => creation_change,
+                                           checkpoint_change => checkpoint_change,
                                            blksize => blksize,
-                                           no_delete => 1, 
+                                           no_delete => 1,
                                            force => 1);
     if done then
         dbms_output.put_line(' Restore done.');
@@ -367,7 +368,7 @@ grant read,write on directory SS_LOGPATH_DIR to public;
 
 --
 -- Importing the metadata and plugging in the tablespace at the same
--- time, using the restored database file 
+-- time, using the restored database file
 --
 
 -- When importing use filename got after restore is finished
@@ -381,14 +382,14 @@ ALTER TABLESPACE example READ WRITE;
 
 COLUMN tablespace_name FORMAT A15
 COLUMN file_name       FORMAT A46
- 
+
 SELECT    tablespace_name, file_name, status
  FROM     dba_data_files
  ORDER BY file_id;
 
 
-REM	
-REM   Now we rebuild the objects that cannot 
+REM
+REM   Now we rebuild the objects that cannot
 REM   be part of a transportable tablespace set
 REM   ==========================================
 REM
@@ -445,9 +446,9 @@ CREATE OR REPLACE VIEW emp_details_view
    country_name,
    region_name)
 AS SELECT
-  e.employee_id, 
-  e.job_id, 
-  e.manager_id, 
+  e.employee_id,
+  e.job_id,
+  e.manager_id,
   e.department_id,
   d.location_id,
   l.country_id,
@@ -472,7 +473,7 @@ WHERE e.department_id = d.department_id
   AND d.location_id = l.location_id
   AND l.country_id = c.country_id
   AND c.region_id = r.region_id
-  AND j.job_id = e.job_id 
+  AND j.job_id = e.job_id
 WITH READ ONLY;
 
 --
@@ -496,18 +497,18 @@ GRANT QUERY REWRITE TO oe;
 GRANT execute ON sys.dbms_stats to oe;
 grant create trigger TO oe;
 grant xdbadmin To oe;
-grant create any directory TO oe; 
+grant create any directory TO oe;
 GRANT drop any directory TO oe;
 GRANT alter session TO oe;
 
 @__SUB__CWD__/order_entry/oe_main.sql &&password_oe EXAMPLE TEMP  &&password_hr &&password_sys &&oe_data_path &&log_path &vrs
 
--- 
+--
 -- oe_main.sql creates and closes it's own log file.  start part2 of mkplug here
 --
 -- the '.' is the sql concat charater - that's why there are 2 '.' before log
 
-SPOOL &log_path.mkplug_p2_&vrs..log 
+SPOOL &log_path.mkplug_p2_&vrs..log
 
 --
 -- Object privileges
@@ -560,60 +561,60 @@ SELECT TO_CHAR(systimestamp, 'YYYYMMDD HH:MI:SS')  FROM dual;
 
 CONNECT sh/&&password_sh;
 
-CREATE DIMENSION customers_dim 
+CREATE DIMENSION customers_dim
 	LEVEL customer		IS (customers.cust_id)
-	LEVEL city 		IS (customers.cust_city_id) 
-	LEVEL state 		IS (customers.cust_state_province_id) 
-	LEVEL country 		IS (countries.country_id) 
-	LEVEL subregion		IS (countries.country_subregion_id) 
-	LEVEL region 		IS (countries.country_region_id) 
-	LEVEL geog_total 	IS (countries.country_total_id) 
-	LEVEL cust_total 	IS (customers.cust_total_id) 
+	LEVEL city 		IS (customers.cust_city_id)
+	LEVEL state 		IS (customers.cust_state_province_id)
+	LEVEL country 		IS (countries.country_id)
+	LEVEL subregion		IS (countries.country_subregion_id)
+	LEVEL region 		IS (countries.country_region_id)
+	LEVEL geog_total 	IS (countries.country_total_id)
+	LEVEL cust_total 	IS (customers.cust_total_id)
 	HIERARCHY cust_rollup (customer	CHILD OF
-			       city		CHILD OF 
-			       state		CHILD OF 
+			       city		CHILD OF
+			       state		CHILD OF
 			       cust_total)
 	HIERARCHY geog_rollup (customer	CHILD OF
-			       city		CHILD OF 
-			       state		CHILD OF 
-			       country 		CHILD OF 
+			       city		CHILD OF
+			       state		CHILD OF
+			       country 		CHILD OF
 			       subregion 	CHILD OF
 			       region   	CHILD OF
 			       geog_total
 	JOIN KEY (customers.country_id) REFERENCES country)
 	ATTRIBUTE customer DETERMINES
-	(cust_first_name, cust_last_name, cust_gender, 
-	 cust_marital_status, cust_year_of_birth, 
+	(cust_first_name, cust_last_name, cust_gender,
+	 cust_marital_status, cust_year_of_birth,
 	 cust_income_level, cust_credit_limit,
          cust_street_address, cust_postal_code,
          cust_main_phone_number, cust_email)
-        ATTRIBUTE city DETERMINES (cust_city) 
-        ATTRIBUTE state DETERMINES (cust_state_province) 
+        ATTRIBUTE city DETERMINES (cust_city)
+        ATTRIBUTE state DETERMINES (cust_state_province)
 	ATTRIBUTE country DETERMINES (countries.country_name,countries.country_iso_code)
         ATTRIBUTE subregion DETERMINES (countries.country_subregion)
-        ATTRIBUTE region DETERMINES (countries.country_region) 
-        ATTRIBUTE geog_total DETERMINES (countries.country_total) 
+        ATTRIBUTE region DETERMINES (countries.country_region)
+        ATTRIBUTE geog_total DETERMINES (countries.country_total)
         ATTRIBUTE cust_total DETERMINES (customers.cust_total);
 COMMIT;
 
-CREATE DIMENSION products_dim 
+CREATE DIMENSION products_dim
 	LEVEL product 		IS (products.prod_id)
- 	LEVEL subcategory 	IS (products.prod_subcategory_id) 
-	LEVEL category		IS (products.prod_category_id) 
-	LEVEL prod_total	IS (products.prod_total_id) 
-	HIERARCHY prod_rollup (product	CHILD OF 
-			       subcategory 	CHILD OF 
+ 	LEVEL subcategory 	IS (products.prod_subcategory_id)
+	LEVEL category		IS (products.prod_category_id)
+	LEVEL prod_total	IS (products.prod_total_id)
+	HIERARCHY prod_rollup (product	CHILD OF
+			       subcategory 	CHILD OF
 			       category         CHILD OF
-			       prod_total) 
-	ATTRIBUTE product DETERMINES 
+			       prod_total)
+	ATTRIBUTE product DETERMINES
         (products.prod_name, products.prod_desc,
          prod_weight_class, prod_unit_of_measure,
          prod_pack_size,prod_status, prod_list_price, prod_min_price)
-	ATTRIBUTE subcategory DETERMINES 
+	ATTRIBUTE subcategory DETERMINES
         (prod_subcategory, prod_subcategory_desc)
-	ATTRIBUTE category DETERMINES 
+	ATTRIBUTE category DETERMINES
         (prod_category, prod_category_desc)
-	ATTRIBUTE prod_total DETERMINES 
+	ATTRIBUTE prod_total DETERMINES
         (prod_total);
 
 CREATE DIMENSION times_dim
@@ -634,7 +635,7 @@ CREATE DIMENSION times_dim
    			    fis_month	CHILD OF
    			    fis_quarter	CHILD OF
    			    fis_year)
-   ATTRIBUTE day DETERMINES 
+   ATTRIBUTE day DETERMINES
 	(day_number_in_week, day_name, day_number_in_month,
          calendar_week_number)
    ATTRIBUTE month DETERMINES
@@ -659,30 +660,30 @@ CREATE DIMENSION times_dim
          fiscal_quarter_number, days_in_fis_quarter,
 	 end_of_fis_quarter)
    ATTRIBUTE fis_year DETERMINES
-	(fiscal_year, 
+	(fiscal_year,
          days_in_fis_year, end_of_fis_year);
 
 CREATE DIMENSION channels_dim
-	LEVEL channel 	    IS (channels.channel_id) 
-	LEVEL channel_class IS (channels.channel_class_id) 
-	LEVEL channel_total IS (channels.channel_total_id) 
-	HIERARCHY channel_rollup (channel	CHILD OF 
-				  channel_class	CHILD OF 
+	LEVEL channel 	    IS (channels.channel_id)
+	LEVEL channel_class IS (channels.channel_class_id)
+	LEVEL channel_total IS (channels.channel_total_id)
+	HIERARCHY channel_rollup (channel	CHILD OF
+				  channel_class	CHILD OF
 				  channel_total)
         ATTRIBUTE channel DETERMINES (channel_desc)
         ATTRIBUTE channel_class DETERMINES (channel_class)
         ATTRIBUTE channel_total DETERMINES (channel_total);
 
-CREATE DIMENSION promotions_dim 
-	LEVEL promo 	  	IS (promotions.promo_id) 
-	LEVEL subcategory 	IS (promotions.promo_subcategory_id) 
-	LEVEL category 	  	IS (promotions.promo_category_id) 
-	LEVEL promo_total 	IS (promotions.promo_total_id) 
-	HIERARCHY promo_rollup (promo 		CHILD OF 
-				subcategory 	CHILD OF 
+CREATE DIMENSION promotions_dim
+	LEVEL promo 	  	IS (promotions.promo_id)
+	LEVEL subcategory 	IS (promotions.promo_subcategory_id)
+	LEVEL category 	  	IS (promotions.promo_category_id)
+	LEVEL promo_total 	IS (promotions.promo_total_id)
+	HIERARCHY promo_rollup (promo 		CHILD OF
+				subcategory 	CHILD OF
 				category	CHILD OF
-				promo_total) 
-	ATTRIBUTE promo DETERMINES 
+				promo_total)
+	ATTRIBUTE promo DETERMINES
         (promo_name, promo_cost,
          promo_begin_date, promo_end_date)
         ATTRIBUTE subcategory DETERMINES (promo_subcategory)
@@ -692,15 +693,15 @@ CREATE DIMENSION promotions_dim
 SELECT TO_CHAR(systimestamp, 'YYYYMMDD HH:MI:SS')  FROM dual;
 
 CREATE OR REPLACE VIEW profits
- AS SELECT 
-        s.channel_id, 
-        s.cust_id, 
-        s.prod_id, 
-        s.promo_id, 
+ AS SELECT
+        s.channel_id,
+        s.cust_id,
+        s.prod_id,
+        s.promo_id,
         s.time_id,
-        c.unit_cost, 
-        c.unit_price, 
-        s.amount_sold, 
+        c.unit_cost,
+        c.unit_price,
+        s.amount_sold,
         s.quantity_sold,
         c.unit_cost * s.quantity_sold TOTAL_COST
  FROM   costs c, sales s
@@ -724,27 +725,27 @@ CREATE TABLE sales_transactions_ext
   UNIT_COST 	 NUMBER(10,2),
   UNIT_PRICE 	 NUMBER(10,2)
 )
-ORGANIZATION external 
+ORGANIZATION external
 (
   TYPE oracle_loader
   DEFAULT DIRECTORY data_file_dir
-  ACCESS PARAMETERS 
+  ACCESS PARAMETERS
   (
     RECORDS DELIMITED BY NEWLINE CHARACTERSET US7ASCII
     TERRITORY AMERICA
     BADFILE log_file_dir:'ext_1v3.bad'
     LOGFILE log_file_dir:'ext_1v3.log'
-    FIELDS TERMINATED BY "|" OPTIONALLY ENCLOSED BY '^' LDRTRIM 
+    FIELDS TERMINATED BY "|" OPTIONALLY ENCLOSED BY '^' LDRTRIM
     ( PROD_ID         ,
       CUST_ID         ,
-      TIME_ID         DATE(10) "YYYY-MM-DD", 
+      TIME_ID         DATE(10) "YYYY-MM-DD",
       CHANNEL_ID      ,
       PROMO_ID        ,
       QUANTITY_SOLD   ,
       AMOUNT_SOLD     ,
       UNIT_COST       ,
-      UNIT_PRICE      
-    ) 
+      UNIT_PRICE
+    )
  )
  LOCATION
  ('sale1v3.dat')
@@ -827,7 +828,7 @@ CREATE OR REPLACE PUBLIC SYNONYM COE_UTILITIES FOR COE_UTILITIES;
 CREATE OR REPLACE PUBLIC SYNONYM COE_TOOLS FOR COE_TOOLS;
 
 -- check for invalid objects
-select count(*) , ' Invalid Objects' from dba_objects where status = 'INVALID';
+select count(*), ' Invalid Objects' from dba_objects where status = 'INVALID';
 select owner,object_name, object_type
 from dba_objects where status = 'INVALID';
 

@@ -1,8 +1,8 @@
 rem
 rem Header: oe_cre.sql 09-jan-01
 rem
-rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.  
-rem 
+rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.
+rem
 rem Permission is hereby granted, free of charge, to any person obtaining
 rem a copy of this software and associated documentation files (the
 rem "Software"), to deal in the Software without restriction, including
@@ -10,10 +10,10 @@ rem without limitation the rights to use, copy, modify, merge, publish,
 rem distribute, sublicense, and/or sell copies of the Software, and to
 rem permit persons to whom the Software is furnished to do so, subject to
 rem the following conditions:
-rem 
+rem
 rem The above copyright notice and this permission notice shall be
 rem included in all copies or substantial portions of the Software.
-rem 
+rem
 rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -32,7 +32,7 @@ rem   Creates database objects. The script assumes that the HR schema
 rem   is present.
 rem
 rem NOTES
-rem   The OIDs assigned for the object types are used to 
+rem   The OIDs assigned for the object types are used to
 rem   simplify the setup of Replication demos and are not needed
 rem   in most unreplicated environments.
 rem
@@ -47,10 +47,10 @@ rem   ahunold   01/05/01 - promo_id
 rem   ahunold   01/05/01 - NN constraints in product_descriptions
 rem   ahunold   01/09/01 - checkin ADE
 
-PROMPT 
+PROMPT
 PROMPT specify Sample Schema version as parameter 1:
 DEFINE vrs     = &1
-PROMPT 
+PROMPT
 
 -- ======================================================================
 -- Type definitions
@@ -78,7 +78,7 @@ CREATE TYPE phone_list_typ
 
 REM ===========================================================================
 REM Create customers table.
-REM The cust_geo_location column will become MDSYS.SDO_GEOMETRY (spatial) 
+REM The cust_geo_location column will become MDSYS.SDO_GEOMETRY (spatial)
 REM datatype when appropriate scripts and data are available.
 REM ===========================================================================
 
@@ -89,16 +89,16 @@ DEFINE vscript = __SUB__CWD__/order_entry/ccus_&vrs
 
 CREATE UNIQUE INDEX customers_pk
    ON customers (customer_id) ;
-   
+
 REM Both table and indexes are analyzed using the oe_analz.sql script.
 
-ALTER TABLE customers 
+ALTER TABLE customers
 ADD ( CONSTRAINT customers_pk
       PRIMARY KEY (customer_id)
     ) ;
 
 REM ===========================================================================
-REM Create warehouses table; 
+REM Create warehouses table;
 REM  includes spatial data column wh_geo_location and
 REM  XML type warehouse_spec (was bug b41)
 REM ===========================================================================
@@ -110,16 +110,16 @@ DEFINE vscript = __SUB__CWD__/order_entry/cwhs_&vrs
 CREATE UNIQUE INDEX warehouses_pk
 ON warehouses (warehouse_id) ;
 
-ALTER TABLE warehouses 
+ALTER TABLE warehouses
 ADD (CONSTRAINT warehouses_pk PRIMARY KEY (warehouse_id)
     );
 
 REM ===========================================================================
 REM Create table order_items.
 REM ===========================================================================
-	
+
 CREATE TABLE order_items
-    ( order_id           NUMBER(12) 
+    ( order_id           NUMBER(12)
     , line_item_id       NUMBER(3)  NOT NULL
     , product_id         NUMBER(6)  NOT NULL
     , unit_price         NUMBER(8,2)
@@ -138,15 +138,15 @@ ADD ( CONSTRAINT order_items_pk PRIMARY KEY (order_id, line_item_id)
 
 CREATE OR REPLACE TRIGGER insert_ord_line
   BEFORE INSERT ON order_items
-  FOR EACH ROW 
-  DECLARE 
-    new_line number; 
-  BEGIN 
-    SELECT (NVL(MAX(line_item_id),0)+1) INTO new_line 
+  FOR EACH ROW
+  DECLARE
+    new_line number;
+  BEGIN
+    SELECT (NVL(MAX(line_item_id),0)+1) INTO new_line
       FROM order_items
-      WHERE order_id = :new.order_id; 
-    :new.line_item_id := new_line; 
-  END; 
+      WHERE order_id = :new.order_id;
+    :new.line_item_id := new_line;
+  END;
 /
 
 REM ===========================================================================
@@ -158,17 +158,17 @@ DEFINE vscript = __SUB__CWD__/order_entry/cord_&vrs
 
 @&vscript
 
-CREATE UNIQUE INDEX order_pk 
+CREATE UNIQUE INDEX order_pk
 ON orders (order_id) ;
 
 ALTER TABLE orders
-ADD ( CONSTRAINT order_pk 
+ADD ( CONSTRAINT order_pk
       PRIMARY KEY (order_id)
     );
 REM ===========================================================================
 REM Create inventories table, which contains a concatenated primary key.
 REM ===========================================================================
-    
+
 CREATE TABLE inventories
   ( product_id         NUMBER(6)
   , warehouse_id       NUMBER(3) CONSTRAINT inventory_warehouse_id_nn NOT NULL
@@ -202,7 +202,7 @@ CREATE TABLE product_information
                                )
     ) ;
 
-ALTER TABLE product_information 
+ALTER TABLE product_information
 ADD ( CONSTRAINT product_information_pk PRIMARY KEY (product_id)
     );
 
@@ -224,25 +224,25 @@ CREATE UNIQUE INDEX prd_desc_pk
 ON product_descriptions(product_id,language_id) ;
 
 ALTER TABLE product_descriptions
-ADD ( CONSTRAINT product_descriptions_pk 
+ADD ( CONSTRAINT product_descriptions_pk
 	PRIMARY KEY (product_id, language_id));
 
-ALTER TABLE orders 
-ADD ( CONSTRAINT orders_sales_rep_fk 
-      FOREIGN KEY (sales_rep_id) 
+ALTER TABLE orders
+ADD ( CONSTRAINT orders_sales_rep_fk
+      FOREIGN KEY (sales_rep_id)
       REFERENCES hr.employees(employee_id)
       ON DELETE SET NULL
     ) ;
 
-ALTER TABLE orders 
-ADD ( CONSTRAINT orders_customer_id_fk 
-      FOREIGN KEY (customer_id) 
-      REFERENCES customers(customer_id) 
-      ON DELETE SET NULL 
+ALTER TABLE orders
+ADD ( CONSTRAINT orders_customer_id_fk
+      FOREIGN KEY (customer_id)
+      REFERENCES customers(customer_id)
+      ON DELETE SET NULL
     ) ;
 
-ALTER TABLE warehouses 
-ADD ( CONSTRAINT warehouses_location_fk 
+ALTER TABLE warehouses
+ADD ( CONSTRAINT warehouses_location_fk
       FOREIGN KEY (location_id)
       REFERENCES hr.locations(location_id)
       ON DELETE SET NULL
@@ -255,21 +255,21 @@ ADD ( CONSTRAINT customers_account_manager_fk
       ON DELETE SET NULL
     ) ;
 
-ALTER TABLE inventories 
-ADD ( CONSTRAINT inventories_warehouses_fk 
+ALTER TABLE inventories
+ADD ( CONSTRAINT inventories_warehouses_fk
       FOREIGN KEY (warehouse_id)
       REFERENCES warehouses (warehouse_id)
       ENABLE NOVALIDATE
     ) ;
 
-ALTER TABLE inventories 
-ADD ( CONSTRAINT inventories_product_id_fk 
+ALTER TABLE inventories
+ADD ( CONSTRAINT inventories_product_id_fk
       FOREIGN KEY (product_id)
       REFERENCES product_information (product_id)
     ) ;
 
 ALTER TABLE order_items
-ADD ( CONSTRAINT order_items_order_id_fk 
+ADD ( CONSTRAINT order_items_order_id_fk
       FOREIGN KEY (order_id)
       REFERENCES orders(order_id)
       ON DELETE CASCADE
@@ -277,7 +277,7 @@ enable novalidate
     ) ;
 
 ALTER TABLE order_items
-ADD ( CONSTRAINT order_items_product_id_fk 
+ADD ( CONSTRAINT order_items_product_id_fk
       FOREIGN KEY (product_id)
       REFERENCES product_information(product_id)
     ) ;

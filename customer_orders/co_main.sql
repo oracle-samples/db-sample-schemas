@@ -1,4 +1,4 @@
-set define on 
+set define on
 set verify off
 
 define co_password = &1

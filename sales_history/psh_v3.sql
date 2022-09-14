@@ -3,8 +3,8 @@ Rem $Header: rdbms/demo/schema/sales_history/psh_v3.sql /main/12 2012/06/21 14:3
 Rem
 Rem vsh_v3.sql
 Rem
-Rem Copyright (c) 2002, 2015, Oracle and/or its affiliates.  All rights reserved. 
-Rem 
+Rem Copyright (c) 2002, 2015, Oracle and/or its affiliates.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -34,10 +34,11 @@ Rem    NOTES
 Rem      <other useful comments, qualifications, etc.>
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    awesley     03/03/12 - Remove  Creating OLAP metadata olp_v3.sql
 Rem    pabingha    03/08/07 - LRG 2871657 - use dimension_exceptions
-Rem    huzhao      02/03/04 - gather statistics for sh.SALES_TRANSACTIONS_EXT 
-Rem    huzhao      11/11/03 - fix lrg 1592368 
+Rem    huzhao      02/03/04 - gather statistics for sh.SALES_TRANSACTIONS_EXT
+Rem    huzhao      11/11/03 - fix lrg 1592368
 Rem    ahunold     07/21/03 - shreview
 Rem    cbauwens    07/16/03 - add index ODM table
 Rem                           supplementary demographics
@@ -127,7 +128,7 @@ ALTER TABLE countries
 
 ALTER TABLE customers
   ENABLE NOVALIDATE CONSTRAINT customers_country_fk;
-  
+
 PROMPT
 PROMPT Creating additional indexes ...
 
@@ -198,60 +199,60 @@ CREATE BITMAP INDEX customers_yob_bix
 PROMPT
 PROMPT Create dimensions ...
 
-CREATE DIMENSION customers_dim 
+CREATE DIMENSION customers_dim
 	LEVEL customer		IS (customers.cust_id)
-	LEVEL city 		IS (customers.cust_city_id) 
-	LEVEL state 		IS (customers.cust_state_province_id) 
-	LEVEL country 		IS (countries.country_id) 
-	LEVEL subregion		IS (countries.country_subregion_id) 
-	LEVEL region 		IS (countries.country_region_id) 
-	LEVEL geog_total 	IS (countries.country_total_id) 
-	LEVEL cust_total 	IS (customers.cust_total_id) 
+	LEVEL city 		IS (customers.cust_city_id)
+	LEVEL state 		IS (customers.cust_state_province_id)
+	LEVEL country 		IS (countries.country_id)
+	LEVEL subregion		IS (countries.country_subregion_id)
+	LEVEL region 		IS (countries.country_region_id)
+	LEVEL geog_total 	IS (countries.country_total_id)
+	LEVEL cust_total 	IS (customers.cust_total_id)
 	HIERARCHY cust_rollup (customer	CHILD OF
-			       city		CHILD OF 
-			       state		CHILD OF 
+			       city		CHILD OF
+			       state		CHILD OF
 			       cust_total)
 	HIERARCHY geog_rollup (customer	CHILD OF
-			       city		CHILD OF 
-			       state		CHILD OF 
-			       country 		CHILD OF 
+			       city		CHILD OF
+			       state		CHILD OF
+			       country 		CHILD OF
 			       subregion 	CHILD OF
 			       region   	CHILD OF
 			       geog_total
 	JOIN KEY (customers.country_id) REFERENCES country)
 	ATTRIBUTE customer DETERMINES
-	(cust_first_name, cust_last_name, cust_gender, 
-	 cust_marital_status, cust_year_of_birth, 
+	(cust_first_name, cust_last_name, cust_gender,
+	 cust_marital_status, cust_year_of_birth,
 	 cust_income_level, cust_credit_limit,
          cust_street_address, cust_postal_code,
          cust_main_phone_number, cust_email)
-        ATTRIBUTE city DETERMINES (cust_city) 
-        ATTRIBUTE state DETERMINES (cust_state_province) 
+        ATTRIBUTE city DETERMINES (cust_city)
+        ATTRIBUTE state DETERMINES (cust_state_province)
 	ATTRIBUTE country DETERMINES (countries.country_name,countries.country_iso_code)
         ATTRIBUTE subregion DETERMINES (countries.country_subregion)
-        ATTRIBUTE region DETERMINES (countries.country_region) 
-        ATTRIBUTE geog_total DETERMINES (countries.country_total) 
+        ATTRIBUTE region DETERMINES (countries.country_region)
+        ATTRIBUTE geog_total DETERMINES (countries.country_total)
         ATTRIBUTE cust_total DETERMINES (customers.cust_total);
 COMMIT;
 
-CREATE DIMENSION products_dim 
+CREATE DIMENSION products_dim
 	LEVEL product 		IS (products.prod_id)
- 	LEVEL subcategory 	IS (products.prod_subcategory_id) 
-	LEVEL category		IS (products.prod_category_id) 
-	LEVEL prod_total	IS (products.prod_total_id) 
-	HIERARCHY prod_rollup (product	CHILD OF 
-			       subcategory 	CHILD OF 
+ 	LEVEL subcategory 	IS (products.prod_subcategory_id)
+	LEVEL category		IS (products.prod_category_id)
+	LEVEL prod_total	IS (products.prod_total_id)
+	HIERARCHY prod_rollup (product	CHILD OF
+			       subcategory 	CHILD OF
 			       category         CHILD OF
-			       prod_total) 
-	ATTRIBUTE product DETERMINES 
+			       prod_total)
+	ATTRIBUTE product DETERMINES
         (products.prod_name, products.prod_desc,
          prod_weight_class, prod_unit_of_measure,
          prod_pack_size,prod_status, prod_list_price, prod_min_price)
-	ATTRIBUTE subcategory DETERMINES 
+	ATTRIBUTE subcategory DETERMINES
         (prod_subcategory, prod_subcategory_desc)
-	ATTRIBUTE category DETERMINES 
+	ATTRIBUTE category DETERMINES
         (prod_category, prod_category_desc)
-	ATTRIBUTE prod_total DETERMINES 
+	ATTRIBUTE prod_total DETERMINES
         (prod_total);
 
 CREATE DIMENSION times_dim
@@ -272,7 +273,7 @@ CREATE DIMENSION times_dim
    			    fis_month	CHILD OF
    			    fis_quarter	CHILD OF
    			    fis_year)
-   ATTRIBUTE day DETERMINES 
+   ATTRIBUTE day DETERMINES
 	(day_number_in_week, day_name, day_number_in_month,
          calendar_week_number)
    ATTRIBUTE month DETERMINES
@@ -297,30 +298,30 @@ CREATE DIMENSION times_dim
          fiscal_quarter_number, days_in_fis_quarter,
 	 end_of_fis_quarter)
    ATTRIBUTE fis_year DETERMINES
-	(fiscal_year, 
+	(fiscal_year,
          days_in_fis_year, end_of_fis_year);
 
 CREATE DIMENSION channels_dim
-	LEVEL channel 	    IS (channels.channel_id) 
-	LEVEL channel_class IS (channels.channel_class_id) 
-	LEVEL channel_total IS (channels.channel_total_id) 
-	HIERARCHY channel_rollup (channel	CHILD OF 
-				  channel_class	CHILD OF 
+	LEVEL channel 	    IS (channels.channel_id)
+	LEVEL channel_class IS (channels.channel_class_id)
+	LEVEL channel_total IS (channels.channel_total_id)
+	HIERARCHY channel_rollup (channel	CHILD OF
+				  channel_class	CHILD OF
 				  channel_total)
         ATTRIBUTE channel DETERMINES (channel_desc)
         ATTRIBUTE channel_class DETERMINES (channel_class)
         ATTRIBUTE channel_total DETERMINES (channel_total);
 
-CREATE DIMENSION promotions_dim 
-	LEVEL promo 	  	IS (promotions.promo_id) 
-	LEVEL subcategory 	IS (promotions.promo_subcategory_id) 
-	LEVEL category 	  	IS (promotions.promo_category_id) 
-	LEVEL promo_total 	IS (promotions.promo_total_id) 
-	HIERARCHY promo_rollup (promo 		CHILD OF 
-				subcategory 	CHILD OF 
+CREATE DIMENSION promotions_dim
+	LEVEL promo 	  	IS (promotions.promo_id)
+	LEVEL subcategory 	IS (promotions.promo_subcategory_id)
+	LEVEL category 	  	IS (promotions.promo_category_id)
+	LEVEL promo_total 	IS (promotions.promo_total_id)
+	HIERARCHY promo_rollup (promo 		CHILD OF
+				subcategory 	CHILD OF
 				category	CHILD OF
-				promo_total) 
-	ATTRIBUTE promo DETERMINES 
+				promo_total)
+	ATTRIBUTE promo DETERMINES
         (promo_name, promo_cost,
          promo_begin_date, promo_end_date)
         ATTRIBUTE subcategory DETERMINES (promo_subcategory)
@@ -331,18 +332,18 @@ PROMPT Creating MVs as tables ...
 PROMPT
 
 CREATE OR REPLACE VIEW profits
- AS SELECT 
-	s.channel_id, 
-	s.cust_id, 
-	s.prod_id, 
-	s.promo_id, 
+ AS SELECT
+	s.channel_id,
+	s.cust_id,
+	s.prod_id,
+	s.promo_id,
 	s.time_id,
-	c.unit_cost, 
-	c.unit_price, 
-	s.amount_sold, 
+	c.unit_cost,
+	c.unit_price,
+	s.amount_sold,
 	s.quantity_sold,
 	c.unit_cost * s.quantity_sold TOTAL_COST
- FROM 
+ FROM
 	costs c, sales s
  WHERE c.prod_id = s.prod_id
    AND c.time_id = s.time_id
@@ -375,13 +376,13 @@ AS
   ,        s.channel_id
   ,        s.promo_id;
 
-CREATE BITMAP INDEX FW_PSC_S_MV_SUBCAT_BIX	
+CREATE BITMAP INDEX FW_PSC_S_MV_SUBCAT_BIX
 ON fweek_pscat_sales_mv(prod_subcategory);
 
 CREATE BITMAP INDEX FW_PSC_S_MV_CHAN_BIX
 ON fweek_pscat_sales_mv(channel_id);
 
-CREATE BITMAP INDEX FW_PSC_S_MV_PROMO_BIX	
+CREATE BITMAP INDEX FW_PSC_S_MV_PROMO_BIX
 ON fweek_pscat_sales_mv(promo_id);
 
 CREATE BITMAP INDEX FW_PSC_S_MV_WD_BIX
@@ -406,7 +407,7 @@ CREATE MATERIALIZED VIEW cal_month_sales_mv
   WHERE    s.time_id = t.time_id
   GROUP BY t.calendar_month_desc;
 
-CREATE MATERIALIZED VIEW fweek_pscat_sales_mv 
+CREATE MATERIALIZED VIEW fweek_pscat_sales_mv
   ON PREBUILT TABLE
   ENABLE QUERY REWRITE
   AS

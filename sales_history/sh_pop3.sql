@@ -4,7 +4,7 @@ Rem
 Rem sh_pop3.sql
 Rem
 Rem Copyright (c) 2001, 2015, Oracle and/or its affiliates.  All rights reserved.
-Rem 
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -25,7 +25,7 @@ Rem OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 Rem WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Rem
 Rem    NAME
-Rem      sh_pop3.sql - Populates the big SH tables using SQL*Loader 
+Rem      sh_pop3.sql - Populates the big SH tables using SQL*Loader
 Rem
 Rem    DESCRIPTION
 Rem      SH is the Sales History schema of the Oracle 9i Sample
@@ -39,6 +39,7 @@ Rem     without adding any delimiters. this is done for better
 Rem     portability
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem     smtaylor   03/19/15 - added parameter 4, connect_string
 Rem     smtaylor   03/19/15 - added @&connect_string to sqlldr
 Rem     jstenois   07/01/13 - Fix TERRITORY to be AMERICA; not AMERICAN
@@ -61,7 +62,7 @@ Rem
 SET VERIFY OFF
 SET CONCAT '.'
 
-DEFINE sh_pass = &1 
+DEFINE sh_pass = &1
 DEFINE data_file_directory = &2
 DEFINE log_file_directory = &3
 DEFINE connect_string = &4
@@ -86,7 +87,7 @@ DEFINE dat_file = &data_file_directory.sh_cust.dat
 DEFINE log_file = &log_file_directory.sh_cust.log
 
 HOST sqlldr sh/&sh_pass@&connect_string  -
- control=&ctl_file data=&dat_file log=&log_file - 
+ control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=1000
 
@@ -98,7 +99,7 @@ DEFINE dat_file = &data_file_directory.sh_prod.dat
 DEFINE log_file = &log_file_directory.sh_prod.log
 
 HOST sqlldr sh/&sh_pass@&connect_string  -
- control=&ctl_file data=&dat_file log=&log_file - 
+ control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=10000
 
@@ -110,7 +111,7 @@ DEFINE dat_file = &data_file_directory.sh_sales.dat
 DEFINE log_file = &log_file_directory.sh_sales.log
 
 HOST sqlldr sh/&sh_pass@&connect_string  -
- control=&ctl_file data=&dat_file log=&log_file - 
+ control=&ctl_file data=&dat_file log=&log_file -
  direct=yes -
  rows=10000
 
@@ -129,37 +130,37 @@ CREATE TABLE sales_transactions_ext
   UNIT_COST NUMBER(10,2),
   UNIT_PRICE NUMBER(10,2)
 )
-ORGANIZATION external 
+ORGANIZATION external
 (
   TYPE oracle_loader
   DEFAULT DIRECTORY data_file_dir
-  ACCESS PARAMETERS 
+  ACCESS PARAMETERS
   (
     RECORDS DELIMITED BY NEWLINE CHARACTERSET US7ASCII
     TERRITORY AMERICA
     BADFILE log_file_dir:'sh_sales_ext.bad'
     LOGFILE log_file_dir:'sh_sales_ext.log'
-    FIELDS TERMINATED BY "|" LDRTRIM 
+    FIELDS TERMINATED BY "|" LDRTRIM
   )
-  location 
+  location
   (
     'sh_sales.dat'
   )
 )REJECT LIMIT UNLIMITED;
 
-INSERT /*+ append */ INTO COSTS 
+INSERT /*+ append */ INTO COSTS
 ( time_id,
   prod_id,
   unit_cost,
   unit_price )
-SELECT 
+SELECT
   time_id,
   prod_id,
   AVG(unit_cost),
   AVG(amount_sold/quantity_sold)
-FROM 
+FROM
   sales_transactions_ext
-GROUP BY 
+GROUP BY
   time_id, prod_id;
 
 Rem DROP TABLE sales_transactions_ext;

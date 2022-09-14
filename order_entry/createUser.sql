@@ -3,8 +3,8 @@ Rem $Header: rdbms/demo/schema/order_entry/createUser.sql.sbs /main/4 2015/03/19
 Rem
 Rem coe_xml.sql
 Rem
-Rem Copyright (c) 2002, 2015, Oracle and/or its affiliates.  All rights reserved. 
-Rem 
+Rem Copyright (c) 2002, 2015, Oracle and/or its affiliates.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -34,12 +34,13 @@ Rem    NOTES
 Rem      Instantiates createUser.sql. Sets s_oePath
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    smtaylor    03/19.15 - added prompts for parameters 1 and 2
 Rem    smtaylor    03/19/15 - added parameter 3, connect_string
 Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem    smtaylor    03/19/15 - added pararmeter &connect_string to script calls
 Rem    bhammers    02/24/11 - 11790077:do not delete home directory if existent
-Rem    bhammers    01/24/11 - bug 11790009: consistent variable name for sys pwd 
+Rem    bhammers    01/24/11 - bug 11790009: consistent variable name for sys pwd
 Rem    celsbern    07/17/09 - added explicit revoke of execute on directory
 Rem                           objects
 Rem    celsbern    02/24/09 - renamed XMLDIR to SS_OE_XMLDIR
@@ -50,7 +51,7 @@ PROMPT
 PROMPT specify password for OE as parameter 1:
 DEFINE pass_oe  = &1
 PROMPT
-PROMPT PROMPT password for SYS as parameter 2:
+PROMPT specify password for SYS as parameter 2:
 DEFINE pass_sys = &2
 PROMPT
 PROMPT specify connect string as parameter 3:
@@ -73,7 +74,7 @@ BEGIN
   DBMS_XDB.setAcl(targetFolder, '/sys/acls/all_all_acl.xml');
   coe_utilities.createHomeFolder('OE');
 END;
-/ 
+/
 
 CONNECT OE/&pass_oe@&connect_string
 
@@ -86,7 +87,7 @@ COMMIT
 /
 
 CONNECT sys/&&pass_sys@&connect_string AS SYSDBA;
- 
+
 revoke execute on directory SS_OE_XMLDIR from OE
 /
 CONNECT OE/&pass_oe@&connect_string

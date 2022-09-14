@@ -1,4 +1,4 @@
-PROMPT Removing existing data 
+PROMPT Removing existing data
 
 truncate table order_items;
 truncate table inventory;

@@ -3,8 +3,8 @@ Rem $Header: rdbms/demo/schema/shipping/qs_main.sql /main/2 2015/03/19 10:23:26 
 Rem
 Rem qs_main.sql
 Rem
-Rem Copyright (c) 2001, 2015, Oracle and/or its affiliates.  All rights reserved. 
-Rem 
+Rem Copyright (c) 2001, 2015, Oracle and/or its affiliates.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -35,6 +35,7 @@ Rem    NOTES
 Rem      Run as SYS or SYSTEM
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    smtaylor    03/19/15 - added parameter 8, connect_string
 Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem    jmadduku    02/18/11 - Grant Unlimited Tablespace priv with RESOURCE
@@ -50,23 +51,23 @@ SET ECHO OFF
 
 ALTER SESSION SET NLS_LANGUAGE=American;
 
-PROMPT 
+PROMPT
 PROMPT specify one password for the users QS,QS_ADM,QS_CBADM,
 PROMPT QS_WS,QS_ES,QS_OS,QS_CS and QS_CB as parameter 1:
 DEFINE pass     = &1
-PROMPT 
-PROMPT specify default tablespeace for QS as parameter 2:
+PROMPT
+PROMPT specify default tablespace for QS as parameter 2:
 DEFINE tbs      = &2
-PROMPT 
+PROMPT
 PROMPT specify temporary tablespace for QS as parameter 3:
 DEFINE ttbs     = &3
 PROMPT
 PROMPT specify password for SYSTEM as parameter 4:
 DEFINE master_pass = &4
-PROMPT 
+PROMPT
 PROMPT specify password for OE as parameter 5:
 DEFINE passoe   = &5
-PROMPT 
+PROMPT
 PROMPT specify password for SYS as parameter 6:
 DEFINE pass_sys = &6
 PROMPT
@@ -126,7 +127,7 @@ GRANT EXECUTE ON dbms_aqadm TO qs_adm;
 
 REM  ===================================================
 REM  connected as sys to grant execute on dbms_lock
-REM  and connected again as system 
+REM  and connected again as system
 REM  ===================================================
 
 CONNECT sys/&pass_sys@&connect_string AS SYSDBA;
@@ -196,7 +197,7 @@ GRANT EXECUTE ON dbms_aq TO qs_os;
 GRANT EXECUTE ON dbms_aqadm TO qs_os;
 
 REM =======================================================
-REM Customer Billing, for security reason, has an admin 
+REM Customer Billing, for security reason, has an admin
 REM schema that hosts all the queue tables and an
 REM application schema from where the application runs.
 REM =======================================================

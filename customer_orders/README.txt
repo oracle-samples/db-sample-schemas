@@ -40,7 +40,7 @@ schema. This requires Oracle Database 12.1.0.2 or higher.
 
 		CO:     <CO_password>
 
-1.2	Verify the value for the default tablespace, and the temporary 
+1.2	Verify the value for the default tablespace, and the temporary
 	tablespace. For illustration purposes, the values are:
 
 		default tablespace: EXAMPLE
@@ -48,25 +48,25 @@ schema. This requires Oracle Database 12.1.0.2 or higher.
 
         NOTE: Use your own passwords.
 
-1.3     Verify the connect string for the database. For illustration 
+1.3     Verify the connect string for the database. For illustration
         purposes, the value of <connect_string> for database pdb is:
 
                 connect_string: localhost:1521/pdb
- 
+
 
         The connect_string may also be a valid tnsnames.ora entry.
 
-1.4	Invoke the Sample Schema creation script. Using the values listed 
+1.4	Invoke the Sample Schema creation script. Using the values listed
 	in Sections 1.1, 1.2, and 1.3 the command would look like this:
 
-	SQL> @co_main <CO_password> localhost:1521/pdb EXAMPLE TEMP 
+	SQL> @co_main <CO_password> localhost:1521/pdb EXAMPLE TEMP
 
 1.4.1 To install the objects and data into an existing schema, run:
 
     SQL> @co_ddl
     SQL> @co_dml
 
-1.4.2 To refresh the data in existing tables in the current schema, 
+1.4.2 To refresh the data in existing tables in the current schema,
       run:
 
     SQL> @co_dml

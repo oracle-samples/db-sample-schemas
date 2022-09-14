@@ -3,8 +3,8 @@ Rem $Header: pm_drop.sql 2018/02/28 15:43:13 jorgerod Exp $
 Rem
 Rem sh_drop.sql
 Rem
-Rem Copyright (c) 2001, 2018, Oracle Corporation.  All rights reserved.  
-Rem 
+Rem Copyright (c) 2001, 2018, Oracle Corporation.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -32,9 +32,10 @@ Rem      SH is the Sales History schema of the Oracle 9i Sample
 Rem        Schemas
 Rem
 Rem    NOTES
-Rem      
+Rem
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem     jorgerod   02/13/18 - remove drop for online_media
 Rem                           Ordim desupported in 19c
 Rem     hyeh       08/29/02 - hyeh_mv_comschema_to_rdbms
@@ -53,4 +54,4 @@ DROP TYPE textdoc_tab;
 DROP TYPE adheader_typ;
 DROP TYPE textdoc_typ;
 
-COMMIT; 
+COMMIT;

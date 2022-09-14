@@ -20,7 +20,7 @@ begin
   insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE,LOGO,LOGO_MIME_TYPE) values (7,'Bucharest',null,'Floreasca Park
     43 Soseaua Pipera, corp B.
     Sector 2
-    Bucharest , 014254
+    Bucharest, 014254
     RO',44.43225,26.10626, EMPTY_BLOB(),null);
   insert into stores (STORE_ID,STORE_NAME,WEB_ADDRESS,PHYSICAL_ADDRESS,LATITUDE,LONGITUDE,LOGO,LOGO_MIME_TYPE) values (8,'Berlin',null,'Behrenstraße 42 (Humboldt Carré)
     10117 Berlin',52.5161,13.3873, EMPTY_BLOB(),null);

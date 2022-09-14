@@ -1,4 +1,4 @@
-# Customer Orders Sample Schema 
+# Customer Orders Sample Schema
 
 Copyright (c) 2019 Oracle
 
@@ -23,7 +23,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## 1. Introduction
 
-The following contains instructions to install the customer orders sample schema. 
+The following contains instructions to install the customer orders sample schema.
 
 This requires Oracle Database 12.1.0.2 or higher.
 
@@ -71,13 +71,13 @@ discussed in [README.txt](#README.txt):
 
 ```shell
 sqlplus system@connect_string
-@co_main copw connect_string users temp 
+@co_main copw connect_string users temp
 ```
 
-Use your actual default and temporary tablespace names.  The passwords 
+Use your actual default and temporary tablespace names.  The passwords
 for the new CO user will be set to the value you specify.
 
-Using a connect string permits connections to non-container databases and 
+Using a connect string permits connections to non-container databases and
 pluggable database using the same syntax.
 
 An example of connect strings for databases with services noncdb and pdb:

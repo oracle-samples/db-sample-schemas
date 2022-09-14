@@ -3,8 +3,8 @@ Rem $Header: rdbms/demo/schema/drop_sch.sql /main/2 2015/03/19 10:23:26 smtaylor
 Rem
 Rem drop_sch.sql
 Rem
-Rem Copyright (c) 2009, 2015 Oracle and/or its affiliates.All rights reserved. 
-Rem 
+Rem Copyright (c) 2009, 2015 Oracle and/or its affiliates.All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -32,7 +32,7 @@ Rem      Drops all Sample Schemas (HR,OE,IX,PM,SH)
 Rem
 Rem    NOTES
 Rem      Must be run as SYSTEM
-Rem      
+Rem
 Rem      CAUTION: Never use the above mentioned Sample Schemas for
 Rem               anything other than demos and examples.
 Rem      CAUTION: Do not use this script if you have production user accounts
@@ -40,6 +40,7 @@ Rem               named HR,OE,IX,PM,SH
 Rem
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    smtaylor    03/19/15 - added parameter 3, connect string
 Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
 Rem    cbauwens    03/05/09 - Drop Sample Schemas
@@ -63,13 +64,13 @@ COLUMN status           FORMAT A8
 
 
 
-PROMPT 
+PROMPT
 PROMPT specify password for SYSTEM:
 DEFINE pwd_system
 
 PROMPT specify spoolfile name:
 DEFINE spl_file
-PROMPT 
+PROMPT
 
 PROMPT specify connect string:
 DEFINE connect_string

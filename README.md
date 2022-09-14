@@ -26,7 +26,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 This repository contains a copy of the Oracle Database sample schemas
 that are installed with Oracle Database Enterprise Edition.  These
 schemas are used in Oracle documentation to show SQL language
-concepts and other database features.  The schemas themselves are 
+concepts and other database features.  The schemas themselves are
 documented in [Oracle Database Sample Schemas](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=COMSC).
 
 The schemas are:
@@ -41,19 +41,19 @@ The schemas are:
 *Due to widespread dependence on these scripts in their current form,
 no pull requests for changes can be accepted.*
 
-In addition, a new schema CO: [Customer Orders](https://github.com/oracle/db-sample-schemas/tree/master/customer_orders), is now also 
-included in this repository. It is not automatically installed along with 
-the rest of the schemas at this time. Follow instructions in that schema's 
+In addition, a new schema CO: [Customer Orders](https://github.com/oracle/db-sample-schemas/tree/master/customer_orders), is now also
+included in this repository. It is not automatically installed along with
+the rest of the schemas at this time. Follow instructions in that schema's
 [README](https://github.com/oracle/db-sample-schemas/blob/master/README.md) to install the CO schema.
 
 ## 2. Installing the Samples
 
-*CAUTION*: The first step in installing sample schemas is to drop 
-user accounts with the following names: HR, OE, PM, IX, SH and BI. 
-Do not proceed with the installation if you have schemas with any 
+*CAUTION*: The first step in installing sample schemas is to drop
+user accounts with the following names: HR, OE, PM, IX, SH and BI.
+Do not proceed with the installation if you have schemas with any
 of these names that you wish to keep.
 
-The installation scripts are designed to run on an Oracle Database.  
+The installation scripts are designed to run on an Oracle Database.
 Privileged database access is required during installation.
 
 The instructions below work on Linux and similar operating systems.
@@ -91,12 +91,12 @@ with your current working directory, for example
 `/home/oracle/db-sample-schemas`
 
 ```shell
-perl -p -i.bak -e 's#__SUB__CWD__#'$(pwd)'#g' *.sql */*.sql */*.dat 
+perl -p -i.bak -e 's#__SUB__CWD__#'$(pwd)'#g' *.sql */*.sql */*.dat
 ```
 
 ### 2.4. Set the Oracle environment
 
-Skip this step when running on a client machine (one without an Oracle 
+Skip this step when running on a client machine (one without an Oracle
 Database installed).
 
 ```shell
@@ -127,10 +127,10 @@ default and temporary tablespace names.  The passwords for the new
 HR, OE, PM, IX, SH and BI users will be set to the values you
 specify.
 
-*Reminder*: currently the CO schema will not be installed as part of this 
+*Reminder*: currently the CO schema will not be installed as part of this
 process.
 
-Using a connect string permits connections to non-container databases and 
+Using a connect string permits connections to non-container databases and
 pluggable database using the same syntax.
 
 An example of connect strings for databases with services noncdb and pdb:
@@ -149,7 +149,7 @@ Review output in your log directory for errors.
 
 ### 3.1. Set the Oracle environment
 
-Skip this step when running on a client machine (one without an Oracle 
+Skip this step when running on a client machine (one without an Oracle
 Database installed).
 
 ```shell
@@ -167,9 +167,9 @@ When prompted, enter the SYSTEM password, a log file name, and connect string.
 
 ### 3.3 Run the CO schema removal script
 
-If you have installed the CO schema, run the following script to remove it. 
+If you have installed the CO schema, run the following script to remove it.
 
 ```shell
 sqlplus system/systempw@connect_string
-@co_drop_user.sql 
+@co_drop_user.sql
 ```

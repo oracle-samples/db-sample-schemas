@@ -1,6 +1,6 @@
 rem
-rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.  
-rem 
+rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.
+rem
 rem Permission is hereby granted, free of charge, to any person obtaining
 rem a copy of this software and associated documentation files (the
 rem "Software"), to deal in the Software without restriction, including
@@ -8,10 +8,10 @@ rem without limitation the rights to use, copy, modify, merge, publish,
 rem distribute, sublicense, and/or sell copies of the Software, and to
 rem permit persons to whom the Software is furnished to do so, subject to
 rem the following conditions:
-rem 
+rem
 rem The above copyright notice and this permission notice shall be
 rem included in all copies or substantial portions of the Software.
-rem 
+rem
 rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -26,7 +26,7 @@ rem NAME
 rem   cmnt_v3.sql - create comments for OE Common Schema
 rem
 rem DESCRIPTON
-rem   
+rem
 rem
 rem MODIFIED   (MM/DD/YY)
 rem   hyeh      08/29/02 - hyeh_mv_comschema_to_rdbms
@@ -147,22 +147,22 @@ oe.product_descriptions, added to provide non-NLS text columns for OC views
 to accss.';
 
 COMMENT ON COLUMN oe.product_information.category_id IS
-'Low cardinality column, can be used for bitmap index. 
+'Low cardinality column, can be used for bitmap index.
 Schema SH uses it as foreign key';
 
 COMMENT ON COLUMN oe.product_information.weight_class IS
 'Low cardinality column, can be used for bitmap index.';
 
 COMMENT ON COLUMN oe.product_information.warranty_period IS
-'INTERVAL YEAER TO MONTH column, low cardinality, can be used for bitmap 
+'INTERVAL YEAER TO MONTH column, low cardinality, can be used for bitmap
 index.';
 
 COMMENT ON COLUMN oe.product_information.supplier_id IS
 'Offers possibility of extensions outside Common Schema.';
 
 COMMENT ON COLUMN oe.product_information.product_status IS
-'Check constraint. Appropriate for complex rules, such as "All products in 
-status PRODUCTION must have at least one inventory entry." Also appropriate 
+'Check constraint. Appropriate for complex rules, such as "All products in
+status PRODUCTION must have at least one inventory entry." Also appropriate
 for a trigger auditing status change.';
 
 REM ===========================================================================

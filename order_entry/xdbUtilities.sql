@@ -3,8 +3,8 @@ Rem $Header: rdbms/demo/schema/order_entry/xdbUtilities.sql maravish_bug-3267690
 Rem
 Rem xdbUtilities.sql
 Rem
-Rem Copyright (c) 2002, 2015, Oracle and/or its affiliates.  All rights reserved. 
-Rem 
+Rem Copyright (c) 2002, 2015, Oracle and/or its affiliates.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -34,6 +34,7 @@ Rem    NOTES
 Rem      XDB_UTILITES should be created as XDB
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    maravish    03/25/21 - Bug 32676902: Remove xmlroot
 Rem    bhammers    01/24/11 - bug 11790062: rename XDB_ to COE_
 Rem    cbauwens    09/23/04 - cbauwens_bug3031915
@@ -69,11 +70,11 @@ AS
   FUNCTION raw_to_boolean(input RAW) RETURN BOOLEAN DETERMINISTIC;
   FUNCTION boolean_to_raw(input BOOLEAN) RETURN RAW DETERMINISTIC;
   FUNCTION varchar_to_raw(input VARCHAR2) RETURN RAW DETERMINISTIC;
-  FUNCTION getTextNodeValue(parent DBMS_XMLDOM.DOMELEMENT, child VARCHAR2) 
+  FUNCTION getTextNodeValue(parent DBMS_XMLDOM.DOMELEMENT, child VARCHAR2)
     RETURN VARCHAR2 DETERMINISTIC;
-  FUNCTION getBooleanValue(parent DBMS_XMLDOM.DOMELEMENT, child VARCHAR2) 
+  FUNCTION getBooleanValue(parent DBMS_XMLDOM.DOMELEMENT, child VARCHAR2)
     RETURN RAW DETERMINISTIC;
-  FUNCTION appendElement(Parent XMLType, Child XMLType) 
+  FUNCTION appendElement(Parent XMLType, Child XMLType)
     RETURN XMLType DETERMINISTIC;
 END;
 /
@@ -194,15 +195,15 @@ IS
   CHILD_ROOTNODE     DBMS_XMLDOM.DOMNODE;
 BEGIN
   PARENT_DOCUMENT := DBMS_XMLDOM.newDOMDocument(PARENT);
-  PARENT_ROOTNODE := 
+  PARENT_ROOTNODE :=
     DBMS_XMLDOM.makeNode(DBMS_XMLDOM.getDocumentElement(PARENT_DOCUMENT));
 
   CHILD_DOCUMENT  := DBMS_XMLDOM.newDOMDocument(CHILD);
-  CHILD_ROOTNODE  := 
+  CHILD_ROOTNODE  :=
     DBMS_XMLDOM.makeNode(DBMS_XMLDOM.getDocumentElement(CHILD_DOCUMENT));
 
 -- Comment out the following line if working with a pre 10g database...
-  
+
   CHILD_ROOTNODE  := DBMS_XMLDOM.importNode(PARENT_DOCUMENT, CHILD_ROOTNODE, TRUE);
   PARENT_ROOTNODE := DBMS_XMLDOM.appendChild(PARENT_ROOTNODE, CHILD_ROOTNODE);
   RETURN PARENT;
@@ -223,44 +224,44 @@ CREATE OR REPLACE PACKAGE COE_UTILITIES
 AUTHID CURRENT_USER
 AS
    FUNCTION getBinaryContent(file BFILE) RETURN BLOB;
-   FUNCTION getBinaryContent(filename VARCHAR2, 
-                             directoryName VARCHAR2 DEFAULT USER) 
+   FUNCTION getBinaryContent(filename VARCHAR2,
+                             directoryName VARCHAR2 DEFAULT USER)
      RETURN BLOB;
    FUNCTION getBinaryContent(file BFILE, tempBLOB IN OUT BLOB) RETURN BLOB;
-   FUNCTION getBinaryContent(filename VARCHAR2, 
-                             directoryName VARCHAR2 DEFAULT USER, 
-                             tempBLOB IN OUT BLOB) 
+   FUNCTION getBinaryContent(filename VARCHAR2,
+                             directoryName VARCHAR2 DEFAULT USER,
+                             tempBLOB IN OUT BLOB)
      RETURN BLOB;
 
-   FUNCTION getFileContent(file BFILE, charset VARCHAR2 DEFAULT 'WE8MSWIN1252') 
+   FUNCTION getFileContent(file BFILE, charset VARCHAR2 DEFAULT 'WE8MSWIN1252')
      RETURN CLOB;
-   FUNCTION getFileContent(filename VARCHAR2, 
-                           directoryName VARCHAR2 DEFAULT USER, 
-                           charset VARCHAR2 DEFAULT 'WE8MSWIN1252') 
+   FUNCTION getFileContent(filename VARCHAR2,
+                           directoryName VARCHAR2 DEFAULT USER,
+                           charset VARCHAR2 DEFAULT 'WE8MSWIN1252')
      RETURN CLOB;
-   FUNCTION getFileContent(file BFILE, 
-                           charset VARCHAR2 DEFAULT 'WE8MSWIN1252', 
-                           tempCLOB IN OUT CLOB) 
+   FUNCTION getFileContent(file BFILE,
+                           charset VARCHAR2 DEFAULT 'WE8MSWIN1252',
+                           tempCLOB IN OUT CLOB)
      RETURN CLOB;
-   FUNCTION getFileContent(filename VARCHAR2, 
-                           directoryName VARCHAR2 DEFAULT USER, 
-                           charset VARCHAR2 DEFAULT 'WE8MSWIN1252', 
-                           tempCLOB IN OUT CLOB) 
+   FUNCTION getFileContent(filename VARCHAR2,
+                           directoryName VARCHAR2 DEFAULT USER,
+                           charset VARCHAR2 DEFAULT 'WE8MSWIN1252',
+                           tempCLOB IN OUT CLOB)
      RETURN CLOB;
 
    PROCEDURE createHomeFolder(userName VARCHAR2);
    PROCEDURE createDirectoryTree(path VARCHAR2);
-   PROCEDURE uploadFiles(file_list VARCHAR2 DEFAULT 'ls.xml', 
-                         upload_directory_name VARCHAR2 DEFAULT USER, 
+   PROCEDURE uploadFiles(file_list VARCHAR2 DEFAULT 'ls.xml',
+                         upload_directory_name VARCHAR2 DEFAULT USER,
                          repository_folder_path VARCHAR2 DEFAULT '/public',
                          batch_size NUMBER DEFAULT 1);
 
    PROCEDURE put_xml(XML XMLType);
-   
+
    PROCEDURE addUserMetaDataNode(OID VARCHAR2);
-      
-   PROCEDURE renameCollectionTable (xmltable VARCHAR2, 
-                                    xpath VARCHAR2, 
+
+   PROCEDURE renameCollectionTable (xmltable VARCHAR2,
+                                    xpath VARCHAR2,
                                     collection_table_name VARCHAR2);
 
 END COE_UTILITIES;
@@ -280,7 +281,7 @@ RETURN BLOB
 IS
   targetFile      BFILE;
 
-  dest_offset     NUMBER :=  1;
+  dest_offset     NUMBER := 1;
   src_offset      NUMBER := 1;
   lang_context    NUMBER := 0;
   conv_warning    NUMBER := 0;
@@ -288,7 +289,7 @@ IS
     targetFile := file;
     IF (tempBLOB IS NULL) THEN
       DBMS_LOB.createTemporary(tempBLOB, true, DBMS_LOB.SESSION);
-    ELSE 
+    ELSE
       DBMS_LOB.trim(tempBLOB, 0);
     END IF;
     DBMS_LOB.fileopen(targetFile, DBMS_LOB.file_readonly);
@@ -321,7 +322,7 @@ BEGIN
 END;
 
 FUNCTION getBinaryContent(filename VARCHAR2,
-                          directoryName VARCHAR2 DEFAULT USER)		      
+                          directoryName VARCHAR2 DEFAULT USER)
 RETURN BLOB
 IS
    tempBLOB BLOB := NULL;
@@ -336,7 +337,7 @@ RETURN CLOB
 IS
   targetFile      BFILE;
 
-  dest_offset     NUMBER :=  1;
+  dest_offset     NUMBER := 1;
   src_offset      NUMBER := 1;
   lang_context    NUMBER := 0;
   conv_warning    NUMBER := 0;
@@ -344,7 +345,7 @@ IS
     targetFile := file;
     IF (tempCLOB IS NULL) THEN
       DBMS_LOB.createTemporary(tempCLOB, true, DBMS_LOB.SESSION);
-    ELSE 
+    ELSE
       DBMS_LOB.trim(tempCLOB, 0);
     END IF;
     DBMS_LOB.fileopen(targetFile, DBMS_LOB.file_readonly);
@@ -385,7 +386,7 @@ END;
 
 FUNCTION getFileContent(filename VARCHAR2,
                         directoryName VARCHAR2 DEFAULT USER,
-		        charset VARCHAR2 DEFAULT 'WE8MSWIN1252')		      
+		        charset VARCHAR2 DEFAULT 'WE8MSWIN1252')
 RETURN CLOB
 IS
    tempCLOB CLOB := NULL;
@@ -413,15 +414,15 @@ BEGIN
   IF (NOT DBMS_XDB.existsResource(targetResource)) THEN
     result := DBMS_XDB.createFolder(targetResource);
   END IF;
-  
+
   DBMS_XDB.setAcl(targetResource, '/sys/acls/all_owner_acl.xml');
 
   UPDATE RESOURCE_VIEW
          SET res = updateXml(res, '/Resource/Owner/text()', realUserName)
   WHERE equals_path(res, targetResource) = 1;
- 
+
 END;
- 
+
 PROCEDURE createDirectoryTree(path VARCHAR2)
 AS
   pathSeperator VARCHAR2(1) := '/';
@@ -444,13 +445,13 @@ BEGIN
 END;
 
 PROCEDURE uploadFiles(file_list VARCHAR2 DEFAULT 'ls.xml',
-                      upload_directory_name VARCHAR2 DEFAULT USER, 
-                      repository_folder_path VARCHAR2 DEFAULT '/public', 
+                      upload_directory_name VARCHAR2 DEFAULT USER,
+                      repository_folder_path VARCHAR2 DEFAULT '/public',
                       batch_size NUMBER DEFAULT 1)
 AS
   pathSeperator VARCHAR2(1) := '/';
 
-  directory_path      VARCHAR2(256);  
+  directory_path      VARCHAR2(256);
 
   subdirectory_path   VARCHAR2(256);
   target_folder_path  VARCHAR2(256);
@@ -458,11 +459,11 @@ AS
   target_file_name    VARCHAR2(256);
   resource_path       VARCHAR2(256);
   last_folder_path    VARCHAR2(256) := ' ';
-  
+
   sqlStatement        VARCHAR2(256);
 
-  filelist_xml        XMLTYPE := XMLType(bfilename(upload_directory_name, 
-                                                   file_list), 
+  filelist_xml        XMLTYPE := XMLType(bfilename(upload_directory_name,
+                                                   file_list),
                                          nls_charset_id('AL32UTF8'));
   content_xml         XMLType;
 
@@ -480,19 +481,19 @@ AS
   text_node       DBMS_XMLDOM.DOMNODE;
   encoding_attr   DBMS_XMLDOM.DOMATTR;
   replace_attr    DBMS_XMLDOM.DOMATTR;
-  
+
   path            VARCHAR2(256);
   file_name       VARCHAR2(256);
   encoding_text   VARCHAR2(32);
   attr_value      VARCHAR2(256);
-  replace_option  BOOLEAN;  
+  replace_option  BOOLEAN;
   replace_default BOOLEAN;
-  
+
   debug_buffer    VARCHAR2(255);
 BEGIN
 
   -- Create the set of Folders in the XDB Repository
-  
+
   filelist_DOM := DBMS_XMLDOM.newDOMDocument(filelist_xml);
 
   directory_nl := DBMS_XMLDOM.GETELEMENTSBYTAGNAME(filelist_DOM, 'directory');
@@ -502,15 +503,15 @@ BEGIN
     directory_path := DBMS_XMLDOM.GETNODEVALUE(text_node);
     directory_path := repository_folder_path || directory_path;
     createDirectoryTree(directory_path);
-    
+
   END LOOP;
 
   -- Find the Local File System Path to the target Directory.
 
-  SELECT DIRECTORY_PATH 
+  SELECT DIRECTORY_PATH
     INTO directory_path
-    FROM ALL_DIRECTORIES 
-    WHERE DIRECTORY_NAME = upload_directory_name;  
+    FROM ALL_DIRECTORIES
+    WHERE DIRECTORY_NAME = upload_directory_name;
 
   -- DBMS_OUTPUT.put_line('OS Root =  ' || directory_path);
 
@@ -522,12 +523,12 @@ BEGIN
   replace_default    := FALSE;
   replace_attr := DBMS_XMLDOM.getAttributeNode(DBMS_XMLDOM.MAKEELEMENT(files_node),
                                                'replace');
- 
-  IF NOT (DBMS_XMLDOM.ISNULL(replace_attr)) THEN 
-    replace_default := 
+
+  IF NOT (DBMS_XMLDOM.ISNULL(replace_attr)) THEN
+    replace_default :=
       COE_dom_helper.varchar_to_boolean(DBMS_XMLDOM.getVALUE(replace_attr));
   END IF;
-    
+
   filename_nl := DBMS_XMLDOM.GETELEMENTSBYTAGNAME(filelist_DOM, 'file');
   FOR i IN 0 .. (DBMS_XMLDOM.GETLENGTH(filename_nl) - 1) LOOP
     file_node          := DBMS_XMLDOM.ITEM(filename_nl, i);
@@ -535,42 +536,42 @@ BEGIN
     text_node          := DBMS_XMLDOM.GETFIRSTCHILD(file_node);
     target_file_path   := DBMS_XMLDOM.GETNODEVALUE(text_node);
     -- DBMS_OUTPUT.put_line('Source =  ' || target_file_path);
-    target_file_name   := substr(target_file_path, 
+    target_file_name   := substr(target_file_path,
                                  instr(target_file_path, pathSeperator, -1) +1);
 
     -- DBMS_OUTPUT.put_line('File =  ' || target_file_name);
 
-    target_folder_path := substr(target_file_path, 1, 
+    target_folder_path := substr(target_file_path, 1,
                                  instr(target_file_path, pathSeperator, -1));
-    target_folder_path := substr(target_folder_path, 
+    target_folder_path := substr(target_folder_path,
                                  instr(target_folder_path, pathSeperator));
-    target_folder_path := substr(target_folder_path, 
-                                 1, 
+    target_folder_path := substr(target_folder_path,
+                                 1,
                                  length(target_folder_path)-1);
-    
-    encoding_attr := 
+
+    encoding_attr :=
       DBMS_XMLDOM.getAttributeNode(DBMS_XMLDOM.MAKEELEMENT(file_node),
                                    'encoding');
     encoding_text      := 'AL32UTF8';
     IF NOT (DBMS_XMLDOM.ISNULL(encoding_attr)) THEN
       encoding_text    := DBMS_XMLDOM.getValue(encoding_attr);
-      DBMS_OUTPUT.put_line('Encoding for ' || target_file_name || ' =  ' || 
-                           encoding_text);  
+      DBMS_OUTPUT.put_line('Encoding for ' || target_file_name || ' =  ' ||
+                           encoding_text);
     END IF;
 
-    replace_attr := 
+    replace_attr :=
       DBMS_XMLDOM.getAttributeNode(DBMS_XMLDOM.MAKEELEMENT(file_node),
                                                  'Replace');
     replace_option     := replace_default;
     IF NOT (DBMS_XMLDOM.ISNULL(replace_attr)) THEN
-      replace_option := 
+      replace_option :=
         coe_dom_helper.varchar_to_boolean(DBMS_XMLDOM.getValue(replace_attr));
     END IF;
-    
+
     IF (last_folder_path != target_folder_path) THEN
       subdirectory_path := directory_path || target_folder_path;
       -- DBMS_OUTPUT.put_line('Directory =  ' || subdirectory_path);
-      sqlStatement := 
+      sqlStatement :=
         'CREATE OR REPLACE DIRECTORY subdir AS ''' || subdirectory_path || '''';
       execute immediate sqlStatement;
       last_folder_path := target_folder_path;
@@ -578,18 +579,18 @@ BEGIN
 
     content_xml := XMLType(bfilename('SUBDIR', target_file_name),
                            nls_charset_id(encoding_text));
-    resource_path := 
+    resource_path :=
       repository_folder_path || target_folder_path || '/' || target_file_name;
     -- DBMS_OUTPUT.put_line('Target = ' || resource_path);
-    
+
     IF (replace_option AND DBMS_XDB.existsResource(resource_path)) THEN
       DBMS_XDB.deleteResource(resource_path);
     END IF;
-    
+
     result := DBMS_XDB.createResource(resource_path, content_xml);
-    
+
     filecount := filecount + 1;
-    
+
     IF (filecount = BATCH_SIZE) THEN
       filecount := 0;
       COMMIT;
@@ -608,7 +609,7 @@ BEGIN
   buffer    := xml.getClobVal();
   maxLength := DBMS_LOB.getLength(buffer);
   endofline := DBMS_LOB.instr(buffer, chr(10), offset, 1);
-  WHILE (endofLine > 0) LOOP 
+  WHILE (endofLine > 0) LOOP
      linesize  := endofline - offset;
      IF (linesize > 255) THEN
        DBMS_OUTPUT.put_line(DBMS_LOB.substr(buffer, 255, offset));
@@ -625,46 +626,46 @@ END;
 
 PROCEDURE addUserMetaDataNode(OID VARCHAR2)
 AS
-  metadata_xml XMLType := 
-    XMLType('<m:UserMetaData ' || COE_NAMESPACES.METADATA_PREFIX_M || '/>'); 
+  metadata_xml XMLType :=
+    XMLType('<m:UserMetaData ' || COE_NAMESPACES.METADATA_PREFIX_M || '/>');
 BEGIN
   -- EXECUTE IMMEDIATE 'ALTER SESSION SET events=''19027 trace name context forever,level 4'' ';
   UPDATE /*+ NO_TRIGGER */ XDB.XDB$RESOURCE r
     SET r.xmldata.RESEXTRA = metadata_xml.getClobVal()
-    WHERE sys_nc_oid$ = hextoraw(OID) 
+    WHERE sys_nc_oid$ = hextoraw(OID)
      AND existsNode(OBJECT_VALUE,
                     '/r:Resource/r:Contents',
                     COE_NAMESPACES.RESOURCE_PREFIX_R)
          = 1
      AND existsNode(OBJECT_VALUE,
                     '/r:Resource/m:UserMetaData',
-                    COE_NAMESPACES.RESOURCE_PREFIX_R || ' ' || 
+                    COE_NAMESPACES.RESOURCE_PREFIX_R || ' ' ||
                     COE_NAMESPACES.METADATA_PREFIX_M)
           = 0;
   -- EXECUTE IMMEDIATE 'ALTER SESSION SET events=''19027 trace name context forever,level 0'' ';
 END;
 
-PROCEDURE renameCollectionTable (xmltable VARCHAR2, 
-                                 xpath VARCHAR2, 
+PROCEDURE renameCollectionTable (xmltable VARCHAR2,
+                                 xpath VARCHAR2,
                                  collection_table_name VARCHAR2)
 AS
    system_generated_name VARCHAR2(256);
    rename_statement VARCHAR2(4000);
 BEGIN
-   
+
    SELECT TABLE_NAME
      INTO system_generated_name
      FROM ALL_NESTED_TABLES
      WHERE PARENT_TABLE_NAME = xmltable
        AND PARENT_TABLE_COLUMN = xpath
        AND OWNER = USER;
-   
-   rename_statement := 
+
+   rename_statement :=
      'ALTER TABLE ' || USER || '."' || system_generated_name || '" RENAME TO "' ||
      collection_table_name || '"';
    -- DBMS_OUTPUT.put_line(rename_statement);
    EXECUTE IMMEDIATE rename_statement;
-   
+
    BEGIN
      SELECT INDEX_NAME
        INTO system_generated_name
@@ -672,8 +673,8 @@ BEGIN
        WHERE TABLE_NAME = collection_table_name
          AND INDEX_NAME LIKE 'SYS%IOT%'
          AND OWNER = USER;
-        
-     rename_statement := 
+
+     rename_statement :=
        'ALTER INDEX ' || USER || '."' || system_generated_name ||
        '" RENAME TO "' ||collection_table_name || '_DATA"';
      -- DBMS_OUTPUT.put_line(rename_statement);
@@ -686,13 +687,13 @@ BEGIN
    BEGIN
      SELECT INDEX_NAME
        INTO system_generated_name
-       FROM ALL_IND_COLUMNS 
+       FROM ALL_IND_COLUMNS
        WHERE COLUMN_NAME = xpath
          AND TABLE_NAME =  xmltable
          AND TABLE_OWNER = USER;
-   
-     rename_statement := 
-       'ALTER INDEX ' || USER || '."' || system_generated_name || 
+
+     rename_statement :=
+       'ALTER INDEX ' || USER || '."' || system_generated_name ||
        '" RENAME TO "' || collection_table_name || '_MEMBERS"';
      -- DBMS_OUTPUT.put_line(rename_statement);
      EXECUTE IMMEDIATE rename_statement;
@@ -704,7 +705,7 @@ END;
 
 END COE_UTILITIES;
 /
- 
+
 
 SELECT * FROM ALL_ERRORS WHERE owner = 'XDB'
 /
@@ -722,7 +723,7 @@ AS
    PROCEDURE releaseDAVLocks;
 END COE_TOOLS;
 /
- 
+
 
 SELECT * FROM ALL_ERRORS WHERE owner = 'XDB'
 /
@@ -730,21 +731,21 @@ CREATE OR REPLACE PACKAGE BODY COE_TOOLS
 AS
 PROCEDURE touchResource(path VARCHAR2)
 AS
-BEGIN 
+BEGIN
     UPDATE XDB$RESOURCE r
     SET r.XMLDATA.MODIFICATIONDATE = SYSTIMESTAMP
-    WHERE ROWID = (SELECT ROWID FROM RESOURCE_VIEW 
+    WHERE ROWID = (SELECT ROWID FROM RESOURCE_VIEW
                    WHERE equals_path(res, path) = 1);
-END; 
+END;
 
 PROCEDURE releaseDAVLocks
 AS
-BEGIN 
+BEGIN
     DELETE FROM XDB$NLOCKS;
-    UPDATE XDB.xdb$resource r 
+    UPDATE XDB.xdb$resource r
     SET r.XMLDATA.LOCKS = NULL
     WHERE r.XMLDATA.LOCKS IS NOT NULL;
-END; 
+END;
 
 END COE_TOOLS;
 /
@@ -759,4 +760,3 @@ GRANT EXECUTE ON COE_TOOLS TO PUBLIC
 --
 -- End xdbUtilities
 --
-

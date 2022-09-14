@@ -3,8 +3,8 @@ Rem $Header: rdbms/demo/schema/sales_history/csh_v3.sql /main/11 2011/01/19 12:5
 Rem
 Rem csh_v3.sql
 Rem
-Rem Copyright (c) 2002, 2015, Oracle and/or its affiliates.  All rights reserved. 
-Rem 
+Rem Copyright (c) 2002, 2015, Oracle and/or its affiliates.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -28,12 +28,13 @@ Rem    NAME
 Rem      csh_v3.sql - Create 10i SH objects
 Rem
 Rem    DESCRIPTION
-Rem      Creates tables, referential integrity constraints  
+Rem      Creates tables, referential integrity constraints
 Rem
 Rem    NOTES
 Rem      Does not create indexes. These are created after the load
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    celsbern    12/08/10 - widening cust_email column to fix bug 6962986
 Rem    cbauwens    07/16/03 - add ODM table
 Rem                           supplementary_demographics
@@ -70,18 +71,18 @@ CREATE TABLE sales (
  --
  -- table wide physical specs
  --
- PCTFREE 5 NOLOGGING NOCOMPRESS  
+ PCTFREE 5 NOLOGGING NOCOMPRESS
  --
  -- partitions
- --  
+ --
  PARTITION BY RANGE (time_id)
   ( partition sales_1995 VALUES LESS THAN
      (TO_DATE('1996-01-01 00:00:00','SYYYY-MM-DD HH24:MI:SS','NLS_CALENDAR=GREGORIAN')) COMPRESS,
     partition sales_1996 VALUES LESS THAN
      (TO_DATE('1997-01-01 00:00:00','SYYYY-MM-DD HH24:MI:SS','NLS_CALENDAR=GREGORIAN')) COMPRESS,
-    partition sales_h1_1997 VALUES LESS THAN  
+    partition sales_h1_1997 VALUES LESS THAN
      (TO_DATE('1997-07-01 00:00:00','SYYYY-MM-DD HH24:MI:SS','NLS_CALENDAR=GREGORIAN')) COMPRESS,
-    partition sales_h2_1997 VALUES LESS THAN  
+    partition sales_h2_1997 VALUES LESS THAN
      (TO_DATE('1998-01-01 00:00:00','SYYYY-MM-DD HH24:MI:SS','NLS_CALENDAR=GREGORIAN')) COMPRESS,
     partition sales_q1_1998 VALUES LESS THAN
      (TO_DATE('1998-04-01 00:00:00','SYYYY-MM-DD HH24:MI:SS','NLS_CALENDAR=GREGORIAN')) COMPRESS,
@@ -142,18 +143,18 @@ CREATE TABLE costs (
  --
  -- table wide physical specs
  --
- PCTFREE 5 NOLOGGING NOCOMPRESS  
+ PCTFREE 5 NOLOGGING NOCOMPRESS
  --
  -- partitions
- -- 
+ --
  PARTITION BY RANGE (time_id)
   ( partition costs_1995 VALUES LESS THAN
      (TO_DATE('1996-01-01 00:00:00','SYYYY-MM-DD HH24:MI:SS','NLS_CALENDAR=GREGORIAN')) COMPRESS,
     partition costs_1996 VALUES LESS THAN
      (TO_DATE('1997-01-01 00:00:00','SYYYY-MM-DD HH24:MI:SS','NLS_CALENDAR=GREGORIAN')) COMPRESS,
-    partition costs_h1_1997 VALUES LESS THAN  
+    partition costs_h1_1997 VALUES LESS THAN
      (TO_DATE('1997-07-01 00:00:00','SYYYY-MM-DD HH24:MI:SS','NLS_CALENDAR=GREGORIAN')) COMPRESS,
-    partition costs_h2_1997 VALUES LESS THAN  
+    partition costs_h2_1997 VALUES LESS THAN
      (TO_DATE('1998-01-01 00:00:00','SYYYY-MM-DD HH24:MI:SS','NLS_CALENDAR=GREGORIAN')) COMPRESS,
     partition costs_q1_1998 VALUES LESS THAN
      (TO_DATE('1998-04-01 00:00:00','SYYYY-MM-DD HH24:MI:SS','NLS_CALENDAR=GREGORIAN')) COMPRESS,

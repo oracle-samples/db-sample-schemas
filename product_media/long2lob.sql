@@ -3,8 +3,8 @@ Rem $Header: long2lob.sql 2015/03/19 10:23:26 smtaylor Exp $
 Rem
 Rem long2lob.sql
 Rem
-Rem Copyright (c) 2002, 2015, Oracle Corporation.  All rights reserved.  
-Rem 
+Rem Copyright (c) 2002, 2015, Oracle Corporation.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -34,6 +34,7 @@ Rem    NOTES
 Rem      <other useful comments, qualifications, etc.>
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    smtaylor    03/19/15 - added prompts for parameter 1
 Rem    smtaylor    03/19/15 - added parameter 2, connect_string
 Rem    smtaylor    03/19/15 - added @&connect_string to CONNECT
@@ -84,4 +85,4 @@ SELECT * FROM long2lob;
 ALTER TABLE long2lob MODIFY ( press_release CLOB );
 
 DESCRIBE long2lob
-SELECT * FROM long2lob; 
+SELECT * FROM long2lob;

@@ -3,8 +3,8 @@ Rem $Header: sh_pop2.sql 29-aug-2002.11:56:59 hyeh Exp $
 Rem
 Rem sh_pop2.sql
 Rem
-Rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.  
-Rem 
+Rem Copyright (c) 2001, 2015, Oracle Corporation.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -25,16 +25,17 @@ Rem OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 Rem WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Rem
 Rem    NAME
-Rem      sh_pop2.sql - Populates the times table 
+Rem      sh_pop2.sql - Populates the times table
 Rem
 Rem    DESCRIPTION
 Rem      SH is the Sales History schema of the Oracle 9i Sample
 Rem	   Schemas
 Rem
 Rem    NOTES
-Rem      
+Rem
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem    lorin       09/15/22 - remove spaces at end of lines
 Rem    hyeh       08/29/02 - hyeh_mv_comschema_to_rdbms
 Rem    hbaer      01/29/01 - Created
 Rem
@@ -117,33 +118,33 @@ BEGIN
    WHERE FISCAL_WEEK_NUMBER IN (52,53) AND TO_CHAR(WEEK_ENDING_DAY,'MM')='01';
 
    UPDATE times a SET days_in_cal_month =
-   (SELECT COUNT(*) FROM times b 
-                    WHERE a.calendar_month_desc = b.calendar_month_desc 
+   (SELECT COUNT(*) FROM times b
+                    WHERE a.calendar_month_desc = b.calendar_month_desc
                     GROUP BY calendar_month_desc);
 
    UPDATE times a SET days_in_fis_month =
-   (SELECT COUNT(*) FROM times b 
-                    WHERE a.fiscal_month_desc = b.fiscal_month_desc 
+   (SELECT COUNT(*) FROM times b
+                    WHERE a.fiscal_month_desc = b.fiscal_month_desc
                     GROUP BY fiscal_month_desc);
 
    UPDATE times a SET days_in_cal_quarter =
-   (SELECT COUNT(*) FROM times b 
-                    WHERE a.calendar_quarter_desc = b.calendar_quarter_desc 
+   (SELECT COUNT(*) FROM times b
+                    WHERE a.calendar_quarter_desc = b.calendar_quarter_desc
                     GROUP BY calendar_quarter_desc);
 
    UPDATE times a SET days_in_fis_quarter =
-   (SELECT COUNT(*) FROM times b 
-                    WHERE a.fiscal_quarter_desc = b.fiscal_quarter_desc 
+   (SELECT COUNT(*) FROM times b
+                    WHERE a.fiscal_quarter_desc = b.fiscal_quarter_desc
                     GROUP BY fiscal_quarter_desc);
 
    UPDATE times a SET days_in_cal_year =
-   (SELECT COUNT(*) FROM times b 
-                    WHERE a.calendar_year = b.calendar_year 
+   (SELECT COUNT(*) FROM times b
+                    WHERE a.calendar_year = b.calendar_year
                     GROUP BY calendar_year);
 
    UPDATE times a SET days_in_fis_year =
-   (SELECT COUNT(*) FROM times b 
-                    WHERE a.fiscal_year = b.fiscal_year 
+   (SELECT COUNT(*) FROM times b
+                    WHERE a.fiscal_year = b.fiscal_year
                     GROUP BY fiscal_year);
 
    UPDATE times a SET end_of_cal_month = (SELECT max_time FROM (

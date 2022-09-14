@@ -1,8 +1,8 @@
 rem
 rem Header: loe_v3.sql 09-jan-01
 rem
-rem Copyright (c) 2001, 2014, Oracle Corporation.  All rights reserved.  
-rem 
+rem Copyright (c) 2001, 2014, Oracle Corporation.  All rights reserved.
+rem
 rem Permission is hereby granted, free of charge, to any person obtaining
 rem a copy of this software and associated documentation files (the
 rem "Software"), to deal in the Software without restriction, including
@@ -10,10 +10,10 @@ rem without limitation the rights to use, copy, modify, merge, publish,
 rem distribute, sublicense, and/or sell copies of the Software, and to
 rem permit persons to whom the Software is furnished to do so, subject to
 rem the following conditions:
-rem 
+rem
 rem The above copyright notice and this permission notice shall be
 rem included in all copies or substantial portions of the Software.
-rem 
+rem
 rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -33,7 +33,7 @@ rem
 rem NOTES
 rem
 rem MODIFIED   (MM/DD/YY)
-rem   cbauwens  01/07/04 - hardcoded dates NLS issue 
+rem   cbauwens  01/07/04 - hardcoded dates NLS issue
 rem   ahunold   05/07/03 - back to 9i OE data volume
 rem   ahunold   03/12/03 - UPDATE statements for customers
 rem   ahunold   03/10/03 - OWB columns, data
@@ -41,9 +41,9 @@ rem   ahunold   11/25/02 - non-direct load to avoid disabling of constraints
 rem   ahunold   11/26/02 - 200 additional customers in 10i, not 100
 rem   ahunold   10/12/02 - feedback off for inserts
 rem   hyeh      08/29/02 - hyeh_mv_comschema_to_rdbms
-rem   ahunold   08/15/02 - created 
+rem   ahunold   08/15/02 - created
 
-PROMPT 
+PROMPT
 PROMPT specify Sample Schema version as parameter 1:
 DEFINE vrs     = &1
 PROMPT
@@ -52,10 +52,10 @@ DEFINE data_file_directory = &2
 PROMPT
 PROMPT specify location for log files as parameter 3:
 DEFINE log_file_directory  = &3
-PROMPT 
+PROMPT
 PROMPT specify password for oe as parameter 4:
 DEFINE oe_pass  = &4
-PROMPT  
+PROMPT
 PROMPT Setting FEEDBACK OFF for inserts
 PROMPT
 SET FEEDBACK OFF

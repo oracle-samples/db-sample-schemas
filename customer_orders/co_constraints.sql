@@ -8,8 +8,8 @@ alter table stores add constraint stores_pk primary key (store_id);
 
 alter table stores add constraint store_name_u unique (store_name);
 
-alter table stores add constraint store_at_least_one_address_c 
-  check ( 
+alter table stores add constraint store_at_least_one_address_c
+  check (
     web_address is not null or physical_address is not null
   );
 
@@ -20,26 +20,26 @@ alter table products add constraint products_json_c
 
 alter table orders add constraint orders_pk primary key (order_id);
 
-alter table orders add constraint orders_customer_id_fk 
+alter table orders add constraint orders_customer_id_fk
    foreign key (customer_id) references customers (customer_id);
-                  
+
 alter table orders add constraint  orders_status_c
-                  check ( order_status in 
+                  check ( order_status in
                     ( 'CANCELLED','COMPLETE','OPEN','PAID','REFUNDED','SHIPPED'));
-                    
-alter table orders add constraint orders_store_id_fk foreign key (store_id) 
+
+alter table orders add constraint orders_store_id_fk foreign key (store_id)
    references stores (store_id);
 
 alter table shipments add constraint shipments_pk primary key (shipment_id);
 
-alter table shipments add constraint shipments_store_id_fk 
+alter table shipments add constraint shipments_store_id_fk
    foreign key (store_id) references stores (store_id);
 
-alter table shipments add constraint shipments_customer_id_fk 
+alter table shipments add constraint shipments_customer_id_fk
    foreign key (customer_id) references customers (customer_id);
-                  
+
 alter table shipments add constraint shipment_status_c
-                  check ( shipment_status in 
+                  check ( shipment_status in
                     ( 'CREATED', 'SHIPPED', 'IN-TRANSIT', 'DELIVERED'));
 
 alter table order_items add constraint order_items_pk primary key ( order_id, line_item_id );
@@ -52,15 +52,15 @@ alter table order_items add constraint order_items_shipment_id_fk
 
 alter table order_items add constraint order_items_product_id_fk
    foreign key (product_id) references products (product_id);
-                             
+
 alter table order_items add constraint order_items_product_u unique ( product_id, order_id );
 
 alter table inventory add constraint inventory_pk primary key (inventory_id);
 
 alter table inventory add constraint inventory_store_product_u unique (store_id, product_id);
 
-alter table inventory add constraint inventory_store_id_fk 
+alter table inventory add constraint inventory_store_id_fk
    foreign key (store_id) references stores (store_id);
 
-alter table inventory add constraint inventory_product_id_fk 
+alter table inventory add constraint inventory_product_id_fk
    foreign key (product_id) references products (product_id);

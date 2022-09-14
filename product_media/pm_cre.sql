@@ -3,8 +3,8 @@ Rem $Header: pm_cre.sql 2018/02/28 15:43:13 jorgerod Exp $
 Rem
 Rem pm_cre.sql
 Rem
-Rem Copyright (c) 2001, 2018, Oracle Corporation.  All rights reserved.  
-Rem 
+Rem Copyright (c) 2001, 2018, Oracle Corporation.  All rights reserved.
+Rem
 Rem Permission is hereby granted, free of charge, to any person obtaining
 Rem a copy of this software and associated documentation files (the
 Rem "Software"), to deal in the Software without restriction, including
@@ -12,10 +12,10 @@ Rem without limitation the rights to use, copy, modify, merge, publish,
 Rem distribute, sublicense, and/or sell copies of the Software, and to
 Rem permit persons to whom the Software is furnished to do so, subject to
 Rem the following conditions:
-Rem 
+Rem
 Rem The above copyright notice and this permission notice shall be
 Rem included in all copies or substantial portions of the Software.
-Rem 
+Rem
 Rem THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 Rem EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 Rem MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -32,11 +32,12 @@ Rem      PM is the Product Media schema of the Oracle 9i Sample
 Rem        Schemas
 Rem
 Rem    NOTES
-Rem      The OIDs assigned for the object types are used to 
+Rem      The OIDs assigned for the object types are used to
 Rem      simplify the setup of Replication demos and are not needed
 Rem      in most unreplicated environments.
 Rem
 Rem    MODIFIED   (MM/DD/YY)
+Rem      lorin     09/15/22 - remove spaces at end of lines
 Rem      jorgerod  02/13/18 - Remove online_media table
 Rem                           Ordim desupported in 19c
 Rem      ahunold   12/13/02 - removing LONG column PRESS_RELEASE
@@ -44,14 +45,14 @@ Rem      hyeh      08/29/02 - hyeh_mv_comschema_to_rdbms
 Rem      ahunold   04/25/01 - OID
 Rem      ahunold   02/09/01 - new load method
 Rem      ahunold   02/05/01 - Created
-Rem 
+Rem
 
 REM ====================================================================
 REM Create TYPE adheader_typ to hold different headers used in
 REM advertisements, the header name, date of creation, header text, and
 REM logo used. pm.print_media ad_header column has type adheader_typ.
 
-CREATE TYPE adheader_typ 
+CREATE TYPE adheader_typ
   OID '82A4AF6A4CCE656DE034080020E0EE3D'
   AS OBJECT
     ( header_name        VARCHAR2(256)
