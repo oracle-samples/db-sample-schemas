@@ -71,6 +71,17 @@ SET FEEDBACK OFF
 WHENEVER SQLERROR EXIT SQL.SQLCODE
 
 rem =======================================================
+rem Install descriptions
+rem =======================================================
+
+PROMPT
+PROMPT Thank you for installing the Oracle Customer Orders Sample Schema.
+PROMPT This installation script will automatically exit your database session
+PROMPT at the end of the installation or if any error is encountered.
+PROMPT The entire installation will be logged into the 'co_install.log' log file.
+PROMPT
+
+rem =======================================================
 rem Log installation process
 rem =======================================================
 

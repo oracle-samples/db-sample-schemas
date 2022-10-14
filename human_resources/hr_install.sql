@@ -43,7 +43,7 @@ rem
 rem INSTALL INSTRUCTIONS
 rem   1. Run as privileged user with rights to create another user
 rem      (SYSTEM, ADMIN, etc.)
-rem   2. Run this script to create the HR (human resources) schema
+rem   2. Run this script to create the HR (Human Resources) schema
 rem   3. You are prompted for
 rem      a. password - enter an Oracle Database compliant password
 rem      b. tablespace - if you do not enter a tablespace, the default
@@ -68,6 +68,17 @@ SET FEEDBACK OFF
 
 -- Exit setup script on any error
 WHENEVER SQLERROR EXIT SQL.SQLCODE
+
+rem =======================================================
+rem Install descriptions
+rem =======================================================
+
+PROMPT
+PROMPT Thank you for installing the Oracle Human Resources Sample Schema.
+PROMPT This installation script will automatically exit your database session
+PROMPT at the end of the installation or if any error is encountered.
+PROMPT The entire installation will be logged into the 'hr_install.log' log file.
+PROMPT
 
 rem =======================================================
 rem Log installation process
