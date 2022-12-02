@@ -25,7 +25,7 @@ DEALINGS IN THE SOFTWARE.
 
 ## DESCRIPTON
 
-HR (Human Resources) is a small sample schema resembling an HR department.
+Human Resources `(HR)` is a small sample schema resembling an HR department.
 
 ### SCHEMA VERSION
 
@@ -51,8 +51,8 @@ HR (Human Resources) is a small sample schema resembling an HR department.
  Required access to `hr_install.sql`, `hr_create.sql`, `hr_populate.sql`, `hr_code.sql`
 
 ## INSTALL INSTRUCTIONS
-1. Run as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
-2. Run the `hr_install.sql` script to create the HR (Human Resources) schema
+1. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
+2. Run the `hr_install.sql` script to create the `HR` (Human Resources) schema
 3. You are prompted for:
     1. `password` - enter an Oracle Database compliant password
     2. `tablespace` - if you do not enter a tablespace, the default database tablespace is used
@@ -62,9 +62,9 @@ HR (Human Resources) is a small sample schema resembling an HR department.
 
 ## UNINSTALL INSTRUCTIONS
 
-1. Run as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
-2. Run the `hr_uninstall.sql ` script to remove the HR (Human Resources) schema
+1. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
+2. Run the `hr_uninstall.sql ` script to remove the `HR` (Human Resources) schema
 
 ## NOTES
-Scripts need to be run as a privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.).
+Scripts need to be run as a privileged user with rights to create and drop another user (`SYSTEM`, `ADMIN`, etc.).
 

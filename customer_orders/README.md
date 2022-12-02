@@ -25,7 +25,7 @@ DEALINGS IN THE SOFTWARE.
 
 ## DESCRIPTON
 
-CO (Customer Orders) is a sample schema resembling a generic customer orders management schema.
+Customer Orders (`CO`) is a sample schema resembling a generic customer orders management schema.
 
 ### SCHEMA VERSION
 
@@ -48,8 +48,8 @@ CO (Customer Orders) is a sample schema resembling a generic customer orders man
  Required access to `co_install.sql`, `co_create.sql`, `co_populate.sql`
 
 ## INSTALL INSTRUCTIONS
-1. Run as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
-2. Run the `co_install.sql` script to create the CO (Customer Orders) schema
+1. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
+2. Run the `co_install.sql` script to create the `CO` (Customer Orders) schema
 3. You are prompted for:
     1. `password` - enter an Oracle Database compliant password
     2. `tablespace` - if you do not enter a tablespace, the default database tablespace is used
@@ -59,8 +59,8 @@ CO (Customer Orders) is a sample schema resembling a generic customer orders man
 
 ## UNINSTALL INSTRUCTIONS
 
-1. Run as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
-2. Run the `co_uninstall.sql ` script to remove the CO (Customer Orders) schema
+1. Connect as privileged user with rights to drop another user (`SYSTEM`, `ADMIN`, etc.)
+2. Run the `co_uninstall.sql ` script to remove the `CO` (Customer Orders) schema
 
 ## NOTES
-Scripts need to be run as a privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.).
+Scripts need to be run as a privileged user with rights to create and drop another user (`SYSTEM`, `ADMIN`, etc.).
