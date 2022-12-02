@@ -1,5 +1,4 @@
-# Order Entry Sample Schema
-
+# Business Intelligence Sample Schema
 
 ```
 Copyright (c) 2022 Oracle
@@ -25,7 +24,7 @@ DEALINGS IN THE SOFTWARE.
 
 ## DESCRIPTON
 
-Order Entry (`OE`) is a sample schema modeling a company's order system.
+Business Intelligence (`BI`) is a sample user providing access to parts of the `OE` and `SH` schemas.
 
 ### SCHEMA VERSION
 
@@ -44,24 +43,24 @@ This schema is archived and no longer maintained.
 ## INSTALL INSTRUCTIONS
 1. Run `perl -p -i.bak -e 's#__SUB__CWD__#'$(pwd)'#g' *.sql */*.sql */*.dat` in this folder
 2. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
-3. Run the `oe_main.sql` script passing on the following parameters:
-    1. `OE` schema name password
+3. Run the `bi_main.sql` script passing on the following parameters:
+    1. `BI` schema name password
     2. The tablespace name where to install the schema into
-    3. The temporary tablespace name for the `OE` user
-    4. The password of the `HR` user
-    5. The `SYS` password
-    6. The full path of this parent directory
-    7. The full path of a directory where to write the install log file to
-    8. The version number `3`
-    9. The connect string for the database you connected to
+    3. The temporary tablespace name for the `BI` user
+    4. The `SYS` password
+    5. The `OE` password
+    6. The `SH` password
+    8. The full path of a directory where to write the install log file to
+    9. The version number `3`
+    10. The connect string for the database you connected to
 
-**Note:** If the `OE` schema already exists, it is removed/dropped and 
-        a fresh `OE` schema is installed.
+**Note:** If the `BI` schema already exists, it is removed/dropped and
+        a fresh `BI` schema is installed.
 
 ## UNINSTALL INSTRUCTIONS
 
 1. Run as privileged user with rights to drop another user (`SYSTEM`, `ADMIN`, etc.)
-2. Run `DROP USER oe CASCADE;`
+2. Run `DROP USER bi CASCADE;`
 
 ## NOTES
 This schema is archived and no longer maintained.
