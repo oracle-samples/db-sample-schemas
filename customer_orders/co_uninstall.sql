@@ -23,9 +23,7 @@ rem NAME
 rem   co_uninstall.sql
 rem
 rem DESCRIPTON
-rem   CO (Customer Orders) is a sample schema resembling a customer orders system.
-rem      If you have the CO (Customer Orders) schema installed, this script
-rem   uninstalls/drops/removes the CO schema.
+rem   This script removes the CO (Customer Orders) schema.
 rem
 rem SCHEMA VERSION
 rem   21

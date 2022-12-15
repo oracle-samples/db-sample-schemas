@@ -23,9 +23,7 @@ rem NAME
 rem   hr_uninstall.sql 
 rem
 rem DESCRIPTON
-rem   HR (Human Resources) is a small sample schema resembling an HR department. 
-rem   rem   If you have the HR (Human Resources) schema installed, this scrip 
-rem   uninstalls/drops/removes the HR schema
+rem   This script removes the HR (Human Resources) schema.
 rem
 rem SCHEMA VERSION
 rem   21
