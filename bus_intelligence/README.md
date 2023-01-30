@@ -1,4 +1,4 @@
-# Business Intelligence Sample Schema
+# Business Intelligence Sample Schema (ARCHIVED!)
 
 ```
 Copyright (c) 2022 Oracle

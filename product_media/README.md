@@ -1,4 +1,4 @@
-# Product Media Sample Schema
+# Product Media Sample Schema (ARCHIVED!)
 
 ```
 Copyright (c) 2022 Oracle

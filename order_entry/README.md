@@ -1,5 +1,4 @@
-# Order Entry Sample Schema
-
+# Order Entry Sample Schema  (ARCHIVED!)
 
 ```
 Copyright (c) 2022 Oracle
