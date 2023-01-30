@@ -1,6 +1,5 @@
 # Customer Orders Sample Schema 
 
-
 ```
 Copyright (c) 2022 Oracle
 

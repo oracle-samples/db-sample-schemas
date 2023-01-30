@@ -1,6 +1,5 @@
 # Sales History Sample Schema
 
-
 ```
 Copyright (c) 2022 Oracle
 
