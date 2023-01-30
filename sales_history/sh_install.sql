@@ -1,5 +1,5 @@
 rem
-rem Copyright (c) 2022 Oracle
+rem Copyright (c) 2023 Oracle
 rem
 rem Permission is hereby granted, free of charge, to any person obtaining a
 rem copy of this software and associated documentation files (the "Software"),
@@ -29,7 +29,7 @@ rem SCHEMA VERSION
 rem   21
 rem
 rem RELEASE DATE
-rem   dd-MON-2022
+rem   06-DEC-2022
 rem
 rem SUPPORTED with DB VERSIONS
 rem   19c and higher
