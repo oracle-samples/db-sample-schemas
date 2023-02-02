@@ -44,7 +44,7 @@ Archived schemas are provided for reference for examples in the documentation bu
 
 1. Go to the [latest (or appropriate) release of the sample schemas](https://github.com/oracle-samples/db-sample-schemas/releases) and download the `Source code (zip)` file.
 2. Extract the downloaded zip file.
-3. Inside the sample schemas main directory, wwitch into the sample schema directory that you want to install and invoke the `<schema_name>_install.sql` file (**see the `README.md` file for further install instructions!**)
+3. Inside the sample schemas main directory, which into the sample schema directory that you want to install and invoke the `<schema_name>_install.sql` file (**see the `README.md` file for further install instructions!**)
 4. Review the instalation verification at the end of the installation or in the generated installation log file.
 
 #### Example
