@@ -108,7 +108,6 @@ CREATE TABLE customers
       PRIMARY KEY (cust_id),
    CONSTRAINT customers_country_fk
       FOREIGN KEY (country_id) REFERENCES countries (country_id)
-
 );
 
 rem ********************************************************************
