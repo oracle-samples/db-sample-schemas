@@ -30,11 +30,11 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 1. Introduction
 
 The Oracle Database Documentation(https://docs.oracle.com/en/database/oracle/oracle-database/index.html)
-and other resources use these sample schemas to demonstrate the capabilities of the
+and other resources use these sample schemas to demonstrate the capabilities of
 Oracle Database(https://www.oracle.com/database/) and the SQL and PL/SQL languages.
-Users can download and install these schemas in their Oracle database environments
-to learn about Oracle Database functionality and/or try the examples in the documentation.
-These schemas are provided for free!
+You can download and install these schemas in your database environments to learn
+about Oracle Database functionality or try the examples in the documentation.
+These schemas are provided for free.
 
 The following schemas are included:
 
@@ -57,21 +57,22 @@ but are no longer actively maintained.
     1. Go to the latest (or appropriate) release of the sample schemas
        (https://github.com/oracle-samples/db-sample-schemas/releases)
        and download the "Source code (zip)" file.
-    2. Extract the downloaded zip file.
-    3. Inside the sample schemas main directory, wwitch into the
-       sample schema directory that you want to install and invoke
-       the "<schema_name>_install.sql" file
-       (see the "README.md" file for further install instructions!)
-    4. Review the instalation verification at the end of the installation
+    2. Extract the downloaded .zip file.
+    3. Inside the sample schemas main directory, navigate to the
+       sample schema directory that you want to install and run
+       the "<schema_name>_install.sql" script.
+       (For more information about installing a schema, see the
+	   "README.md" file in the schema directory.)
+    4. Review the installation verification at the end of the installation
        or in the generated installation log file.
 
 Example
 
-To install the "HR" schema, execute the following steps:
+To install the "HR" schema, complete the following steps:
 
 1. "cd" into the "human_resources" folder.
 2. Connect to the target database with a privileged user via SQLcl or SQL*Plus.
-3. Invoke the "hr_install.sql" script and provide inputs for the prompt.
+3. Run the "hr_install.sql" script and provide inputs for the prompts.
 
 cd human_resources
 sql <system>@<connect_string>
@@ -81,7 +82,8 @@ sql <system>@<connect_string>
 
 3. Uninstalling the Sample Schemas
 
-    1. Switch into the sample schema folder that you want to uninstall
-       and invoke the "<schema_name>_uninstall.sql" file
-       (see the "README.md" file for further uninstall instructions!)
-    2. Check the output for any errors during the uninstall process.
+    1. Navigate to the sample schema folder that you want to uninstall
+       and run the "<schema_name>_uninstall.sql" script.
+       (For more information about uninstalling a schema, see the
+	   "README.md" file in the schema directory.)
+    2. Check the output for any errors during the uninstallation process.
