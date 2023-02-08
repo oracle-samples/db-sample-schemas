@@ -43,7 +43,7 @@ Sales History `(SH)` schema models a company's sales transactions and reports.
 1. all date data is updated
 
 ### SCHEMA DEPENDENCIES AND REQUIREMENTS
- Required access to `sh_install.sql`, `sh_create.sql`, `sh_populate.sql`, `sh_code.sql`
+ Required access to `sh_install.sql`, `sh_create.sql`, `sh_populate.sql`
 
 ## INSTALL INSTRUCTIONS
 1. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
