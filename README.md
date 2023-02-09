@@ -51,7 +51,7 @@ Archived schemas are provided for reference for examples in the documentation bu
 To install the `HR` schema, complete the following steps:
 
 1. `cd` into the `human_resources` folder.
-2. Connect to the target database with a privileged user via SQLcl or SQL*Plus.
+2. Connect to the target database with a privileged user.
 3. Run the `hr_install.sql` script and provide inputs for the prompts.
 
 ```shell
