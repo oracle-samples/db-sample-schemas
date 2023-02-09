@@ -34,7 +34,6 @@ The following schemas are included:
 - `SH`: Sales History
 - `OE`: Order Entry (**archived**)
 - `PM`: Product Media (**archived**)
-- `BI`: Business Intelligence (**archived**)
 
 ### Archived schemas
 
