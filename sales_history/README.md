@@ -22,32 +22,34 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-## DESCRIPTON
+## Description
 
 Sales History `(SH)` schema models a company's sales transactions and reports. 
 
-### SCHEMA VERSION
+### Schema Version
 
-21
+21.1
 
-### RELEASE DATE
+### Release Date
 
 06-DEC-2022
 
-### SUPPORTED with DB VERSIONS
+### Supported with Database Versions
 
 19c and higher
 
-### MAJOR CHANGES IN THIS RELEASE
+### Major Changes in this Release
 
-1. all date data is updated
+1. All DATE data is updated
+2. New install mechanism
 
-### SCHEMA DEPENDENCIES AND REQUIREMENTS
+### Schema Dependencies and Requirements
 
 - **Requires [SQLcl](https://oracle.com/sqlcl) command prompt!**
 - Required access to `sh_install.sql`, `sh_create.sql`, `sh_populate.sql`
 
-## INSTALL INSTRUCTIONS
+## Install Instruction
+
 1. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
 2. Run the `sh_install.sql` script to create the `SH` (Sales History) schema
 3. You are prompted for:
@@ -57,11 +59,11 @@ Sales History `(SH)` schema models a company's sales transactions and reports.
 **Note:** If the `SH` schema already exists, it is removed/dropped and 
         a fresh `SH` schema is installed
 
-## UNINSTALL INSTRUCTIONS
+## Uninstall Instructions
 
 1. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
 2. Run the `SH_uninstall.sql ` script to remove the `SH` (Sales History) schema
 
-## NOTES
-Scripts need to be run as a privileged user with rights to create and drop another user (`SYSTEM`, `ADMIN`, etc.).
+## Notes
 
+Scripts need to be run as a privileged user with rights to create and drop another user (`SYSTEM`, `ADMIN`, etc.).

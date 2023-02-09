@@ -22,31 +22,33 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-## DESCRIPTON
+## Description
 
 Customer Orders (`CO`) is a sample schema resembling a generic customer orders management schema.
 
-### SCHEMA VERSION
+### Schema Version
 
-21
+21.1
 
-### RELEASE DATE
+### Release Date
 
 08-FEB-2022
 
-### SUPPORTED with DB VERSIONS
+### Support with Database Versions
 
 19c and higher
 
-### MAJOR CHANGES IN THIS RELEASE
+### Major Changes in this Release
 
-1. simplified installation
-2. all date data is updated
+1. All DATE data is updated
+2. New install mechanism
 
-### SCHEMA DEPENDENCIES AND REQUIREMENTS
- Required access to `co_install.sql`, `co_create.sql`, `co_populate.sql`
+### Schema Dependencies and Requirements
 
-## INSTALL INSTRUCTIONS
+Required access to `co_install.sql`, `co_create.sql`, `co_populate.sql`
+
+## Install Instructions
+
 1. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
 2. Run the `co_install.sql` script to create the `CO` (Customer Orders) schema
 3. You are prompted for:
@@ -56,10 +58,11 @@ Customer Orders (`CO`) is a sample schema resembling a generic customer orders m
 **Note:** If the CO schema already exists, it is removed/dropped and 
         a fresh CO schema is installed
 
-## UNINSTALL INSTRUCTIONS
+## Uninstall Instructions
 
 1. Connect as privileged user with rights to drop another user (`SYSTEM`, `ADMIN`, etc.)
 2. Run the `co_uninstall.sql ` script to remove the `CO` (Customer Orders) schema
 
-## NOTES
+## Notes
+
 Scripts need to be run as a privileged user with rights to create and drop another user (`SYSTEM`, `ADMIN`, etc.).
