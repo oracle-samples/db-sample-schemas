@@ -1,6 +1,6 @@
 # Contributing to Oracle Database Sample Schemas
 
-Because these samples schemas are being used across the Oracle Database Documentation
+Because these samples schemas are being used inside the Oracle Database Documentation
 and other resources larger contributions may not be accepted.
 We welcome minor corrections such as fixed for typos, formatting, etc.
 
