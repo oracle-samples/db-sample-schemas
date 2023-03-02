@@ -1,8 +1,7 @@
 # Human Resources Sample Schema
 
-
 ```
-Copyright (c) 2022 Oracle
+Copyright (c) 2023 Oracle and/or its affiliates. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -18,41 +17,44 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
 THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-## DESCRIPTON
+## Description
 
-HR (Human Resources) is a small sample schema resembling an HR department.
+Human Resources `(HR)` is a small sample schema resembling an HR department.
 
-### SCHEMA VERSION
+### Schema Version
 
-21
+21.1
 
-### RELEASE DATE
+### Release Date
 
 03-FEB-2022
 
-### SUPPORTED with DB VERSIONS
+### Supported with Database Versions
 
 19c and higher
 
-### MAJOR CHANGES IN THIS RELEASE
+### Major Changes in this Release
 
-1. all date data is updated
-2. updated phone numbers in US for globalization
-3. regions are updated
-4. countries are updated: replaced `UK United Kingdom` with `GB United Kingdom of Great Britain and Northern Ireland`
-5. `country_name` column changed from `varchar2(40)` to `varchar2(60) `
+1. All DATE data is updated
+2. Updated phone numbers in US for globalization
+3. Regions are updated
+4. Countries are updated: replaced `UK United Kingdom` with `GB United Kingdom of Great Britain and Northern Ireland`
+5. `country_name` column changed from `varchar2(40)` to `varchar2(60)`
+6. New install mechanism
 
-### SCHEMA DEPENDENCIES AND REQUIREMENTS
- Required access to `hr_install.sql`, `hr_create.sql`, `hr_populate.sql`, `hr_code.sql`
+### Schema Dependencies and Requirements
 
-## INSTALL INSTRUCTIONS
-1. Run as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
-2. Run the `hr_install.sql` script to create the HR (Human Resources) schema
+Required access to `hr_install.sql`, `hr_create.sql`, `hr_populate.sql`, `hr_code.sql`
+
+## Install Instructions
+
+1. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
+2. Run the `hr_install.sql` script to create the `HR` (Human Resources) schema
 3. You are prompted for:
     1. `password` - enter an Oracle Database compliant password
     2. `tablespace` - if you do not enter a tablespace, the default database tablespace is used
@@ -60,11 +62,11 @@ HR (Human Resources) is a small sample schema resembling an HR department.
 **Note:** If the HR schema already exists, it is removed/dropped and 
         a fresh HR schema is installed
 
-## UNINSTALL INSTRUCTIONS
+## Uninstall Instructions
 
-1. Run as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
-2. Run the `hr_uninstall.sql ` script to remove the HR (Human Resources) schema
+1. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
+2. Run the `hr_uninstall.sql ` script to remove the `HR` (Human Resources) schema
 
-## NOTES
-Scripts need to be run as a privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.).
+## Notes
 
+Scripts need to be run as a privileged user with rights to create and drop another user (`SYSTEM`, `ADMIN`, etc.).

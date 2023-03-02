@@ -1,5 +1,5 @@
 rem
-rem Copyright (c) 2022 Oracle
+rem Copyright (c) 2023 Oracle
 rem
 rem Permission is hereby granted, free of charge, to any person obtaining a
 rem copy of this software and associated documentation files (the "Software"),
@@ -23,9 +23,7 @@ rem NAME
 rem   co_uninstall.sql
 rem
 rem DESCRIPTON
-rem   CO (Customer Orders) is a sample schema resembling a customer orders system.
-rem      If you have the CO (Customer Orders) schema installed, this script
-rem   uninstalls/drops/removes the CO schema.
+rem   This script removes the CO (Customer Orders) schema.
 rem
 rem SCHEMA VERSION
 rem   21
