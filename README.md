@@ -46,7 +46,7 @@ included in this repository. It is not automatically installed along with
 the rest of the schemas at this time. Follow instructions in that schema's 
 [README](https://github.com/oracle/db-sample-schemas/blob/master/README.md) to install the CO schema.
 
-## 2. Installing the Samples
+## 2. Installation
 
 *CAUTION*: The first step in installing sample schemas is to drop 
 user accounts with the following names: HR, OE, PM, IX, SH and BI. 
@@ -173,3 +173,14 @@ If you have installed the CO schema, run the following script to remove it.
 sqlplus system/systempw@connect_string
 @co_drop_user.sql 
 ```
+## Contributing
+
+This project is not accepting external contributions at this time. For bugs or enhancement requests, please file a GitHub issue unless it’s security related. When filing a bug remember that the better written the bug is, the more likely it is to be fixed. If you think you’ve found a security vulnerability, do not raise a GitHub issue and follow the instructions in our [security policy](./SECURITY.md).
+
+## Security
+
+Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process
+
+## License
+
+Copyright (c) 2019, 2023 Oracle and/or its affiliates.
