@@ -1,28 +1,5 @@
 # Oracle Database Sample Schemas
 
-```
-Copyright (c) 2023 Oracle and/or its affiliates. All rights reserved.
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
-
 ## 1. Introduction
 
 The [Oracle Database Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/index.html) and other resources use these sample schemas to demonstrate the capabilities of [Oracle Database](https://www.oracle.com/database/) and the SQL and PL/SQL languages. You can download and install these schemas in your database environments to learn about Oracle Database functionality or try the examples in the documentation. **These schemas are provided for free.**
@@ -64,3 +41,36 @@ sql <system>@<connect_string>
 
 1. Navigate to the sample schema folder that you want to uninstall and run the `<schema_name>_uninstall.sql` script. (**For more information about uninstalling a schema, see the `README.md` file in the schema directory.**)
 2. Check the output for any errors during the uninstallation process.
+
+## Contributing
+
+Due to widespread dependence on these sample schemas, pull requests are carefully reviewed and not easily accepted. For bugs and enhancement requests, please file a GitHub issue. When filing an issue, please remember that the more detailed the report is, the faster it can be addressed. If you think that you have found a security vulnerability, do not raise a GitHub issue and follow the instructions in our [security guide](./SECURITY.md).
+
+## Security
+
+Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process.
+
+## License
+
+```
+Copyright (c) 2023 Oracle and/or its affiliates. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
