@@ -1,2 +1,0 @@
-drop user co
-  cascade;
