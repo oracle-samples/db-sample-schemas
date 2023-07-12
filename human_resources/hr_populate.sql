@@ -106,13 +106,13 @@ BEGIN
   INSERT INTO countries VALUES
       ( 'US'
       , 'United States of America'
-      , 10
+      , 20
       );
 
   INSERT INTO countries VALUES
       ( 'CA'
       , 'Canada'
-      , 10
+      , 20
       );
 
   INSERT INTO countries VALUES
@@ -220,7 +220,7 @@ BEGIN
   INSERT INTO countries VALUES
       ( 'ML'
       , 'Malaysia'
-      , 50
+      , 30
       );
 
   INSERT INTO countries VALUES
