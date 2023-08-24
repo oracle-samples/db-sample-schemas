@@ -16,7 +16,7 @@ The following schemas are included:
 
 Archived schemas are provided for reference for examples in the documentation but are no longer actively maintained.
 
-## 2. Installing the Sample Schemas
+## 2. Installation
 
 1. Go to the [latest (or appropriate) release of the sample schemas](https://github.com/oracle-samples/db-sample-schemas/releases) and download the `Source code (zip)` file.
 2. Extract the downloaded .zip file.
@@ -44,7 +44,7 @@ sql <system>@<connect_string>
 
 ## Contributing
 
-Due to widespread dependence on these sample schemas, pull requests are carefully reviewed and not easily accepted. For bugs and enhancement requests, please file a GitHub issue. When filing an issue, please remember that the more detailed the report is, the faster it can be addressed. If you think that you have found a security vulnerability, do not raise a GitHub issue and follow the instructions in our [security guide](./SECURITY.md).
+This project is not accepting external contributions at this time. For bugs or enhancement requests, please file a GitHub issue unless it’s security related. When filing a bug remember that the better written the bug is, the more likely it is to be fixed. If you think you’ve found a security vulnerability, do not raise a GitHub issue and follow the instructions in our [security policy](./SECURITY.md).
 
 ## Security
 
