@@ -212,6 +212,12 @@ BEGIN
       );
 
   INSERT INTO countries VALUES
+      ( 'PS'
+      , 'Palestine'
+      , 37
+      );
+
+  INSERT INTO countries VALUES
       ( 'DK'
       , 'Denmark'
       , 10
