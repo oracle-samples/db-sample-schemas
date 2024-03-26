@@ -152,7 +152,7 @@ rem =======================================================
 rem create the CO schema user
 rem =======================================================
 
-CREATE USER co IDENTIFIED BY &pass
+CREATE USER co IDENTIFIED BY "&pass"
                DEFAULT TABLESPACE &tbs
                QUOTA UNLIMITED ON &tbs;
 
