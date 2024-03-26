@@ -151,7 +151,7 @@ rem =======================================================
 rem create the SH schema user
 rem =======================================================
 
-CREATE USER sh IDENTIFIED BY &pass
+CREATE USER sh IDENTIFIED BY "&pass"
                DEFAULT TABLESPACE &tbs
                QUOTA UNLIMITED ON &tbs;
 
