@@ -296,7 +296,7 @@ BEGIN
        2055,    'Cricket', 'Cricket', 205, 'Cricket', 1, 'U', 'P', 1, 'STATUS', 8.99, 8.99, 
        'TOTAL', 1, '', to_date('2019-01-01-00-00-00', 'YYYY-MM-DD-HH24-MI-SS'), '', 'A');
    INSERT INTO products VALUES 
-      (116,     'Cricket Wickets', 'Cricket Wickets', 'Cricket', 
+      (116,     'Catchers Helmet', 'Catchers Helmet', 'Cricket',
        2055,    'Cricket', 'Cricket', 205, 'Cricket', 1, 'U', 'P', 1, 'STATUS', 11.99, 11.99, 
        'TOTAL', 1, '', to_date('2019-01-01-00-00-00', 'YYYY-MM-DD-HH24-MI-SS'), '', 'A');
    INSERT INTO products VALUES 
@@ -432,7 +432,7 @@ BEGIN
        2014,    'Tennis Balls', 'Tennis', 201, 'Tennis', 1, 'U', 'P', 1, 'STATUS', 11.99, 11.99, 
        'TOTAL', 1, '', to_date('2019-01-01-00-00-00', 'YYYY-MM-DD-HH24-MI-SS'), '', 'A');
    INSERT INTO products VALUES 
-      (147,     'Tennis Racquet Cushioned OverGrip', 'Tennis Racquet Cushioned OverGrip', 'Tennis Racquet Grip', 
+      (147,     'Cushioned Grip', 'Cushioned Grip', 'Tennis Racquet Grip',
        2013,    'Tennis Racquet Grip', 'Tennis', 201, 'Tennis', 1, 'U', 'P', 1, 'STATUS', 7.99, 7.99, 
        'TOTAL', 1, '', to_date('2019-01-01-00-00-00', 'YYYY-MM-DD-HH24-MI-SS'), '', 'A');
    INSERT INTO products VALUES 
