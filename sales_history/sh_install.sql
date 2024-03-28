@@ -22,7 +22,7 @@ rem
 rem NAME
 rem   sh_install.sql - Main installation script for SH schema creation
 rem
-rem DESCRIPTON
+rem DESCRIPTION
 rem   SH (Sales History) is a sample schema (add short desc here)
 rem
 rem SCHEMA VERSION

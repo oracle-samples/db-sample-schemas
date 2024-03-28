@@ -22,7 +22,7 @@ rem
 rem NAME
 rem   co_create.sql - Creates schema objects for CO (Customer Orders) schema
 rem
-rem DESCRIPTON
+rem DESCRIPTION
 rem   This script creates tables, associated constraints,
 rem      indexes, and comments in the CO schema.
 rem

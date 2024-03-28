@@ -22,7 +22,7 @@ rem
 rem NAME
 rem   hr_populate.sql - populates the HR (Human Resources) tables with data
 rem
-rem DESCRIPTON
+rem DESCRIPTION
 rem   This script populates the HR tables with rows of data
 rem
 rem SCHEMA VERSION
