@@ -22,7 +22,7 @@ rem
 rem NAME
 rem   hr_create.sql - Creates schema objects for HR (Human Resources) schema
 rem
-rem DESCRIPTON
+rem DESCRIPTION
 rem   This script creates tables, associated constraints,
 rem      indexes, and comments in the HR schema.
 rem

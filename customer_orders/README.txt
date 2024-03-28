@@ -25,7 +25,7 @@ DEALINGS IN THE SOFTWARE.
 NAME
   README.txt - ReadMe text file for CO schema
 
-DESCRIPTON
+DESCRIPTION
   CO (Customer Orders) is a sample schema resembling a generic customer orders management schema.
 
 SCHEMA VERSION

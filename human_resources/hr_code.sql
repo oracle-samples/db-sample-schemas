@@ -22,7 +22,7 @@ rem
 rem NAME
 rem   hr_code.sql - Create procedural objects for HR schema
 rem
-rem DESCRIPTON
+rem DESCRIPTION
 rem    1. Creates a statement level trigger on the EMPLOYEES table
 rem       to allow DML during business hours.
 rem    2. Creates a row level trigger on the EMPLOYEES table,

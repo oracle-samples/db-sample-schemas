@@ -22,7 +22,7 @@ rem
 rem NAME
 rem   hr_install.sql - Main installation script for HR schema creation
 rem
-rem DESCRIPTON
+rem DESCRIPTION
 rem   HR (Human Resources) is a small sample schema resembling an HR department
 rem
 rem SCHEMA VERSION

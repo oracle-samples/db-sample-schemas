@@ -22,7 +22,7 @@ rem
 rem NAME
 rem   sh_uninstall.sql 
 rem
-rem DESCRIPTON
+rem DESCRIPTION
 rem   This script removes the SH schema.
 rem
 rem SCHEMA VERSION

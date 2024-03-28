@@ -23,7 +23,7 @@ DEALINGS IN THE SOFTWARE.
 NAME
   README.txt - ReadMe text file for HR schema
 
-DESCRIPTON
+DESCRIPTION
   HR (Human Resources) is a small sample schema resembling an HR department
 
 SCHEMA VERSION

@@ -22,7 +22,7 @@ rem
 rem NAME
 rem   hr_uninstall.sql 
 rem
-rem DESCRIPTON
+rem DESCRIPTION
 rem   This script removes the HR (Human Resources) schema.
 rem
 rem SCHEMA VERSION

@@ -22,7 +22,7 @@ rem
 rem NAME
 rem   co_populate.sql - populates the CO (Customer Orders) tables with data
 rem
-rem DESCRIPTON
+rem DESCRIPTION
 rem   This script populates the CO tables with rows of data
 rem
 rem SCHEMA VERSION

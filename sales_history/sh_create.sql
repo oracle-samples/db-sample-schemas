@@ -22,7 +22,7 @@ rem
 rem NAME
 rem   sh_create.sql - Creates schema objects for SH (Sales History) schema
 rem
-rem DESCRIPTON
+rem DESCRIPTION
 rem   This script creates tables, associated constraints,
 rem      indexes, and comments in the SH schema.
 rem

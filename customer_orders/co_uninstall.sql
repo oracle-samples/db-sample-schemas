@@ -22,7 +22,7 @@ rem
 rem NAME
 rem   co_uninstall.sql
 rem
-rem DESCRIPTON
+rem DESCRIPTION
 rem   This script removes the CO (Customer Orders) schema.
 rem
 rem SCHEMA VERSION
