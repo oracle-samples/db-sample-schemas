@@ -292,7 +292,7 @@ ALTER TABLE stores ADD CONSTRAINT store_at_least_one_address_c
 ALTER TABLE products ADD CONSTRAINT products_pk PRIMARY KEY (product_id);
 
 ALTER TABLE products ADD CONSTRAINT products_json_c
-                     CHECK ( product_details is json );
+                     CHECK ( product_details is not null  );
 
 ALTER TABLE orders ADD CONSTRAINT orders_pk PRIMARY KEY (order_id);
 
