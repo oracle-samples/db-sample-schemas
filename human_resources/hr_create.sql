@@ -479,7 +479,7 @@ COMMENT ON COLUMN job_history.job_id
 job_id column in the jobs table. A not null column.';
 
 COMMENT ON COLUMN job_history.department_id
-  IS 'Department id in which the employee worked in the past; foreign key to deparment_id column in the departments table';
+  IS 'Department id in which the employee worked in the past; foreign key to department_id column in the departments table';
 
 rem *********************************************
 
@@ -547,7 +547,7 @@ than zero (enforced by constraint emp_salary_min)';
 
 COMMENT ON COLUMN employees.commission_pct
   IS 'Commission percentage of the employee; Only employees in sales 
-department elgible for commission percentage';
+department eligible for commission percentage';
 
 COMMENT ON COLUMN employees.manager_id
   IS 'Manager id of the employee; has same domain as manager_id in 
