@@ -51,14 +51,14 @@ a fresh HR schema is installed
 
 ### Schema Objects
 
-| Object Type | Objects                                                                                                                                                                                                                                                                                                                                          |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Object Type | Objects |
+| ----------- | ------- |
 | Index       | `country_c_id_pk`, `dept_id_pk`, `dept_location_ix`, `emp_department_ix`, `emp_email_uk`, `emp_emp_id_pk`, `emp_job_ix`, `emp_manager_ix`, `emp_name_ix`, `jhist_department_ix`, `jhist_employee_ix`, `jhist_emp_id_st_date_pk`, `jhist_job_ix`, `job_id_pk`, `loc_city_ix`, `loc_country_ix`, `loc_id_pk`, `loc_state_province_ix`, `reg_id_pk` |
-| Procedure   | `add_job_history`, `secure_dml`                                                                                                                                                                                                                                                                                                                  |
-| Sequence    | `departments_seq`, `employees_seq`, `locations_seq`                                                                                                                                                                                                                                                                                              |
-| Table       | `countries`, `departments`, `employees`, `jobs`, `job_history`, `locations`, `regions`                                                                                                                                                                                                                                                           |
-| Trigger     | `secure_employees`, `update_job_history`                                                                                                                                                                                                                                                                                                         |
-| View        | `emp_details_view`                                                                                                                                                                                                                                                                                                                               |
+| Procedure   | `add_job_history`, `secure_dml` |
+| Sequence    | `departments_seq`, `employees_seq`, `locations_seq` |
+| Table       | `countries`, `departments`, `employees`, `jobs`, `job_history`, `locations`, `regions` |
+| Trigger     | `secure_employees`, `update_job_history` |
+| View        | `emp_details_view` |
 
 ### Table Descriptions
 
