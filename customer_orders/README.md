@@ -158,6 +158,15 @@ config:
   layout: elk
 ---
 erDiagram
+  CUSTOMERS ||--o{  ORDERS      : have
+  CUSTOMERS ||--o{  SHIPMENTS   : have
+  STORES    ||--o{  ORDERS      : have
+  STORES    ||--o{  SHIPMENTS   : have
+  STORES    ||--o{  INVENTORY   : have
+  ORDERS    ||--|{  ORDER_ITEMS : have
+  SHIPMENTS ||--|{  ORDER_ITEMS : have
+  PRODUCTS  ||--o{  ORDER_ITEMS : have
+  PRODUCTS  ||--o{  INVENTORY   : have
 
   CUSTOMERS {
     interger       customer_id    PK
@@ -179,7 +188,7 @@ erDiagram
     date           logo_last_updated
   }
 
-  PRODCUTS {
+  PRODUCTS {
     interger       product_id         PK
     varchar2(255)  product_name          "NN"
     number(10)     unit_price
@@ -222,7 +231,6 @@ erDiagram
     integer    product_id         FK "NN"
   integer      product_inventory     "NN"
 }
-
 ```
 
 ## License
