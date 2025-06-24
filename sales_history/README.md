@@ -37,7 +37,7 @@ a fresh `SH` schema is installed
 ## Uninstall Instructions
 
 1. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)
-2. Run the `SH_uninstall.sql ` script to remove the `SH` (Sales History) schema
+2. Run the `sh_uninstall.sql ` script to remove the `SH` (Sales History) schema
 
 ## Schema Details
 
