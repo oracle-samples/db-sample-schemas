@@ -165,10 +165,10 @@ erDiagram
   }
 
   EMPLOYEES {
-    number(6)    employee_id     PK "NN"
+    number(6)    employee_id    PK "NN"
     varchar2(20) first_name
     varchar2(25) last_name          "NN"
-    varchar2(25) email           UK "NN"
+    varchar2(25) email          UK "NN"
     varchar2(20) phone_number
     date         hire_date          "NN"
     varchar2(10) job_id         FK  "NN"
