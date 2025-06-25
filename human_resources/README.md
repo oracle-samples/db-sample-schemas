@@ -147,7 +147,7 @@ erDiagram
   DEPARTMENTS ||--|{ EMPLOYEES   : employ
   DEPARTMENTS ||--|{ JOB_HISTORY : have
   EMPLOYEES   ||--|{ JOB_HISTORY : have
-  EMPLOYEES   ||--|| EMPLOYEES   : "are managed by"
+  EMPLOYEES   ||--|{ EMPLOYEES   : manage
   JOBS        ||--|{ JOB_HISTORY : have
   JOBS        ||--|{ EMPLOYEES   : have
 
