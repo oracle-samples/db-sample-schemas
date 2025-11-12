@@ -189,6 +189,12 @@ ON jobs (job_id) ;
 ALTER TABLE jobs
 ADD ( CONSTRAINT job_id_pk
       		 PRIMARY KEY(job_id)
+    , CONSTRAINT min_salary_positive
+                 CHECK  (min_salary > 0 OR min_salary IS NULL)
+    , CONSTRAINT max_salary_positive
+                 CHECK  (max_salary > 0 OR min_salary IS NULL)
+    , CONSTRAINT min_salary_le_max_salary
+                 CHECK (min_salary <= max_salary OR min_salary IS NULL OR max_salary IS NULL)
     ) ;
 
 rem ********************************************************************
